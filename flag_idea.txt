@@ -1,0 +1,5 @@
+-Wanti-c++-compat:
+Contains:
+ * -Wdeclaration-after-statement
+ * The warning about C++ style comments from -pedantic (split off)
+ * -Wswitch-default

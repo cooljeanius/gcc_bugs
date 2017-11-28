@@ -1,0 +1,95 @@
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/lto-wrapper
+Target: i386-apple-darwin9.8.0
+Configured with: ../configure --disable-werror --disable-werror-always --enable-languages=c,c++,lto,objc,obj-c++ --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --with-isl --disable-host-shared --enable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ AUTOCONF=/usr/local/bin/autoconf AUTOHEADER=/usr/local/bin/autoheader AUTORECONF=/usr/local/bin/autoreconf AUTOM4TE=/usr/local/bin/autom4te AUTOSCAN=/usr/local/bin/autoscan AUTOUPDATE=/usr/local/bin/autoupdate IFNAMES=/usr/local/bin/ifnames
+Thread model: posix
+gcc version 8.0.0 20170809 (experimental) (GCC) 
+COLLECT_GCC_OPTIONS='-Wall' '-Wlto-type-mismatch' '-Wodr' '-Wextra' '-Wpedantic' '-O2' '-v' '-Zdynamic' '-flto' '-o' '81716.so' '-mmacosx-version-min=10.5.8' '-asm_macosx_version_min=10.5' '-shared-libgcc' '-mtune=core2'
+ /usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/cc1plus -quiet -v -D__DYNAMIC__ 81716_1.cc -fPIC -quiet -dumpbase 81716_1.cc -mmacosx-version-min=10.5.8 -mtune=core2 -auxbase 81716_1 -O2 -Wall -Wlto-type-mismatch -Wodr -Wextra -Wpedantic -version -flto -o /var/tmp//ccUkgYMH.s
+GNU C++14 (GCC) version 8.0.0 20170809 (experimental) (i386-apple-darwin9.8.0)
+	compiled by GNU C version 8.0.0 20170809 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring nonexistent directory "/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../i386-apple-darwin9.8.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../include/c++/8.0.0
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../include/c++/8.0.0/i386-apple-darwin9.8.0
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../include/c++/8.0.0/backward
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include-fixed
+ /usr/include
+ /System/Library/Frameworks
+ /Library/Frameworks
+End of search list.
+GNU C++14 (GCC) version 8.0.0 20170809 (experimental) (i386-apple-darwin9.8.0)
+	compiled by GNU C version 8.0.0 20170809 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 51a8caea6e79c642e789a5f1445f661f
+81716_1.cc: In function 'void foo(S*)':
+81716_1.cc:4:13: warning: unused parameter 't' [-Wunused-parameter]
+ void foo(S *t)
+             ^
+COLLECT_GCC_OPTIONS='-Wall' '-Wlto-type-mismatch' '-Wodr' '-Wextra' '-Wpedantic' '-O2' '-v' '-Zdynamic' '-flto' '-o' '81716.so' '-mmacosx-version-min=10.5.8'  '-shared-libgcc' '-mtune=core2'
+ as -arch i386 -v -force_cpusubtype_ALL -o /var/tmp//cciOaTP4.o /var/tmp//ccUkgYMH.s
+Apple Inc version cctools-698.1~1, GNU assembler version 1.38
+COLLECT_GCC_OPTIONS='-Wall' '-Wlto-type-mismatch' '-Wodr' '-Wextra' '-Wpedantic' '-O2' '-v' '-Zdynamic' '-flto' '-o' '81716.so' '-mmacosx-version-min=10.5.8'  '-shared-libgcc' '-mtune=core2'
+ /usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/cc1plus -quiet -v -D__DYNAMIC__ 81716_2.cc -fPIC -quiet -dumpbase 81716_2.cc -mmacosx-version-min=10.5.8 -mtune=core2 -auxbase 81716_2 -O2 -Wall -Wlto-type-mismatch -Wodr -Wextra -Wpedantic -version -flto -o /var/tmp//ccUkgYMH.s
+GNU C++14 (GCC) version 8.0.0 20170809 (experimental) (i386-apple-darwin9.8.0)
+	compiled by GNU C version 8.0.0 20170809 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring nonexistent directory "/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../i386-apple-darwin9.8.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../include/c++/8.0.0
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../include/c++/8.0.0/i386-apple-darwin9.8.0
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../../include/c++/8.0.0/backward
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include-fixed
+ /usr/include
+ /System/Library/Frameworks
+ /Library/Frameworks
+End of search list.
+GNU C++14 (GCC) version 8.0.0 20170809 (experimental) (i386-apple-darwin9.8.0)
+	compiled by GNU C version 8.0.0 20170809 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 51a8caea6e79c642e789a5f1445f661f
+81716_2.cc: In function 'void bar(S*)':
+81716_2.cc:10:24: warning: format '%p' expects argument of type 'void*', but argument 2 has type 'S*' [-Wformat=]
+     printf("%p\n", q[0]);
+                    ~~~~^
+81716_2.cc:8:13: warning: unused parameter 't' [-Wunused-parameter]
+ void bar(S *t)
+             ^
+COLLECT_GCC_OPTIONS='-Wall' '-Wlto-type-mismatch' '-Wodr' '-Wextra' '-Wpedantic' '-O2' '-v' '-Zdynamic' '-flto' '-o' '81716.so' '-mmacosx-version-min=10.5.8'  '-shared-libgcc' '-mtune=core2'
+ as -arch i386 -v -force_cpusubtype_ALL -o /var/tmp//cc2t0tSV.o /var/tmp//ccUkgYMH.s
+Apple Inc version cctools-698.1~1, GNU assembler version 1.38
+COMPILER_PATH=/usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/:/usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/:/usr/local/libexec/gcc/i386-apple-darwin9.8.0/:/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/:/usr/local/lib/gcc/i386-apple-darwin9.8.0/
+LIBRARY_PATH=/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/:/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../../
+COLLECT_GCC_OPTIONS='-Wall' '-Wlto-type-mismatch' '-Wodr' '-Wextra' '-Wpedantic' '-O2' '-v' '-Zdynamic' '-flto' '-o' '81716.so' '-mmacosx-version-min=10.5.8'  '-shared-libgcc' '-mtune=core2'
+ /usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/collect2 -flto -dynamic -arch i386 -dynamic -macosx_version_min 10.5.8 -weak_reference_mismatches non-weak -o 81716.so -lcrt1.10.5.o -L/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0 -L/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../.. /var/tmp//cciOaTP4.o /var/tmp//cc2t0tSV.o -lstdc++ -lgcc_s.10.5 -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 8.0.0 20170809 (experimental)
+/usr/bin/ld -dynamic -arch i386 -dynamic -macosx_version_min 10.5.8 -weak_reference_mismatches non-weak -o 81716.so -lcrt1.10.5.o -L/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0 -L/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/../../.. /var/tmp//cciOaTP4.o /var/tmp//cc2t0tSV.o -lstdc++ -lgcc_s.10.5 -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-85.2.1
+Library search paths:
+	/usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0
+	/usr/local/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+Undefined symbols:
+  "_q", referenced from:
+      _q$non_lazy_ptr in cciOaTP4.o
+      _q$non_lazy_ptr in cc2t0tSV.o
+  "_main", referenced from:
+      start in crt1.10.5.o
+ld: symbol(s) not found
+collect2: error: ld returned 1 exit status

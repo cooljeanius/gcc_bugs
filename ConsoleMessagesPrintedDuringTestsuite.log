@@ -1,0 +1,525 @@
+10/8/15 4:56:20 PM	ReportCrash[10911]	Formulating crash report for process 20021014-1.exe[10909]	
+10/8/15 4:56:20 PM	ReportCrash[10911]	Saved crashreport to /Library/Logs/CrashReporter/20021014-1.exe_2015-10-08-165619_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 4:56:20 PM	ReportCrash[10911]	Saved crashreport to /Library/Logs/CrashReporter/20021014-1.exe_2015-10-08-165619_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 4:57:20 PM	ReportCrash[13888]	Formulating crash report for process aru-2.exe[13886]	
+10/8/15 4:57:20 PM	ReportCrash[13888]	Saved crashreport to /Library/Logs/CrashReporter/aru-2.exe_2015-10-08-165720_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 4:57:20 PM	ReportCrash[13888]	Saved crashreport to /Library/Logs/CrashReporter/aru-2.exe_2015-10-08-165720_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:04:04 PM	ReportCrash[25868]	Formulating crash report for process pr43643.exe[25866]	
+10/8/15 5:04:04 PM	ReportCrash[25868]	Saved crashreport to /Library/Logs/CrashReporter/pr43643.exe_2015-10-08-170403_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:04:04 PM	ReportCrash[25868]	Saved crashreport to /Library/Logs/CrashReporter/pr43643.exe_2015-10-08-170403_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:07:38 PM	ReportCrash[34593]	Formulating crash report for process raw-string-7.exe[34591]	
+10/8/15 5:07:38 PM	ReportCrash[34593]	Saved crashreport to /Library/Logs/CrashReporter/raw-string-7.exe_2015-10-08-170738_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:07:38 PM	ReportCrash[34593]	Saved crashreport to /Library/Logs/CrashReporter/raw-string-7.exe_2015-10-08-170738_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:10:00 PM	com.apple.launchd[1]	(0x1188d0.cron[40652]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 5:10:00 PM	com.apple.launchd[1]	(0x1188d0.cron[40652]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 5:10:01 PM	anacron[40706]	Anacron 2.3 started on 2015-10-08	
+10/8/15 5:10:02 PM	anacron[40706]	Normal exit (0 jobs run)	
+10/8/15 5:28:56 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74147]	
+10/8/15 5:28:56 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172856_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:28:56 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172856_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:28:57 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74164]	
+10/8/15 5:28:57 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172857_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:28:57 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74180]	
+10/8/15 5:28:57 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74180]	
+10/8/15 5:28:57 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172857_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:28:58 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74196]	
+10/8/15 5:28:58 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172857_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:28:58 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74213]	
+10/8/15 5:28:58 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172858_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:28:58 PM	ReportCrash[74148]	Too many crashes in rapid succession! No crash report being written for pid 74229	
+10/8/15 5:28:58 PM	ReportCrash[74148]	Too many crashes in rapid succession! No crash report being written for pid 74229	
+10/8/15 5:28:59 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74253]	
+10/8/15 5:28:59 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172859_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 5:29:00 PM	ReportCrash[74148]	Formulating crash report for process ftrapv-1.exe[74279]	
+10/8/15 5:29:00 PM	ReportCrash[74148]	Saved crashreport to /Library/Logs/CrashReporter/ftrapv-1.exe_2015-10-08-172859_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 6:10:00 PM	com.apple.launchd[1]	(0x1188d0.cron[85825]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 6:10:00 PM	anacron[85826]	Anacron 2.3 started on 2015-10-08	
+10/8/15 6:10:00 PM	anacron[85826]	Normal exit (0 jobs run)	
+10/8/15 6:10:00 PM	anacron[85826]	Normal exit (0 jobs run)	
+10/8/15 6:10:00 PM	anacron[85826]	Normal exit (0 jobs run)	
+10/8/15 7:10:00 PM	com.apple.launchd[1]	(0x1188d0.cron[88546]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 7:10:00 PM	anacron[88553]	Anacron 2.3 started on 2015-10-08	
+10/8/15 7:10:00 PM	anacron[88553]	Normal exit (0 jobs run)	
+10/8/15 7:10:00 PM	anacron[88553]	Normal exit (0 jobs run)	
+10/8/15 7:29:51 PM	ReportCrash[42886]	Formulating crash report for process raw-string-7.exe[42884]	
+10/8/15 7:29:51 PM	ReportCrash[42886]	Saved crashreport to /Library/Logs/CrashReporter/raw-string-7.exe_2015-10-08-192949_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 7:29:51 PM	ReportCrash[42886]	Saved crashreport to /Library/Logs/CrashReporter/raw-string-7.exe_2015-10-08-192949_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 7:38:57 PM	ReportCrash[62677]	Formulating crash report for process thread_local-order2.exe[62675]	
+10/8/15 7:38:57 PM	ReportCrash[62677]	Saved crashreport to /Library/Logs/CrashReporter/thread_local-order2.exe_2015-10-08-193856_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 7:38:57 PM	ReportCrash[62677]	Saved crashreport to /Library/Logs/CrashReporter/thread_local-order2.exe_2015-10-08-193856_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 7:38:58 PM	ReportCrash[62677]	Formulating crash report for process thread_local-order2.exe[62691]	
+10/8/15 7:38:59 PM	ReportCrash[62677]	Saved crashreport to /Library/Logs/CrashReporter/thread_local-order2.exe_2015-10-08-193858_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 7:38:59 PM	ReportCrash[62677]	Saved crashreport to /Library/Logs/CrashReporter/thread_local-order2.exe_2015-10-08-193858_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:01:17 PM	kernel	IOAudioStream[0x3873d00]::clipIfNecessary() - Error: attempting to clip to a position more than one buffer ahead of last clip position (1,8ad)->(2,943).	
+10/8/15 8:01:17 PM	kernel	IOAudioStream[0x3873d00]::clipIfNecessary() - adjusting clipped position to (2,8ad)	
+10/8/15 8:01:17 PM	kernel	IOAudioStream[0x3873d00]::clipIfNecessary() - adjusting clipped position to (2,8ad)	
+10/8/15 8:03:20 PM	com.apple.ATSServer[121]	FODBCheck: New annex file created	
+10/8/15 8:03:20 PM	com.apple.ATSServer[121]	FODBCheck: New annex file created	
+10/8/15 8:10:00 PM	com.apple.launchd[1]	(0x1188d0.cron[31647]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 8:10:00 PM	anacron[31656]	Anacron 2.3 started on 2015-10-08	
+10/8/15 8:10:00 PM	anacron[31656]	Normal exit (0 jobs run)	
+10/8/15 8:10:00 PM	anacron[31656]	Normal exit (0 jobs run)	
+10/8/15 8:31:07 PM	ReportCrash[3511]	Formulating crash report for process ivar-scope-4.exe[3509]	
+10/8/15 8:31:07 PM	ReportCrash[3511]	Saved crashreport to /Library/Logs/CrashReporter/ivar-scope-4.exe_2015-10-08-203106_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:07 PM	ReportCrash[3511]	Saved crashreport to /Library/Logs/CrashReporter/ivar-scope-4.exe_2015-10-08-203106_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:15 PM	objc-foreach-4.exe[3855]	foo is A	
+10/8/15 8:31:15 PM	objc-foreach-4.exe[3855]	foo is B	
+10/8/15 8:31:15 PM	objc-foreach-4.exe[3855]	foo is C	
+10/8/15 8:31:15 PM	objc-foreach-4.exe[3855]	foo is C	
+10/8/15 8:31:48 PM	ReportCrash[4787]	Formulating crash report for process t025_main.exe[4785]	
+10/8/15 8:31:48 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t025_main.exe_2015-10-08-203148_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:48 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t025_main.exe_2015-10-08-203148_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:51 PM	ReportCrash[4787]	Formulating crash report for process t027_main.exe[4816]	
+10/8/15 8:31:51 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t027_main.exe_2015-10-08-203150_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:51 PM	ReportCrash[4787]	Formulating crash report for process t028_main.exe[4831]	
+10/8/15 8:31:51 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t028_main.exe_2015-10-08-203151_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:51 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t028_main.exe_2015-10-08-203151_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:52 PM	ReportCrash[4787]	Formulating crash report for process t029_main.exe[4846]	
+10/8/15 8:31:52 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t029_main.exe_2015-10-08-203152_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:53 PM	ReportCrash[4787]	Formulating crash report for process t030_main.exe[4861]	
+10/8/15 8:31:53 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t030_main.exe_2015-10-08-203153_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:54 PM	ReportCrash[4787]	Formulating crash report for process t031_main.exe[4876]	
+10/8/15 8:31:54 PM	ReportCrash[4787]	Formulating crash report for process t031_main.exe[4876]	
+10/8/15 8:31:54 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t031_main.exe_2015-10-08-203153_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:31:54 PM	ReportCrash[4787]	Saved crashreport to /Library/Logs/CrashReporter/t031_main.exe_2015-10-08-203153_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:34:48 PM	ReportCrash[13170]	Formulating crash report for process try-catch-2.exe[13168]	
+10/8/15 8:34:48 PM	ReportCrash[13170]	Saved crashreport to /Library/Logs/CrashReporter/try-catch-2.exe_2015-10-08-203447_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:34:48 PM	ReportCrash[13170]	Saved crashreport to /Library/Logs/CrashReporter/try-catch-2.exe_2015-10-08-203447_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:34:51 PM	ReportCrash[13170]	Formulating crash report for process try-catch-9.exe[13214]	
+10/8/15 8:34:51 PM	ReportCrash[13170]	Saved crashreport to /Library/Logs/CrashReporter/try-catch-9.exe_2015-10-08-203450_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:34:51 PM	ReportCrash[13170]	Saved crashreport to /Library/Logs/CrashReporter/try-catch-9.exe_2015-10-08-203450_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:38:23 PM	kernel	IOHIDSystem::relativePointerEventGated: Capping VBL time to 20000000 (was 22054579)	
+10/8/15 8:38:23 PM	kernel	IOHIDSystem::relativePointerEventGated: Capping VBL time to 20000000 (was 22054579)	
+10/8/15 8:40:11 PM	ReportCrash[27685]	Formulating crash report for process t-scan[27684]	
+10/8/15 8:40:12 PM	ReportCrash[27685]	Saved crashreport to /Library/Logs/CrashReporter/t-scan_2015-10-08-204011_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:51:40 PM	ReportCrash[56478]	Formulating crash report for process test-pexecute[56477]	
+10/8/15 8:51:40 PM	ReportCrash[56478]	Saved crashreport to /Library/Logs/CrashReporter/test-pexecute_2015-10-08-205140_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:51:40 PM	ReportCrash[56478]	Saved crashreport to /Library/Logs/CrashReporter/test-pexecute_2015-10-08-205140_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:51:40 PM	ReportCrash[56478]	Saved crashreport to /Library/Logs/CrashReporter/test-pexecute_2015-10-08-205140_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/8/15 8:58:17 PM	/usr/sbin/spindump[57261]	process 64652 is being monitored	
+10/8/15 8:58:17 PM	/usr/sbin/spindump[57261]	process 64652 is being monitored	
+10/8/15 8:58:38 PM	/usr/sbin/spindump[57261]	process 64652 is being no longer being monitored	
+10/8/15 8:58:38 PM	/usr/sbin/spindump[57261]	process 64652 is being no longer being monitored	
+10/8/15 8:58:54 PM	/usr/sbin/spindump[57261]	process 64652 is being monitored	
+10/8/15 8:58:54 PM	/usr/sbin/spindump[57261]	call to sysctl(kern.translate, 57385) failed	
+10/8/15 8:58:54 PM	/usr/sbin/spindump[57261]	task_for_pid failed for pid 57385: 5	
+10/8/15 8:58:54 PM	/usr/sbin/spindump[57261]	task_for_pid failed for pid 57385: 5	
+10/8/15 8:59:02 PM	/usr/sbin/spindump[57261]	call to sysctl(kern.translate, 57498) failed	
+10/8/15 8:59:02 PM	/usr/sbin/spindump[57261]	task_for_pid failed for pid 57498: 5	
+10/8/15 8:59:02 PM	/usr/sbin/spindump[57261]	task_for_pid failed for pid 57498: 5	
+10/8/15 8:59:05 PM	/usr/sbin/spindump[57261]	call to sysctl(kern.translate, 57606) failed	
+10/8/15 8:59:05 PM	/usr/sbin/spindump[57261]	task_for_pid failed for pid 57606: 5	
+10/8/15 8:59:05 PM	/usr/sbin/spindump[57261]	task_for_pid failed for pid 57606: 5	
+10/8/15 8:59:07 PM	/usr/sbin/spindump[57261]	process 64652 is being no longer being monitored	
+10/8/15 8:59:07 PM	/usr/sbin/spindump[57261]	process 64652 is being no longer being monitored	
+10/8/15 9:10:00 PM	com.apple.launchd[1]	(0x10e1e0.cron[64601]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 9:10:00 PM	com.apple.launchd[1]	(0x10e1e0.cron[64601]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 9:10:01 PM	anacron[64601]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/8/15 9:10:01 PM	anacron[64601]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/8/15 9:17:57 PM	/usr/sbin/spindump[65502]	process 64652 is being monitored	
+10/8/15 9:17:57 PM	/usr/sbin/spindump[65502]	process 64652 is being monitored	
+10/8/15 9:22:10 PM	/usr/sbin/spindump[65504]	process 64652 is being monitored	
+10/8/15 9:22:10 PM	/usr/sbin/spindump[65504]	process 64652 is being monitored	
+10/8/15 9:23:35 PM	/usr/sbin/spindump[65504]	process 135 is being monitored	
+10/8/15 9:23:36 PM	/usr/sbin/spindump[65504]	process 133 is being monitored	
+10/8/15 9:23:36 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 71907	
+10/8/15 9:23:37 PM	fseventsd[43]	client: 0x806e00 : USER DROPPED EVENTS!	
+10/8/15 9:23:53 PM	/usr/sbin/spindump[65504]	process 133 is being no longer being monitored	
+10/8/15 9:23:53 PM	/usr/sbin/spindump[65504]	process 133 is being no longer being monitored	
+10/8/15 9:27:14 PM	/usr/sbin/spindump[65629]	process 71907 is being monitored	
+10/8/15 9:28:21 PM	/usr/sbin/spindump[65629]	process 71907 is being no longer being monitored	
+10/8/15 9:28:37 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:28:39 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:28:50 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:29:00 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:29:00 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:29:10 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:29:20 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:29:20 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:29:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:29:40 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:29:50 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:30:00 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:30:00 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:30:10 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:30:20 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:30:20 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:30:30 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:30:40 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:30:40 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:30:50 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:31:00 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:31:00 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:31:10 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:31:20 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:31:20 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:31:27 PM	/usr/sbin/spindump[65636]	process 89949 is being monitored	
+10/8/15 9:31:27 PM	/usr/sbin/spindump[65636]	process 135 is being monitored	
+10/8/15 9:31:30 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:31:33 PM	/usr/sbin/spindump[65636]	process 71907 is being monitored	
+10/8/15 9:31:40 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:31:40 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:31:52 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:02 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:02 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:32:12 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:22 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:22 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:32:32 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:41 PM	/usr/sbin/spindump[65636]	process 135 is being no longer being monitored	
+10/8/15 9:32:42 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:42 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:32:52 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:32:58 PM	/usr/sbin/spindump[65636]	process 89949 is being no longer being monitored	
+10/8/15 9:33:02 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:33:02 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:33:12 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:33:22 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:33:22 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:33:30 PM	kernel	AppleIntelFramebuffer::powerStateWillChangeTo(0x3848800, AppleIntelFramebuffer, 2 -> 1) timed out after 45173 ms	
+10/8/15 9:33:32 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:33:33 PM	/usr/sbin/spindump[65636]	process 125 is being monitored	
+10/8/15 9:33:42 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:33:42 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:33:52 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:33:53 PM	/usr/sbin/spindump[65636]	process 125 is being no longer being monitored	
+10/8/15 9:34:02 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:34:02 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:34:12 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:34:22 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:34:22 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:34:32 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:34:42 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:34:42 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:34:52 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:35:02 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:35:02 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:35:12 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:35:23 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:35:24 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:35:24 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 71907	
+10/8/15 9:35:24 PM	fseventsd[43]	client: 0x806e00 : USER DROPPED EVENTS!	
+10/8/15 9:35:34 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:35:44 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:35:44 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:35:54 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:36:04 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:36:04 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:36:17 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:36:27 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:36:27 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:36:37 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:36:47 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:36:47 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:36:57 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:07 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:07 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:37:17 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:18 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:37:28 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:38 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:37:48 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:58 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:37:58 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:38:08 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:38:18 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:38:18 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:38:28 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:38:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:38:38 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:38:48 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:38:58 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:38:58 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:39:08 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:39:08 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:39:18 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:39:28 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:39:28 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:39:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:39:48 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:39:48 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:39:58 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:40:04 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 71907	
+10/8/15 9:40:04 PM	fseventsd[43]	client: 0x806e00 : USER DROPPED EVENTS!	
+10/8/15 9:40:08 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:40:08 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:40:14 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 71907	
+10/8/15 9:40:18 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:40:24 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 71907	
+10/8/15 9:40:24 PM	fseventsd[43]	client: 0x806e00 : USER DROPPED EVENTS!	
+10/8/15 9:40:28 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:40:28 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:40:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:40:44 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 71907	
+10/8/15 9:40:44 PM	fseventsd[43]	client: 0x806e00 : USER DROPPED EVENTS!	
+10/8/15 9:40:48 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:40:48 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:40:58 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:08 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:08 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:41:18 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:18 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:28 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:28 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:41:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:48 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:41:48 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:41:58 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:42:08 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:42:08 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:42:19 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:42:29 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:42:29 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:42:39 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:42:49 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:42:49 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:42:59 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:43:09 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:43:09 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:43:19 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:43:29 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:43:29 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:43:39 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:43:49 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:43:49 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:43:59 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:44:09 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:44:09 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:44:19 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:44:29 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:44:29 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:44:29 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:44:39 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:44:40 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:44:50 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:00 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:00 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:00 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:00 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:45:10 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:18 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:45:28 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:38 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:38 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:45:38 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:45:48 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:58 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:45:58 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:46:08 PM	fseventsd[43]	callback_client: ERROR: d2f_callback_rpc() => (ipc/send) timed out (268435460) for pid 135	
+10/8/15 9:46:15 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:46:15 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 9:46:15 PM	fseventsd[43]	client: 0x80d200 : USER DROPPED EVENTS!	
+10/8/15 10:10:00 PM	com.apple.launchd[1]	(0x112670.cron[66143]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 10:10:01 PM	anacron[66143]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/8/15 11:10:00 PM	com.apple.launchd[1]	(0x112670.cron[66195]) Could not setup Mach task special port 9: (os/kern) no access	
+10/8/15 11:10:00 PM	anacron[66195]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/8/15 11:10:00 PM	anacron[66195]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/8/15 11:10:00 PM	anacron[66195]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/8/15 11:52:03 PM	/usr/sbin/spindump[66228]	process 64652 is being monitored	
+10/8/15 11:52:03 PM	/usr/sbin/spindump[66228]	process 64652 is being monitored	
+10/8/15 11:52:11 PM	/usr/sbin/spindump[66228]	process 64652 is being force quit	
+10/8/15 11:52:11 PM	/usr/sbin/spindump[66228]	process 64652 is being force quit	
+10/8/15 11:52:14 PM	/usr/sbin/spindump[66228]	process 64652 is being no longer being monitored	
+10/8/15 11:52:14 PM	com.apple.launchd[1]	([0x0-0x14c94c8].org.mozilla.firefox[64652]) Exited: Terminated	
+10/8/15 11:52:14 PM	com.apple.launchd[1]	([0x0-0x14c94c8].org.mozilla.firefox[64652]) Exited: Terminated	
+10/8/15 11:55:08 PM	Disk Utility[66243]	**********
+	
+10/8/15 11:55:08 PM	Disk Utility[66243]	Disk Utility started.
+
+	
+10/8/15 11:55:08 PM	Disk Utility[66243]	Disk Utility started.
+
+	
+10/8/15 11:55:18 PM	Disk Utility[66243]	Repairing permissions for “Macintosh HD”
+	
+10/8/15 11:55:19 PM	Disk Utility[66243]		Reading permissions database.
+	
+10/8/15 11:55:19 PM	Disk Utility[66243]		Reading the permissions database can take several minutes.
+
+	
+10/8/15 11:55:19 PM	Disk Utility[66243]		Reading the permissions database can take several minutes.
+
+	
+10/8/15 11:55:19 PM	installdb[66246]	Opened receipt database on '/' with schema 17.	
+10/8/15 11:55:19 PM	installdb[66246]	Opened receipt database on '/' with schema 17.	
+10/9/15 12:01:57 AM	Disk Utility[66243]	ACL found but not expected on "private/var/root/Library/Preferences".
+	
+10/9/15 12:01:57 AM	Disk Utility[66243]	ACL found but not expected on "private/var/root/Library/Preferences".
+	
+10/9/15 12:01:57 AM	Disk Utility[66243]	ACL found but not expected on "private/var/root/Library".
+	
+10/9/15 12:01:57 AM	Disk Utility[66243]	ACL found but not expected on "private/var/root".
+	
+10/9/15 12:02:00 AM	Disk Utility[66243]	Permissions differ on "Library/Application Support/ProApps/Internal Plug-Ins/BrowserKit/iLife.bkplugin/Contents/CodeResources", should be -rw-rw-r-- , they are lrw-rw-r-- .
+	
+10/9/15 12:02:00 AM	Disk Utility[66243]	Permissions differ on "System/Library/PrivateFrameworks/BrowserKit.framework/Versions/A/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:00 AM	Disk Utility[66243]	Permissions differ on "System/Library/PrivateFrameworks/BrowserKit.framework/Versions/A/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:02 AM	Disk Utility[66243]	Permissions differ on "Library/Application Support/Apple/ParentalControls/ALRHelperJobs", should be drwxrwxr-x , they are drwxr-xr-x .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/DVD.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/FRSettings.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/FRSources.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/FRSources.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/Movies.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/Music.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/Photos.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/Podcasts.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/CoreServices/Front Row.app/Contents/PlugIns/TV.frappliance/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/PrivateFrameworks/BackRow.framework/Versions/A/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:03 AM	Disk Utility[66243]	Permissions differ on "System/Library/PrivateFrameworks/BackRow.framework/Versions/A/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:05 AM	Disk Utility[66243]	Permissions differ on "System/Library/PrivateFrameworks/ProKit.framework/Versions/A/Resources/LeopardPanels.bundle/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:02:05 AM	Disk Utility[66243]	Permissions differ on "System/Library/PrivateFrameworks/ProKit.framework/Versions/A/Resources/LeopardPanels.bundle/Contents/CodeResources", should be -rw-r--r-- , they are lrw-r--r-- .
+	
+10/9/15 12:04:00 AM	Disk Utility[66243]	Warning: SUID file "System/Library/Filesystems/AppleShare/afpLoad" has been modified and will not be repaired.
+	
+10/9/15 12:04:01 AM	Disk Utility[66243]	Permissions differ on "Library/Application Support/Apple/ParentalControls/ContentFiltering", should be drwxrwxr-x , they are drwxr-xr-x .
+	
+10/9/15 12:04:01 AM	Disk Utility[66243]	Permissions differ on "Library/Application Support/Apple/ParentalControls", should be drwxrwxr-x , they are drwxr-xr-x .
+	
+10/9/15 12:04:11 AM	Disk Utility[66243]	Warning: SUID file "System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/Resources/DiskManagementTool" has been modified and will not be repaired.
+	
+10/9/15 12:04:11 AM	Disk Utility[66243]	Warning: SUID file "System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/Resources/DiskManagementTool" has been modified and will not be repaired.
+	
+10/9/15 12:04:18 AM	Disk Utility[66243]	Warning: SUID file "usr/sbin/pppd" has been modified and will not be repaired.
+	
+10/9/15 12:04:18 AM	Disk Utility[66243]	Warning: SUID file "usr/sbin/vpnd" has been modified and will not be repaired.
+	
+10/9/15 12:04:18 AM	Disk Utility[66243]	Warning: SUID file "usr/sbin/vpnd" has been modified and will not be repaired.
+	
+10/9/15 12:04:36 AM	Disk Utility[66243]	
+	
+10/9/15 12:04:36 AM	Disk Utility[66243]	Permissions repair complete
+	
+10/9/15 12:04:36 AM	Disk Utility[66243]	
+	
+10/9/15 12:04:36 AM	Disk Utility[66243]	
+
+	
+10/9/15 12:04:36 AM	Disk Utility[66243]	
+
+	
+10/9/15 12:07:05 AM	com.apple.launchd[1]	(0x10da70.Locum[66270]) Exited: Terminated	
+10/9/15 12:07:05 AM	com.apple.launchd[1]	(0x10da70.Locum[66270]) Exited: Terminated	
+10/9/15 12:07:26 AM	com.apple.launchd[1]	(0x10da70.Locum[66272]) Exited: Terminated	
+10/9/15 12:07:26 AM	com.apple.launchd[1]	(0x10da70.Locum[66272]) Exited: Terminated	
+10/9/15 12:07:59 AM	com.apple.launchd[1]	(0x10da70.Locum[66273]) Exited: Terminated	
+10/9/15 12:07:59 AM	com.apple.launchd[1]	(0x10da70.Locum[66273]) Exited: Terminated	
+10/9/15 12:10:00 AM	com.apple.launchd[1]	(0x10b790.cron[66277]) Could not setup Mach task special port 9: (os/kern) no access	
+10/9/15 12:10:00 AM	anacron[66277]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/9/15 12:10:00 AM	anacron[66277]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/9/15 12:10:18 AM	diskarbitrationd[48]	unable to probe /dev/disk1s3 (status code 0xFFFFFFFC).	
+10/9/15 12:10:18 AM	diskarbitrationd[48]	unable to probe /dev/disk1s3 (status code 0xFFFFFFFC).	
+10/9/15 12:10:33 AM	diskarbitrationd[48]	DiskManagementTool [66233]:27715 not responding.	
+10/9/15 12:10:33 AM	diskarbitrationd[48]	DiskManagementTool [66233]:27715 not responding.	
+10/9/15 12:10:57 AM	Dock[92789]	[QL ERROR] Generator database update takes too long... we will use what we currently have	
+10/9/15 12:10:57 AM	Dock[92789]	[QL ERROR] Generator database update takes too long... we will use what we currently have	
+10/9/15 12:11:01 AM	diskarbitrationd[48]	DiskManagementTool [66233]:21983 not responding.	
+10/9/15 12:11:01 AM	diskarbitrationd[48]	DiskManagementTool [66233]:21983 not responding.	
+10/9/15 12:11:10 AM	Disk Utility[66283]	**********
+	
+10/9/15 12:11:10 AM	Disk Utility[66283]	Disk Utility started.
+
+	
+10/9/15 12:11:10 AM	Disk Utility[66283]	Disk Utility started.
+
+	
+10/9/15 12:13:02 AM	diskarbitrationd[48]	unable to probe /dev/disk1s3 (status code 0xFFFFFFFC).	
+10/9/15 12:13:02 AM	diskarbitrationd[48]	unable to probe /dev/disk1s3 (status code 0xFFFFFFFC).	
+10/9/15 12:13:44 AM	[0x0-0x14ff4fe].org.mozilla.firefox[66290]	INCLUDE ScriptlessBGThumbs: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.import]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: chrome://noscript/content/ScriptlessBGThumbs.js :: <TOP_LEVEL> :: line 3"  data: no]	
+10/9/15 12:13:44 AM	[0x0-0x14ff4fe].org.mozilla.firefox[66290]	INCLUDE ScriptlessBGThumbs: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.import]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: chrome://noscript/content/ScriptlessBGThumbs.js :: <TOP_LEVEL> :: line 3"  data: no]	
+10/9/15 12:13:44 AM	[0x0-0x14ff4fe].org.mozilla.firefox[66290]	undefined	
+10/9/15 12:15:27 AM	Disk Utility[66283]	Mount of “disk1s1” failed
+	
+10/9/15 12:15:27 AM	Disk Utility[66283]	Mount of “disk1s1” failed
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Verifying volume “disk1s1”
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Starting verification tool: 	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Verify volume failed: Unrecognized Filesystem.
+
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Verifying volume “disk1s2”
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Starting verification tool: 	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Verify volume failed: Unrecognized Filesystem.
+
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Verifying volume “disk1s3”
+	
+10/9/15 12:16:15 AM	Disk Utility[66283]	Starting verification tool: 	
+10/9/15 12:16:16 AM	Disk Utility[66283]	Checking Non-journaled HFS Plus volume.
+	
+10/9/15 12:16:16 AM	Disk Utility[66283]	Checking Non-journaled HFS Plus volume.
+	
+10/9/15 12:16:16 AM	Disk Utility[66283]	Checking Extents Overflow file.
+	
+10/9/15 12:16:16 AM	Disk Utility[66283]	Checking Catalog file.
+	
+10/9/15 12:16:16 AM	Disk Utility[66283]	Checking Catalog file.
+	
+10/9/15 12:16:24 AM	Disk Utility[66283]	Checking multi-linked files.
+	
+10/9/15 12:16:24 AM	Disk Utility[66283]	Checking Catalog hierarchy.
+	
+10/9/15 12:16:25 AM	Disk Utility[66283]	Checking Extended Attributes file.
+	
+10/9/15 12:16:25 AM	Disk Utility[66283]	Checking volume bitmap.
+	
+10/9/15 12:16:25 AM	Disk Utility[66283]	Checking volume bitmap.
+	
+10/9/15 12:16:26 AM	Disk Utility[66283]	Checking volume information.
+	
+10/9/15 12:16:26 AM	Disk Utility[66283]	The volume Mac OS X Install Disc 1 appears to be OK.
+	
+10/9/15 12:16:26 AM	Disk Utility[66283]	Verifying tool completed: 	
+10/9/15 12:16:26 AM	Disk Utility[66283]	
+	
+10/9/15 12:16:26 AM	Disk Utility[66283]	
+
+	
+10/9/15 12:16:26 AM	Disk Utility[66283]	
+
+	
+10/9/15 12:16:31 AM	diskarbitrationd[48]	unable to probe /dev/disk1s3 (status code 0xFFFFFFFC).	
+10/9/15 12:16:31 AM	Disk Utility[66283]	Mount of “disk1s3” failed
+	
+10/9/15 12:16:31 AM	Disk Utility[66283]	Mount of “disk1s3” failed
+	
+10/9/15 12:17:46 AM	SubmitReport[66299]	missing kCRProblemReportProblemTypeKey	
+10/9/15 12:17:46 AM	SubmitReport[66299]	missing kCRProblemReportProblemTypeKey	
+10/9/15 12:17:52 AM	/usr/sbin/ocspd[66302]	starting	
+10/9/15 12:17:53 AM	SubmitReport[66299]	Submitted compressed hang report for firefox	
+10/9/15 12:17:53 AM	SubmitReport[66299]	Submitted compressed hang report for firefox	
+10/9/15 12:22:44 AM	ReportCrash[66403]	Formulating crash report for process sendmail[66402]	
+10/9/15 12:22:44 AM	postfix/sendmail[66401]	warning: command "/usr/sbin/postdrop -r" exited with status 11	
+10/9/15 12:22:44 AM	postfix/sendmail[66401]	fatal: root(0): unable to execute /usr/sbin/postdrop -r: Unknown error: 0	
+10/9/15 12:22:44 AM	ReportCrash[66403]	Saved crashreport to /Library/Logs/CrashReporter/sendmail_2015-10-09-002243_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/9/15 12:22:44 AM	ReportCrash[66403]	Saved crashreport to /Library/Logs/CrashReporter/sendmail_2015-10-09-002243_ian-gallagers-macbook.crash using uid: 0 gid: 0, euid: 0 egid: 0	
+10/9/15 1:10:00 AM	com.apple.launchd[1]	(0x1121c0.cron[66478]) Could not setup Mach task special port 9: (os/kern) no access	
+10/9/15 1:10:01 AM	anacron[66478]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/9/15 1:10:01 AM	anacron[66478]	Can't open /dev/null on file-descriptor 0: No such file or directory	
+10/9/15 1:48:51 AM	login[94467]	DEAD_PROCESS: 94467 ttys003	
+10/9/15 1:48:51 AM	login[47135]	DEAD_PROCESS: 47135 ttys002	
+10/9/15 1:48:52 AM	login[142]	DEAD_PROCESS: 142 ttys000	
+10/9/15 1:48:52 AM	login[49458]	DEAD_PROCESS: 49458 ttys001	

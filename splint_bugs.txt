@@ -1,0 +1,126 @@
+Splint bugs:
+
+for f in \
+   `echo ada-exp.y ada-lang.c ada-typeprint.c ada-valprint.c ax-general.c ax-gdb.c bcache.c bfd-target.c block.c blockframe.c breakpoint.c buildsym.c c-exp.y c-lang.c c-typeprint.c c-valprint.c charset.c cli-out.c coffread.c coff-pe-read.c complaints.c completer.c corefile.c cp-abi.c cp-support.c cp-namespace.c cp-valprint.c cp-name-parser.y dbxread.c demangle.c dictionary.c disasm.c doublest.c dummy-frame.c dwarfread.c dwarf2expr.c dwarf2loc.c dwarf2read.c dwarf2-frame.c elfread.c environ.c eval.c event-loop.c event-top.c expprint.c f-exp.y f-lang.c f-typeprint.c f-valprint.c findvar.c frame.c frame-base.c frame-unwind.c gdbarch.c arch-utils.c gdbtypes.c gnu-v2-abi.c gnu-v3-abi.c hpacc-abi.c inf-loop.c infcall.c infcmd.c inflow.c infrun.c inlining.c interps.c jv-exp.y jv-lang.c jv-valprint.c jv-typeprint.c kod.c kod-cisco.c language.c linespec.c m2-exp.y m2-lang.c m2-typeprint.c m2-valprint.c macrotab.c macroexp.c macrocmd.c macroscope.c main.c maint.c mdebugread.c memattr.c mem-break.c minsyms.c mipsread.c nlmread.c objc-exp.y objc-lang.c objfiles.c osabi.c observer.c p-exp.y p-lang.c p-typeprint.c p-valprint.c parse.c printcmd.c regcache.c reggroups.c remote.c remote-fileio.c scm-exp.c scm-lang.c scm-valprint.c sentinel-frame.c serial.c ser-base.c ser-unix.c solib.c solib-null.c source.c stabsread.c stack.c std-regs.c symfile.c symfile-mem.c symmisc.c symtab.c target.c thread.c top.c tracepoint.c trad-frame.c tramp-frame.c typeprint.c ui-out.c utils.c ui-file.h ui-file.c user-regs.c valarith.c valops.c valprint.c value.c varobj.c wrapper.c x86-shared-tdep.c c-exp.c cp-name-parser.c objc-exp.c ada-exp.c jv-exp.c f-exp.c m2-exp.c p-exp.c cli/cli-dump.c cli/cli-decode.c cli/cli-script.c cli/cli-cmds.c cli/cli-setshow.c cli/cli-logging.c cli/cli-interp.c cli/cli-utils.c mi/mi-out.c mi/mi-console.c mi/mi-cmds.c mi/mi-cmd-env.c mi/mi-cmd-var.c mi/mi-cmd-break.c mi/mi-cmd-stack.c mi/mi-cmd-file.c mi/mi-cmd-disas.c mi/mi-symbol-cmds.c mi/mi-interp.c mi/mi-main.c mi/mi-parse.c mi/mi-getopt.c mi/mi-common.c init.c | uniq | /sw/bin/sed 's/\.y /\.c /g'` \
+   `echo "amd64-tdep.o core-macho.o i386-tdep.o i387-tdep.o i386-macosx-tdep.o remote-kdp.o kdp-udp.o kdp-transactions.o kdp-protocol.o remote-mobile.o macosx-tdep.o machoread.o macosx-nat-cmds-load.o macosx-nat-dyld.o macosx-nat-dyld-path.o macosx-nat-dyld-info.o macosx-nat-dyld-process.o macosx-nat-dyld-io.o macosx-nat-utils.o symread.o pefread.o ser-base.o ser-unix.o ser-tcp.o fork-child.o inftarg.o i386-macosx-nat-exec.o i386-nat.o macosx-nat-watchpoint.o macosx-nat-dyld.o macosx-nat-dyld-path.o macosx-nat-dyld-info.o macosx-nat-dyld-process.o macosx-nat-dyld-io.o macosx-nat-inferior.o macosx-nat-inferior-stubs.o macosx-nat-inferior-util.o macosx-nat-inferior-debug.o macosx-nat-sigthread.o macosx-nat-excthread.o macosx-nat-mutils.o macosx-nat-threads.o macosx-nat-infthread.o macosx-nat-info.o macosx-nat.o mach_excServer.o mach_excUser.o darwin-kernel.o macosx-nat-utils.o  macosx-nat-cmds-load.o macosx-xdep.o remote.o dcache.o remote-utils.o tracepoint.o ax-general.o ax-gdb.o remote-fileio.o  cli-dump.o cli-decode.o cli-script.o cli-cmds.o cli-setshow.o cli-utils.o cli-logging.o cli-interp.o mi-out.o mi-console.o mi-cmds.o mi-cmd-env.o mi-cmd-var.o mi-cmd-break.o mi-cmd-stack.o mi-cmd-file.o mi-cmd-disas.o mi-symbol-cmds.o mi-interp.o mi-main.o mi-parse.o mi-getopt.o mi-common.o init.c" | uniq | /sw/bin/sed 's/\.o /\.c /g'`; do \
+  echo ""; \
+  echo "attempting to splint ${f}"; \
+  if test -e ${f}; then \
+    /sw/bin/splint -I./../include -I. -I. -I./config -DHAVE_CONFIG_H -DHAVE_SYS_TYPES_H -DLOCALEDIR="\"/usr/local/share/locale\""   -I./../include/opcode -I./../readline/.. -I../bfd -I./../bfd -I./../include -I../intl -I./../intl -I/sw/include/libxml2 -I/sw/include -D__MigTypeCheck=1 -D__DARWIN_UNIX03=1   -posix-lib -weak -unrecogcomments +matchanyintegral -redef -fixedformalarray +ignoresigns -sysunrecog -type -retvalother -Imacosx -I./../mmalloc -I../mmalloc ${f}; \
+  elif test -e ./mi/${f}; then \
+    /sw/bin/splint -I./../include -I. -I. -I./config -DHAVE_CONFIG_H -DHAVE_SYS_TYPES_H -DLOCALEDIR="\"/usr/local/share/locale\""   -I./../include/opcode -I./../readline/.. -I../bfd -I./../bfd -I./../include -I../intl -I./../intl -I/sw/include/libxml2 -I/sw/include -D__MigTypeCheck=1 -D__DARWIN_UNIX03=1   -posix-lib -weak -unrecogcomments +matchanyintegral -redef -fixedformalarray +ignoresigns -sysunrecog -type -retvalother -Imacosx -I./../mmalloc -I../mmalloc ./mi/${f}; \
+  elif test -e ./cli/${f}; then \
+    /sw/bin/splint -I./../include -I. -I. -I./config -DHAVE_CONFIG_H -DHAVE_SYS_TYPES_H -DLOCALEDIR="\"/usr/local/share/locale\""   -I./../include/opcode -I./../readline/.. -I../bfd -I./../bfd -I./../include -I../intl -I./../intl -I/sw/include/libxml2 -I/sw/include -D__MigTypeCheck=1 -D__DARWIN_UNIX03=1   -posix-lib -weak -unrecogcomments +matchanyintegral -redef -fixedformalarray +ignoresigns -sysunrecog -type -retvalother -Imacosx -I./../mmalloc -I../mmalloc ./cli/${f}; \
+  elif test -e ./macosx/${f}; then \
+    /sw/bin/splint -I./../include -I. -I. -I./config -DHAVE_CONFIG_H -DHAVE_SYS_TYPES_H -DLOCALEDIR="\"/usr/local/share/locale\""   -I./../include/opcode -I./../readline/.. -I../bfd -I./../bfd -I./../include -I../intl -I./../intl -I/sw/include/libxml2 -I/sw/include -D__MigTypeCheck=1 -D__DARWIN_UNIX03=1   -posix-lib -weak -unrecogcomments +matchanyintegral -redef -fixedformalarray +ignoresigns -sysunrecog -type -retvalother -Imacosx -I./../mmalloc -I../mmalloc ./macosx/${f}; \
+  fi; \
+done
+
+splint-bug@splint.org
+
+attempting to splint arch-utils.c
+Splint 3.1.2 --- 18 Sep 2015
+
+../bfd/libbfd.h:678:82: *** Internal Bug at usymtab.c:930: usymtab_supEntryAux:
+    inconsistent state (lexlevel = 0, modFunction = true) adding:
+    ? __PRETTY_FUNCTION__ [errno: 25]
+     *** Please report bug to splint-bug@splint.org ***
+       (attempting to continue, results may be incorrect)
+Finished checking --- no warnings
+   1 internal bugs reported
+
+
+attempting to splint mdebugread.c
+Splint 3.1.2 --- 18 Sep 2015
+
+mdebugread.c: (in function parse_symbol)
+mdebugread.c:825:17: Variable type_code declared but not used
+  A variable is declared but never used. Use /*@unused@*/ in front of
+  declaration to suppress message. (Use -varuse to inhibit warning)
+mdebugread.c:826:8: Variable ext_tsym declared but not used
+mdebugread.c:827:6: Variable nfields declared but not used
+mdebugread.c:828:7: Variable max_value declared but not used
+mdebugread.c:829:16: Variable f declared but not used
+uentry.c:10674: at source point
+mdebugread.c:1365:6: *** Internal Bug at uentry.c:10674: llassert failed:
+                        res->ukind == KVAR [errno: 25]
+     *** Please report bug to splint-bug@splint.org ***
+       (attempting to continue, results may be incorrect)
+mdebugread.c: (in function parse_type)
+mdebugread.c:1502:7: Body of if clause of if statement is empty
+  If statement has no body. (Use -ifempty to inhibit warning)
+mdebugread.c: (in function psymtab_to_symtab_1)
+mdebugread.c:4045:7: Body of if clause of if statement is empty
+
+Finished checking --- 7 code warnings
+   1 internal bugs reported
+
+
+attempting to splint symfile.c
+Splint 3.1.2 --- 18 Sep 2015
+
+symfile.c: (in function copy_section_addr_info)
+symfile.c:431:34: Unrecognized identifier: addrs
+  Identifier used in code has not been declared. (Use -unrecog to inhibit
+  warning)
+symfile.c: (in function generic_load)
+symfile.c:2616:3: Unrecognized identifier: gettimeofday
+../bfd/libbfd.h:678:82: *** Internal Bug at usymtab.c:930: usymtab_supEntryAux:
+    inconsistent state (lexlevel = 0, modFunction = true) adding:
+    ? __PRETTY_FUNCTION__ [errno: 25]
+     *** Please report bug to splint-bug@splint.org ***
+       (attempting to continue, results may be incorrect)
+
+
+attempting to splint i386-macosx-tdep.c
+Splint 3.1.2 --- 18 Sep 2015
+
+../bfd/libbfd.h:678:82: *** Internal Bug at usymtab.c:930: usymtab_supEntryAux:
+    inconsistent state (lexlevel = 0, modFunction = true) adding:
+    ? __PRETTY_FUNCTION__ [errno: 25]
+     *** Please report bug to splint-bug@splint.org ***
+       (attempting to continue, results may be incorrect)
+Finished checking --- no warnings
+   1 internal bugs reported
+
+
+attempting to splint macosx-nat-dyld-io.c
+Splint 3.1.2 --- 18 Sep 2015
+
+../bfd/libbfd.h:678:82: *** Internal Bug at usymtab.c:930: usymtab_supEntryAux:
+    inconsistent state (lexlevel = 0, modFunction = true) adding:
+    ? __PRETTY_FUNCTION__ [errno: 25]
+     *** Please report bug to splint-bug@splint.org ***
+       (attempting to continue, results may be incorrect)
+Finished checking --- no warnings
+   1 internal bugs reported
+
+
+(gdb) run
+Starting program: /sw/bin/splint -I./../include -I. -I. -I./config -DHAVE_CONFIG_H -DHAVE_SYS_TYPES_H -DLOCALEDIR="\"/usr/local/share/locale\"" -I./../include/opcode -I./../readline/.. -I../bfd -I./../bfd -I./../include -I../intl -I./../intl -I/sw/include/libxml2 -I/sw/include -D__MigTypeCheck=1 -D__DARWIN_UNIX03=1 -posix-lib -weak -unrecogcomments +matchanyintegral -redef -fixedformalarray +ignoresigns -sysunrecog -type -retvalother -Imacosx -I./../mmalloc -I../mmalloc dwarf2read.c
+Reading symbols for shared libraries ++. done
+Splint 3.1.2 --- 18 Sep 2015
+
+dwarf2read.c: (in function convert_oso_map_to_final_map)
+dwarf2read.c:3611:7: Unrecognized identifier: qsort_r
+  Identifier used in code has not been declared. (Use -unrecog to inhibit
+  warning)
+dwarf2read.c: (in function dwarf_decode_line_header)
+dwarf2read.c:9259:8: Unrecognized identifier: offset
+dwarf2read.c:9275:26: Unrecognized identifier: abfd
+dwarf2read.c:9275:43: Unrecognized identifier: cu
+
+Program received signal EXC_BAD_ACCESS, Could not access memory.
+Reason: KERN_PROTECTION_FAILURE at address: 0x00000016
+0x000a0335 in multiVal_copy ()
+(gdb) bt
+#0  0x000a0335 in multiVal_copy ()
+#1  0x000ac72e in sRef_copy ()
+#2  0x000ca474 in sRefSet_newDeepCopy ()
+#3  0x000ac8cf in sRef_copy ()
+#4  0x0004664b in uentry_copyAux ()
+#5  0x00096a04 in usymtab_addRefEntry ()
+#6  0x0006af8f in cscannerHelp_processIdentifier ()
+#7  0x00009719 in yylex ()
+#8  0x00002d30 in yyparse ()
+#9  0x000f4d3b in main ()

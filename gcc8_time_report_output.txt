@@ -1,0 +1,469 @@
+/usr/local/bin/g++ -c -O1 -time -ftime-report -ftime-report-details -fstats tuple.benchmark.mini.horiz.cpp
+(No per-node statistics)
+Type hash: size 16381, 6352 elements, 1.155251 collisions
+DECL_DEBUG_EXPR  hash: size 1021, 0 elements, 0.000000 collisions
+DECL_VALUE_EXPR  hash: size 1021, 2 elements, 0.000000 collisions
+no search statistics
+decl_specializations: size 4093, 2332 elements, 1.336383 collisions
+type_specializations: size 4093, 1985 elements, 0.885835 collisions
+
+******
+time in header files (total): 1.560641 (34%)
+time in main file (total): 3.064056 (66%)
+ratio = 0.509338 : 1
+
+******
+time in /usr/include/_locale.h: 0.001212 (0%)
+time in /usr/include/_structs.h: 0.001747 (0%)
+time in /usr/include/_types.h: 0.005071 (0%)
+time in /usr/include/_wctype.h: 0.009783 (0%)
+time in /usr/include/alloca.h: 0.000743 (0%)
+time in /usr/include/available.h: 0.001223 (0%)
+time in /usr/include/ctype.h: 0.003335 (0%)
+time in /usr/include/errno.h: 0.001823 (0%)
+time in /usr/include/i386/_structs.h: 0.010584 (0%)
+time in /usr/include/i386/_types.h: 0.000781 (0%)
+time in /usr/include/i386/endian.h: 0.000991 (0%)
+time in /usr/include/i386/signal.h: 0.001020 (0%)
+time in /usr/include/i386/types.h: 0.000920 (0%)
+time in /usr/include/libkern/_OSByteOrder.h: 0.002050 (0%)
+time in /usr/include/libkern/i386/_OSByteOrder.h: 0.000898 (0%)
+time in /usr/include/locale.h: 0.002640 (0%)
+time in /usr/include/mach/i386/_structs.h: 0.000827 (0%)
+time in /usr/include/machine/_structs.h: 0.001408 (0%)
+time in /usr/include/machine/_types.h: 0.002381 (0%)
+time in /usr/include/machine/endian.h: 0.000999 (0%)
+time in /usr/include/machine/signal.h: 0.000853 (0%)
+time in /usr/include/machine/types.h: 0.012103 (0%)
+time in /usr/include/pthread.h: 0.002043 (0%)
+time in /usr/include/pthread_impl.h: 0.001246 (0%)
+time in /usr/include/runetype.h: 0.000766 (0%)
+time in /usr/include/sched.h: 0.001164 (0%)
+time in /usr/include/stdio.h: 0.000805 (0%)
+time in /usr/include/stdlib.h: 0.004332 (0%)
+time in /usr/include/sys/_endian.h: 0.001064 (0%)
+time in /usr/include/sys/_structs.h: 0.001512 (0%)
+time in /usr/include/sys/_types.h: 0.001834 (0%)
+time in /usr/include/sys/appleapiopts.h: 0.000745 (0%)
+time in /usr/include/sys/cdefs.h: 0.001309 (0%)
+time in /usr/include/sys/errno.h: 0.000723 (0%)
+time in /usr/include/sys/resource.h: 0.001455 (0%)
+time in /usr/include/sys/signal.h: 0.002279 (0%)
+time in /usr/include/sys/wait.h: 0.006450 (0%)
+time in /usr/include/time.h: 0.000766 (0%)
+time in /usr/include/wchar.h: 0.024310 (1%)
+time in /usr/include/wctype.h: 0.000871 (0%)
+time in /usr/local/include/c++/8.0.0/backward/binders.h: 0.063718 (1%)
+time in /usr/local/include/c++/8.0.0/bits/alloc_traits.h: 0.000300 (0%)
+time in /usr/local/include/c++/8.0.0/bits/allocator.h: 0.000760 (0%)
+time in /usr/local/include/c++/8.0.0/bits/basic_ios.h: 0.008730 (0%)
+time in /usr/local/include/c++/8.0.0/bits/basic_ios.tcc: 0.011553 (0%)
+time in /usr/local/include/c++/8.0.0/bits/basic_string.h: 0.027564 (1%)
+time in /usr/local/include/c++/8.0.0/bits/basic_string.tcc: 0.000447 (0%)
+time in /usr/local/include/c++/8.0.0/bits/char_traits.h: 0.057867 (1%)
+time in /usr/local/include/c++/8.0.0/bits/concept_check.h: 0.000624 (0%)
+time in /usr/local/include/c++/8.0.0/bits/cpp_type_traits.h: 0.000268 (0%)
+time in /usr/local/include/c++/8.0.0/bits/cxxabi_forced.h: 0.000391 (0%)
+time in /usr/local/include/c++/8.0.0/bits/cxxabi_init_exception.h: 0.002257 (0%)
+time in /usr/local/include/c++/8.0.0/bits/exception.h: 0.000469 (0%)
+time in /usr/local/include/c++/8.0.0/bits/exception_defines.h: 0.000315 (0%)
+time in /usr/local/include/c++/8.0.0/bits/exception_ptr.h: 0.013588 (0%)
+time in /usr/local/include/c++/8.0.0/bits/functexcept.h: 0.000527 (0%)
+time in /usr/local/include/c++/8.0.0/bits/functional_hash.h: 0.018057 (0%)
+time in /usr/local/include/c++/8.0.0/bits/hash_bytes.h: 0.000249 (0%)
+time in /usr/local/include/c++/8.0.0/bits/ios_base.h: 0.023989 (1%)
+time in /usr/local/include/c++/8.0.0/bits/istream.tcc: 0.024497 (1%)
+time in /usr/local/include/c++/8.0.0/bits/locale_classes.h: 0.014121 (0%)
+time in /usr/local/include/c++/8.0.0/bits/locale_classes.tcc: 0.024433 (1%)
+time in /usr/local/include/c++/8.0.0/bits/locale_facets.h: 0.109327 (2%)
+time in /usr/local/include/c++/8.0.0/bits/locale_facets.tcc: 0.047598 (1%)
+time in /usr/local/include/c++/8.0.0/bits/localefwd.h: 0.003517 (0%)
+time in /usr/local/include/c++/8.0.0/bits/memoryfwd.h: 0.000471 (0%)
+time in /usr/local/include/c++/8.0.0/bits/move.h: 0.135499 (3%)
+time in /usr/local/include/c++/8.0.0/bits/nested_exception.h: 0.006292 (0%)
+time in /usr/local/include/c++/8.0.0/bits/ostream.tcc: 0.021647 (0%)
+time in /usr/local/include/c++/8.0.0/bits/ostream_insert.h: 0.000838 (0%)
+time in /usr/local/include/c++/8.0.0/bits/postypes.h: 0.006651 (0%)
+time in /usr/local/include/c++/8.0.0/bits/predefined_ops.h: 0.000240 (0%)
+time in /usr/local/include/c++/8.0.0/bits/ptr_traits.h: 0.000377 (0%)
+time in /usr/local/include/c++/8.0.0/bits/range_access.h: 0.002957 (0%)
+time in /usr/local/include/c++/8.0.0/bits/std_abs.h: 0.000289 (0%)
+time in /usr/local/include/c++/8.0.0/bits/stl_algobase.h: 0.143095 (3%)
+time in /usr/local/include/c++/8.0.0/bits/stl_function.h: 0.005199 (0%)
+time in /usr/local/include/c++/8.0.0/bits/stl_iterator.h: 0.006808 (0%)
+time in /usr/local/include/c++/8.0.0/bits/stl_iterator_base_funcs.h: 0.000531 (0%)
+time in /usr/local/include/c++/8.0.0/bits/stl_iterator_base_types.h: 0.000325 (0%)
+time in /usr/local/include/c++/8.0.0/bits/stl_pair.h: 0.000459 (0%)
+time in /usr/local/include/c++/8.0.0/bits/streambuf.tcc: 0.022407 (0%)
+time in /usr/local/include/c++/8.0.0/bits/streambuf_iterator.h: 0.000297 (0%)
+time in /usr/local/include/c++/8.0.0/bits/stringfwd.h: 0.001223 (0%)
+time in /usr/local/include/c++/8.0.0/cctype: 0.000306 (0%)
+time in /usr/local/include/c++/8.0.0/cerrno: 0.000480 (0%)
+time in /usr/local/include/c++/8.0.0/clocale: 0.000734 (0%)
+time in /usr/local/include/c++/8.0.0/cstdint: 0.021887 (0%)
+time in /usr/local/include/c++/8.0.0/cstdio: 0.000227 (0%)
+time in /usr/local/include/c++/8.0.0/cstdlib: 0.007509 (0%)
+time in /usr/local/include/c++/8.0.0/cwchar: 0.010808 (0%)
+time in /usr/local/include/c++/8.0.0/cwctype: 0.003630 (0%)
+time in /usr/local/include/c++/8.0.0/debug/assertions.h: 0.000423 (0%)
+time in /usr/local/include/c++/8.0.0/debug/debug.h: 0.000275 (0%)
+time in /usr/local/include/c++/8.0.0/exception: 0.013618 (0%)
+time in /usr/local/include/c++/8.0.0/ext/alloc_traits.h: 0.027545 (1%)
+time in /usr/local/include/c++/8.0.0/ext/atomicity.h: 0.000778 (0%)
+time in /usr/local/include/c++/8.0.0/ext/new_allocator.h: 0.000428 (0%)
+time in /usr/local/include/c++/8.0.0/ext/numeric_traits.h: 0.000400 (0%)
+time in /usr/local/include/c++/8.0.0/ext/string_conversions.h: 0.117470 (3%)
+time in /usr/local/include/c++/8.0.0/ext/type_traits.h: 0.000363 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/atomic_word.h: 0.000453 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/c++allocator.h: 0.006369 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/c++config.h: 0.001248 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/c++locale.h: 0.000959 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/cpu_defines.h: 0.000632 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/ctype_base.h: 0.000398 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/ctype_inline.h: 0.031409 (1%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/error_constants.h: 0.000771 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/gthr-default.h: 0.014231 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/gthr.h: 0.010816 (0%)
+time in /usr/local/include/c++/8.0.0/i386-apple-darwin9.8.0/bits/os_defines.h: 0.002571 (0%)
+time in /usr/local/include/c++/8.0.0/initializer_list: 0.000372 (0%)
+time in /usr/local/include/c++/8.0.0/ios: 0.058809 (1%)
+time in /usr/local/include/c++/8.0.0/iosfwd: 0.005965 (0%)
+time in /usr/local/include/c++/8.0.0/iostream: 0.008925 (0%)
+time in /usr/local/include/c++/8.0.0/istream: 0.067519 (1%)
+time in /usr/local/include/c++/8.0.0/new: 0.000419 (0%)
+time in /usr/local/include/c++/8.0.0/ostream: 0.024910 (1%)
+time in /usr/local/include/c++/8.0.0/stdexcept: 0.000305 (0%)
+time in /usr/local/include/c++/8.0.0/streambuf: 0.008402 (0%)
+time in /usr/local/include/c++/8.0.0/string: 0.096252 (2%)
+time in /usr/local/include/c++/8.0.0/system_error: 0.011638 (0%)
+time in /usr/local/include/c++/8.0.0/type_traits: 0.001623 (0%)
+time in /usr/local/include/c++/8.0.0/typeinfo: 0.000759 (0%)
+time in /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include-fixed/stdint.h: 0.000598 (0%)
+time in /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include/stdarg.h: 0.000774 (0%)
+time in /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include/stddef.h: 0.000708 (0%)
+time in /usr/local/lib/gcc/i386-apple-darwin9.8.0/8.0.0/include/stdint.h: 0.003544 (0%)
+time in <built-in>: 0.056851 (1%)
+time in <command-line>: 0.006743 (0%)
+time in <top level>: 0.013061 (0%)
+time in tuple.benchmark.mini.horiz.cpp: 3.065006 (66%)
+
+Execution times (seconds)
+ phase setup             :   0.04 ( 1%) usr   0.02 ( 1%) sys   0.08 ( 1%) wall     846 kB ( 3%) ggc
+ phase parsing           :   2.53 (34%) usr   1.22 (56%) sys   4.80 (45%) wall   16003 kB (50%) ggc
+ phase lang. deferred    :   0.62 ( 8%) usr   0.19 ( 9%) sys   0.84 ( 8%) wall    5567 kB (17%) ggc
+ phase opt and generate  :   4.16 (57%) usr   0.76 (35%) sys   4.92 (46%) wall    9605 kB (30%) ggc
+ |name lookup            :   0.43 ( 6%) usr   0.25 (11%) sys   0.74 ( 7%) wall    1161 kB ( 4%) ggc
+ |overload resolution    :   0.26 ( 4%) usr   0.08 ( 4%) sys   0.40 ( 4%) wall    2433 kB ( 8%) ggc
+ garbage collection      :   0.28 ( 4%) usr   0.00 ( 0%) sys   0.28 ( 3%) wall       0 kB ( 0%) ggc
+ dump files              :   0.03 ( 0%) usr   0.05 ( 2%) sys   0.11 ( 1%) wall       0 kB ( 0%) ggc
+ callgraph construction  :   0.10 ( 1%) usr   0.07 ( 3%) sys   0.16 ( 2%) wall     704 kB ( 2%) ggc
+ `- tree STMT verifier   :   0.08 ( 1%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall       0 kB ( 0%) ggc
+ `- garbage collection   :   0.07 ( 1%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall       0 kB ( 0%) ggc
+ `- tree eh              :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- dump files           :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.04 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree CFG construction:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ callgraph optimization  :   0.13 ( 2%) usr   0.12 ( 5%) sys   0.15 ( 1%) wall       5 kB ( 0%) ggc
+ `- tree aggressive DCE  :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       2 kB ( 0%) ggc
+ `- dominance computation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.08 ( 1%) usr   0.01 ( 0%) sys   0.06 ( 1%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.09 ( 1%) usr   0.00 ( 0%) sys   0.15 ( 1%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.02 ( 0%) usr   0.01 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- early inlining heuristics:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall      13 kB ( 0%) ggc
+ `- tree CCP             :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall      65 kB ( 0%) ggc
+ `- tree SSA other       :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       1 kB ( 0%) ggc
+ `- inline parameters    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- PHI merge            :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree forward propagate:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- ipa pure const       :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- callgraph construction:   0.01 ( 0%) usr   0.02 ( 1%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- dump files           :   0.02 ( 0%) usr   0.03 ( 1%) sys   0.07 ( 1%) wall       0 kB ( 0%) ggc
+ `- tree FRE             :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree eh              :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- branch prediction    :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree PTA             :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall      38 kB ( 0%) ggc
+ ipa dead code removal   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- callgraph verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ ipa inlining heuristics :   0.07 ( 1%) usr   0.02 ( 1%) sys   0.07 ( 1%) wall     412 kB ( 1%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- remove unused locals :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- loop init            :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       8 kB ( 0%) ggc
+ ipa various optimizations:   0.02 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ ipa reference           :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ ipa profile             :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ ipa pure const          :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.01 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- repair loop structures:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ ipa free lang data      :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ ipa free inline summary :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ cfg construction        :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- rebuild jump labels  :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ CFG verifier            :   0.20 ( 3%) usr   0.04 ( 2%) sys   0.25 ( 2%) wall       0 kB ( 0%) ggc
+ trivially dead code     :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ df scan insns           :   0.04 ( 1%) usr   0.01 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ df multiple defs        :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ df live regs            :   0.06 ( 1%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall       0 kB ( 0%) ggc
+ df reg dead/unused notes:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall     100 kB ( 0%) ggc
+ register information    :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ alias analysis          :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall      73 kB ( 0%) ggc
+ alias stmt walking      :   0.03 ( 0%) usr   0.04 ( 2%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ register scan           :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ rebuild jump labels     :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ preprocessing           :   0.51 ( 7%) usr   0.30 (14%) sys   1.86 (17%) wall     640 kB ( 2%) ggc
+ parser (global)         :   0.70 (10%) usr   0.37 (17%) sys   1.01 ( 9%) wall    5920 kB (18%) ggc
+ `- varconst             :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- symout               :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- parser function body :   0.04 ( 1%) usr   0.05 ( 2%) sys   0.12 ( 1%) wall     316 kB ( 1%) ggc
+ `- parser inl. func. body:   0.08 ( 1%) usr   0.02 ( 1%) sys   0.08 ( 1%) wall     374 kB ( 1%) ggc
+ `- parser struct body   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall     347 kB ( 1%) ggc
+ `- template instantiation:   0.09 ( 1%) usr   0.00 ( 0%) sys   0.14 ( 1%) wall     953 kB ( 3%) ggc
+ `- preprocessing        :   0.51 ( 7%) usr   0.30 (14%) sys   1.86 (17%) wall     640 kB ( 2%) ggc
+ parser struct body      :   0.30 ( 4%) usr   0.12 ( 5%) sys   0.43 ( 4%) wall    2930 kB ( 9%) ggc
+ `- symout               :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- parser inl. meth. body:   0.15 ( 2%) usr   0.10 ( 5%) sys   0.26 ( 2%) wall    1183 kB ( 4%) ggc
+ `- constant expression evaluation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- parser struct body   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall      27 kB ( 0%) ggc
+ `- template instantiation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall     295 kB ( 1%) ggc
+ parser enumerator list  :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall      22 kB ( 0%) ggc
+ `- constant expression evaluation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ parser function body    :   0.17 ( 2%) usr   0.10 ( 5%) sys   0.30 ( 3%) wall     735 kB ( 2%) ggc
+ `- constant expression evaluation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       2 kB ( 0%) ggc
+ parser inl. func. body  :   0.16 ( 2%) usr   0.03 ( 1%) sys   0.17 ( 2%) wall     603 kB ( 2%) ggc
+ `- garbage collection   :   0.05 ( 1%) usr   0.00 ( 0%) sys   0.07 ( 1%) wall       0 kB ( 0%) ggc
+ parser inl. meth. body  :   0.21 ( 3%) usr   0.12 ( 5%) sys   0.32 ( 3%) wall    1431 kB ( 4%) ggc
+ `- garbage collection   :   0.04 ( 1%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ template instantiation  :   0.90 (12%) usr   0.33 (15%) sys   1.32 (12%) wall    9273 kB (29%) ggc
+ `- varconst             :   0.01 ( 0%) usr   0.02 ( 1%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- symout               :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- constant expression evaluation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       2 kB ( 0%) ggc
+ `- garbage collection   :   0.06 ( 1%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall       0 kB ( 0%) ggc
+ `- template instantiation:   0.20 ( 3%) usr   0.14 ( 6%) sys   0.37 ( 3%) wall    1050 kB ( 3%) ggc
+ constant expression evaluation:   0.02 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall      11 kB ( 0%) ggc
+ early inlining heuristics:   0.03 ( 0%) usr   0.00 ( 0%) sys   0.07 ( 1%) wall     557 kB ( 2%) ggc
+ `- callgraph verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- repair loop structures:   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- remove unused locals :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ inline parameters       :   0.05 ( 1%) usr   0.02 ( 1%) sys   0.04 ( 0%) wall     552 kB ( 2%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ integration             :   0.19 ( 3%) usr   0.05 ( 2%) sys   0.25 ( 2%) wall    2680 kB ( 8%) ggc
+ `- callgraph verifier   :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree operand scan    :   0.08 ( 1%) usr   0.02 ( 1%) sys   0.08 ( 1%) wall      88 kB ( 0%) ggc
+ tree gimplify           :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall     655 kB ( 2%) ggc
+ tree eh                 :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall     179 kB ( 1%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree CFG construction   :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall     261 kB ( 1%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- loop init            :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall      82 kB ( 0%) ggc
+ `- tree CFG cleanup     :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree CFG cleanup        :   0.03 ( 0%) usr   0.01 ( 0%) sys   0.06 ( 1%) wall      27 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.02 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree copy propagation   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree PTA                :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall      43 kB ( 0%) ggc
+ tree SSA rewrite        :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall     253 kB ( 1%) ggc
+ tree SSA other          :   0.05 ( 1%) usr   0.02 ( 1%) sys   0.05 ( 0%) wall      28 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- remove unused locals :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       1 kB ( 0%) ggc
+ `- tree operand scan    :   0.03 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall     593 kB ( 2%) ggc
+ `- tree SSA rewrite     :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall     141 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.02 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree SSA incremental    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA rewrite     :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall     112 kB ( 0%) ggc
+ tree operand scan       :   0.13 ( 2%) usr   0.03 ( 1%) sys   0.08 ( 1%) wall     681 kB ( 2%) ggc
+ dominator optimization  :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall      18 kB ( 0%) ggc
+ `- CFG verifier         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ backwards jump threading:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- loop init            :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ tree SRA                :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree operand scan    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree CCP                :   0.07 ( 1%) usr   0.00 ( 0%) sys   0.07 ( 1%) wall      84 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.03 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree PHI const/copy prop:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree split crit edges   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree FRE                :   0.06 ( 1%) usr   0.01 ( 0%) sys   0.08 ( 1%) wall     152 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- alias stmt walking   :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree code sinking       :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree linearize phis     :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       2 kB ( 0%) ggc
+ `- CFG verifier         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree forward propagate  :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall      12 kB ( 0%) ggc
+ `- tree operand scan    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree conservative DCE   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.05 ( 0%) wall       0 kB ( 0%) ggc
+ `- alias stmt walking   :   0.02 ( 0%) usr   0.02 ( 1%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree aggressive DCE     :   0.05 ( 1%) usr   0.01 ( 0%) sys   0.04 ( 0%) wall       2 kB ( 0%) ggc
+ `- alias stmt walking   :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree buildin call DCE   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree DSE                :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ PHI merge               :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree loop optimization  :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ loopless fn             :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ tree loop invariant motion:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree copy headers       :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree SSA uncprop        :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ tree NRV optimization   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ tree SSA verifier       :   0.27 ( 4%) usr   0.06 ( 3%) sys   0.28 ( 3%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.04 ( 1%) usr   0.00 ( 0%) sys   0.07 ( 1%) wall       0 kB ( 0%) ggc
+ tree STMT verifier      :   0.50 ( 7%) usr   0.04 ( 2%) sys   0.63 ( 6%) wall       0 kB ( 0%) ggc
+ callgraph verifier      :   0.05 ( 1%) usr   0.04 ( 2%) sys   0.09 ( 1%) wall       0 kB ( 0%) ggc
+ `- callgraph verifier   :   0.03 ( 0%) usr   0.02 ( 1%) sys   0.04 ( 0%) wall       0 kB ( 0%) ggc
+ dominance computation   :   0.12 ( 2%) usr   0.00 ( 0%) sys   0.19 ( 2%) wall       0 kB ( 0%) ggc
+ expand                  :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall     842 kB ( 3%) ggc
+ `- CFG verifier         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- post expand cleanups :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ post expand cleanups    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       1 kB ( 0%) ggc
+ varconst                :   0.01 ( 0%) usr   0.03 ( 1%) sys   0.04 ( 0%) wall       0 kB ( 0%) ggc
+ jump                    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- trivially dead code  :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ forward prop            :   0.06 ( 1%) usr   0.00 ( 0%) sys   0.10 ( 1%) wall     123 kB ( 0%) ggc
+ `- df reg dead/unused notes:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- trivially dead code  :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ CSE                     :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       4 kB ( 0%) ggc
+ `- register scan        :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- df live regs         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ dead code elimination   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ dead store elim1        :   0.05 ( 1%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall     195 kB ( 1%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- alias analysis       :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall      11 kB ( 0%) ggc
+ dead store elim2        :   0.05 ( 1%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall     165 kB ( 1%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- df reg dead/unused notes:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall      42 kB ( 0%) ggc
+ loop analysis           :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ loop init               :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall      98 kB ( 0%) ggc
+ `- dominance computation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ loop fini               :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ branch prediction       :   0.04 ( 1%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall      19 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- loop fini            :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- loop init            :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ combiner                :   0.63 ( 9%) usr   0.00 ( 0%) sys   0.62 ( 6%) wall      68 kB ( 0%) ggc
+ `- df live regs         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ if-conversion           :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- df live regs         :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ mode switching          :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ integrated RA           :   0.09 ( 1%) usr   0.00 ( 0%) sys   0.11 ( 1%) wall     289 kB ( 1%) ggc
+ `- df reg dead/unused notes:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- trivially dead code  :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- register information :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- df live regs         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ LRA non-specific        :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.07 ( 1%) wall      24 kB ( 0%) ggc
+ `- LRA hard reg assignment:   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- LRA reload inheritance:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall      45 kB ( 0%) ggc
+ `- LRA create live ranges:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       6 kB ( 0%) ggc
+ LRA reload inheritance  :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall      45 kB ( 0%) ggc
+ LRA create live ranges  :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       6 kB ( 0%) ggc
+ LRA hard reg assignment :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ reload                  :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- LRA non-specific     :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ reload CSE regs         :   0.04 ( 1%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall     135 kB ( 0%) ggc
+ thread pro- & epilogue  :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall       6 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ if-conversion 2         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- df live regs         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ combine stack adjustments:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ hard reg cprop          :   0.08 ( 1%) usr   0.00 ( 0%) sys   0.09 ( 1%) wall       4 kB ( 0%) ggc
+ machine dep reorg       :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ reorder blocks          :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ shorten branches        :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ reg stack               :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- CFG verifier         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ final                   :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       6 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ symout                  :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ tree if-combine         :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ straight-line strength reduction:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ initialize rtl          :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       5 kB ( 0%) ggc
+ early local passes      :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.01 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- dominance computation:   0.00 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ rest of compilation     :   0.01 ( 0%) usr   0.02 ( 1%) sys   0.03 ( 0%) wall      11 kB ( 0%) ggc
+ `- df live regs         :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.07 ( 1%) usr   0.00 ( 0%) sys   0.05 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree PTA             :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       5 kB ( 0%) ggc
+ `- initialize rtl       :   0.02 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       5 kB ( 0%) ggc
+ `- tree loop invariant motion:   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- garbage collection   :   0.06 ( 1%) usr   0.00 ( 0%) sys   0.06 ( 1%) wall       0 kB ( 0%) ggc
+ `- dump files           :   0.00 ( 0%) usr   0.01 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree SSA verifier    :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ `- tree STMT verifier   :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.02 ( 0%) wall       0 kB ( 0%) ggc
+ unaccounted post reload :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ `- verify RTL sharing   :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 ( 0%) wall       0 kB ( 0%) ggc
+ remove unused locals    :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.04 ( 0%) wall       1 kB ( 0%) ggc
+ verify RTL sharing      :   0.23 ( 3%) usr   0.00 ( 0%) sys   0.15 ( 1%) wall       0 kB ( 0%) ggc
+ repair loop structures  :   0.03 ( 0%) usr   0.00 ( 0%) sys   0.01 ( 0%) wall       0 kB ( 0%) ggc
+ TOTAL                 :   7.35             2.19            10.64              32035 kB
+Extra diagnostic checks enabled; compiler may run slowly.
+Configure with --enable-checking=release to disable checks.
+# cc1plus 7.36 2.21
+# as 0.01 0.00

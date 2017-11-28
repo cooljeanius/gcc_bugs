@@ -1,0 +1,1 @@
+constexpr int i = "\x0_\x01_\x7f_\x80_\xff";

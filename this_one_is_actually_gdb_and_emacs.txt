@@ -1,0 +1,38 @@
+bug:
+
+cd ../lisp; make -w autoloads EMACS="../src/bootstrap-emacs"
+make[2]: Entering directory `/private/var/root/emacs/lisp'
+EMACSLOADPATH='.' '../src/bootstrap-emacs' -batch --no-site-file --no-site-lisp -l autoload \
+   --eval "(setq generate-autoload-cookie \";;;###cal-autoload\")" \
+   --eval "(setq generated-autoload-file (expand-file-name (unmsys--file-name \"/var/root/emacs/lisp/calendar/cal-loaddefs.el\")))" \
+   --eval "(setq make-backup-files nil)" \
+   -f batch-update-autoloads /var/root/emacs/lisp/calendar
+/bin/sh: ../src/bootstrap-emacs: Cannot allocate memory
+make[2]: *** [/var/root/emacs/lisp/calendar/cal-loaddefs.el] Error 126
+make[2]: Leaving directory `/private/var/root/emacs/lisp'
+make[1]: *** [/var/root/emacs/src/../lisp/loaddefs.el] Error 2
+make[1]: Leaving directory `/private/var/root/emacs/src'
+make: *** [src] Error 2
+
+# gdb src/bootstrap-emacs
+GNU gdb 6.3.50-20050815 (Apple version gdb-967) (Tue Jul 14 02:11:58 UTC 2009)
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-apple-darwin"...Reading symbols for shared libraries ...
+
+[snip]
+
+.... done
+
+(gdb) break main 
+Breakpoint 1 at 0x2a8eed: file emacs.c, line 710.
+(gdb) run
+Starting program: /private/var/root/emacs/src/bootstrap-emacs 
+arch: posix_spawnp: /private/var/root/emacs/src/bootstrap-emacs: Cannot allocate memory
+
+Program exited with code 01.
+(gdb)
+

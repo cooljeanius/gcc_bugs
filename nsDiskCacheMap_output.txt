@@ -1,0 +1,201 @@
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:1:0: error: ‘/var/root/gcc_bugs/nsDiskCacheMap.gcda’ is version ‘407*’, expected version ‘A80e’ [-Werror]
+In file included from ../../dist/include/nscore.h:19:0,
+                 from ../../dist/include/nsrootidl.h:13,
+                 from ../../dist/include/nsISupports.h:10,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCache.h:23,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:7:
+../../dist/include/mozilla/mozalloc.h:199:33: error: dynamic exception specifications are deprecated in C++11 [-Werror=deprecated]
+../../dist/include/mozilla/mozalloc.h:211:35: error: dynamic exception specifications are deprecated in C++11 [-Werror=deprecated]
+In file included from ../../dist/include/nsHashKeys.h:24:0,
+                 from ../../dist/include/nsRefPtrHashtable.h:10,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:21,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/mozilla/HashFunctions.h: In function ‘uint32_t mozilla::detail::AddUintptrToHash(uint32_t, uintptr_t) [with long unsigned int PtrSize = 8; uint32_t = unsigned int; uintptr_t = long unsigned int]’:
+../../dist/include/mozilla/HashFunctions.h:141:71: error: right shift count >= width of type [-Werror=shift-count-overflow]
+In file included from ../../dist/include/jsapi.h:14:0,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/mozilla/FloatingPoint.h: At global scope:
+../../dist/include/mozilla/FloatingPoint.h:40:1: error: static assertion failed: double must be 64 bits
+In file included from ../../dist/include/jsapi.h:14:0,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/mozilla/FloatingPoint.h:60:1: error: static assertion failed: all bits accounted for
+In file included from ../../dist/include/jsapi.h:14:0,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/mozilla/FloatingPoint.h: In function ‘double MOZ_DOUBLE_POSITIVE_INFINITY()’:
+../../dist/include/mozilla/FloatingPoint.h:175:11: error: conversion from ‘long long unsigned int’ to ‘uint64_t {aka long unsigned int}’ changes value from ‘9218868437227405312’ to ‘0’ [-Werror=overflow]
+../../dist/include/mozilla/FloatingPoint.h: In function ‘double MOZ_DOUBLE_NEGATIVE_INFINITY()’:
+../../dist/include/mozilla/FloatingPoint.h:189:33: error: conversion from ‘long long unsigned int’ to ‘uint64_t {aka long unsigned int}’ changes value from ‘18442240474082181120’ to ‘0’ [-Werror=overflow]
+../../dist/include/mozilla/FloatingPoint.h: In function ‘double MOZ_DOUBLE_NaN()’:
+../../dist/include/mozilla/FloatingPoint.h:217:55: error: conversion from ‘long long unsigned int’ to ‘uint64_t {aka long unsigned int}’ changes value from ‘4503599627370495’ to ‘4294967295’ [-Werror=overflow]
+In file included from ../../dist/system_wrappers/limits:3:0,
+                 from ../../dist/stl_wrappers/limits:55,
+                 from ../../dist/include/js/Value.h:17,
+                 from ../../dist/include/js/CallArgs.h:39,
+                 from ../../dist/include/jsapi.h:29,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/limits: At global scope:
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/limits:1405:35: error: template argument 1 is invalid
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/limits:1479:44: error: template argument 1 is invalid
+In file included from ../../dist/include/js/CallArgs.h:39:0,
+                 from ../../dist/include/jsapi.h:29,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/js/Value.h:122:74: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:122:71: error: right operand of shift expression ‘(131056 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:122:90: error: enumerator value for ‘JSVAL_SHIFTED_TAG_MAX_DOUBLE’ is not an integer constant
+../../dist/include/js/Value.h:123:63: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:123:60: error: right operand of shift expression ‘(131057 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:123:65: error: enumerator value for ‘JSVAL_SHIFTED_TAG_INT32’ is not an integer constant
+../../dist/include/js/Value.h:124:71: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:124:68: error: right operand of shift expression ‘(131058 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:124:73: error: enumerator value for ‘JSVAL_SHIFTED_TAG_UNDEFINED’ is not an integer constant
+../../dist/include/js/Value.h:125:65: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:125:62: error: right operand of shift expression ‘(131061 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:125:67: error: enumerator value for ‘JSVAL_SHIFTED_TAG_STRING’ is not an integer constant
+../../dist/include/js/Value.h:126:67: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:126:64: error: right operand of shift expression ‘(131059 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:126:69: error: enumerator value for ‘JSVAL_SHIFTED_TAG_BOOLEAN’ is not an integer constant
+../../dist/include/js/Value.h:127:63: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:127:60: error: right operand of shift expression ‘(131060 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:127:65: error: enumerator value for ‘JSVAL_SHIFTED_TAG_MAGIC’ is not an integer constant
+../../dist/include/js/Value.h:128:61: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:128:58: error: right operand of shift expression ‘(131062 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:128:63: error: enumerator value for ‘JSVAL_SHIFTED_TAG_NULL’ is not an integer constant
+../../dist/include/js/Value.h:129:65: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h:129:62: error: right operand of shift expression ‘(131063 << 47)’ is >= than the precision of the left operand [-fpermissive]
+../../dist/include/js/Value.h:129:67: error: enumerator value for ‘JSVAL_SHIFTED_TAG_OBJECT’ is not an integer constant
+../../dist/include/js/Value.h:132:1: error: static assertion failed: JS_STATIC_ASSERT
+In file included from ../../dist/include/js/CallArgs.h:39:0,
+                 from ../../dist/include/jsapi.h:29,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/js/Value.h:272:30: error: width of ‘jsval_layout::<unnamed struct>::payload47’ exceeds its type [-Werror]
+In file included from ../../dist/include/js/CallArgs.h:39:0,
+                 from ../../dist/include/jsapi.h:29,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/js/Value.h: In function ‘jsval_layout BUILD_JSVAL(JSValueTag, uint64_t)’:
+../../dist/include/js/Value.h:578:46: error: left shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h: In function ‘JSBool JSVAL_IS_INT32_IMPL(jsval_layout)’:
+../../dist/include/js/Value.h:600:35: error: right shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h: In function ‘JSBool JSVAL_IS_STRING_IMPL(jsval_layout)’:
+../../dist/include/js/Value.h:632:35: error: right shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h: In function ‘JSBool JSVAL_IS_BOOLEAN_IMPL(jsval_layout)’:
+../../dist/include/js/Value.h:655:35: error: right shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h: In function ‘JSBool JSVAL_IS_MAGIC_IMPL(jsval_layout)’:
+../../dist/include/js/Value.h:676:25: error: right shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h: In function ‘JSValueType JSVAL_EXTRACT_NON_DOUBLE_TYPE_IMPL(jsval_layout)’:
+../../dist/include/js/Value.h:799:33: error: right shift count >= width of type [-Werror=shift-count-overflow]
+../../dist/include/js/Value.h: In function ‘double JS_CANONICALIZE_NAN(double)’:
+../../dist/include/js/Value.h:811:20: error: unsigned conversion from ‘long long int’ to ‘uint64_t {aka long unsigned int}’ changes value from ‘9221120237041090560’ to ‘0’ [-Werror=overflow]
+In file included from ../../dist/include/js/CallArgs.h:39:0,
+                 from ../../dist/include/jsapi.h:29,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/js/Value.h: In function ‘jsval DOUBLE_TO_JSVAL(double)’:
+../../dist/include/js/Value.h:1658:20: error: unsigned conversion from ‘long long int’ to ‘uint64_t {aka long unsigned int}’ changes value from ‘9221120237041090560’ to ‘0’ [-Werror=overflow]
+In file included from ../../dist/include/jsapi.h:31:0,
+                 from ../../dist/include/jsclass.h:16,
+                 from ../../dist/include/jsfriendapi.h:12,
+                 from ../../dist/include/GeckoProfiler.h:52,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/js/HashTable.h: In static member function ‘static js::HashNumber js::PointerHasher<Key, zeroBits>::hash(const Lookup&)’:
+../../dist/include/js/HashTable.h:503:9: error: static assertion failed: JS_STATIC_ASSERT
+../../dist/include/js/HashTable.h:504:36: error: right shift count >= width of type [-Werror=shift-count-overflow]
+In file included from ../../dist/include/GeckoProfiler.h:52:0,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+../../dist/include/jsfriendapi.h: At global scope:
+../../dist/include/jsfriendapi.h:1366:1: error: static assertion failed: JS_STATIC_ASSERT
+In file included from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/bits/move.h:57:0,
+                 from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/bits/stl_pair.h:61,
+                 from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/utility:72,
+                 from ../../dist/system_wrappers/utility:3,
+                 from ../../dist/stl_wrappers/utility:55,
+                 from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/algorithm:61,
+                 from ../../dist/system_wrappers/algorithm:3,
+                 from ../../dist/stl_wrappers/algorithm:55,
+                 from ../../dist/include/GeckoProfilerImpl.h:12,
+                 from ../../dist/include/GeckoProfiler.h:140,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/type_traits:224:41: error: template argument 1 is invalid
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/type_traits:228:50: error: template argument 1 is invalid
+In file included from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/bits/move.h:57:0,
+                 from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/bits/stl_pair.h:61,
+                 from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/utility:72,
+                 from ../../dist/system_wrappers/utility:3,
+                 from ../../dist/stl_wrappers/utility:55,
+                 from /tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/algorithm:61,
+                 from ../../dist/system_wrappers/algorithm:3,
+                 from ../../dist/stl_wrappers/algorithm:55,
+                 from ../../dist/include/GeckoProfilerImpl.h:12,
+                 from ../../dist/include/GeckoProfiler.h:140,
+                 from ../../dist/include/mozilla/StartupTimeline.h:26,
+                 from ../../dist/include/mozilla/Telemetry.h:11,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsCacheService.h:24,
+                 from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:12:
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/type_traits:1439:36: error: template argument 1 is invalid
+/tools/gcc-4.7.2-0moz1/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/../../../../include/c++/4.7.2/type_traits:1521:43: error: template argument 1 is invalid
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp: In member function ‘nsresult nsDiskCacheMap::Open(nsIFile*, nsDiskCache::CorruptCacheInfo*, bool)’:
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:89:54: error: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct nsDiskCacheHeader’; use assignment or value-initialization instead [-Werror=class-memaccess]
+In file included from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:8:0:
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.h:327:8: note: ‘struct nsDiskCacheHeader’ declared here
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp: In member function ‘nsresult nsDiskCacheMap::GrowRecords()’:
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:370:73: error: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class nsDiskCacheRecord’; use assignment or value-initialization instead [-Werror=class-memaccess]
+In file included from /builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:8:0:
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.h:88:7: note: ‘class nsDiskCacheRecord’ declared here
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp: In member function ‘nsresult nsDiskCacheMap::WriteDiskCacheEntry(nsDiskCacheBinding*)’:
+/builds/slave/try-l64-0000000000000000000000/build/netwerk/cache/nsDiskCacheMap.cpp:922:60: error: integer overflow in expression of type ‘long long int’ results in ‘-2’ [-Werror=overflow]
+cc1plus: all warnings being treated as errors

@@ -1,0 +1,24 @@
+# 1 "35383_a.cc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "35383_a.cc"
+struct B {};
+
+namespace N {
+ void foo(){}
+
+ template <class T>
+ void bar(T& t) {
+  foo(t);
+ }
+
+ void foo(::B&) {
+ }
+}
+
+int main() {
+ B tmp;
+ N::bar(tmp);
+
+ return 0;
+}

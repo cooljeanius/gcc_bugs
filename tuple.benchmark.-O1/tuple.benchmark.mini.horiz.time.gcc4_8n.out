@@ -1,0 +1,36 @@
+COMPILER:gcc4_8n
+compiler_version={
+Using built-in specs.
+COLLECT_GCC=/home/evansl/download/gcc/4.8-20120923/install/bin/g++
+COLLECT_LTO_WRAPPER=/home/evansl/download/gcc/4.8-20120923/install/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /home/evansl/download/gcc/4.8-20120923/build/../src/configure --prefix=/home/evansl/download/gcc/4.8-20120923/build/../install --enable-languages=c++ --enable-checking=release
+Thread model: posix
+gcc version 4.8.0 20120923 (experimental) (GCC) 
+}
+compile_command={
+/home/evansl/download/gcc/4.8-20120923/install/bin/g++ -c -std=gnu++11
+}
+CoMPILER_OPT:-O1
+DU_SLIM_IMPL:-USLIM_IMPL
+TUPLE_SIZE:20
+LAST_LESS:4
+user:1.75
+system:0.19
+elapsed:2.93
+LAST_LESS:8
+user:9.62
+system:0.26
+elapsed:9.86
+LAST_LESS:12
+user:41.44
+system:0.73
+elapsed:42.16
+LAST_LESS:16
+user:159.13
+system:1.58
+elapsed:160.73
+LAST_LESS:20
+user:325.65
+system:2.52
+elapsed:328.20

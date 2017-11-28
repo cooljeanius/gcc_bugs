@@ -1,0 +1,19 @@
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/lto-wrapper
+Target: i386-apple-darwin9.8.0
+Configured with: ../configure --disable-werror --disable-werror-always --enable-languages=c,c++,lto,objc,obj-c++ --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --with-isl --disable-host-shared --enable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --enable-libstdcxx-debug CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ AUTOCONF=/usr/local/bin/autoconf AUTOHEADER=/usr/local/bin/autoheader AUTORECONF=/usr/local/bin/autoreconf AUTOM4TE=/usr/local/bin/autom4te AUTOSCAN=/usr/local/bin/autoscan AUTOUPDATE=/usr/local/bin/autoupdate IFNAMES=/usr/local/bin/ifnames
+Thread model: posix
+gcc version 8.0.0 20170905 (experimental) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '--help' '-mmacosx-version-min=10.5.8' '-asm_macosx_version_min=10.5' '-mtune=core2'
+
+ /usr/local/libexec/gcc/i386-apple-darwin9.8.0/8.0.0/cc1 -quiet -v -D__DYNAMIC__ help-dummy -fPIC -quiet -dumpbase help-dummy -mmacosx-version-min=10.5.8 -mtune=core2 -auxbase help-dummy -version --help -o /var/tmp//cczaoGRD.s
+GNU C11 (GCC) version 8.0.0 20170905 (experimental) (i386-apple-darwin9.8.0)
+	compiled by GNU C version 8.0.0 20170905 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+COLLECT_GCC_OPTIONS='-v' '--help' '-mmacosx-version-min=10.5.8'  '-mtune=core2'
+
+ as -arch i386 -v -force_cpusubtype_ALL --help -o /var/tmp//ccltZ0N3.o /var/tmp//cczaoGRD.s
+Apple Inc version cctools-698.1~1, GNU assembler version 1.38
+FATAL:/usr/bin/../libexec/gcc/darwin/i386/as: I don't understand '-' flag!
