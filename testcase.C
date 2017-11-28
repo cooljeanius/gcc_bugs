@@ -1,3 +1,4 @@
+// -*- C++ -*-
 #include <assert.h>
 
 struct A
