@@ -1,0 +1,2 @@
+Testcases submitted to the GCC bugzilla come with no license implied.
+Any files officially added to the libstdc++ testsuite become GPL'd and owned by the FSF though, although I don't think that's applicable to any of the files here. Most testcases are trivial enough to not even require a license anyways though.
