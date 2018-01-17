@@ -1,0 +1,423 @@
+--- /private/var/root/gcc_bugs/testsuite_logs/mail-report_20170906.log	2017-09-06 15:09:51.000000000 -0400
++++ /private/var/root/gcc_bugs/testsuite_logs/mail-report_20180116.log	2018-01-16 06:13:32.000000000 -0500
+@@ -17,15 +17,27 @@
+ UNRESOLVED: g++.dg/debug/dwarf2/inline-ns-2.C  -std=gnu++98  scan-assembler-times  DW_AT_export_symbols 2
+ FAIL: g++.dg/debug/dwarf2/inline-ns-2.C  -std=gnu++98 (internal compiler error)
+ FAIL: g++.dg/debug/dwarf2/inline-ns-2.C  -std=gnu++98 (test for excess errors)
++FAIL: g++.dg/abi/key2.C  -std=gnu++11 (test for excess errors)
++FAIL: g++.dg/abi/key2.C  -std=gnu++14 (test for excess errors)
++FAIL: g++.dg/abi/key2.C  -std=gnu++98 (test for excess errors)
++FAIL: g++.dg/cet-notrack-1.C  -std=gnu++11  scan-assembler-times \\tcall[ \\t]+puts 2 (found 0 times)
++FAIL: g++.dg/cet-notrack-1.C  -std=gnu++14  scan-assembler-times \\tcall[ \\t]+puts 2 (found 0 times)
++FAIL: g++.dg/cet-notrack-1.C  -std=gnu++98  scan-assembler-times \\tcall[ \\t]+puts 2 (found 0 times)
+ FAIL: g++.dg/ipa/pr67056.C   scan-ipa-dump cp "Speculative outer type:struct CompositeClass"
+-FAIL: g++.dg/pr62079.C   (internal compiler error)
+-FAIL: g++.dg/pr62079.C   (test for excess errors)
++FAIL: g++.dg/other/vararg-1.C  -std=c++98 (test for excess errors)
+ FAIL: g++.dg/pr71694.C  -std=gnu++11  scan-assembler-not movl
+ FAIL: g++.dg/pr71694.C  -std=gnu++14  scan-assembler-not movl
+ FAIL: g++.dg/pr71694.C  -std=gnu++98  scan-assembler-not movl
++FAIL: g++.dg/pr80481.C  -std=gnu++11  scan-assembler-not vmovaps
++FAIL: g++.dg/pr80481.C  -std=gnu++14  scan-assembler-not vmovaps
++FAIL: g++.dg/pr80481.C  -std=gnu++98  scan-assembler-not vmovaps
+ FAIL: g++.dg/template/nontype10.C  -std=c++11 (test for excess errors)
+ FAIL: g++.dg/template/nontype10.C  -std=c++14 (test for excess errors)
+ FAIL: g++.dg/template/nontype10.C  -std=c++98 (test for excess errors)
++FAIL: g++.dg/tree-ssa/pr41905.C  -std=gnu++11 (test for excess errors)
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  line 21: is #####:should be 1
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  line 45: is #####:should be 1
+@@ -35,12 +47,6 @@
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  line 21: is #####:should be 1
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  line 45: is #####:should be 1
+-FAIL: g++.dg/lto/20081109 cp_lto_20081109_0.o-cp_lto_20081109_1.o execute -O0 -flto 
+-FAIL: g++.dg/lto/20081109 cp_lto_20081109_0.o-cp_lto_20081109_1.o execute -O0 -flto -flto-partition=1to1 
+-FAIL: g++.dg/lto/20081109 cp_lto_20081109_0.o-cp_lto_20081109_1.o execute -O0 -flto -flto-partition=none 
+-FAIL: g++.dg/lto/20081109 cp_lto_20081109_0.o-cp_lto_20081109_1.o execute -O2 -flto
+-FAIL: g++.dg/lto/20081109 cp_lto_20081109_0.o-cp_lto_20081109_1.o execute -O2 -flto -flto-partition=1to1 
+-FAIL: g++.dg/lto/20081109 cp_lto_20081109_0.o-cp_lto_20081109_1.o execute -O2 -flto -flto-partition=none 
+ UNRESOLVED: g++.dg/lto/20101010-4 cp_lto_20101010-4_0.o-cp_lto_20101010-4_0.o execute  -std=c++0x -flto -g -r -nostdlib 
+ FAIL: g++.dg/lto/20101010-4 cp_lto_20101010-4_0.o-cp_lto_20101010-4_0.o link,  -std=c++0x -flto -g -r -nostdlib 
+ UNRESOLVED: g++.dg/lto/20101015-2 cp_lto_20101015-2_0.o-cp_lto_20101015-2_0.o execute  -g -flto 
+@@ -77,87 +83,40 @@
+ FAIL: g++.dg/lto/pr52605 cp_lto_pr52605_0.o-cp_lto_pr52605_0.o link, -flto -g
+ UNRESOLVED: g++.dg/lto/pr53470 cp_lto_pr53470_0.o-cp_lto_pr53470_0.o execute  -g -flto 
+ FAIL: g++.dg/lto/pr53470 cp_lto_pr53470_0.o-cp_lto_pr53470_0.o link,  -g -flto 
+-UNRESOLVED: g++.dg/lto/pr65193 cp_lto_pr65193_0.o-cp_lto_pr65193_0.o execute -fPIC -r -nostdlib -flto -O2 -g
+-FAIL: g++.dg/lto/pr65193 cp_lto_pr65193_0.o-cp_lto_pr65193_0.o link, -fPIC -r -nostdlib -flto -O2 -g
++UNRESOLVED: g++.dg/lto/pr65193 cp_lto_pr65193_0.o-cp_lto_pr65193_0.o execute -fPIC -r -nostdlib -flto -O2 -g -Wno-return-type
++FAIL: g++.dg/lto/pr65193 cp_lto_pr65193_0.o-cp_lto_pr65193_0.o link, -fPIC -r -nostdlib -flto -O2 -g -Wno-return-type
+ UNRESOLVED: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o execute -flto -O0 -std=c++11
+ FAIL: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o link, -flto -O0 -std=c++11
+-UNRESOLVED: g++.dg/lto/pr65316 cp_lto_pr65316_0.o-cp_lto_pr65316_1.o execute  -flto -std=c++11 -g2 -fno-lto-odr-type-merging -O2 
+-FAIL: g++.dg/lto/pr65316 cp_lto_pr65316_0.o-cp_lto_pr65316_1.o link,  -flto -std=c++11 -g2 -fno-lto-odr-type-merging -O2 
+-UNRESOLVED: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o execute  -std=gnu++14 -flto -g 
+-UNRESOLVED: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o execute  -std=gnu++14 -flto -g -O2 -fno-inline -flto-partition=max 
+-FAIL: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o link,  -std=gnu++14 -flto -g 
+-FAIL: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o link,  -std=gnu++14 -flto -g -O2 -fno-inline -flto-partition=max 
++UNRESOLVED: g++.dg/lto/pr65316 cp_lto_pr65316_0.o-cp_lto_pr65316_1.o execute  -flto -std=c++11 -g2 -fno-lto-odr-type-merging -O2 -Wno-return-type 
++FAIL: g++.dg/lto/pr65316 cp_lto_pr65316_0.o-cp_lto_pr65316_1.o link,  -flto -std=c++11 -g2 -fno-lto-odr-type-merging -O2 -Wno-return-type 
++UNRESOLVED: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o execute  -std=gnu++14 -flto -g -O2 -fno-inline -flto-partition=max -Wno-return-type 
++UNRESOLVED: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o execute  -std=gnu++14 -flto -g -Wno-return-type 
++FAIL: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o link,  -std=gnu++14 -flto -g -O2 -fno-inline -flto-partition=max -Wno-return-type 
++FAIL: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o link,  -std=gnu++14 -flto -g -Wno-return-type 
+ UNRESOLVED: g++.dg/lto/pr69077 cp_lto_pr69077_0.o-cp_lto_pr69077_1.o execute  -O3 -g -flto 
+ FAIL: g++.dg/lto/pr69077 cp_lto_pr69077_0.o-cp_lto_pr69077_1.o link,  -O3 -g -flto 
+ UNRESOLVED: g++.dg/lto/pr69137 cp_lto_pr69137_0.o-cp_lto_pr69137_0.o execute  -std=c++11 -g -flto 
+ FAIL: g++.dg/lto/pr69137 cp_lto_pr69137_0.o-cp_lto_pr69137_0.o link,  -std=c++11 -g -flto 
+ UNRESOLVED: g++.dg/lto/pr79000 cp_lto_pr79000_0.o-cp_lto_pr79000_1.o execute -flto -g
+ FAIL: g++.dg/lto/pr79000 cp_lto_pr79000_0.o-cp_lto_pr79000_1.o link, -flto -g
++UNRESOLVED: g++.dg/lto/pr82414 cp_lto_pr82414_0.o-cp_lto_pr82414_0.o execute  -flto -g 
++FAIL: g++.dg/lto/pr82414 cp_lto_pr82414_0.o-cp_lto_pr82414_0.o link,  -flto -g 
+ FAIL: g++.dg/tls/pr77285-2.C  -std=c++11  scan-assembler _ZTH4var1B3tag
+ FAIL: g++.dg/tls/pr77285-2.C  -std=c++14  scan-assembler _ZTH4var1B3tag
+ FAIL: g++.dg/tls/thread_local-order2.C  -std=c++11 execution test
+ FAIL: g++.dg/tls/thread_local-order2.C  -std=c++14 execution test
+-FAIL: g++.dg/torture/pr49115.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/pr49115.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/pr60750.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/pr60750.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/pr68184.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/pr68184.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-alloca-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-alloca-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-alloca-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-alloca-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-fastcall-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-fastcall-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-fastcall-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-fastcall-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-global-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-global-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-global-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-global-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-2.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-2.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-2.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-inline-2.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-thiscall-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-thiscall-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-thiscall-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-thiscall-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-2.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-2.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-2.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/eh-vararg-2.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/throw-1.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/throw-1.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/throw-1.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/throw-1.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/throw-2.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/throw-2.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/throw-2.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/throw-2.C   -O2 -flto -fpic execution test
+-FAIL: g++.dg/torture/stackalign/throw-3.C   -O2 -flto  execution test
+-FAIL: g++.dg/torture/stackalign/throw-3.C   -O2 -flto -flto-partition=none  execution test
+-FAIL: g++.dg/torture/stackalign/throw-3.C   -O2 -flto -flto-partition=none -fpic execution test
+-FAIL: g++.dg/torture/stackalign/throw-3.C   -O2 -flto -fpic execution test
+-FAIL: g++.old-deja/g++.pt/memtemp30.C  -std=c++14 (test for excess errors)
+-WARNING: program timed out.
++FAIL: g++.dg/vect/slp-pr56812.cc  -std=c++11  scan-tree-dump-times slp1 "basic block vectorized" 1 (found 0 times)
++FAIL: g++.dg/vect/slp-pr56812.cc  -std=c++14  scan-tree-dump-times slp1 "basic block vectorized" 1 (found 0 times)
++FAIL: g++.dg/vect/slp-pr56812.cc  -std=c++98  scan-tree-dump-times slp1 "basic block vectorized" 1 (found 0 times)
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		108677
+-# of unexpected failures	111
+-# of expected failures		381
+-# of unresolved testcases	32
+-# of unsupported tests		4165
+-/private/var/root/gcc-git/my_oddly_named_builddir/gcc/testsuite/g++/../../xg++  version 8.0.0 20170905 (experimental) (GCC) 
++# of expected passes		110539
++# of unexpected failures	67
++# of expected failures		480
++# of unresolved testcases	33
++# of unsupported tests		4375
++/private/var/root/gcc-git/my_oddly_named_builddir/gcc/testsuite/g++/../../xg++  version 8.0.0 20180114 (experimental) (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+@@ -171,26 +130,6 @@
+ FAIL: gcc.c-torture/compile/pr72802.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  (test for excess errors)
+ FAIL: gcc.c-torture/compile/pr72802.c   -O3 -g  (test for excess errors)
+ FAIL: gcc.c-torture/compile/pr72802.c   -Os  (test for excess errors)
+-FAIL: gcc.c-torture/execute/920501-7.c   -O1  (test for excess errors)
+-WARNING: program timed out.
+-FAIL: c-c++-common/cilk-plus/CK/cilk-for-2.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/cilk-fors.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/cilk_for_grain.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/cilk_for_ptr_iter.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/fib.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/fib_init_expr_xy.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/fib_no_return.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/fib_no_sync.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/nested_cilk_for.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/pr60586.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/pr69826-1.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/pr69826-2.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/spawnee_inline.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/spawner_inline.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/spawning_arg.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/steal_check.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/test__cilk.c  -O3 -flto -g  (test for excess errors)
+-FAIL: c-c++-common/cilk-plus/CK/varargs_test.c  -O3 -flto -g  (test for excess errors)
+ FAIL: gcc.dg/debug/pr41893-1.c -gdwarf-2 (test for excess errors)
+ FAIL: gcc.dg/debug/pr41893-1.c -gdwarf-2 -O (test for excess errors)
+ FAIL: gcc.dg/debug/pr41893-1.c -gdwarf-2 -O3 (test for excess errors)
+@@ -200,11 +139,11 @@
+ FAIL: gcc.dg/debug/pr41893-1.c -gdwarf-2 -g3 (test for excess errors)
+ FAIL: gcc.dg/debug/pr41893-1.c -gdwarf-2 -g3 -O (test for excess errors)
+ FAIL: gcc.dg/debug/pr41893-1.c -gdwarf-2 -g3 -O3 (test for excess errors)
+-FAIL: gcc.dg/debug/pr66068.c -gstabs -O3 (test for excess errors)
+-FAIL: gcc.dg/debug/redecl-4.c -gdwarf-2 -O (test for excess errors)
+-WARNING: program timed out.
+-WARNING: program timed out.
+ FAIL: gcc.dg/debug/dwarf2/pr80263.c scan-assembler-not \\\\msizetype
++FAIL: gcc.dg/debug/dwarf2/pr82718-1.c (internal compiler error)
++FAIL: gcc.dg/debug/dwarf2/pr82718-1.c (test for excess errors)
++FAIL: gcc.dg/debug/dwarf2/pr82718-2.c (internal compiler error)
++FAIL: gcc.dg/debug/dwarf2/pr82718-2.c (test for excess errors)
+ FAIL: gcc.dg/debug/dwarf2/prod-options.c scan-assembler DW_AT_producer: "GNU C
+ FAIL: gcc.dg/darwin-weakimport-3.c scan-assembler-not coalesced
+ FAIL: gcc.dg/memcmp-1.c (test for excess errors)
+@@ -216,11 +155,25 @@
+ FAIL: gcc.dg/pubtypes-2.c scan-assembler long+[ \\t]+0x13b+[ \\t]+[#;]+[ \\t]+Pub Info Length
+ FAIL: gcc.dg/pubtypes-3.c scan-assembler long+[ \\t]+0x13b+[ \\t]+[#;]+[ \\t]+Pub Info Length
+ FAIL: gcc.dg/pubtypes-4.c scan-assembler long+[ \\t]+0x172+[ \\t]+[#;]+[ \\t]+Pub Info Length
++FAIL: gcc.dg/stack-check-10.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 2 (found 0 times)
++FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4 (found 0 times)
++FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash no residual allocation in prologue" 1 (found 0 times)
++FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash residual allocation in prologue" 3 (found 4 times)
++FAIL: gcc.dg/stack-check-6.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4 (found 0 times)
++FAIL: gcc.dg/stack-check-6a.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4 (found 0 times)
++FAIL: gcc.dg/stack-check-9.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 1 (found 0 times)
+ FAIL: gcc.dg/stack-layout-dynamic-1.c (test for excess errors)
+ UNRESOLVED: gcc.dg/stack-layout-dynamic-1.c scan-assembler-not cfi_def_cfa_register
+ FAIL: gcc.dg/uninit-19.c  (test for warnings, line 24)
+ FAIL: gcc.dg/uninit-19.c (test for excess errors)
+-FAIL: gcc.dg/graphite/scop-19.c scan-tree-dump-times graphite "number of SCoPs: 0" 1
++FAIL: gcc.dg/graphite/interchange-3.c scan-tree-dump graphite "tiled"
++FAIL: gcc.dg/graphite/interchange-7.c scan-tree-dump graphite "tiled"
++FAIL: gcc.dg/graphite/interchange-9.c scan-tree-dump graphite "tiled"
++FAIL: gcc.dg/graphite/scop-19.c scan-tree-dump-times graphite "number of SCoPs: 0" 1 (found 2 times)
++FAIL: gcc.dg/graphite/uns-interchange-9.c scan-tree-dump graphite "tiled"
++FAIL: gcc.dg/ipa/iinline-attr.c scan-ipa-dump inline "hooray[^\\\\n]*inline copy in test"
++FAIL: gcc.dg/ipa/inline-2.c scan-ipa-dump inline "op2 change 10.000000. of time"
++FAIL: gcc.dg/ipa/inline-3.c scan-ipa-dump inline "Scaling time by probability:0.100000"
+ UNRESOLVED: gcc.dg/lto/20100426 c_lto_20100426_0.o-c_lto_20100426_0.o execute -r -nostdlib -flto -g
+ FAIL: gcc.dg/lto/20100426 c_lto_20100426_0.o-c_lto_20100426_0.o link, -r -nostdlib -flto -g
+ UNRESOLVED: gcc.dg/lto/20111207-2 c_lto_20111207-2_0.o-c_lto_20111207-2_0.o execute  -g -O -flto 
+@@ -235,7 +188,10 @@
+ FAIL: gcc.dg/lto/pr59323 c_lto_pr59323_0.o-c_lto_pr59323_0.o link,  -O2 -g -flto 
+ UNRESOLVED: gcc.dg/lto/pr59323-2 c_lto_pr59323-2_0.o-c_lto_pr59323-2_0.o execute  -O2 -g -flto 
+ FAIL: gcc.dg/lto/pr59323-2 c_lto_pr59323-2_0.o-c_lto_pr59323-2_0.o link,  -O2 -g -flto 
+-FAIL: gcc.dg/pch/except-1.c   -Os  -I. -Dwith_PCH (test for excess errors)
++UNRESOLVED: gcc.dg/lto/pr81406 c_lto_pr81406_0.o-c_lto_pr81406_0.o execute  -O2 -g -flto 
++FAIL: gcc.dg/lto/pr81406 c_lto_pr81406_0.o-c_lto_pr81406_0.o link,  -O2 -g -flto 
++FAIL: gcc.dg/lto/pr83719 c_lto_pr83719_0.o assemble,  -flto -g -gsplit-dwarf  (internal compiler error)
++FAIL: gcc.dg/tls/pr66470.c (test for excess errors)
+ WARNING: program timed out.
+ FAIL: gcc.dg/torture/builtin-self.c   -O0   scan-assembler-not \\tcall
+ FAIL: gcc.dg/torture/pr25967-1.c   -O0  execution test
+@@ -259,7 +215,6 @@
+ FAIL: gcc.dg/torture/pr68264.c   -O2 -flto -flto-partition=none  execution test
+ FAIL: gcc.dg/torture/pr68264.c   -O3 -g  execution test
+ FAIL: gcc.dg/torture/pr68264.c   -Os  execution test
+-WARNING: program timed out.
+ FAIL: gcc.dg/tree-prof/section-attr-1.c compilation,  -fprofile-generate -D_PROFILE_GENERATE
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-1.c compilation,  -fprofile-use -D_PROFILE_USE
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-1.c execution,    -fprofile-generate -D_PROFILE_GENERATE
+@@ -272,39 +227,51 @@
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-3.c compilation,  -fprofile-use -D_PROFILE_USE
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-3.c execution,    -fprofile-generate -D_PROFILE_GENERATE
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-3.c execution,    -fprofile-use -D_PROFILE_USE
+-FAIL: gcc.dg/tree-ssa/cswtch-4.c scan-tree-dump-times switchconv "= CSWTCH" 2
+-FAIL: gcc.dg/tree-ssa/cswtch-4.c scan-tree-dump-times switchconv "Switch converted" 2
+-FAIL: gcc.dg/tree-ssa/cswtch-5.c scan-tree-dump-times switchconv "= CSWTCH" 2
+-FAIL: gcc.dg/tree-ssa/cswtch-5.c scan-tree-dump-times switchconv "Switch converted" 2
+-FAIL: gcc.dg/vect/pr65947-14.c -flto -ffat-lto-objects execution test
+-FAIL: gcc.dg/vect/pr65947-14.c execution test
++XPASS: gcc.dg/vect/vect-95.c -flto -ffat-lto-objects  scan-tree-dump-times vect "Alignment of access forced using peeling" 0
++XPASS: gcc.dg/vect/vect-95.c scan-tree-dump-times vect "Alignment of access forced using peeling" 0
+ FAIL: gcc.dg/vect/vect-tail-nomask-1.c (test for excess errors)
+ FAIL: gcc.dg/vect/vect-tail-nomask-1.c -flto -ffat-lto-objects (test for excess errors)
+ WARNING: gcc.dg/vect/vect-tail-nomask-1.c -flto -ffat-lto-objects compilation failed to produce executable
+ WARNING: gcc.dg/vect/vect-tail-nomask-1.c compilation failed to produce executable
++FAIL: gcc.target/i386/20060512-4.c (test for excess errors)
+ FAIL: gcc.target/i386/align-limit.c scan-assembler .p2align 6,,1
+-FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
++FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
++FAIL: gcc.target/i386/cet-notrack-5a.c scan-assembler-not \\tcall[ \\t]+
++FAIL: gcc.target/i386/cet-notrack-5b.c scan-assembler-times \\tcall[ \\t]+ 1 (found 2 times)
++FAIL: gcc.target/i386/cet-notrack-6b.c scan-assembler-not \\tcall[ \\t]+
++FAIL: gcc.target/i386/cet-notrack-icf-1.c scan-assembler set[ \\t]+fn2,fn1
++FAIL: gcc.target/i386/cet-notrack-icf-1.c scan-assembler set[ \\t]+fn3,fn1
++FAIL: gcc.target/i386/cet-notrack-icf-2.c scan-assembler set[ \\t]+fn2,fn1
++FAIL: gcc.target/i386/cet-notrack-icf-3.c scan-assembler set[ \\t]+fn2,fn1
++FAIL: gcc.target/i386/cet-notrack-icf-3.c scan-assembler set[ \\t]+fn3,fn1
++FAIL: gcc.target/i386/cet-notrack-icf-4.c scan-assembler set[ \\t]+fn3,fn1
++FAIL: gcc.target/i386/cet-sjlj-3.c scan-assembler-times call\\tlongjmp 1 (found 0 times)
++FAIL: gcc.target/i386/cet-sjlj-5.c scan-assembler-times call\\tlongjmp 1 (found 0 times)
+ FAIL: gcc.target/i386/darwin-fpmath.c scan-assembler addsd
+ XPASS: gcc.target/i386/fuse-caller-save-rec.c scan-assembler-not pop
+ XPASS: gcc.target/i386/fuse-caller-save-rec.c scan-assembler-not push
+ XPASS: gcc.target/i386/fuse-caller-save-rec.c scan-assembler-times addl\\t%[re]?dx, %[re]?ax 1
+ XPASS: gcc.target/i386/fuse-caller-save-xmm.c scan-assembler-times addpd\\t%xmm1, %xmm0 1
+-FAIL: gcc.target/i386/fuse-caller-save-xmm.c scan-assembler-times addpd\\t\\\\.?LC0.*, %xmm0 1
++FAIL: gcc.target/i386/fuse-caller-save-xmm.c scan-assembler-times addpd\\t\\\\.?LC0.*, %xmm0 1 (found 0 times)
+ XPASS: gcc.target/i386/fuse-caller-save.c scan-assembler-not pop
+ XPASS: gcc.target/i386/fuse-caller-save.c scan-assembler-not push
+ XPASS: gcc.target/i386/fuse-caller-save.c scan-assembler-times addl\\t%[re]?d[ix], %[re]?ax 1
+ FAIL: gcc.target/i386/iinline-attr-2.c scan-assembler p2align
+-FAIL: gcc.target/i386/memcpy-strategy-3.c scan-assembler-times memcpy 2
+-FAIL: gcc.target/i386/memset-strategy-1.c scan-assembler-times memset 2
+-FAIL: gcc.target/i386/pr22076.c scan-assembler-times movq 3
++FAIL: gcc.target/i386/indirect-thunk-2.c scan-assembler push(?:l|q)[ \\t]*_?dispatch
++FAIL: gcc.target/i386/indirect-thunk-attr-2.c scan-assembler push(?:l|q)[ \\t]*_?dispatch
++FAIL: gcc.target/i386/indirect-thunk-extern-2.c scan-assembler push(?:l|q)[ \\t]*_?dispatch
++FAIL: gcc.target/i386/indirect-thunk-inline-2.c scan-assembler push(?:l|q)[ \\t]*_?dispatch
++FAIL: gcc.target/i386/memcpy-strategy-3.c scan-assembler-times memcpy 2 (found 1 times)
++FAIL: gcc.target/i386/memset-strategy-1.c scan-assembler-times memset 2 (found 1 times)
++FAIL: gcc.target/i386/pr22076.c scan-assembler-times movq 3 (found 4 times)
+ FAIL: gcc.target/i386/pr24414.c (test for excess errors)
+ WARNING: gcc.target/i386/pr24414.c compilation failed to produce executable
+ FAIL: gcc.target/i386/pr32219-1.c scan-assembler movl[ \\t]xxx@GOTOFF\\\\(%[^,]*\\\\), %eax
+@@ -331,43 +298,49 @@
+ FAIL: gcc.target/i386/pr71245-2.c scan-assembler-not movlps
+ FAIL: gcc.target/i386/pr77881.c scan-assembler jne[ \\t].L
+ FAIL: gcc.target/i386/pr77881.c scan-assembler js[ \\t].L
+-FAIL: gcc.target/i386/pr78035.c scan-assembler-times cmp 2
++FAIL: gcc.target/i386/pr78035.c scan-assembler-times cmp 2 (found 3 times)
++FAIL: gcc.target/i386/pr80846-1.c scan-assembler-times vextracti 2 (found 1 times)
+ FAIL: gcc.target/i386/pr81736-5.c scan-assembler-not %[re]bp
++FAIL: gcc.target/i386/pr82659-3.c (test for excess errors)
++UNRESOLVED: gcc.target/i386/pr82659-3.c scan-assembler-times \\\\mendbr 2
++FAIL: gcc.target/i386/ret-thunk-9.c scan-assembler-not __x86_return_thunk:
+ FAIL: gcc.target/i386/sibcall-4.c scan-assembler-not jmp[ \\t]*.%eax
+ FAIL: gcc.target/i386/stack-prot-sym.c scan-assembler gs:my_guard
++WARNING: program timed out.
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		114610
+-# of unexpected failures	138
+-# of unexpected successes	7
+-# of expected failures		367
+-# of unresolved testcases	17
+-# of unsupported tests		4153
+-/private/var/root/gcc-git/my_oddly_named_builddir/gcc/xgcc  version 8.0.0 20170905 (experimental) (GCC) 
++# of expected passes		115651
++# of unexpected failures	150
++# of unexpected successes	9
++# of expected failures		395
++# of unresolved testcases	19
++# of unsupported tests		4277
++/private/var/root/gcc-git/my_oddly_named_builddir/gcc/xgcc  version 8.0.0 20180114 (experimental) (GCC) 
+ 
+ 		=== obj-c++ tests ===
+ 
+ 
+ Running target unix
+ FAIL: obj-c++.dg/stubify-1.mm -fnext-runtime (test for excess errors)
++FAIL: obj-c++.dg/stubify-2.mm -fnext-runtime (test for excess errors)
+ FAIL: obj-c++.dg/stubify-2.mm -fnext-runtime  scan-rtl-dump-not jump "symbol_ref.*"objc_msgSend""
++FAIL: obj-c++.dg/try-catch-1.mm -fnext-runtime (test for excess errors)
++FAIL: obj-c++.dg/try-catch-3.mm -fnext-runtime (test for excess errors)
+ 
+ 		=== obj-c++ Summary ===
+ 
+-# of expected passes		3115
+-# of unexpected failures	2
++# of expected passes		3122
++# of unexpected failures	5
+ # of expected failures		2
+ # of unsupported tests		62
+-/private/var/root/gcc-git/my_oddly_named_builddir/gcc/testsuite/obj-c++/../../xg++  version 8.0.0 20170905 (experimental) (GCC) 
++/private/var/root/gcc-git/my_oddly_named_builddir/gcc/testsuite/obj-c++/../../xg++  version 8.0.0 20180114 (experimental) (GCC) 
+ 
+ 		=== objc tests ===
+ 
+ 
+ Running target unix
+-FAIL: objc.dg/comp-types-12.m -fgnu-runtime (test for excess errors)
+ FAIL: objc.dg/ivar-scope-4.m -fnext-runtime execution test
+-WARNING: program timed out.
+ FAIL: objc.dg/torture/forward-1.m   -O2  -fgnu-runtime (test for excess errors)
+ WARNING: objc.dg/torture/forward-1.m   -O2  -fgnu-runtime compilation failed to produce executable
+ FAIL: objc.dg/torture/forward-1.m   -O2  -fnext-runtime (test for excess errors)
+@@ -423,12 +396,12 @@
+ 
+ 		=== objc Summary ===
+ 
+-# of expected passes		5616
+-# of unexpected failures	28
++# of expected passes		5617
++# of unexpected failures	27
+ # of expected failures		6
+ # of unresolved testcases	16
+ # of unsupported tests		79
+-/private/var/root/gcc-git/my_oddly_named_builddir/gcc/xgcc  version 8.0.0 20170905 (experimental) (GCC) 
++/private/var/root/gcc-git/my_oddly_named_builddir/gcc/xgcc  version 8.0.0 20180114 (experimental) (GCC) 
+ 
+ 		=== libatomic tests ===
+ 
+@@ -444,12 +417,14 @@
+ 
+ Running target unix
+ FAIL: libgomp.c++/pr69393.C (test for excess errors)
++FAIL: libgomp.graphite/force-parallel-1.c scan-tree-dump-times graphite "2 loops carried no dependency" 1 (found 0 times)
++FAIL: libgomp.graphite/force-parallel-1.c scan-tree-dump-times optimized "loopfn" 8 (found 12 times)
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		1789
+-# of unexpected failures	1
+-# of unsupported tests		208
++# of expected passes		1826
++# of unexpected failures	3
++# of unsupported tests		200
+ 		=== libitm tests ===
+ 
+ 
+@@ -461,10 +436,10 @@
+ # of expected failures		3
+ # of unsupported tests		2
+ 
+-Compiler version: 8.0.0 20170905 (experimental) (GCC) 
++Compiler version: 8.0.0 20180114 (experimental) (GCC) 
+ Platform: i386-apple-darwin9.8.0
+ configure flags: --disable-werror --disable-werror-always --enable-languages=c,c++,lto,objc,obj-c++ --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --with-isl --disable-host-shared --enable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --enable-libstdcxx-debug CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ AUTOCONF=/usr/local/bin/autoconf AUTOHEADER=/usr/local/bin/autoheader AUTORECONF=/usr/local/bin/autoreconf AUTOM4TE=/usr/local/bin/autom4te AUTOSCAN=/usr/local/bin/autoscan AUTOUPDATE=/usr/local/bin/autoupdate IFNAMES=/usr/local/bin/ifnames
+ BOOT_CFLAGS=-g -O2 \`case i386-apple-darwin9.8.0 in i?86-*-darwin* | powerpc-*-darwin*) /usr/local/bin/gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac\`
+ EOF
+-Mail -s "Results for 8.0.0 20170905 (experimental) (GCC) testsuite on i386-apple-darwin9.8.0" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 8.0.0 20180114 (experimental) (GCC) testsuite on i386-apple-darwin9.8.0" gcc-testresults@gcc.gnu.org &&
+ true
