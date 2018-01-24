@@ -21,14 +21,16 @@ Existing warnings to enable when building GCC itself:
 * -Wundef, per glibc
 * -Wshadow, as suggested on lists
 * -Wnarrowing
-* -Wc++11-compat? Invalid for libgcc though.
+* -Wc++11-compat? Invalid for libgcc though. Request to make valid for C?
 
 Warnings for things from GCC manual:
+* (TODO)
 
 Warnings for things from preprocessor manual:
 * Side effects expanded multiple times; see "Underhanded C"
 
 Warnings for GNU Coding Standards:
+* (TODO)
 
 -Wanti-c++-compat:
 * pedwarn about C++-style comments, split to separate warning

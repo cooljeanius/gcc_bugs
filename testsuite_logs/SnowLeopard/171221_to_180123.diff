@@ -1,0 +1,236 @@
+--- /Users/ericgallager/gcc_bugs/testsuite_logs/SnowLeopard/mail-report_20171221.log	2018-01-16 22:34:22.000000000 -0500
++++ /Users/ericgallager/gcc_bugs/testsuite_logs/SnowLeopard/mail-report_20180123.log	2018-01-23 18:32:07.000000000 -0500
+@@ -26,18 +26,13 @@
+ FAIL: g++.dg/ext/sync-4.C  -std=gnu++11 execution test
+ FAIL: g++.dg/ext/sync-4.C  -std=gnu++14 execution test
+ FAIL: g++.dg/ext/sync-4.C  -std=gnu++98 execution test
+-FAIL: g++.dg/ipa/devirt-22.C  -std=gnu++11  scan-ipa-dump-times cp "Discovered a virtual call to a known target" 1 (found 2 times)
+-FAIL: g++.dg/ipa/devirt-22.C  -std=gnu++14  scan-ipa-dump-times cp "Discovered a virtual call to a known target" 1 (found 2 times)
+-FAIL: g++.dg/ipa/devirt-22.C  -std=gnu++98  scan-ipa-dump-times cp "Discovered a virtual call to a known target" 1 (found 2 times)
+ FAIL: g++.dg/ipa/pr67056.C   scan-ipa-dump cp "Speculative outer type:struct CompositeClass"
+-FAIL: g++.dg/pr62079.C   (internal compiler error)
+-FAIL: g++.dg/pr62079.C   (test for excess errors)
+ FAIL: g++.dg/pr71694.C  -std=gnu++11  scan-assembler-not movl
+ FAIL: g++.dg/pr71694.C  -std=gnu++14  scan-assembler-not movl
+ FAIL: g++.dg/pr71694.C  -std=gnu++98  scan-assembler-not movl
+-FAIL: g++.dg/template/nontype10.C  -std=c++11 (test for excess errors)
+-FAIL: g++.dg/template/nontype10.C  -std=c++14 (test for excess errors)
+-FAIL: g++.dg/template/nontype10.C  -std=c++98 (test for excess errors)
++FAIL: g++.dg/pr80481.C  -std=gnu++11  scan-assembler-not vmovaps
++FAIL: g++.dg/pr80481.C  -std=gnu++14  scan-assembler-not vmovaps
++FAIL: g++.dg/pr80481.C  -std=gnu++98  scan-assembler-not vmovaps
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  line 21: is #####:should be 1
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  line 45: is #####:should be 1
+@@ -47,59 +42,32 @@
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  line 21: is #####:should be 1
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  line 45: is #####:should be 1
+-UNRESOLVED: g++.dg/lto/20101010-4 cp_lto_20101010-4_0.o-cp_lto_20101010-4_0.o execute  -std=c++0x -flto -g -r -nostdlib 
+ FAIL: g++.dg/lto/20101010-4 cp_lto_20101010-4_0.o-cp_lto_20101010-4_0.o link,  -std=c++0x -flto -g -r -nostdlib 
+-UNRESOLVED: g++.dg/lto/20101015-2 cp_lto_20101015-2_0.o-cp_lto_20101015-2_0.o execute  -g -flto 
+ FAIL: g++.dg/lto/20101015-2 cp_lto_20101015-2_0.o-cp_lto_20101015-2_0.o link,  -g -flto 
+-UNRESOLVED: g++.dg/lto/pr42987 cp_lto_pr42987_0.o-cp_lto_pr42987_1.o execute  -flto -flto-partition=none -g 
+-UNRESOLVED: g++.dg/lto/pr42987 cp_lto_pr42987_0.o-cp_lto_pr42987_1.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr42987 cp_lto_pr42987_0.o-cp_lto_pr42987_1.o link,  -flto -flto-partition=none -g 
+ FAIL: g++.dg/lto/pr42987 cp_lto_pr42987_0.o-cp_lto_pr42987_1.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr48207 cp_lto_pr48207_0.o-cp_lto_pr48207_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr48207 cp_lto_pr48207_0.o-cp_lto_pr48207_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr48207-2 cp_lto_pr48207-2_0.o-cp_lto_pr48207-2_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr48207-2 cp_lto_pr48207-2_0.o-cp_lto_pr48207-2_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr48207-3 cp_lto_pr48207-3_0.o-cp_lto_pr48207-3_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr48207-3 cp_lto_pr48207-3_0.o-cp_lto_pr48207-3_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr48354-1 cp_lto_pr48354-1_0.o-cp_lto_pr48354-1_0.o execute  -g -flto 
+ FAIL: g++.dg/lto/pr48354-1 cp_lto_pr48354-1_0.o-cp_lto_pr48354-1_0.o link,  -g -flto 
+-UNRESOLVED: g++.dg/lto/pr48508-1 cp_lto_pr48508-1_0.o-cp_lto_pr48508-1_1.o execute  -g -O2 -flto -flto-partition=none 
+ FAIL: g++.dg/lto/pr48508-1 cp_lto_pr48508-1_0.o-cp_lto_pr48508-1_1.o link,  -g -O2 -flto -flto-partition=none 
+-UNRESOLVED: g++.dg/lto/pr51564-1 cp_lto_pr51564-1_0.o-cp_lto_pr51564-1_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr51564-1 cp_lto_pr51564-1_0.o-cp_lto_pr51564-1_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr51567-1 cp_lto_pr51567-1_0.o-cp_lto_pr51567-1_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr51567-1 cp_lto_pr51567-1_0.o-cp_lto_pr51567-1_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr51572-2 cp_lto_pr51572-2_0.o-cp_lto_pr51572-2_0.o execute  -g -flto 
+ FAIL: g++.dg/lto/pr51572-2 cp_lto_pr51572-2_0.o-cp_lto_pr51572-2_0.o link,  -g -flto 
+-UNRESOLVED: g++.dg/lto/pr51573-1 cp_lto_pr51573-1_0.o-cp_lto_pr51573-1_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr51573-1 cp_lto_pr51573-1_0.o-cp_lto_pr51573-1_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr51650-1 cp_lto_pr51650-1_0.o-cp_lto_pr51650-1_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr51650-1 cp_lto_pr51650-1_0.o-cp_lto_pr51650-1_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr51650-2 cp_lto_pr51650-2_0.o-cp_lto_pr51650-2_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr51650-2 cp_lto_pr51650-2_0.o-cp_lto_pr51650-2_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr51650-3 cp_lto_pr51650-3_0.o-cp_lto_pr51650-3_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr51650-3 cp_lto_pr51650-3_0.o-cp_lto_pr51650-3_0.o link,  -flto -g 
+-UNRESOLVED: g++.dg/lto/pr52605 cp_lto_pr52605_0.o-cp_lto_pr52605_0.o execute -flto -g
+ FAIL: g++.dg/lto/pr52605 cp_lto_pr52605_0.o-cp_lto_pr52605_0.o link, -flto -g
+-UNRESOLVED: g++.dg/lto/pr53470 cp_lto_pr53470_0.o-cp_lto_pr53470_0.o execute  -g -flto 
+ FAIL: g++.dg/lto/pr53470 cp_lto_pr53470_0.o-cp_lto_pr53470_0.o link,  -g -flto 
+-UNRESOLVED: g++.dg/lto/pr65193 cp_lto_pr65193_0.o-cp_lto_pr65193_0.o execute -fPIC -r -nostdlib -flto -O2 -g -Wno-return-type
+ FAIL: g++.dg/lto/pr65193 cp_lto_pr65193_0.o-cp_lto_pr65193_0.o link, -fPIC -r -nostdlib -flto -O2 -g -Wno-return-type
+-UNRESOLVED: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o execute -flto -O0 -std=c++11
+ FAIL: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o link, -flto -O0 -std=c++11
+-UNRESOLVED: g++.dg/lto/pr65316 cp_lto_pr65316_0.o-cp_lto_pr65316_1.o execute  -flto -std=c++11 -g2 -fno-lto-odr-type-merging -O2 -Wno-return-type 
+ FAIL: g++.dg/lto/pr65316 cp_lto_pr65316_0.o-cp_lto_pr65316_1.o link,  -flto -std=c++11 -g2 -fno-lto-odr-type-merging -O2 -Wno-return-type 
+-UNRESOLVED: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o execute  -std=gnu++14 -flto -g -O2 -fno-inline -flto-partition=max -Wno-return-type 
+-UNRESOLVED: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o execute  -std=gnu++14 -flto -g -Wno-return-type 
+ FAIL: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o link,  -std=gnu++14 -flto -g -O2 -fno-inline -flto-partition=max -Wno-return-type 
+ FAIL: g++.dg/lto/pr65549 cp_lto_pr65549_0.o-cp_lto_pr65549_0.o link,  -std=gnu++14 -flto -g -Wno-return-type 
+-UNRESOLVED: g++.dg/lto/pr69077 cp_lto_pr69077_0.o-cp_lto_pr69077_1.o execute  -O3 -g -flto 
+ FAIL: g++.dg/lto/pr69077 cp_lto_pr69077_0.o-cp_lto_pr69077_1.o link,  -O3 -g -flto 
+-UNRESOLVED: g++.dg/lto/pr69137 cp_lto_pr69137_0.o-cp_lto_pr69137_0.o execute  -std=c++11 -g -flto 
+ FAIL: g++.dg/lto/pr69137 cp_lto_pr69137_0.o-cp_lto_pr69137_0.o link,  -std=c++11 -g -flto 
+-UNRESOLVED: g++.dg/lto/pr79000 cp_lto_pr79000_0.o-cp_lto_pr79000_1.o execute -flto -g
+ FAIL: g++.dg/lto/pr79000 cp_lto_pr79000_0.o-cp_lto_pr79000_1.o link, -flto -g
+-UNRESOLVED: g++.dg/lto/pr82414 cp_lto_pr82414_0.o-cp_lto_pr82414_0.o execute  -flto -g 
+ FAIL: g++.dg/lto/pr82414 cp_lto_pr82414_0.o-cp_lto_pr82414_0.o link,  -flto -g 
+ FAIL: g++.dg/tls/pr77285-2.C  -std=c++11  scan-assembler _ZTH4var1B3tag
+ FAIL: g++.dg/tls/pr77285-2.C  -std=c++14  scan-assembler _ZTH4var1B3tag
+@@ -115,12 +83,12 @@
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		110189
+-# of unexpected failures	74
+-# of expected failures		482
+-# of unresolved testcases	33
+-# of unsupported tests		4393
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.0 20171220 (experimental) (GCC) 
++# of expected passes		110650
++# of unexpected failures	69
++# of expected failures		488
++# of unresolved testcases	6
++# of unsupported tests		4424
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.1 20180123 (experimental) (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+@@ -200,26 +168,17 @@
+ FAIL: gcc.dg/uninit-19.c  (test for warnings, line 24)
+ FAIL: gcc.dg/uninit-19.c (test for excess errors)
+ FAIL: gcc.dg/ipa/iinline-attr.c scan-ipa-dump inline "hooray[^\\\\n]*inline copy in test"
+-FAIL: gcc.dg/ipa/inline-1.c scan-ipa-dump inline "op2 change 9.990000. of time"
+-FAIL: gcc.dg/ipa/inline-1.c scan-ipa-dump inline "op3 change 9.990000. of time"
+-FAIL: gcc.dg/ipa/inline-1.c scan-ipa-dump inline "op4 change 9.990000. of time"
+-FAIL: gcc.dg/ipa/inline-1.c scan-ipa-dump inline "op5 change 9.990000. of time"
+-UNRESOLVED: gcc.dg/lto/20100426 c_lto_20100426_0.o-c_lto_20100426_0.o execute -r -nostdlib -flto -g
++FAIL: gcc.dg/ipa/inline-2.c scan-ipa-dump inline "op2 change 10.000000. of time"
++FAIL: gcc.dg/ipa/inline-3.c scan-ipa-dump inline "Scaling time by probability:0.100000"
+ FAIL: gcc.dg/lto/20100426 c_lto_20100426_0.o-c_lto_20100426_0.o link, -r -nostdlib -flto -g
+-UNRESOLVED: gcc.dg/lto/20111207-2 c_lto_20111207-2_0.o-c_lto_20111207-2_0.o execute  -g -O -flto 
+ FAIL: gcc.dg/lto/20111207-2 c_lto_20111207-2_0.o-c_lto_20111207-2_0.o link,  -g -O -flto 
+-UNRESOLVED: gcc.dg/lto/20111213-1 c_lto_20111213-1_0.o-c_lto_20111213-1_0.o execute  -flto -g 
+ FAIL: gcc.dg/lto/20111213-1 c_lto_20111213-1_0.o-c_lto_20111213-1_0.o link,  -flto -g 
+-UNRESOLVED: gcc.dg/lto/pr51572-1 c_lto_pr51572-1_0.o-c_lto_pr51572-1_0.o execute  -flto -g 
+ FAIL: gcc.dg/lto/pr51572-1 c_lto_pr51572-1_0.o-c_lto_pr51572-1_0.o link,  -flto -g 
+-UNRESOLVED: gcc.dg/lto/pr53470 c_lto_pr53470_0.o-c_lto_pr53470_0.o execute  -flto -g 
+ FAIL: gcc.dg/lto/pr53470 c_lto_pr53470_0.o-c_lto_pr53470_0.o link,  -flto -g 
+-UNRESOLVED: gcc.dg/lto/pr59323 c_lto_pr59323_0.o-c_lto_pr59323_0.o execute  -O2 -g -flto 
+ FAIL: gcc.dg/lto/pr59323 c_lto_pr59323_0.o-c_lto_pr59323_0.o link,  -O2 -g -flto 
+-UNRESOLVED: gcc.dg/lto/pr59323-2 c_lto_pr59323-2_0.o-c_lto_pr59323-2_0.o execute  -O2 -g -flto 
+ FAIL: gcc.dg/lto/pr59323-2 c_lto_pr59323-2_0.o-c_lto_pr59323-2_0.o link,  -O2 -g -flto 
+-UNRESOLVED: gcc.dg/lto/pr81406 c_lto_pr81406_0.o-c_lto_pr81406_0.o execute  -O2 -g -flto 
+ FAIL: gcc.dg/lto/pr81406 c_lto_pr81406_0.o-c_lto_pr81406_0.o link,  -O2 -g -flto 
++FAIL: gcc.dg/lto/pr83719 c_lto_pr83719_0.o assemble,  -flto -g -gsplit-dwarf  (internal compiler error)
+ FAIL: gcc.dg/simulate-thread/strict-align-global.c   -O2 -g  thread simulation test
+ FAIL: gcc.dg/simulate-thread/strict-align-global.c   -O3 -g  thread simulation test
+ FAIL: gcc.dg/simulate-thread/subfields.c   -O3 -g  thread simulation test
+@@ -270,7 +229,6 @@
+ FAIL: gcc.misc-tests/gcov-14.c gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: gcc.misc-tests/gcov-14.c line 20: is #####:should be 1
+ FAIL: gcc.misc-tests/gcov-14.c line 25: is #####:should be 1
+-FAIL: gcc.misc-tests/linkage.c link
+ FAIL: gcc.target/i386/align-limit.c scan-assembler .p2align 6,,1
+ FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
+ FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
+@@ -319,7 +277,6 @@
+ FAIL: gcc.target/i386/pr39013-1.c scan-assembler foo@PLT
+ FAIL: gcc.target/i386/pr39013-2.c scan-assembler bar@PLT
+ FAIL: gcc.target/i386/pr39013-2.c scan-assembler foo@PLT
+-FAIL: gcc.target/i386/pr50038.c scan-assembler-times movzbl 2 (found 3 times)
+ FAIL: gcc.target/i386/pr59874-3.c scan-assembler popcntw
+ FAIL: gcc.target/i386/pr64317.c scan-assembler addl[ \\\\t]+[\$]_GLOBAL_OFFSET_TABLE_, %ebx
+ FAIL: gcc.target/i386/pr64317.c scan-assembler movl[ \\\\t]+c@GOTOFF[(]%ebx[)]
+@@ -334,7 +291,6 @@
+ FAIL: gcc.target/i386/pr77881.c scan-assembler js[ \\t].L
+ FAIL: gcc.target/i386/pr78035.c scan-assembler-times cmp 2 (found 3 times)
+ FAIL: gcc.target/i386/pr81736-5.c scan-assembler-not %[re]bp
+-FAIL: gcc.target/i386/pr82618.c scan-assembler \\\\mcmp
+ FAIL: gcc.target/i386/pr82659-3.c (test for excess errors)
+ UNRESOLVED: gcc.target/i386/pr82659-3.c scan-assembler-times \\\\mendbr 2
+ FAIL: gcc.target/i386/sibcall-4.c scan-assembler-not jmp[ \\t]*.%eax
+@@ -342,13 +298,13 @@
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		114353
+-# of unexpected failures	182
++# of expected passes		115282
++# of unexpected failures	178
+ # of unexpected successes	9
+-# of expected failures		382
+-# of unresolved testcases	22
+-# of unsupported tests		4233
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.0 20171220 (experimental) (GCC) 
++# of expected failures		388
++# of unresolved testcases	14
++# of unsupported tests		4271
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.1 20180123 (experimental) (GCC) 
+ 
+ 		=== obj-c++ tests ===
+ 
+@@ -366,7 +322,7 @@
+ # of unexpected failures	5
+ # of expected failures		2
+ # of unsupported tests		62
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.0 20171220 (experimental) (GCC) 
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.1 20180123 (experimental) (GCC) 
+ 
+ 		=== objc tests ===
+ 
+@@ -433,7 +389,7 @@
+ # of expected failures		6
+ # of unresolved testcases	26
+ # of unsupported tests		79
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.0 20171220 (experimental) (GCC) 
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.1 20180123 (experimental) (GCC) 
+ 
+ 		=== libatomic tests ===
+ 
+@@ -452,7 +408,7 @@
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		1778
++# of expected passes		1786
+ # of unexpected failures	1
+ # of unsupported tests		200
+ 		=== libitm tests ===
+@@ -472,7 +428,10 @@
+ FAIL: 17_intro/headers/c++1998/all_attributes.cc (test for excess errors)
+ FAIL: 17_intro/headers/c++2011/all_attributes.cc (test for excess errors)
+ FAIL: 17_intro/headers/c++2014/all_attributes.cc (test for excess errors)
++FAIL: 21_strings/char_traits/requirements/short/1.cc (test for excess errors)
++FAIL: 26_numerics/random/chi_squared_distribution/83833.cc execution test
+ FAIL: 27_io/basic_filebuf/open/char/2.cc execution test
++FAIL: 27_io/basic_ifstream/rdbuf/char/2832.cc (test for excess errors)
+ FAIL: 28_regex/traits/wchar_t/isctype.cc execution test
+ FAIL: 30_threads/condition_variable/54185.cc execution test
+ FAIL: 30_threads/thread/native_handle/typesizes.cc execution test
+@@ -483,15 +442,15 @@
+ 
+ 		=== libstdc++ Summary ===
+ 
+-# of expected passes		11164
+-# of unexpected failures	10
+-# of expected failures		70
++# of expected passes		11181
++# of unexpected failures	13
++# of expected failures		71
+ # of unsupported tests		680
+ 
+-Compiler version: 8.0.0 20171220 (experimental) (GCC) 
++Compiler version: 8.0.1 20180123 (experimental) (GCC) 
+ Platform: i386-apple-darwin10.8.0
+ configure flags: --disable-werror --disable-werror-always --enable-languages=c,c++,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --without-isl --disable-host-shared --enable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --enable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ AR_FOR_TARGET=/opt/local/bin/ar AS_FOR_TARGET=/opt/local/bin/as LD_FOR_TARGET=/opt/local/bin/ld NM_FOR_TARGET=/opt/local/bin/nm RANLIB_FOR_TARGET=/opt/local/bin/ranlib STRIP_FOR_TARGET=/opt/local/bin/strip OTOOL=/opt/local/bin/otool OTOOL64=/opt/local/bin/otool AUTOCONF=/opt/local/bin/autoconf264 AUTOHEADER=/opt/local/bin/autoheader264 AUTOM4TE=/opt/local/bin/autom4te264 AUTORECONF=/opt/local/bin/autoreconf264 AUTOSCAN=/opt/local/bin/autoscan264 AUTOUPDATE=/opt/local/bin/autoupdate264 IFNAMES=/opt/local/bin/ifnames264 ACLOCAL=/sw/bin/aclocal-1.11 PERL=/opt/local/bin/perl M4=/opt/local/bin/gm4
+ BOOT_CFLAGS=-g -O2 \`case i386-apple-darwin10.8.0 in i?86-*-darwin* | powerpc-*-darwin*) /usr/local/bin/gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac\`
+ EOF
+-Mail -s "Results for 8.0.0 20171220 (experimental) (GCC) testsuite on i386-apple-darwin10.8.0" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 8.0.1 20180123 (experimental) (GCC) testsuite on i386-apple-darwin10.8.0" gcc-testresults@gcc.gnu.org &&
+ true
