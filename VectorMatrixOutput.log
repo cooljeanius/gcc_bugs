@@ -1,0 +1,48 @@
+In file included from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr.h:114,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/c++io.h:38,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/iosfwd:46,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/ios:43,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/ostream:44,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/iostream:44,
+                 from VectorMatrix.cpp:4:
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:88:31: error: weakref 'int __gthrw_pthread_once(pthread_once_t*, void (*)())' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:89:38: error: weakref 'void* __gthrw_pthread_getspecific(pthread_key_t)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:90:38: error: weakref 'int __gthrw_pthread_setspecific(pthread_key_t, const void*)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:91:33: error: weakref 'int __gthrw_pthread_create(pthread_t*, const pthread_attr_t*, void* (*)(void*), void*)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:92:33: error: weakref 'int __gthrw_pthread_cancel(pthread_t)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:93:37: error: weakref 'int __gthrw_pthread_mutex_lock(pthread_mutex_t*)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:94:40: error: weakref 'int __gthrw_pthread_mutex_trylock(pthread_mutex_t*)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:95:39: error: weakref 'int __gthrw_pthread_mutex_unlock(pthread_mutex_t*)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:96:37: error: weakref 'int __gthrw_pthread_mutex_init(pthread_mutex_t*, const pthread_mutexattr_t*)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:99:37: error: weakref 'int __gthrw_pthread_key_create(pthread_key_t*, void (*)(void*))' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:100:37: error: weakref 'int __gthrw_pthread_key_delete(pthread_key_t)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:101:41: error: weakref 'int __gthrw_pthread_mutexattr_init(pthread_mutexattr_t*)' must have static linkage
+In file included from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr.h:114,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/c++io.h:38,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/iosfwd:46,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/ios:43,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/ostream:44,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/iostream:44,
+                 from VectorMatrix.cpp:4:
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:102:44: error: weakref 'int __gthrw_pthread_mutexattr_settype(pthread_mutexattr_t*, int)' must have static linkage
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/i386-pc-solaris2.10/bits/gthr-default.h:103:44: error: weakref 'int __gthrw_pthread_mutexattr_destroy(pthread_mutexattr_t*)' must have static linkage
+In file included from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/bits/stl_algobase.h:71,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/bits/char_traits.h:46,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/ios:45,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/ostream:44,
+                 from /opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/iostream:44,
+                 from VectorMatrix.cpp:4:
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/bits/cpp_type_traits.h:358:12: error: expected identifier before '__is_pod'
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/bits/cpp_type_traits.h:358:12: error: expected unqualified-id before '__is_pod'
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/bits/cpp_type_traits.h:371:12: error: expected identifier before '__is_empty'
+/opt/gcc/cross-4.1.1-x86-solaris2.10/lib/gcc/i386-pc-solaris2.10/4.1.1/../../../../include/c++/4.1.1/bits/cpp_type_traits.h:371:12: error: expected unqualified-id before '__is_empty'
+VectorMatrix.cpp: In constructor 'VMatrix::VMatrix(const VMatrix&, const Vector&, int)':
+VectorMatrix.cpp:831:22: warning: catching polymorphic type 'class Exception' by value [-Wcatch-value=]
+VectorMatrix.cpp: In member function 'VMatrix VMatrix::invert() const':
+VectorMatrix.cpp:1221:22: warning: catching polymorphic type 'class Exception' by value [-Wcatch-value=]
+VectorMatrix.cpp: In member function 'int VMatrix::isValidCorrelationMatrix(std::string&) const':
+VectorMatrix.cpp:1597:22: warning: catching polymorphic type 'class Exception' by value [-Wcatch-value=]
+VectorMatrix.cpp: In function 'float** to_nrc(const VMatrix&, int)':
+VectorMatrix.cpp:2625:16: warning: conversion from 'double' to 'float' may change value [-Wfloat-conversion]
+VectorMatrix.cpp: In function 'float* to_nrc(const Vector&)':
+VectorMatrix.cpp:2635:12: warning: conversion from 'double' to 'float' may change value [-Wfloat-conversion]
