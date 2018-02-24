@@ -1,0 +1,277 @@
+--- testsuite_logs/SnowLeopard/mail-report_20180123.log	2018-01-23 18:32:07.000000000 -0500
++++ testsuite_logs/SnowLeopard/mail-report_20180223.log	2018-02-24 09:04:52.000000000 -0500
+@@ -23,6 +23,11 @@
+ FAIL: g++.dg/cet-notrack-1.C  -std=gnu++11  scan-assembler-times \\tcall[ \\t]+puts 2 (found 0 times)
+ FAIL: g++.dg/cet-notrack-1.C  -std=gnu++14  scan-assembler-times \\tcall[ \\t]+puts 2 (found 0 times)
+ FAIL: g++.dg/cet-notrack-1.C  -std=gnu++98  scan-assembler-times \\tcall[ \\t]+puts 2 (found 0 times)
++FAIL: g++.dg/cpp1z/typename-tmpl-tmpl-parm-neg.C  -std=gnu++14  (test for errors, line 4)
++FAIL: g++.dg/cpp1z/typename-tmpl-tmpl-parm-neg.C  -std=gnu++14  (test for errors, line 7)
++FAIL: g++.dg/cpp1z/typename-tmpl-tmpl-parm-neg.C  -std=gnu++14 (test for excess errors)
++FAIL: g++.dg/cpp1z/typename-tmpl-tmpl-parm-neg.C  -std=gnu++14 expected (test for errors, line 4)
++FAIL: g++.dg/cpp1z/typename-tmpl-tmpl-parm-neg.C  -std=gnu++14 expected (test for errors, line 4)
+ FAIL: g++.dg/ext/sync-4.C  -std=gnu++11 execution test
+ FAIL: g++.dg/ext/sync-4.C  -std=gnu++14 execution test
+ FAIL: g++.dg/ext/sync-4.C  -std=gnu++98 execution test
+@@ -33,6 +38,10 @@
+ FAIL: g++.dg/pr80481.C  -std=gnu++11  scan-assembler-not vmovaps
+ FAIL: g++.dg/pr80481.C  -std=gnu++14  scan-assembler-not vmovaps
+ FAIL: g++.dg/pr80481.C  -std=gnu++98  scan-assembler-not vmovaps
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  line 21: is #####:should be 1
+ FAIL: g++.dg/gcov/pr16855.C  -std=gnu++11  line 45: is #####:should be 1
+@@ -71,9 +80,6 @@
+ FAIL: g++.dg/lto/pr82414 cp_lto_pr82414_0.o-cp_lto_pr82414_0.o link,  -flto -g 
+ FAIL: g++.dg/tls/pr77285-2.C  -std=c++11  scan-assembler _ZTH4var1B3tag
+ FAIL: g++.dg/tls/pr77285-2.C  -std=c++14  scan-assembler _ZTH4var1B3tag
+-FAIL: g++.dg/vect/slp-pr56812.cc  -std=c++11  scan-tree-dump-times slp1 "basic block vectorized" 1 (found 0 times)
+-FAIL: g++.dg/vect/slp-pr56812.cc  -std=c++14  scan-tree-dump-times slp1 "basic block vectorized" 1 (found 0 times)
+-FAIL: g++.dg/vect/slp-pr56812.cc  -std=c++98  scan-tree-dump-times slp1 "basic block vectorized" 1 (found 0 times)
+ FAIL: g++.old-deja/g++.pt/vaarg3.C  -std=gnu++11  (test for warnings, line 18)
+ FAIL: g++.old-deja/g++.pt/vaarg3.C  -std=gnu++11 inst (test for warnings, line 25)
+ FAIL: g++.old-deja/g++.pt/vaarg3.C  -std=gnu++14  (test for warnings, line 18)
+@@ -83,12 +89,12 @@
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		110650
+-# of unexpected failures	69
+-# of expected failures		488
++# of expected passes		111129
++# of unexpected failures	71
++# of expected failures		485
+ # of unresolved testcases	6
+-# of unsupported tests		4424
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.1 20180123 (experimental) (GCC) 
++# of unsupported tests		4507
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.1 20180223 (experimental) (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+@@ -117,7 +123,6 @@
+ FAIL: gcc.dg/debug/dwarf2/pr82718-1.c (test for excess errors)
+ FAIL: gcc.dg/debug/dwarf2/pr82718-2.c (internal compiler error)
+ FAIL: gcc.dg/debug/dwarf2/pr82718-2.c (test for excess errors)
+-FAIL: gcc.dg/debug/dwarf2/prod-options.c scan-assembler DW_AT_producer: "GNU C
+ FAIL: c-c++-common/Warray-bounds-2.c  -Wc++-compat   (test for warnings, line 113)
+ FAIL: c-c++-common/Warray-bounds-2.c  -Wc++-compat   (test for warnings, line 126)
+ FAIL: c-c++-common/Warray-bounds-2.c  -Wc++-compat   (test for warnings, line 142)
+@@ -145,6 +150,8 @@
+ FAIL: c-c++-common/Wrestrict-2.c  -Wc++-compat  strcpy (test for warnings, line 39)
+ FAIL: c-c++-common/Wrestrict-2.c  -Wc++-compat  strncat (test for warnings, line 51)
+ FAIL: c-c++-common/Wrestrict-2.c  -Wc++-compat  strncpy (test for warnings, line 63)
++FAIL: gcc.dg/Wnonnull.c  (test for warnings, line 21)
++FAIL: gcc.dg/Wnonnull.c  (test for warnings, line 24)
+ FAIL: gcc.dg/attr-weakref-1.c execution test
+ FAIL: gcc.dg/darwin-weakimport-3.c scan-assembler-not coalesced
+ FAIL: gcc.dg/memcmp-1.c (test for excess errors)
+@@ -167,9 +174,9 @@
+ UNRESOLVED: gcc.dg/stack-layout-dynamic-1.c scan-assembler-not cfi_def_cfa_register
+ FAIL: gcc.dg/uninit-19.c  (test for warnings, line 24)
+ FAIL: gcc.dg/uninit-19.c (test for excess errors)
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: gcc.dg/ipa/iinline-attr.c scan-ipa-dump inline "hooray[^\\\\n]*inline copy in test"
+-FAIL: gcc.dg/ipa/inline-2.c scan-ipa-dump inline "op2 change 10.000000. of time"
+-FAIL: gcc.dg/ipa/inline-3.c scan-ipa-dump inline "Scaling time by probability:0.100000"
+ FAIL: gcc.dg/lto/20100426 c_lto_20100426_0.o-c_lto_20100426_0.o link, -r -nostdlib -flto -g
+ FAIL: gcc.dg/lto/20111207-2 c_lto_20111207-2_0.o-c_lto_20111207-2_0.o link,  -g -O -flto 
+ FAIL: gcc.dg/lto/20111213-1 c_lto_20111213-1_0.o-c_lto_20111213-1_0.o link,  -flto -g 
+@@ -183,6 +190,19 @@
+ FAIL: gcc.dg/simulate-thread/strict-align-global.c   -O3 -g  thread simulation test
+ FAIL: gcc.dg/simulate-thread/subfields.c   -O3 -g  thread simulation test
+ FAIL: gcc.dg/torture/builtin-self.c   -O0   scan-assembler-not \\tcall
++FAIL: gcc.dg/torture/ftrapv-1.c   -O0  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -O1  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -O2  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -O2 -flto  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -O2 -flto -flto-partition=none  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -O3 -g  execution test
++FAIL: gcc.dg/torture/ftrapv-1.c   -Os  execution test
++FAIL: gcc.dg/torture/ftrapv-2.c   -O1  execution test
++FAIL: gcc.dg/torture/ftrapv-2.c   -O2  execution test
++FAIL: gcc.dg/torture/ftrapv-2.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
++FAIL: gcc.dg/torture/ftrapv-2.c   -O3 -g  execution test
++FAIL: gcc.dg/torture/ftrapv-2.c   -Os  execution test
+ FAIL: gcc.dg/torture/pr25967-1.c   -O0  execution test
+ FAIL: gcc.dg/torture/pr25967-1.c   -O1  execution test
+ FAIL: gcc.dg/torture/pr25967-1.c   -O2  execution test
+@@ -211,6 +231,45 @@
+ FAIL: gcc.dg/torture/pr68264.c   -O2 -flto -flto-partition=none  execution test
+ FAIL: gcc.dg/torture/pr68264.c   -O3 -g  execution test
+ FAIL: gcc.dg/torture/pr68264.c   -Os  execution test
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: gcc.dg/tree-prof/section-attr-1.c compilation,  -fprofile-generate -D_PROFILE_GENERATE
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-1.c compilation,  -fprofile-use -D_PROFILE_USE
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-1.c execution,    -fprofile-generate -D_PROFILE_GENERATE
+@@ -225,10 +284,17 @@
+ UNRESOLVED: gcc.dg/tree-prof/section-attr-3.c execution,    -fprofile-use -D_PROFILE_USE
+ XPASS: gcc.dg/vect/vect-95.c -flto -ffat-lto-objects  scan-tree-dump-times vect "Alignment of access forced using peeling" 0
+ XPASS: gcc.dg/vect/vect-95.c scan-tree-dump-times vect "Alignment of access forced using peeling" 0
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: gcc.misc-tests/gcov-14.c execution test
+ FAIL: gcc.misc-tests/gcov-14.c gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+ FAIL: gcc.misc-tests/gcov-14.c line 20: is #####:should be 1
+ FAIL: gcc.misc-tests/gcov-14.c line 25: is #####:should be 1
++WARNING: program timed out.
+ FAIL: gcc.target/i386/align-limit.c scan-assembler .p2align 6,,1
+ FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
+ FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1 (found 0 times)
+@@ -293,23 +359,26 @@
+ FAIL: gcc.target/i386/pr81736-5.c scan-assembler-not %[re]bp
+ FAIL: gcc.target/i386/pr82659-3.c (test for excess errors)
+ UNRESOLVED: gcc.target/i386/pr82659-3.c scan-assembler-times \\\\mendbr 2
++FAIL: gcc.target/i386/pr84278.c scan-assembler-not \\\\(%.sp\\\\)
+ FAIL: gcc.target/i386/sibcall-4.c scan-assembler-not jmp[ \\t]*.%eax
+ FAIL: gcc.target/i386/stack-prot-sym.c scan-assembler gs:my_guard
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		115282
+-# of unexpected failures	178
++# of expected passes		115671
++# of unexpected failures	191
+ # of unexpected successes	9
+-# of expected failures		388
++# of expected failures		390
+ # of unresolved testcases	14
+-# of unsupported tests		4271
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.1 20180123 (experimental) (GCC) 
++# of unsupported tests		4292
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.1 20180223 (experimental) (GCC) 
+ 
+ 		=== obj-c++ tests ===
+ 
+ 
+ Running target unix
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: obj-c++.dg/stubify-1.mm -fnext-runtime (test for excess errors)
+ FAIL: obj-c++.dg/stubify-2.mm -fnext-runtime (test for excess errors)
+ FAIL: obj-c++.dg/stubify-2.mm -fnext-runtime  scan-rtl-dump-not jump "symbol_ref.*"objc_msgSend""
+@@ -322,13 +391,20 @@
+ # of unexpected failures	5
+ # of expected failures		2
+ # of unsupported tests		62
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.1 20180123 (experimental) (GCC) 
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 8.0.1 20180223 (experimental) (GCC) 
+ 
+ 		=== objc tests ===
+ 
+ 
+ Running target unix
+ FAIL: objc.dg/ivar-scope-4.m -fnext-runtime execution test
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
+ FAIL: objc.dg/torture/forward-1.m   -O2  -fgnu-runtime (test for excess errors)
+ UNRESOLVED: objc.dg/torture/forward-1.m   -O2  -fgnu-runtime compilation failed to produce executable
+ FAIL: objc.dg/torture/forward-1.m   -O2  -fnext-runtime (test for excess errors)
+@@ -389,7 +465,7 @@
+ # of expected failures		6
+ # of unresolved testcases	26
+ # of unsupported tests		79
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.1 20180123 (experimental) (GCC) 
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 8.0.1 20180223 (experimental) (GCC) 
+ 
+ 		=== libatomic tests ===
+ 
+@@ -405,10 +481,14 @@
+ 
+ Running target unix
+ FAIL: libgomp.c++/pr69393.C (test for excess errors)
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
++WARNING: program timed out.
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		1786
++# of expected passes		1794
+ # of unexpected failures	1
+ # of unsupported tests		200
+ 		=== libitm tests ===
+@@ -428,10 +508,7 @@
+ FAIL: 17_intro/headers/c++1998/all_attributes.cc (test for excess errors)
+ FAIL: 17_intro/headers/c++2011/all_attributes.cc (test for excess errors)
+ FAIL: 17_intro/headers/c++2014/all_attributes.cc (test for excess errors)
+-FAIL: 21_strings/char_traits/requirements/short/1.cc (test for excess errors)
+-FAIL: 26_numerics/random/chi_squared_distribution/83833.cc execution test
+ FAIL: 27_io/basic_filebuf/open/char/2.cc execution test
+-FAIL: 27_io/basic_ifstream/rdbuf/char/2832.cc (test for excess errors)
+ FAIL: 28_regex/traits/wchar_t/isctype.cc execution test
+ FAIL: 30_threads/condition_variable/54185.cc execution test
+ FAIL: 30_threads/thread/native_handle/typesizes.cc execution test
+@@ -442,15 +519,15 @@
+ 
+ 		=== libstdc++ Summary ===
+ 
+-# of expected passes		11181
+-# of unexpected failures	13
++# of expected passes		11187
++# of unexpected failures	10
+ # of expected failures		71
+ # of unsupported tests		680
+ 
+-Compiler version: 8.0.1 20180123 (experimental) (GCC) 
++Compiler version: 8.0.1 20180223 (experimental) (GCC) 
+ Platform: i386-apple-darwin10.8.0
+-configure flags: --disable-werror --disable-werror-always --enable-languages=c,c++,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --without-isl --disable-host-shared --enable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --enable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ AR_FOR_TARGET=/opt/local/bin/ar AS_FOR_TARGET=/opt/local/bin/as LD_FOR_TARGET=/opt/local/bin/ld NM_FOR_TARGET=/opt/local/bin/nm RANLIB_FOR_TARGET=/opt/local/bin/ranlib STRIP_FOR_TARGET=/opt/local/bin/strip OTOOL=/opt/local/bin/otool OTOOL64=/opt/local/bin/otool AUTOCONF=/opt/local/bin/autoconf264 AUTOHEADER=/opt/local/bin/autoheader264 AUTOM4TE=/opt/local/bin/autom4te264 AUTORECONF=/opt/local/bin/autoreconf264 AUTOSCAN=/opt/local/bin/autoscan264 AUTOUPDATE=/opt/local/bin/autoupdate264 IFNAMES=/opt/local/bin/ifnames264 ACLOCAL=/sw/bin/aclocal-1.11 PERL=/opt/local/bin/perl M4=/opt/local/bin/gm4
++configure flags: --disable-werror --disable-werror-always --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --without-isl --disable-host-shared --enable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --enable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ AR_FOR_TARGET=/opt/local/bin/ar AS_FOR_TARGET=/opt/local/bin/as LD_FOR_TARGET=/opt/local/bin/ld NM_FOR_TARGET=/opt/local/bin/nm RANLIB_FOR_TARGET=/opt/local/bin/ranlib STRIP_FOR_TARGET=/opt/local/bin/strip OTOOL=/opt/local/bin/otool OTOOL64=/opt/local/bin/otool AUTOCONF=/opt/local/bin/autoconf264 AUTOHEADER=/opt/local/bin/autoheader264 AUTOM4TE=/opt/local/bin/autom4te264 AUTORECONF=/opt/local/bin/autoreconf264 AUTOSCAN=/opt/local/bin/autoscan264 AUTOUPDATE=/opt/local/bin/autoupdate264 IFNAMES=/opt/local/bin/ifnames264 ACLOCAL=/sw/bin/aclocal-1.11 PERL=/opt/local/bin/perl M4=/opt/local/bin/gm4 --enable-languages=c,c++,lto,objc,obj-c++ --no-create --no-recursion
+ BOOT_CFLAGS=-g -O2 \`case i386-apple-darwin10.8.0 in i?86-*-darwin* | powerpc-*-darwin*) /usr/local/bin/gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac\`
+ EOF
+-Mail -s "Results for 8.0.1 20180123 (experimental) (GCC) testsuite on i386-apple-darwin10.8.0" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 8.0.1 20180223 (experimental) (GCC) testsuite on i386-apple-darwin10.8.0" gcc-testresults@gcc.gnu.org &&
+ true
