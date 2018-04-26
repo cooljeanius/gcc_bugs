@@ -5,3 +5,5 @@
 a.out
 *.dSYM
 *.gch
+build/*
+out.txt
