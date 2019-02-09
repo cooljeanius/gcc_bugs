@@ -1,0 +1,57 @@
+diff -r cee2581b4757 gcc/config/bfin/bfin.c
+--- a/gcc/config/bfin/bfin.c	Wed Sep 24 12:01:14 2008 +0800
++++ b/gcc/config/bfin/bfin.c	Wed Nov 12 23:18:18 2008 +0800
+@@ -3067,7 +3067,7 @@ static int first_preg_to_save, first_dre
+ static int first_preg_to_save, first_dreg_to_save;
+ 
+ int
+-push_multiple_operation (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
++_push_multiple_operation (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
+ {
+   int lastdreg = 8, lastpreg = 6;
+   int i, group;
+@@ -3137,7 +3137,7 @@ push_multiple_operation (rtx op, enum ma
+ }
+ 
+ int
+-pop_multiple_operation (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
++_pop_multiple_operation (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
+ {
+   int lastdreg = 8, lastpreg = 6;
+   int i, group;
+@@ -3205,7 +3205,7 @@ output_push_multiple (rtx insn, rtx *ope
+   int ok;
+   
+   /* Validate the insn again, and compute first_[dp]reg_to_save. */
+-  ok = push_multiple_operation (PATTERN (insn), VOIDmode);
++  ok = _push_multiple_operation (PATTERN (insn), VOIDmode);
+   gcc_assert (ok);
+   
+   if (first_dreg_to_save == 8)
+@@ -3229,7 +3229,7 @@ output_pop_multiple (rtx insn, rtx *oper
+   int ok;
+   
+   /* Validate the insn again, and compute first_[dp]reg_to_save. */
+-  ok = pop_multiple_operation (PATTERN (insn), VOIDmode);
++  ok = _pop_multiple_operation (PATTERN (insn), VOIDmode);
+   gcc_assert (ok);
+ 
+   if (first_dreg_to_save == 8)
+diff -r cee2581b4757 gcc/config/bfin/predicates.md
+--- a/gcc/config/bfin/predicates.md	Wed Sep 24 12:01:14 2008 +0800
++++ b/gcc/config/bfin/predicates.md	Wed Nov 12 23:18:18 2008 +0800
+@@ -17,6 +17,14 @@
+ ;; You should have received a copy of the GNU General Public License
+ ;; along with GCC; see the file COPYING3.  If not see
+ ;; <http://www.gnu.org/licenses/>.
++
++(define_predicate "push_multiple_operation"
++  (and (match_code "parallel")
++       (match_test "_push_multiple_operation(op, mode)")))
++
++(define_predicate "pop_multiple_operation"
++  (and (match_code "parallel")
++       (match_test "_pop_multiple_operation(op, mode)")))
+ 
+ ;; Return nonzero iff OP is one of the integer constants 1 or 2.
+ (define_predicate "pos_scale_operand"
