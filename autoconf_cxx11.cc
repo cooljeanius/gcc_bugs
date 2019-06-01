@@ -1,5 +1,10 @@
 /* taken from autoconf, to see why this particular conftest takes so long to
  * compile when run during configure scripts */
+
+#ifndef __has_builtin
+# define __has_builtin(a) 0
+#endif /* !__has_builtin */
+
 #include <deque>
 #include <functional>
 #include <memory>
@@ -29,9 +34,10 @@ namespace cxx11test
     delegate(int n) : n(n) {}
     delegate(): delegate(2354) {}
 
-    virtual int getval() { return this->n; };
+    virtual int getval() { return this->n; }
   protected:
     int n;
+    char padding[4];
   };
 
   class overridden : public delegate {
@@ -47,7 +53,7 @@ namespace cxx11test
     nocopy(const nocopy&) = delete;
     nocopy & operator=(const nocopy&) = delete;
   private:
-    int i;
+    int i; /* FIXME: -Wunused-private-field */
   };
 }
 
@@ -156,6 +162,8 @@ main(void)
   {
     // Test constructor delegation
     cxx11test::delegate d1;
+    /* extra parentheses on this next one are on purpose to make sure it tests
+     * a different thing from the previous one; ignore -Wvexing-parse: */
     cxx11test::delegate d2();
     cxx11test::delegate d3(45);
   }
@@ -166,7 +174,7 @@ main(void)
   {
     // Test nullptr
     char *c = nullptr;
-    if (c == NULL) {
+    if (c == static_cast<std::nullptr_t>(NULL)) {
       (void)c;
     }
   }
@@ -236,7 +244,11 @@ main(void)
   }
   std::exit(0);
 
-  return 0;
+#if __has_builtin(__builtin_unreachable)
+  __builtin_unreachable();
+#else
+  return 0; /*NOTREACHED*/
+#endif /* __has_builtin(__builtin_unreachable) */
 }
 
 /* EOF */
