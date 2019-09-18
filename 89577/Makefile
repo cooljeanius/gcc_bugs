@@ -28,3 +28,5 @@ all:
 
 clean:
 	rm -f a?-?.?
+	rm -f a?-?.?n
+	rm -rfv *.dSYM
