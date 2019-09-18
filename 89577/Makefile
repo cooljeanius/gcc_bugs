@@ -25,3 +25,6 @@ all:
 	@echo ""
 	/usr/bin/time ./ag-7.4n |& egrep -o [0-9]+.*user
 	/usr/bin/time ./ag-8.3n |& egrep -o [0-9]+.*user
+
+clean:
+	rm -f a?-?.?
