@@ -141,7 +141,7 @@ randomer_main(int argc, const char *argv[])
 			break;
 		} else {
 			stored_randomer1 = randomer;
-			randomer = (long)abs(randomer);
+			randomer = labs(randomer);
 			printf("randomer is now \t%ld.\n", randomer);
 		}
 		if ((randomer == stored_randomer0) || (randomer == stored_randomer1)) {
