@@ -1,8 +1,10 @@
+// from bug 89577
+
 #include <stddef.h>
 #include <stdint.h>
 #include <stdlib.h>
 
-enum Kind : uint8_t { I64, F64, EXTENDED=255 };
+enum Kind : uint8_t { I64, F64, EXTENDED = 255 };
 
 enum ExtendedKind {};
 
@@ -19,7 +21,8 @@ union A {
 			};
 			struct __attribute__((packed)) {
 				// The presence of a bitfield in packed struct
-				// is causing GCC 8.3.0 to generate movdqu/movups/movaps with -Og
+				// is causing GCC 8.3.0 to generate movdqu/movups/movaps with
+				// -Og:
 				ExtendedKind kind:24;
 				struct {} value;
 			} ext;
@@ -38,20 +41,20 @@ static_assert(offsetof(A, float64) == 8);
 
 A mul(A a, A b) __attribute((noinline));
 A mul(A a, A b) {
-	switch(a.kind) {
+	switch (a.kind) {
 		case I64: {
-			switch(b.kind) {
-				case I64: return a.int64 * b.int64;
-				case F64: return a.int64 * b.float64;
+			switch (b.kind) {
+				case I64: return (a.int64 * b.int64);
+				case F64: return (a.int64 * b.float64);
 				case EXTENDED: abort();
 				default: abort();
 			}
 			break;
 		}
 		case F64: {
-			switch(b.kind) {
-				case I64: return a.float64 * b.int64;
-				case F64: return a.float64 * b.float64;
+			switch (b.kind) {
+				case I64: return (a.float64 * b.int64);
+				case F64: return (a.float64 * b.float64);
 				case EXTENDED: abort();
 				default: abort();
 			}
@@ -62,11 +65,13 @@ A mul(A a, A b) {
 	}
 }
 
-int main() {
+// here:
+int main(void) {
 	A a = 1.23;
 	A b = 4.56;
-	for(int_fast32_t i=0; i<100*1000*1000; i++) {
-		// We are "lucky" in year 2019 that the compiler is incapable of specializing mul's return type to void
+	for (int_fast32_t i = 0; i < (100 * 1000 * 1000); i++) {
+		// We are "lucky" in year 2019 that the compiler is incapable of
+		// specializing mul's return type to void:
 		mul(a, b);
 	}
 	return 0;

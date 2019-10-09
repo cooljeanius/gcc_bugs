@@ -1,0 +1,376 @@
+--- /Users/ericgallager/gcc_bugs/testsuite_logs/SnowLeopard/mail-report_20190209.log	2019-02-09 07:35:18.000000000 -0500
++++ /Users/ericgallager/gcc_bugs/testsuite_logs/SnowLeopard/mail-report_20191009.log	2019-10-09 01:55:37.000000000 -0400
+@@ -1,5 +1,5 @@
+ cat <<'EOF' |
+-LAST_UPDATED: Fri Feb  8 03:42:23 UTC 2019 (revision 268662)
++LAST_UPDATED: Mon Oct  7 14:57:36 UTC 2019 (revision 276658)
+ 
+ 		=== acats tests ===
+ FAIL:	c960001
+@@ -13,18 +13,6 @@
+ 
+ 
+ Running target unix
+-FAIL: g++.dg/cet-notrack-1.C  -std=gnu++14  scan-assembler-times \\tcall[ \\t]+puts 2
+-FAIL: g++.dg/cet-notrack-1.C  -std=gnu++17  scan-assembler-times \\tcall[ \\t]+puts 2
+-FAIL: g++.dg/cet-notrack-1.C  -std=gnu++98  scan-assembler-times \\tcall[ \\t]+puts 2
+-FAIL: g++.dg/cpp0x/pr84497.C  -std=c++14  scan-assembler .weak[ \\t]*_ZTH11derived_obj
+-FAIL: g++.dg/cpp0x/pr84497.C  -std=c++14  scan-assembler .weak[ \\t]*_ZTH13container_obj
+-FAIL: g++.dg/cpp0x/pr84497.C  -std=c++14  scan-assembler .weak[ \\t]*_ZTH8base_obj
+-FAIL: g++.dg/cpp0x/pr84497.C  -std=c++17  scan-assembler .weak[ \\t]*_ZTH11derived_obj
+-FAIL: g++.dg/cpp0x/pr84497.C  -std=c++17  scan-assembler .weak[ \\t]*_ZTH13container_obj
+-FAIL: g++.dg/cpp0x/pr84497.C  -std=c++17  scan-assembler .weak[ \\t]*_ZTH8base_obj
+-FAIL: g++.dg/ext/instantiate2.C  -std=gnu++14  scan-assembler .zerofill __DATA,__pu_bss2,__ZN1AIiE1tE
+-FAIL: g++.dg/ext/instantiate2.C  -std=gnu++17  scan-assembler .zerofill __DATA,__pu_bss2,__ZN1AIiE1tE
+-FAIL: g++.dg/ext/instantiate2.C  -std=gnu++98  scan-assembler .zerofill __DATA,__pu_bss2,__ZN1AIiE1tE
+ FAIL: g++.dg/ipa/pr67056.C   scan-ipa-dump cp "Speculative outer type:struct CompositeClass"
+ FAIL: g++.dg/overload/ellipsis1.C  -std=gnu++14  (test for warnings, line 18)
+ FAIL: g++.dg/overload/ellipsis1.C  -std=gnu++17  (test for warnings, line 18)
+@@ -35,15 +23,6 @@
+ FAIL: g++.dg/pr80481.C  -std=gnu++14  scan-assembler-not vmovaps
+ FAIL: g++.dg/pr80481.C  -std=gnu++17  scan-assembler-not vmovaps
+ FAIL: g++.dg/pr80481.C  -std=gnu++98  scan-assembler-not vmovaps
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++14  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++14  line 21: is #####:should be 1
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++14  line 45: is #####:should be 1
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++17  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++17  line 21: is #####:should be 1
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++17  line 45: is #####:should be 1
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  line 21: is #####:should be 1
+-FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98  line 45: is #####:should be 1
+ FAIL: g++.dg/gomp/pr88182.C  -std=gnu++14 (test for excess errors)
+ UNRESOLVED: g++.dg/gomp/pr88182.C  -std=gnu++14 compilation failed to produce executable
+ FAIL: g++.dg/gomp/pr88182.C  -std=gnu++17 (test for excess errors)
+@@ -51,9 +30,7 @@
+ FAIL: g++.dg/gomp/pr88182.C  -std=gnu++98 (test for excess errors)
+ UNRESOLVED: g++.dg/gomp/pr88182.C  -std=gnu++98 compilation failed to produce executable
+ FAIL: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o link, -flto -O0 -std=c++11
+-FAIL: g++.dg/lto/pr87906 cp_lto_pr87906_0.o-cp_lto_pr87906_1.o link,  -O -fPIC -flto 
+-FAIL: g++.dg/tls/pr77285-2.C  -std=c++14  scan-assembler _ZTH4var1B3tag
+-FAIL: g++.dg/tls/pr77285-2.C  -std=c++17  scan-assembler _ZTH4var1B3tag
++FAIL: g++.dg/lto/pr89335 cp_lto_pr89335_0.o assemble, -O2 -flto -Wsuggest-final-methods
+ FAIL: g++.old-deja/g++.pt/vaarg3.C  -std=gnu++14  (test for warnings, line 18)
+ FAIL: g++.old-deja/g++.pt/vaarg3.C  -std=gnu++14  (test for warnings, line 25)
+ FAIL: g++.old-deja/g++.pt/vaarg3.C  -std=gnu++14 inst (test for warnings, line 25)
+@@ -66,12 +43,12 @@
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		123518
+-# of unexpected failures	47
+-# of expected failures		557
++# of expected passes		129124
++# of unexpected failures	24
++# of expected failures		596
+ # of unresolved testcases	3
+-# of unsupported tests		5720
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) 
++# of unsupported tests		6270
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+@@ -81,17 +58,16 @@
+ FAIL: gcc.dg/debug/dwarf2/inline5.c scan-assembler-not \\\\(DIE \\\\(0x([0-9a-f]*)\\\\) DW_TAG_lexical_block\\\\)[^#/!@;\\\\|]*[#/!@;\\\\|]+ +[^(].*DW_TAG_lexical_block\\\\)[^#/!@;\\\\|x]*x\\\\1[^#/!@;\\\\|]*[#/!@;\\\\|] +DW_AT_abstract_origin
+ FAIL: gcc.dg/Wnonnull.c  (test for warnings, line 21)
+ FAIL: gcc.dg/Wnonnull.c  (test for warnings, line 24)
+-FAIL: gcc.dg/attr-copy-6.c (test for excess errors)
+-FAIL: gcc.dg/attr-weakref-1.c execution test
+-FAIL: gcc.dg/pie-7.c (test for excess errors)
+-UNRESOLVED: gcc.dg/pie-7.c compilation failed to produce executable
+-FAIL: gcc.dg/pr57438-2.c scan-assembler nop\\\\nLFE.*
++XPASS: gcc.dg/Wstringop-overflow-12.c pr89350 (test for warnings, line 42)
++FAIL: gcc.dg/Wstringop-overflow-17.c (test for excess errors)
++FAIL: gcc.dg/stack-check-10.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 2
++FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
++FAIL: gcc.dg/stack-check-6.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
++FAIL: gcc.dg/stack-check-6a.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
++FAIL: gcc.dg/stack-check-9.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 1
+ FAIL: gcc.dg/stack-layout-dynamic-1.c (test for excess errors)
+ UNRESOLVED: gcc.dg/stack-layout-dynamic-1.c scan-assembler-not cfi_def_cfa_register
+-FAIL: gcc.dg/uninit-19.c  (test for warnings, line 24)
+-FAIL: gcc.dg/uninit-19.c (test for excess errors)
+ FAIL: gcc.dg/ipa/ipa-icf-38.c scan-ltrans-tree-dump-not optimized "Function bar"
+-FAIL: gcc.dg/ipa/ipa-icf-39.c scan-ipa-dump-times icf "Unified;" 2
+ FAIL: gcc.dg/rtl/x86_64/final.c (internal compiler error)
+ FAIL: gcc.dg/rtl/x86_64/final.c (test for excess errors)
+ UNRESOLVED: gcc.dg/rtl/x86_64/final.c scan-assembler .cfi_endproc
+@@ -113,145 +89,70 @@
+ FAIL: gcc.dg/torture/fp-int-convert-timode-4.c   -O2 -flto -flto-partition=none  execution test
+ FAIL: gcc.dg/torture/fp-int-convert-timode-4.c   -O3 -g  execution test
+ FAIL: gcc.dg/torture/fp-int-convert-timode-4.c   -Os  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -O0  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -O1  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -O2  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/pr53922.c   -Os  execution test
+-FAIL: gcc.dg/tree-prof/section-attr-1.c scan-assembler .section[\\t ]*__TEXT,__text_cold*[\\\\n\\\\r]+_foo.cold
+-FAIL: gcc.dg/tree-prof/section-attr-2.c scan-assembler .section[\\t ]*__TEXT,__text_cold*[\\\\n\\\\r]+_foo.cold:
+-FAIL: gcc.dg/tree-prof/section-attr-3.c scan-assembler .section[\\t ]*__TEXT,__text_cold*[\\\\n\\\\r]+_foo.cold:
+-XPASS: gcc.dg/vect/vect-24.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 3 loops" 1
+-XPASS: gcc.dg/vect/vect-24.c scan-tree-dump-times vect "vectorized 3 loops" 1
+-FAIL: gcc.misc-tests/gcov-14.c execution test
+-FAIL: gcc.misc-tests/gcov-14.c gcov: 2 failures in line counts, 0 in branch percentages, 0 in return percentages, 0 in intermediate format
+-FAIL: gcc.misc-tests/gcov-14.c line 20: is #####:should be 1
+-FAIL: gcc.misc-tests/gcov-14.c line 25: is #####:should be 1
+-FAIL: gcc.target/i386/align-limit.c scan-assembler .p2align 6,,1
+-FAIL: gcc.target/i386/attr-aligned-2.c scan-assembler .align 4\\n\\t.globl\\tf4
+-FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovswb-1.c scan-assembler-times vpmovswb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovuswb-1.c scan-assembler-times vpmovuswb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%xmm[0-9]+[^\\n]*res1[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%ymm[0-9]+[^\\n]*res2[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/avx512bw-vpmovwb-1.c scan-assembler-times vpmovwb[ \\\\t]+[^{\\n]*%zmm[0-9]+[^\\n]*res3[^\\n]*{%k[1-7]}(?:\\n|[ \\\\t]+#) 1
+-FAIL: gcc.target/i386/cet-notrack-icf-1.c scan-assembler set[ \\t]+fn2,fn1
+-FAIL: gcc.target/i386/cet-notrack-icf-1.c scan-assembler set[ \\t]+fn3,fn1
+-FAIL: gcc.target/i386/cet-notrack-icf-2.c scan-assembler set[ \\t]+fn2,fn1
+-FAIL: gcc.target/i386/cet-notrack-icf-3.c scan-assembler set[ \\t]+fn2,fn1
+-FAIL: gcc.target/i386/cet-notrack-icf-3.c scan-assembler set[ \\t]+fn3,fn1
+-FAIL: gcc.target/i386/cet-notrack-icf-4.c scan-assembler set[ \\t]+fn3,fn1
+-FAIL: gcc.target/i386/cet-sjlj-3.c scan-assembler-times call\\tlongjmp 1
+-FAIL: gcc.target/i386/cet-sjlj-5.c scan-assembler-times call\\tlongjmp 1
+-FAIL: gcc.target/i386/cet-sjlj-6a.c scan-assembler-times movq\\t.*buf\\\\+8 1
+-FAIL: gcc.target/i386/cet-sjlj-6a.c scan-assembler-times subq\\tbuf\\\\+8 1
+-FAIL: gcc.target/i386/cet-sjlj-6b.c scan-assembler-times movq\\t.*buf\\\\+16 1
+-FAIL: gcc.target/i386/cet-sjlj-6b.c scan-assembler-times subq\\tbuf\\\\+16 1
+-FAIL: gcc.target/i386/falign-functions-2.c (test for excess errors)
+-UNRESOLVED: gcc.target/i386/falign-functions-2.c scan-assembler-times .p2align 5 1
+-UNRESOLVED: gcc.target/i386/falign-functions-2.c scan-assembler-times .p2align 6,,7 2
+-UNRESOLVED: gcc.target/i386/falign-functions-2.c scan-assembler-times .p2align 7,,87 1
+-UNRESOLVED: gcc.target/i386/falign-functions-2.c scan-assembler-times .p2align 7,,99 1
+-FAIL: gcc.target/i386/falign-functions-3.c scan-assembler .align 4\\n\\t.globl\\tf4
+-FAIL: gcc.target/i386/falign-functions-3.c scan-assembler .align 64\\n\\t.globl\\tf64
+-FAIL: gcc.target/i386/falign-functions-3.c scan-assembler .p2align 5\\n\\t.globl\\tf32
+-FAIL: gcc.target/i386/falign-functions.c scan-assembler .p2align 6,,7
+-FAIL: gcc.target/i386/fentryname1.c scan-assembler call.*bar
+-FAIL: gcc.target/i386/fentryname1.c scan-assembler call.*foo
+-FAIL: gcc.target/i386/fentryname2.c scan-assembler section.*bar
+-FAIL: gcc.target/i386/fentryname2.c scan-assembler section.*foo
+-FAIL: gcc.target/i386/fentryname3.c scan-assembler 0x0f, 0x1f, 0x44, 0x00, 0x00
+-FAIL: gcc.target/i386/fentryname3.c scan-assembler section.*__entry_loc
+-FAIL: gcc.target/i386/fuse-caller-save-xmm.c scan-assembler-times addpd\\t\\\\.?LC0.*, %xmm0 1
+-FAIL: gcc.target/i386/ifcvt-onecmpl-abs-1.c scan-assembler cltd
+-FAIL: gcc.target/i386/iinline-attr-2.c scan-assembler p2align
+-FAIL: gcc.target/i386/memcpy-strategy-3.c scan-assembler-times memcpy 2
+-FAIL: gcc.target/i386/memset-strategy-1.c scan-assembler-times memset 2
+-FAIL: gcc.target/i386/pconfig-1.c scan-assembler-times pconfig 5
+-FAIL: gcc.target/i386/pr18041-1.c scan-assembler-times or 1
+-FAIL: gcc.target/i386/pr18041-2.c scan-assembler-times or 1
+-FAIL: gcc.target/i386/pr24414.c (test for excess errors)
+-UNRESOLVED: gcc.target/i386/pr24414.c compilation failed to produce executable
+-FAIL: gcc.target/i386/pr32219-1.c scan-assembler movl[ \\t]xxx\\\\(%rip\\\\), %eax
+-FAIL: gcc.target/i386/pr32219-3.c scan-assembler movl[ \\t]xxx\\\\(%rip\\\\), %eax
+-FAIL: gcc.target/i386/pr32219-3.c scan-assembler-not xxx@GOTPCREL
+-FAIL: gcc.target/i386/pr32219-5.c scan-assembler movl[ \\t]xxx\\\\(%rip\\\\), %eax
+-FAIL: gcc.target/i386/pr32219-6.c scan-assembler xxx@GOTPCREL
+-FAIL: gcc.target/i386/pr32219-7.c scan-assembler movl[ \\t]xxx\\\\(%rip\\\\), %eax
+-FAIL: gcc.target/i386/pr32219-7.c scan-assembler-not xxx@GOTPCREL
+-FAIL: gcc.target/i386/pr39013-1.c scan-assembler bar@PLT
+-FAIL: gcc.target/i386/pr39013-1.c scan-assembler foo@PLT
+-FAIL: gcc.target/i386/pr39013-2.c scan-assembler bar@PLT
+-FAIL: gcc.target/i386/pr39013-2.c scan-assembler foo@PLT
+-FAIL: gcc.target/i386/pr49095.c scan-assembler-times \\\\), % 45
+-FAIL: gcc.target/i386/pr49866.c (test for excess errors)
++FAIL: gcc.dg/tree-ssa/pr43491.c (test for excess errors)
++XPASS: gcc.dg/tree-ssa/pr91091-2.c scan-tree-dump-times fre1 " = [^;]*x;" 1
++XPASS: gcc.dg/tree-ssa/pr91091-2.c scan-tree-dump-times fre1 "x = " 1
++FAIL: gcc.dg/tree-ssa/ssa-dse-36.c scan-tree-dump-times dse1 "Deleted redundant call" 3
++XPASS: gcc.dg/tree-ssa/ssa-fre-77.c scan-tree-dump fre1 "return 1;"
+ FAIL: gcc.target/i386/pr57193.c scan-assembler-times movdqa 2
+-FAIL: gcc.target/i386/pr59874-3.c scan-assembler popcntw
+-FAIL: gcc.target/i386/pr61599-1.c (test for excess errors)
+-UNRESOLVED: gcc.target/i386/pr61599-1.c compilation failed to produce executable
+-FAIL: gcc.target/i386/pr63538.c scan-assembler movabs
+-FAIL: gcc.target/i386/pr77881.c scan-assembler jne[ \\t].L
+-FAIL: gcc.target/i386/pr77881.c scan-assembler js[ \\t].L
+ FAIL: gcc.target/i386/pr78035.c scan-assembler-times cmp 2
+-FAIL: gcc.target/i386/pr82659-3.c (test for excess errors)
+-UNRESOLVED: gcc.target/i386/pr82659-3.c scan-assembler-times \\\\mendbr 2
+-FAIL: gcc.target/i386/pr82662.c scan-assembler-times \\\\mset 12
+-FAIL: gcc.target/i386/pr86257.c scan-assembler data16[ \\t]*leaq
+-FAIL: gcc.target/i386/ret-thunk-26.c (test for excess errors)
+-UNRESOLVED: gcc.target/i386/ret-thunk-26.c compilation failed to produce executable
+-FAIL: gcc.target/i386/stack-prot-sym.c scan-assembler gs:my_guard
+-FAIL: gcc.target/i386/wbinvd-1.c scan-assembler-times wbinvd 2
+-FAIL: gcc.target/i386/wbnoinvd-1.c scan-assembler-times wbnoinvd 2
++FAIL: gcc.target/i386/stackalign/pr88483-1.c -mno-stackrealign  scan-assembler-not and[lq]?[^\\\\n]*-[0-9]+,[^\\\\n]*sp
++FAIL: gcc.target/i386/stackalign/pr88483-1.c -mstackrealign  scan-assembler-not and[lq]?[^\\\\n]*-[0-9]+,[^\\\\n]*sp
++FAIL: gcc.target/i386/stackalign/pr88483-2.c -mno-stackrealign  scan-assembler-not (sub|add)(l|q)[\\\\t ]*\\\\\$[0-9]*,[\\\\t ]*%[re]?sp
++FAIL: gcc.target/i386/stackalign/pr88483-2.c -mno-stackrealign  scan-assembler-not and[lq]?[^\\\\n]*-[0-9]+,[^\\\\n]*sp
++FAIL: gcc.target/i386/stackalign/pr88483-2.c -mstackrealign  scan-assembler-not (sub|add)(l|q)[\\\\t ]*\\\\\$[0-9]*,[\\\\t ]*%[re]?sp
++FAIL: gcc.target/i386/stackalign/pr88483-2.c -mstackrealign  scan-assembler-not and[lq]?[^\\\\n]*-[0-9]+,[^\\\\n]*sp
++FAIL: gcc.target/x86_64/abi/callabi/leaf-2.c scan-assembler-not %rsp
++FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p0" (test for excess errors)
++UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p0" compilation failed to produce executable
++FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p1" (test for excess errors)
++UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p1" compilation failed to produce executable
++FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p5" (test for excess errors)
++UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p5" compilation failed to produce executable
++FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p0" (test for excess errors)
++UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p0" compilation failed to produce executable
++FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p1" (test for excess errors)
++UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p1" compilation failed to produce executable
++FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p5" (test for excess errors)
++UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p5" compilation failed to produce executable
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		125473
+-# of unexpected failures	114
+-# of unexpected successes	2
+-# of expected failures		495
+-# of unresolved testcases	14
+-# of unsupported tests		4405
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) 
++# of expected passes		130483
++# of unexpected failures	46
++# of unexpected successes	4
++# of expected failures		553
++# of unresolved testcases	11
++# of unsupported tests		4569
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) 
+ 
+ 		=== gfortran tests ===
+ 
+ 
+ Running target unix
+-FAIL: gfortran.dg/pr79966.f90   -O   scan-ipa-dump inline "Inlined tp_sum/[0-9]+ into runtptests/[0-9]+"
+ 
+ 		=== gfortran Summary ===
+ 
+-# of expected passes		48826
+-# of unexpected failures	1
+-# of expected failures		120
+-# of unsupported tests		97
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) 
++# of expected passes		50626
++# of expected failures		179
++# of unsupported tests		100
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) 
+ 
+ 		=== gnat tests ===
+ 
+ 
+ Running target unix
++FAIL: gnat.dg/bias1.adb scan-assembler DW_AT_GNU_bias
+ FAIL: gnat.dg/lto13.adb (test for excess errors)
+-XPASS: gnat.dg/lto19.adb (test for excess errors)
+ FAIL: gnat.dg/lto22.adb (test for excess errors)
+-FAIL: gnat.dg/lto8.adb (test for excess errors)
+-FAIL: gnat.dg/lto8.adb 3 blank line(s) in output
+-UNRESOLVED: gnat.dg/lto8.adb compilation failed to produce executable
+ 
+ 		=== gnat Summary ===
+ 
+-# of expected passes		2954
+-# of unexpected failures	4
+-# of unexpected successes	1
++# of expected passes		3258
++# of unexpected failures	3
+ # of expected failures		23
+-# of unresolved testcases	1
+-# of unsupported tests		10
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 9.0.1 20190208 (experimental) [trunk revision 268662]
++# of unsupported tests		13
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 10.0.0 20191007 (experimental) [trunk revision 276658]
+ 
+ 		=== obj-c++ tests ===
+ 
+@@ -267,11 +168,11 @@
+ 
+ 		=== obj-c++ Summary ===
+ 
+-# of expected passes		3081
++# of expected passes		3051
+ # of unexpected failures	7
+ # of expected failures		19
+ # of unsupported tests		68
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) 
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) 
+ 
+ 		=== objc tests ===
+ 
+@@ -286,11 +187,11 @@
+ 
+ 		=== objc Summary ===
+ 
+-# of expected passes		5634
++# of expected passes		5592
+ # of unexpected failures	6
+ # of expected failures		12
+ # of unsupported tests		85
+-/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) 
++/Users/ericgallager/gcc_svn/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) 
+ 
+ 		=== libatomic tests ===
+ 
+@@ -363,9 +264,9 @@
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		6306
++# of expected passes		6566
+ # of expected failures		2
+-# of unsupported tests		423
++# of unsupported tests		425
+ 		=== libitm tests ===
+ 
+ 
+@@ -380,38 +281,28 @@
+ 
+ 
+ Running target unix
+-FAIL: 28_regex/traits/wchar_t/isctype.cc execution test
+-WARNING: program timed out.
+-
+-		=== libstdc++ Summary ===
+-
+-# of expected passes		4391
+-# of unexpected failures	1
+-# of expected failures		30
+-# of unsupported tests		272
+-		=== libstdc++ tests ===
+-
+-
+-Running target unix
+ FAIL: 27_io/basic_filebuf/open/char/2.cc execution test
+-FAIL: 30_threads/thread/native_handle/typesizes.cc execution test
++FAIL: 27_io/filesystem/iterators/91067.cc (test for excess errors)
++FAIL: 27_io/filesystem/iterators/directory_iterator.cc (test for excess errors)
++UNRESOLVED: 27_io/filesystem/iterators/directory_iterator.cc compilation failed to produce executable
++FAIL: 28_regex/traits/wchar_t/isctype.cc execution test
++WARNING: 30_threads/condition_variable/54185.cc execution test program timed out.
++FAIL: 30_threads/condition_variable/54185.cc execution test
+ FAIL: ext/stdio_filebuf/char/10063-2.cc execution test
+ FAIL: ext/stdio_filebuf/char/81751.cc execution test
+-FAIL: tr1/5_numerical_facilities/special_functions/07_conf_hyperg/compile_cxx17.cc (test for excess errors)
+-FAIL: tr1/5_numerical_facilities/special_functions/17_hyperg/compile_cxx17.cc (test for excess errors)
+-FAIL: tr1/8_c_compatibility/cmath/pow_cmath.cc (test for excess errors)
+ 
+ 		=== libstdc++ Summary ===
+ 
+-# of expected passes		7345
++# of expected passes		12229
+ # of unexpected failures	7
+-# of expected failures		47
+-# of unsupported tests		427
++# of expected failures		92
++# of unresolved testcases	1
++# of unsupported tests		763
+ 
+-Compiler version: 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) 
++Compiler version: 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) 
+ Platform: x86_64-apple-darwin10.8.0
+-configure flags: --disable-werror --disable-werror-always --enable-languages=all,c,c++,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --without-isl --disable-host-shared --disable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --enable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer AR_FOR_TARGET=/opt/local/bin/ar AS_FOR_TARGET=/opt/local/bin/as LD_FOR_TARGET=/opt/local/bin/ld NM_FOR_TARGET=/opt/local/bin/nm RANLIB_FOR_TARGET=/opt/local/bin/ranlib STRIP_FOR_TARGET=/opt/local/bin/strip OTOOL=/opt/local/bin/otool OTOOL64=/opt/local/bin/otool CC=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/gcc CXX=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/g++
++configure flags: --disable-werror --disable-werror-always --enable-languages=all,c,c++,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --without-isl --disable-host-shared --disable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --with-as=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/as --with-ld=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/ld --with-ar=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/ar --enable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer AR_FOR_TARGET=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/ar AS_FOR_TARGET=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/as LD_FOR_TARGET=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/ld NM_FOR_TARGET=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/nm RANLIB_FOR_TARGET=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/ranlib STRIP_FOR_TARGET=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/strip OTOOL=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/otool OTOOL64=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/otool CC=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/gcc CXX=/opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/g++
+ BOOT_CFLAGS=-g -O2 \`case x86_64-apple-darwin10.8.0 in i?86-*-darwin* | powerpc-*-darwin*) /opt/iains/x86_64-apple-darwin10/darwin-gcc-5-3r0/bin/gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac\`
+ EOF
+-Mail -s "Results for 9.0.1 20190208 (experimental) [trunk revision 268662] (GCC) testsuite on x86_64-apple-darwin10.8.0" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 10.0.0 20191007 (experimental) [trunk revision 276658] (GCC) testsuite on x86_64-apple-darwin10.8.0" gcc-testresults@gcc.gnu.org &&
+ true

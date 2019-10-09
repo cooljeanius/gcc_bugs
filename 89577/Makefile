@@ -1,4 +1,4 @@
-FLAGS := -g -Wall -Werror -Wswitch-enum # -Wl,--as-needed
+FLAGS := -g -Wall -Wextra -Weffc++ -Werror -Wswitch-enum
 FLAGS_NATIVE = $(FLAGS) -march=native
 SHELL = /opt/local/bin/bash
 
