@@ -1,0 +1,25 @@
+# 1 "56879.cpp"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "56879.cpp"
+
+class Base
+{
+public:
+    void foo() {}
+protected:
+    Base() {}
+    ~Base() {}
+};
+
+class Derived : public Base
+{
+public:
+    Derived() : Base() {}
+};
+
+int main()
+{
+    Derived().foo();
+    return 0;
+}
