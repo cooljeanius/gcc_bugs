@@ -1,3 +1,5 @@
 80572_pch.h diff=c++
 testcase.C diff=c++
 *.bz2 binary
+*.ii linguist-language=C++
+*.i linguist-language=C
