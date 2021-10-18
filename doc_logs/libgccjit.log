@@ -1,0 +1,7369 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/MacPorts 2021.58693_0) (preloaded format=etex 2021.8.14)  18 OCT 2021 15:30
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\nonstopmode \bgroup\catcode62=2\relax \catcode`\_=12\relax \toks0\bgroup\inp
+ut ./../../gcc/jit/docs/_build/texinfo/libgccjit.texi \relax>\expandafter\egrou
+p\the\toks0\relax
+(./../../gcc/jit/docs/_build/texinfo/libgccjit.texi
+(/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gc
+c/../../gcc/doc/include/texinfo.tex Loading texinfo [version 2012-06-05.14]:
+\bindingoffset=\dimen16
+\normaloffset=\dimen17
+\pagewidth=\dimen18
+\pageheight=\dimen19
+\outerhsize=\dimen20
+\outervsize=\dimen21
+\cornerlong=\dimen22
+\cornerthick=\dimen23
+\topandbottommargin=\dimen24
+\headlinebox=\box16
+\footlinebox=\box17
+\margin=\insert252
+\EMsimple=\toks13
+\groupbox=\box18
+\groupinvalidhelp=\toks14
+\mil=\dimen25
+\exdentamount=\skip18
+\inmarginspacing=\skip19
+\centerpenalty=\count27
+
+pdf,
+\tempnum=\count28
+\lnkcount=\count29
+\filename=\toks15
+\filenamelength=\count30
+\pgn=\count31
+\toksA=\toks16
+\toksB=\toks17
+\toksC=\toks18
+\toksD=\toks19
+\boxA=\box19
+\countA=\count32
+\nopdfimagehelp=\toks20
+ fonts,
+\sffam=\fam8
+\textleading=\dimen26
+ markup,
+\fontdepth=\count33
+ glyphs,
+\errorbox=\box20
+ page headings,
+\titlepagetopglue=\skip20
+\titlepagebottomglue=\skip21
+\evenheadline=\toks21
+\oddheadline=\toks22
+\evenfootline=\toks23
+\oddfootline=\toks24
+ tables,
+\tableindent=\dimen27
+\itemindent=\dimen28
+\itemmargin=\dimen29
+\itemmax=\dimen30
+\itemno=\count34
+\multitableparskip=\skip22
+\multitableparindent=\skip23
+\multitablecolspace=\dimen31
+\multitablelinespace=\skip24
+\colcount=\count35
+\everytab=\toks25
+ conditionals,
+\doignorecount=\count36
+ indexing,
+\whatsitskip=\skip25
+\whatsitpenalty=\count37
+\secondaryindent=\skip26
+\partialpage=\box21
+\doublecolumnhsize=\dimen32
+
+sectioning,
+\unnumberedno=\count38
+\chapno=\count39
+\secno=\count40
+\subsecno=\count41
+\subsubsecno=\count42
+\appendixno=\count43
+\absseclevel=\count44
+\secbase=\count45
+\chapheadingskip=\skip27
+\secheadingskip=\skip28
+\subsecheadingskip=\skip29
+ toc,
+\tocfile=\write0
+\contentsrightmargin=\skip30
+\savepageno=\count46
+\lastnegativepageno=\count47
+\tocindent=\dimen33
+ environments,
+\lispnarrowing=\skip31
+\envskipamount=\skip32
+\circthick=\dimen34
+\cartouter=\dimen35
+\cartinner=\dimen36
+\normbskip=\skip33
+\normpskip=\skip34
+\normlskip=\skip35
+\lskip=\skip36
+\rskip=\skip37
+\nonfillparindent=\dimen37
+\tabw=\dimen38
+\verbbox=\box22
+ defuns,
+\defbodyindent=\skip38
+\defargsindent=\skip39
+\deflastargmargin=\skip40
+\defunpenalty=\count48
+\parencount=\count49
+\brackcount=\count50
+ macros,
+\paramno=\count51
+\macname=\toks26
+ cross references,
+\auxfile=\write1
+\savesfregister=\count52
+\toprefbox=\box23
+\printedrefnamebox=\box24
+\infofilenamebox=\box25
+\printedmanualbox=\box26
+ insertions,
+\footnoteno=\count53
+\SAVEfootins=\box27
+\SAVEmargin=\box28
+
+(/opt/local/share/texmf/tex/generic/epsf/epsf.tex
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen39
+\epsfframethickness=\dimen40
+\epsfrsize=\dimen41
+\epsftmp=\dimen42
+\epsftsize=\dimen43
+\epsfxsize=\dimen44
+\epsfysize=\dimen45
+\pspoints=\dimen46
+)
+\noepsfhelp=\toks27
+ localization,
+\nolanghelp=\toks28
+\countUTFx=\count54
+\countUTFy=\count55
+\countUTFz=\count56
+ formatting,
+\defaultparindent=\dimen47
+ and turning on texinfo input format.)
+(/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gc
+c/libgccjit.aux)
+\openout1 = `libgccjit.aux'.
+
+@cpindfile=@write2
+@fnindfile=@write3
+@vrindfile=@write4
+@tpindfile=@write5
+@kyindfile=@write6
+@pgindfile=@write7
+@geindfile=@write8
+ [1
+\openout2 = `libgccjit.cp'.
+
+\openout3 = `libgccjit.fn'.
+
+\openout4 = `libgccjit.vr'.
+
+\openout5 = `libgccjit.tp'.
+
+\openout6 = `libgccjit.ky'.
+
+\openout7 = `libgccjit.pg'.
+
+\openout8 = `libgccjit.ge'.
+
+]
+(/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gc
+c/libgccjit.toc [-1] [-2] [-3]) [-4] Chapter 1 [1]
+\openout0 = `libgccjit.toc'.
+
+
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 450--450
+ []   @texttt Copyright (C) 2014-2021 Free Software Foundation, Inc.[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 454--454
+ []@texttt GCC is free software; you can redistribute it and/or modify it[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 455--455
+ []@texttt under the terms of the GNU General Public License as published by[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt u
+.@texttt n
+.@texttt d
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 456--456
+ []@texttt the Free Software Foundation; either version 3, or (at your option)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt h
+.@texttt e
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 459--459
+ []@texttt GCC is distributed in the hope that it will be useful, but[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 460--460
+ []@texttt WITHOUT ANY WARRANTY; without even the implied warranty of[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt W
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 461--461
+ []@texttt MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU[] 
+ 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt M
+.@texttt E
+.@texttt R
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 464--464
+ []@texttt You should have received a copy of the GNU General Public License[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt Y
+.@texttt o
+.@texttt u
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 484--484
+ []    @texttt gcc_jit_context_get_type (ctxt, GCC_JIT_TYPE_VOID);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[2]
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 486--486
+ []    @texttt gcc_jit_context_get_type (ctxt, GCC_JIT_TYPE_CONST_CHAR_PTR);[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (111.68585pt too wide) in paragraph at lines 488--488
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, const_char_ptr_type, "nam
+e");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.7016pt too wide) in paragraph at lines 491--491
+ []                                  @texttt GCC_JIT_FUNCTION_EXPORTED,[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (123.18323pt too wide) in paragraph at lines 498--498
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, const_char_ptr_type, "for
+mat");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (88.6911pt too wide) in paragraph at lines 508--508
+ []  @texttt args[0] = gcc_jit_context_new_string_literal (ctxt, "hello %s\n");
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 511--511
+ []  @texttt gcc_jit_block *block = gcc_jit_function_new_block (func, NULL);[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 528--528
+ []  @texttt /* Get a "context" object for working with the library.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[3]
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 537--537
+ []     @texttt Let's see the code being generated, in assembler form.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 557--557
+ []    @texttt (fn_type)gcc_jit_result_get_code (result, "greet");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[4] [5] [6]
+Overfull \hbox (414.9964pt too wide) in paragraph at lines 851--851
+ []@texttt ./buggy-program: error: gcc_jit_block_add_assignment: mismatching ty
+pes: assignment to i (type: int) from "hello world" (type: const char *)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt .
+.@texttt /
+.@texttt b
+.etc.
+
+[7] [8]
+Overfull \hbox (213.79233pt too wide) in paragraph at lines 939--939
+ []      @texttt .ident  "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.2-0.5.1920c315ff
+984892399893b380305ab36e07b455.fc20)"[] 
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (213.79233pt too wide) in paragraph at lines 971--971
+ []      @texttt .ident  "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.2-0.5.1920c315ff
+984892399893b380305ab36e07b455.fc20)"[] 
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 988--988
+ []   @texttt Copyright (C) 2014-2021 Free Software Foundation, Inc.[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 992--992
+ []@texttt GCC is free software; you can redistribute it and/or modify it[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 993--993
+ []@texttt under the terms of the GNU General Public License as published by[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt u
+.@texttt n
+.@texttt d
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 994--994
+ []@texttt the Free Software Foundation; either version 3, or (at your option)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt h
+.@texttt e
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 997--997
+ []@texttt GCC is distributed in the hope that it will be useful, but[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 998--998
+ []@texttt WITHOUT ANY WARRANTY; without even the implied warranty of[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt W
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 999--999
+ []@texttt MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU[] 
+ 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt M
+.@texttt E
+.@texttt R
+.etc.
+
+[9]
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 1002--1002
+ []@texttt You should have received a copy of the GNU General Public License[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt Y
+.@texttt o
+.@texttt u
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 1024--1024
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, int_type, "i");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.7016pt too wide) in paragraph at lines 1027--1027
+ []                                  @texttt GCC_JIT_FUNCTION_EXPORTED,[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 1033--1033
+ []  @texttt gcc_jit_block *block = gcc_jit_function_new_block (func, NULL);[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[10]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 1051--1051
+ []  @texttt /* Get a "context" object for working with the library.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 1060--1060
+ []     @texttt Let's see the code being generated, in assembler form.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 1077--1077
+ []  @texttt /* We're done with the context; we can release it: */[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.7016pt too wide) in paragraph at lines 1082--1082
+ []  @texttt void *fn_ptr = gcc_jit_result_get_code (result, "square");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[11]
+(libgccjit-figures/sum-of-squares1.eps
+./../../gcc/jit/docs/_build/texinfo/libgccjit.texi:1183: Could not open file li
+bgccjit-figures/sum-of-squares1.eps, ignoring it.
+@epsfgetbb ...Could not open file #1, ignoring it}
+                                                  @else {@chardef @other = 1...
+
+@next #1->@epsfgetbb {#1}
+                         @epsfsetgraph {#1}
+@imagexxx ...ysize =#3@relax @fi @epsfbox {#1.eps}
+                                                  @fi @ifimagevmode @medskip...
+
+@image ...true @fi @else @imagexxx #1,,,,,@finish 
+                                                  @fi 
+l.1183 ...es1,,,image of a control flow graph,png}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+)
+
+Overfull \hbox (123.7298pt too wide) in paragraph at lines 1183--1183
+ []  
+
+@hbox(650.42249+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(650.42249+0.0)x469.74957
+..@vbox(650.42249+0.0)x469.74957, glue set 650.42249fil
+...@glue 0.0 plus 1.0fil
+...@hbox(0.0+0.0)x469.74957, glue set 469.74957fil []
+.@penalty 10000
+.@glue(@parfillskip) 0.0 plus 1.0fil
+.@glue(@rightskip) 43.80011
+
+[12]
+Overfull \vbox (83.05165pt too high) has occurred while \output is active
+\vbox(643.2+4.0)x433.62
+.\glue(\topskip) 36.0
+.\vbox(0.0+694.25165)x433.62
+..\glue 3.0 plus 2.0 minus 1.0
+..\penalty 10000
+..\glue 6.0 plus 2.0 minus 2.0
+..\penalty 10000
+..\glue 3.0 plus 2.0 minus 1.0
+..etc.
+
+
+[13] [14] [15]
+Overfull \hbox (41.82379pt too wide) in paragraph at lines 1395--1397
+[]@textrm and can then use this to add @textsl b[]loop[]cond@textrm 's sole sta
+te-ment, via [gcc[]jit[]block[]end[]with[]conditional()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm a
+.@textrm n
+.@textrm d
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+[16]
+Overfull \hbox (37.71521pt too wide) in paragraph at lines 1445--1449
+[]@textbf Note: @textrm For nu-meric con-stants other than 0 or 1, we could use
+ [gcc[]jit[]context[]new[]rvalue[]from[]int()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textbf N
+.@textbf o
+.@textbf t
+.@textbf e
+.etc.
+
+[17]
+Overfull \hbox (0.98152pt too wide) in paragraph at lines 1523--1526
+[]@textrm or use a viewer (my pre-ferred one is xdot.py; see @texttt https://gi
+thub.com/jrfonseca/xdot.py[]@textrm ;
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm o
+.@textrm r
+.@glue 3.65 plus 1.825 minus 1.21666
+.@textrm u
+.etc.
+
+(libgccjit-figures/sum-of-squares1.eps
+./../../gcc/jit/docs/_build/texinfo/libgccjit.texi:1532: Could not open file li
+bgccjit-figures/sum-of-squares1.eps, ignoring it.
+@epsfgetbb ...Could not open file #1, ignoring it}
+                                                  @else {@chardef @other = 1...
+
+@next #1->@epsfgetbb {#1}
+                         @epsfsetgraph {#1}
+@imagexxx ...ysize =#3@relax @fi @epsfbox {#1.eps}
+                                                  @fi @ifimagevmode @medskip...
+
+@image ...true @fi @else @imagexxx #1,,,,,@finish 
+                                                  @fi 
+l.1532 ...es1,,,image of a control flow graph,png}
+                                                  
+(That was another \errmessage.)
+
+)
+
+Overfull \hbox (123.7298pt too wide) in paragraph at lines 1532--1532
+ []  
+
+@hbox(650.42249+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(650.42249+0.0)x469.74957
+..@vbox(650.42249+0.0)x469.74957, glue set 650.42249fil
+...@glue 0.0 plus 1.0fil
+...@hbox(0.0+0.0)x469.74957, glue set 469.74957fil []
+.@penalty 10000
+.@glue(@parfillskip) 0.0 plus 1.0fil
+.@glue(@rightskip) 43.80011
+
+[18]
+Overfull \vbox (83.05165pt too high) has occurred while \output is active
+\vbox(643.2+4.0)x433.62
+.\glue(\topskip) 36.0
+.\vbox(0.0+694.25165)x433.62
+..\glue 3.0 plus 2.0 minus 1.0
+..\penalty 10000
+..\glue 6.0 plus 2.0 minus 2.0
+..\penalty 10000
+..\glue 3.0 plus 2.0 minus 1.0
+..etc.
+.\write1{@xrdef{intro/tutorial03 full-example-pg}{\folio }}
+.\write1{@xrdef{34-pg}{\folio }}
+.\mark{\gdef \thischaptername {Tutorial}\gdef \thischapternum {1}\gdef \thischa
+pter \ETC.}
+
+
+[19]
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 1547--1547
+ []   @texttt Copyright (C) 2014-2021 Free Software Foundation, Inc.[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 1551--1551
+ []@texttt GCC is free software; you can redistribute it and/or modify it[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 1552--1552
+ []@texttt under the terms of the GNU General Public License as published by[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt u
+.@texttt n
+.@texttt d
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 1553--1553
+ []@texttt the Free Software Foundation; either version 3, or (at your option)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt h
+.@texttt e
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 1556--1556
+ []@texttt GCC is distributed in the hope that it will be useful, but[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 1557--1557
+ []@texttt WITHOUT ANY WARRANTY; without even the implied warranty of[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt W
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 1558--1558
+ []@texttt MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU[] 
+ 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt M
+.@texttt E
+.@texttt R
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 1561--1561
+ []@texttt You should have received a copy of the GNU General Public License[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt Y
+.@texttt o
+.@texttt u
+.etc.
+
+
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 1574--1574
+ []    @texttt Simple sum-of-squares, to test conditionals and looping[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 1591--1591
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, the_type, "n");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[20]
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 1602--1602
+ []    @texttt gcc_jit_function_new_local (func, NULL, the_type, "i");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 1604--1604
+ []    @texttt gcc_jit_function_new_local (func, NULL, the_type, "sum");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 1627--1627
+ []  @texttt gcc_jit_block_end_with_jump (b_initial, NULL, b_loop_cond);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[21]
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 1658--1658
+ []  @texttt gcc_jit_block_end_with_jump (b_loop_body, NULL, b_loop_cond);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 1673--1673
+ []  @texttt /* Get a "context" object for working with the library.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 1682--1682
+ []     @texttt Let's see the code being generated, in assembler form.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[22]
+Overfull \hbox (94.43979pt too wide) in paragraph at lines 1702--1702
+ []    @texttt (loop_test_fn_type)gcc_jit_result_get_code (result, "loop_test")
+;[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[23] [24]
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 2016--2016
+ []@texttt # Simple recursive factorial implementation, roughly equivalent to:[
+]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt #
+.@penalty 10000
+.@glue 5.74869
+.etc.
+
+[25]
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 2077--2077
+ []@texttt toyvm_function_interpret (toyvm_function *fn, int arg, FILE *trace)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt o
+.@texttt y
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 2099--2099
+ []  @texttt toyvm_function_disassemble_op (fn, op, frame.frm_pc, trace);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[26] [27] [28]
+Overfull \hbox (42.7016pt too wide) in paragraph at lines 2275--2275
+ []    @texttt gcc_jit_context_get_type (state.ctxt, GCC_JIT_TYPE_INT);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 2277--2277
+ []    @texttt gcc_jit_context_get_type (state.ctxt, GCC_JIT_TYPE_BOOL);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (94.43979pt too wide) in paragraph at lines 2290--2290
+ []  @texttt state.const_one = gcc_jit_context_one (state.ctxt, state.int_type)
+;[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[29] [30]
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 2373--2373
+ []      @texttt state.op_locs[pc] = gcc_jit_context_new_location (state.ctxt,[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.7016pt too wide) in paragraph at lines 2389--2389
+ []    @texttt gcc_jit_context_new_param (state.ctxt, state.op_locs[0],[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (117.43454pt too wide) in paragraph at lines 2435--2435
+ []  @texttt state.initial_block = gcc_jit_function_new_block (state.fn, "initi
+al");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[31]
+Overfull \hbox (105.93716pt too wide) in paragraph at lines 2450--2450
+ []      @texttt state.op_blocks[pc] = gcc_jit_function_new_block (state.fn, bu
+f);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 2468--2468
+ []    @texttt gcc_jit_context_zero (state.ctxt, state.int_type));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[32]
+Overfull \hbox (123.18323pt too wide) in paragraph at lines 2549--2549
+ []      @texttt gcc_jit_block_add_comment (block, loc, opcode_names[op->op_opc
+ode]);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[33] [34]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 2636--2636
+ []    @texttt gcc_jit_rvalue *arg = gcc_jit_lvalue_as_rvalue (state.x);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[35]
+(libgccjit-figures/factorial1.eps
+./../../gcc/jit/docs/_build/texinfo/libgccjit.texi:2728: Could not open file li
+bgccjit-figures/factorial1.eps, ignoring it.
+@epsfgetbb ...Could not open file #1, ignoring it}
+                                                  @else {@chardef @other = 1...
+
+@next #1->@epsfgetbb {#1}
+                         @epsfsetgraph {#1}
+@imagexxx ...ysize =#3@relax @fi @epsfbox {#1.eps}
+                                                  @fi @ifimagevmode @medskip...
+
+@image ...true @fi @else @imagexxx #1,,,,,@finish 
+                                                  @fi 
+l.2728 ...al1,,,image of a control flow graph,png}
+                                                  
+(That was another \errmessage.)
+
+)
+
+Overfull \hbox (123.7298pt too wide) in paragraph at lines 2728--2728
+ []  
+
+@hbox(650.42249+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(650.42249+0.0)x469.74957
+..@vbox(650.42249+0.0)x469.74957, glue set 650.42249fil
+...@glue 0.0 plus 1.0fil
+...@hbox(0.0+0.0)x469.74957, glue set 469.74957fil []
+.@penalty 10000
+.@glue(@parfillskip) 0.0 plus 1.0fil
+.@glue(@rightskip) 43.80011
+
+[36]
+Overfull \vbox (83.05165pt too high) has occurred while \output is active
+\vbox(643.2+4.0)x433.62
+.\glue(\topskip) 36.0
+.\vbox(0.0+694.25165)x433.62
+..\glue 3.0 plus 2.0 minus 1.0
+..\penalty 10000
+..\glue 6.0 plus 2.0 minus 2.0
+..\penalty 10000
+..\glue 3.0 plus 2.0 minus 1.0
+..etc.
+.\write1{@xrdef{intro/tutorial04 compiling-the-context-pg}{\folio }}
+.\write1{@xrdef{3f-pg}{\folio }}
+.\mark{\gdef \thischaptername {Tutorial}\gdef \thischapternum {1}\gdef \thischa
+pter \ETC.}
+
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 2783--2788
+ @textrm [GCC[]JIT[]BOOL[]OPTION[]DEBUGINFO], page 70 on the 
+
+@hbox(8.2125+2.73749)x433.62, glue set 4.89397
+.@glue(@leftskip) 65.48132
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+[38]
+Overfull \hbox (29.83432pt too wide) in paragraph at lines 2876--2876
+ []                                 @texttt GCC_JIT_BOOL_OPTION_DUMP_INITIAL_GI
+MPLE,[] 
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[39] [40] [41]
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 3032--3032
+ []        @texttt .ident  "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.2-%{gcc_releas
+e})"[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[42]
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 3085--3085
+ []                                 @texttt GCC_JIT_BOOL_OPTION_KEEP_INTERMEDIA
+TES,[] 
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3120--3120
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[43]
+Overfull \hbox (12.76413pt too wide) in paragraph at lines 3160--3163
+[]@textrm We can per-haps bet-ter see the code by turn-ing off [GCC[]JIT[]BOOL[
+]OPTION[]DEBUGINFO],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm W
+.@kern-0.91252
+.@textrm e
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3169--3169
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[44] [45]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3279--3279
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[46] [47]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3349--3349
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[48]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3434--3434
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[49]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3484--3484
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[50]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 3541--3541
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[51] [52]
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 3751--3751
+ []@texttt >+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<[
+]  
+
+@hbox(6.08333+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt >
+.@texttt +
+.@texttt +
+.etc.
+
+[53] [54]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 3841--3841
+ []@texttt bf_get_current_data (bf_compiler *bfc, gcc_jit_location *loc)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt b
+.@texttt f
+.@texttt _
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 3853--3853
+ []@texttt bf_current_data_is_zero (bf_compiler *bfc, gcc_jit_location *loc)[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt b
+.@texttt f
+.@texttt _
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 3859--3859
+ []    @texttt gcc_jit_lvalue_as_rvalue (bf_get_current_data (bfc, loc)),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[55]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 3875--3875
+ []  @texttt /* Turn this on to trace execution, by injecting putchar ()[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[56]
+Overfull \hbox (65.69635pt too wide) in paragraph at lines 3946--3946
+ []      @texttt gcc_jit_lvalue_as_rvalue (bf_get_current_data (bfc, loc)),[]  
+
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[57] [58]
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 4033--4033
+ []  @texttt bfc->curblock = bfc->paren_after[bfc->num_open_parens];[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (77.19373pt too wide) in paragraph at lines 4047--4047
+ []@texttt /* Compile the given .bf file into a gcc_jit_context, containing a[]
+  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt /
+.@texttt *
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (111.68585pt too wide) in paragraph at lines 4048--4048
+ []   @texttt single "main" function suitable for compiling into an executable.
+  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[59]
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 4089--4089
+ []    @texttt gcc_jit_context_get_type (bfc.ctxt, GCC_JIT_TYPE_VOID);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 4091--4091
+ []    @texttt gcc_jit_context_get_type (bfc.ctxt, GCC_JIT_TYPE_INT);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (88.6911pt too wide) in paragraph at lines 4093--4093
+ []    @texttt gcc_jit_context_get_type (bfc.ctxt, GCC_JIT_TYPE_UNSIGNED_CHAR);
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[60]
+Overfull \hbox (77.19373pt too wide) in paragraph at lines 4109--4109
+ []    @texttt gcc_jit_context_new_param (bfc.ctxt, NULL, bfc.int_type, "c");[]
+  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 4121--4121
+ []  @texttt bfc.int_zero = gcc_jit_context_zero (bfc.ctxt, bfc.int_type);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 4122--4122
+ []  @texttt bfc.int_one = gcc_jit_context_one (bfc.ctxt, bfc.int_type);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 4123--4123
+ []  @texttt bfc.byte_zero = gcc_jit_context_zero (bfc.ctxt, bfc.byte_type);[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 4124--4124
+ []  @texttt bfc.byte_one = gcc_jit_context_one (bfc.ctxt, bfc.byte_type);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 4149--4149
+ []  @texttt gcc_jit_block_end_with_return (bfc.curblock, NULL, bfc.int_zero);[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 4173--4175
+[]@textrm Here's the top-level of the com-piler, which is what ac-tu-ally calls
+ into
+
+@hbox(7.60416+2.12917)x433.62, glue set 5.0637
+.@hbox(0.0+0.0)x0.0
+.@textrm H
+.@textrm e
+.@textrm r
+.@textrm e
+.etc.
+
+
+Overfull \hbox (65.69635pt too wide) in paragraph at lines 4190--4190
+ []      @texttt fprintf (stderr, "%s: INPUT_FILE OUTPUT_FILE\n", argv[0]);[]  
+
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[62]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 4241--4241
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, int_type, "argc");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (100.18848pt too wide) in paragraph at lines 4247--4247
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, char_ptr_ptr_type, "argv"
+);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[63]
+Overfull \hbox (104.56726pt too wide) in paragraph at lines 4309--4309
+ []  @texttt 400620:     80 3d 39 0a 20 00 00    cmpb   $0x0,0x200a39(%rip)    
+    # 601060 <data[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (167.80283pt too wide) in paragraph at lines 4314--4314
+ []  @texttt 400634:     0f b6 05 26 0a 20 00    movzbl 0x200a26(%rip),%eax    
+    # 601061 <data_cells+0x1>[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (144.80807pt too wide) in paragraph at lines 4315--4315
+ []  @texttt 40063b:     c6 05 1e 0a 20 00 1a    movb   $0x1a,0x200a1e(%rip)   
+    # 601060 <data_cells>[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (167.80283pt too wide) in paragraph at lines 4317--4317
+ []  @texttt 400645:     40 88 3d 15 0a 20 00    mov    %dil,0x200a15(%rip)    
+    # 601061 <data_cells+0x1>[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (167.80283pt too wide) in paragraph at lines 4321--4321
+ []  @texttt 400659:     0f b6 05 01 0a 20 00    movzbl 0x200a01(%rip),%eax    
+    # 601061 <data_cells+0x1>[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (144.80807pt too wide) in paragraph at lines 4322--4322
+ []  @texttt 400660:     80 2d f9 09 20 00 01    subb   $0x1,0x2009f9(%rip)    
+    # 601060 <data_cells>[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (167.80283pt too wide) in paragraph at lines 4324--4324
+ []  @texttt 40066a:     40 88 3d f0 09 20 00    mov    %dil,0x2009f0(%rip)    
+    # 601061 <data_cells+0x1>[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (12.58826pt too wide) in paragraph at lines 4344--4344
+ []@texttt Breakpoint 1, 0x0000000000400790 in main (argc=1, argv=0x7fffffffe44
+8)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt B
+.@texttt r
+.@texttt e
+.etc.
+
+[64]
+Overfull \hbox (29.83432pt too wide) in paragraph at lines 4350--4350
+ []@texttt 9     >+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++<[] 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt 9
+.@penalty 10000
+.@glue 5.74869
+.etc.
+
+
+Overfull \hbox (29.83432pt too wide) in paragraph at lines 4357--4357
+ []@texttt 9     >+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++<[] 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt 9
+.@penalty 10000
+.@glue 5.74869
+.etc.
+
+
+Overfull \hbox (29.83432pt too wide) in paragraph at lines 4365--4365
+ []@texttt 9     >+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++<[] 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt 9
+.@penalty 10000
+.@glue 5.74869
+.etc.
+
+
+Overfull \hbox (29.83432pt too wide) in paragraph at lines 4380--4380
+ []@texttt 9     >+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++<[] 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt 9
+.@penalty 10000
+.@glue 5.74869
+.etc.
+
+Chapter 2 [65] [66]
+Overfull \hbox (414.9964pt too wide) in paragraph at lines 4579--4579
+ []@texttt ./buggy-program: error: gcc_jit_block_add_assignment: mismatching ty
+pes: assignment to i (type: int) from "hello world" (type: const char *)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt .
+.@texttt /
+.@texttt b
+.etc.
+
+[67] [68] [69]
+Overfull \hbox (47.4086pt too wide) in paragraph at lines 4864--4864
+ []       @texttt align 8 symtab 0 alias set -1 canonical type 0x7f4875a64bd0[]
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (191.1258pt too wide) in paragraph at lines 4866--4866
+ []   @texttt side-effects head 0x7f4875a761e0 tail 0x7f4875a761f8 stmts 0x7f48
+75a62d20 0x7f4875a62d00[] 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (47.4086pt too wide) in paragraph at lines 4868--4868
+ []   @texttt stmt <label_expr 0x7f4875a62d20 type <void_type 0x7f4875a64bd0>[]
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (110.64417pt too wide) in paragraph at lines 4870--4870
+ []       @texttt arg 0 <label_decl 0x7f4875a79080 entry type <void_type 0x7f48
+75a64bd0>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (47.4086pt too wide) in paragraph at lines 4872--4872
+ []           @texttt align 1 context <function_decl 0x7f4875a77500 square>>>[]
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (12.91647pt too wide) in paragraph at lines 4876--4876
+ []           @texttt unit size <integer_cst 0x7f4875a623c0 constant 4>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (662.51819pt too wide) in paragraph at lines 4877--4877
+ []           @texttt align 32 symtab 0 alias set -1 canonical type 0x7f4875a64
+5e8 precision 32 min <integer_cst 0x7f4875a62340 -2147483648> max <integer_cst 
+0x7f4875a62360 2147483647>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (99.14679pt too wide) in paragraph at lines 4880--4880
+ []       @texttt arg 0 <modify_expr 0x7f4875a72a78 type <integer_type 0x7f4875
+a645e8>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (30.16254pt too wide) in paragraph at lines 4881--4881
+ []           @texttt side-effects arg 0 <result_decl 0x7f4875a7a000 D.54>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (110.64417pt too wide) in paragraph at lines 4882--4882
+ []           @texttt arg 1 <mult_expr 0x7f4875a72a50 type <integer_type 0x7f48
+75a645e8>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[70]
+Overfull \hbox (173.87973pt too wide) in paragraph at lines 4883--4883
+ []               @texttt arg 0 <parm_decl 0x7f4875a79000 i> arg 1 <parm_decl 0
+x7f4875a79000 i>>>>>[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (70.40335pt too wide) in paragraph at lines 4937--4937
+ []    @texttt .ident    "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.1-%{gcc_release}
+)"[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[71]
+Overfull \hbox (47.24449pt too wide) in paragraph at lines 4994--4994
+ []@texttt #ifdef LIBGCCJIT_HAVE_gcc_jit_context_set_bool_allow_unreachable_blo
+cks[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt #
+.@texttt i
+.@texttt f
+.etc.
+
+
+Overfull \hbox (18.50105pt too wide) in paragraph at lines 5015--5015
+ []@texttt #ifdef LIBGCCJIT_HAVE_gcc_jit_context_set_bool_use_external_driver[]
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt #
+.@texttt i
+.@texttt f
+.etc.
+
+[72]
+Overfull \hbox (6.25432pt too wide) in paragraph at lines 5094--5097
+ []@textrm Add an ar-bi-trary gcc driver op-tion to the con-text, for use by [g
+cc[]jit[]context[]compile()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm A
+.@textrm d
+.@textrm d
+.etc.
+
+[73] [74]
+Overfull \hbox (63.01291pt too wide) in paragraph at lines 5281--5281
+ []@texttt gcc_jit_type *int_type = gcc_jit_context_get_type (ctxt, GCC_JIT_TYP
+E_INT);[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 65.48132
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+
+Overfull \hbox (160.7406pt too wide) in paragraph at lines 5291--5291
+ []@texttt gcc_jit_type *const_int_star = gcc_jit_type_get_pointer (gcc_jit_typ
+e_get_const (int_type));[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 65.48132
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+
+Overfull \hbox (160.7406pt too wide) in paragraph at lines 5292--5292
+ []@texttt gcc_jit_type *int_const_star = gcc_jit_type_get_const (gcc_jit_type_
+get_pointer (int_type));[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 65.48132
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+[75] [76]
+Overfull \hbox (35.74712pt too wide) in paragraph at lines 5605--5605
+ []                                                   @texttt GCC_JIT_TYPE_INT)
+;[] 
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (17.0234pt too wide) in paragraph at lines 5661--5661
+ []  @texttt gcc_jit_context_new_struct_type (ctxt, NULL, "coord", 2, fields);[
+] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 65.48132
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[77] [78] [79]
+Overfull \hbox (29.99843pt too wide) in paragraph at lines 5840--5840
+ []  @texttt gcc_jit_block *block = gcc_jit_function_new_block (test_fn, NULL);
+[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[80] [81]
+Underfull \hbox (badness 10000) in paragraph at lines 6129--6130
+[]@textrm [GCC[]JIT[]UNARY[]OP[]BITWISE[]NEGATE],
+
+@hbox(8.2125+2.73749)x257.93436
+.@hbox(0.0+0.0)x6.0
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6137--6138
+[]@textrm [GCC[]JIT[]UNARY[]OP[]LOGICAL[]NEGATE],
+
+@hbox(8.2125+2.73749)x257.93436
+.@hbox(0.0+0.0)x6.0
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 6280--6281
+[]@textrm [GCC[]JIT[]BINARY[]OP[]BITWISE[]AND],
+
+@hbox(8.2125+2.73749)x246.37598
+.@hbox(0.0+0.0)x6.0
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6288--6289
+[]@textrm [GCC[]JIT[]BINARY[]OP[]BITWISE[]XOR],
+
+@hbox(8.2125+2.73749)x246.37598
+.@hbox(0.0+0.0)x6.0
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6304--6305
+[]@textrm [GCC[]JIT[]BINARY[]OP[]LOGICAL[]AND],
+
+@hbox(8.2125+2.73749)x246.37598
+.@hbox(0.0+0.0)x6.0
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+[83] [84] [85]
+Overfull \hbox (35.2227pt too wide) in paragraph at lines 6619--6623
+ []@textrm Given an rvalue of func-tion pointer type (e.g. from [gcc[]jit[]cont
+ext[]new[]function[]ptr[]type()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm G
+.@textrm i
+.@textrm v
+.etc.
+
+[86]
+Overfull \hbox (14.57985pt too wide) in paragraph at lines 6635--6641
+ []@textrm Given an [gcc[]jit[]rvalue *], page 81 for a call cre-ated through [
+gcc[]jit[]context[]new[]call()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm G
+.@textrm i
+.@textrm v
+.etc.
+
+
+Overfull \hbox (11.96176pt too wide) in paragraph at lines 6669--6672
+ []@textrm from a [gcc[]jit[]function], page 90 us-ing [gcc[]jit[]function[]get
+[]address()], 
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 65.48132
+.@hbox(8.2125+0.0)x0.0, glue set - 12.70244fil
+..@glue 0.0 plus 1.0fil minus 1.0fil
+..@textrm *
+..@kern 7.22743
+.@textrm f
+.@textrm r
+.@textrm o
+.etc.
+
+
+Overfull \hbox (15.06432pt too wide) in paragraph at lines 6673--6678
+ []@textrm from an ex-ist-ing func-tion us-ing [gcc[]jit[]context[]new[]rvalue[
+]from[]ptr()], 
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 65.48132
+.@hbox(8.2125+0.0)x0.0, glue set - 12.70244fil
+..@glue 0.0 plus 1.0fil minus 1.0fil
+..@textrm *
+..@kern 7.22743
+.@textrm f
+.@textrm r
+.@textrm o
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6673--6678
+ @textrm page 82, us-ing a func-tion pointer type ob-tained us-ing 
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.52158
+.@glue(@leftskip) 65.48132
+.@textrm p
+.@textrm a
+.@textrm g
+.@textrm e
+.etc.
+
+[87] [88] [89] [90]
+Underfull \hbox (badness 10000) in paragraph at lines 7057--7059
+ []@textrm Analogous to pre-fix-ing with @texttt inline[] @textrm and adding 
+
+@hbox(7.60416+2.12917)x433.62, glue set 5.43953
+.@glue(@leftskip) 101.6152
+.@hbox(0.0+0.0)x0.0
+.@textrm A
+.@textrm n
+.@textrm a
+.etc.
+
+
+Overfull \hbox (29.99843pt too wide) in paragraph at lines 7080--7080
+ []  @texttt = gcc_jit_context_get_builtin_function (ctxt, "__builtin_memcpy");
+[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[91]
+Overfull \hbox (29.99843pt too wide) in paragraph at lines 7169--7169
+ []   @texttt state.op_blocks[pc] = gcc_jit_function_new_block (state.fn, buf);
+[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 7252--7258
+ []@textrm Add a no-op tex-tual com-ment to the in-ter-nal rep-re-sen-ta-tion o
+f the
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.63435
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm A
+.@textrm d
+.@textrm d
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7252--7258
+ @textrm via [GCC[]JIT[]BOOL[]OPTION[]DUMP[]INITIAL[]TREE], page 70 and
+
+@hbox(8.2125+2.73749)x433.62, glue set 8.38612
+.@glue(@leftskip) 28.90755
+.@textrm v
+.@textrm i
+.@textrm a
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+[93] [94]
+Overfull \hbox (25.61964pt too wide) in paragraph at lines 7433--7433
+ []@texttt create_code (gcc_jit_context *ctxt, void *user_data)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@texttt c
+.@texttt r
+.@texttt e
+.etc.
+
+[95]
+Overfull \hbox (37.11702pt too wide) in paragraph at lines 7459--7459
+ []    @texttt gcc_jit_context_get_type (ctxt, GCC_JIT_TYPE_INT);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.8657pt too wide) in paragraph at lines 7462--7462
+ []    @texttt gcc_jit_context_new_param (ctxt, NULL, t_int, "x");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (14.12227pt too wide) in paragraph at lines 7477--7477
+ []    @texttt gcc_jit_function_new_block (func, "case_0_5");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (25.61964pt too wide) in paragraph at lines 7479--7479
+ []    @texttt gcc_jit_function_new_block (func, "case_25_27");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (37.11702pt too wide) in paragraph at lines 7481--7481
+ []    @texttt gcc_jit_function_new_block (func, "case_m42_m17");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[96]
+Overfull \hbox (65.86046pt too wide) in paragraph at lines 7488--7488
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 0),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (65.86046pt too wide) in paragraph at lines 7489--7489
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 5),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.60915pt too wide) in paragraph at lines 7493--7493
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 25),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.60915pt too wide) in paragraph at lines 7494--7494
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 27),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (77.35783pt too wide) in paragraph at lines 7498--7498
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, -42),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (77.35783pt too wide) in paragraph at lines 7499--7499
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, -17),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.60915pt too wide) in paragraph at lines 7503--7503
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 40),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.60915pt too wide) in paragraph at lines 7504--7504
+ []      @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 40),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (60.11177pt too wide) in paragraph at lines 7515--7515
+ []    @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 3));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (60.11177pt too wide) in paragraph at lines 7518--7518
+ []    @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 4));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (65.86046pt too wide) in paragraph at lines 7521--7521
+ []    @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 83));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (60.11177pt too wide) in paragraph at lines 7524--7524
+ []    @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 8));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (65.86046pt too wide) in paragraph at lines 7527--7527
+ []    @texttt gcc_jit_context_new_rvalue_from_int (ctxt, t_int, 10));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (10.72046pt too wide) in paragraph at lines 7559--7561
+[]@textrm You can gen-er-ate calls that use a func-tion pointer via [gcc[]jit[]
+context[]new[]call[]through[]ptr()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@kern 0.0
+.@textrm Y
+.@kern-0.91252
+.@textrm o
+.etc.
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 7564--7566
+[]@textrm Function point-ers for a [gcc[]jit[]function], page 90 can be ob-tain
+ed via
+
+@hbox(8.2125+2.73749)x433.62, glue set 5.23607
+.@hbox(0.0+0.0)x0.0
+.@textrm F
+.@kern-0.91252
+.@textrm u
+.@textrm n
+.etc.
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 7750--7753
+ []@textrm If the re-sult is non-NULL, the caller be-comes re-spon-si-ble for c
+all-ing
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.35268
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm I
+.@textrm f
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+[99]
+Overfull \hbox (24.24974pt too wide) in paragraph at lines 7779--7779
+ []                              @texttt /* Required for func to be visible to[
+] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[100]
+Underfull \hbox (badness 8056) in paragraph at lines 7863--7867
+@textrm be used for im-ple-ment-ing more tra-di-tional ahead-of-time com-pil-er
+s, via the
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.32071
+.@textrm b
+.@kern0.30417
+.@textrm e
+.@glue 3.65 plus 1.825 minus 1.21666
+.@textrm u
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7922--7923
+[]@textrm [GCC[]JIT[]OUTPUT[]KIND[]DYNAMIC[]LIBRARY],
+
+@hbox(8.2125+2.73749)x281.05112
+.@hbox(0.0+0.0)x6.0
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+[101] [102]
+Overfull \hbox (15.08128pt too wide) in paragraph at lines 8137--8139
+[]@texttt LIBGCCJIT_ABI_2[] @textrm cov-ers the ad-di-tion of [gcc[]jit[]contex
+t[]set[]bool[]allow[]unreachable[]blocks()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@kern 0.0
+.@texttt L
+.@texttt I
+.@texttt B
+.etc.
+
+[103] [104]
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 8407--8407
+ []    @texttt /* Populate the context, timing it as client item "create_code".
+  */[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[105]
+Overfull \hbox (41.3317pt too wide) in paragraph at lines 8417--8417
+ []    @texttt /* Run the generated code, timing it as client item "running cod
+e".  */[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8438--8438
+ [] @texttt phase setup             :   0.29 (14%) usr   0.00 ( 0%) sys   0.32 
+( 5%) wall   10661 kB (50%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt p
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8439--8439
+ [] @texttt phase parsing           :   0.02 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall     653 kB ( 3%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt p
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8440--8440
+ [] @texttt phase finalize          :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt p
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8441--8441
+ [] @texttt dump files              :   0.02 ( 1%) usr   0.00 ( 0%) sys   0.01 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt d
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8442--8442
+ [] @texttt callgraph construction  :   0.02 ( 1%) usr   0.01 ( 6%) sys   0.01 
+( 0%) wall     242 kB ( 1%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt c
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8443--8443
+ [] @texttt callgraph optimization  :   0.03 ( 2%) usr   0.00 ( 0%) sys   0.02 
+( 0%) wall     142 kB ( 1%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt c
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8444--8444
+ [] @texttt trivially dead code     :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt t
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8445--8445
+ [] @texttt df scan insns           :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       9 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt d
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8446--8446
+ [] @texttt df live regs            :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.01 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt d
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8447--8447
+ [] @texttt inline parameters       :   0.02 ( 1%) usr   0.00 ( 0%) sys   0.01 
+( 0%) wall      82 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt i
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8448--8448
+ [] @texttt tree CFG cleanup        :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt t
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8449--8449
+ [] @texttt tree PHI insertion      :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.02 
+( 0%) wall      64 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt t
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8450--8450
+ [] @texttt tree SSA other          :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.01 
+( 0%) wall      18 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt t
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8451--8451
+ [] @texttt expand                  :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall     398 kB ( 2%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt e
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8452--8452
+ [] @texttt jump                    :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt j
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8453--8453
+ [] @texttt loop init               :   0.01 ( 0%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall      67 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt l
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8454--8454
+ [] @texttt integrated RA           :   0.02 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall    2468 kB (12%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt i
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8455--8455
+ [] @texttt thread pro- & epilogue  :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall     162 kB ( 1%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt t
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8456--8456
+ [] @texttt final                   :   0.01 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall     216 kB ( 1%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt f
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8457--8457
+ [] @texttt rest of compilation     :   1.37 (69%) usr   0.00 ( 0%) sys   1.13 
+(18%) wall    1391 kB ( 6%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt r
+.etc.
+
+[106]
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8458--8458
+ [] @texttt assemble JIT code       :   0.01 ( 1%) usr   0.00 ( 0%) sys   4.04 
+(66%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt a
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8459--8459
+ [] @texttt load JIT result         :   0.02 ( 1%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt l
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8460--8460
+ [] @texttt JIT client code         :   0.00 ( 0%) usr   0.01 ( 6%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt J
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8462--8462
+ [] @texttt create_code             :   0.00 ( 0%) usr   0.01 ( 6%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt c
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8463--8463
+ [] @texttt compile                 :   0.36 (18%) usr   0.15 (83%) sys   0.86 
+(14%) wall   14939 kB (70%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt c
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 8464--8464
+ [] @texttt running code            :   0.00 ( 0%) usr   0.00 ( 0%) sys   0.00 
+( 0%) wall       0 kB ( 0%) ggc[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt r
+.etc.
+
+
+Overfull \hbox (121.81332pt too wide) in paragraph at lines 8465--8465
+ [] @texttt TOTAL                   :   2.00             0.18             6.12 
+             21444 kB[] 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@texttt T
+.etc.
+
+[107] [108]
+Overfull \hbox (35.74712pt too wide) in paragraph at lines 8713--8713
+ []  @texttt gcc_jit_extended_asm_add_output_operand (ext_asm, NULL, "=r", dst)
+;[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (70.23924pt too wide) in paragraph at lines 8746--8746
+ []  @texttt gcc_jit_extended_asm_add_output_operand (ext_asm, "aIndex", "=r", 
+index);[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[109] [110]
+Overfull \hbox (18.50105pt too wide) in paragraph at lines 8844--8844
+ []               @texttt "shl $32, %%rdx\n\t"  // Shift the upper bits left.[]
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (35.74712pt too wide) in paragraph at lines 8861--8861
+ []  @texttt gcc_jit_extended_asm_add_output_operand (ext_asm, NULL, "=a", msr)
+;[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[111]
+Overfull \hbox (24.24974pt too wide) in paragraph at lines 8898--8898
+ []@texttt gcc_jit_extended_asm_add_output_operand (ext_asm, NULL, "=r", dst);[
+] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+
+Overfull \hbox (58.74187pt too wide) in paragraph at lines 8902--8902
+ []@texttt gcc_jit_extended_asm_add_output_operand (ext_asm, "aIndex", "=r", in
+dex);[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+
+Overfull \hbox (52.99318pt too wide) in paragraph at lines 8933--8933
+ []                                        @texttt gcc_jit_lvalue_as_rvalue (sr
+c));[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (58.74187pt too wide) in paragraph at lines 8938--8938
+ []                                        @texttt gcc_jit_lvalue_as_rvalue (ma
+sk));[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[112]
+Overfull \hbox (24.24974pt too wide) in paragraph at lines 9008--9008
+ []                                     @texttt "\t.type add_asm, @function\n"[
+] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[113] Chapter 3 [114]
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 9123--9123
+ []   @texttt Copyright (C) 2014-2021 Free Software Foundation, Inc.[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 9127--9127
+ []@texttt GCC is free software; you can redistribute it and/or modify it[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 9128--9128
+ []@texttt under the terms of the GNU General Public License as published by[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt u
+.@texttt n
+.@texttt d
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 9129--9129
+ []@texttt the Free Software Foundation; either version 3, or (at your option)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt h
+.@texttt e
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 9132--9132
+ []@texttt GCC is distributed in the hope that it will be useful, but[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 9133--9133
+ []@texttt WITHOUT ANY WARRANTY; without even the implied warranty of[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt W
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 9134--9134
+ []@texttt MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU[] 
+ 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt M
+.@texttt E
+.@texttt R
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 9137--9137
+ []@texttt You should have received a copy of the GNU General Public License[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt Y
+.@texttt o
+.@texttt u
+.etc.
+
+[115]
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 9149--9149
+ []  @texttt /* Let's try to inject the equivalent of this C code:[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 9156--9156
+ []  @texttt gccjit::type void_type = ctxt.get_type (GCC_JIT_TYPE_VOID);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (19.70685pt too wide) in paragraph at lines 9175--9175
+ []                       @texttt ctxt.get_type (GCC_JIT_TYPE_INT),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (65.69635pt too wide) in paragraph at lines 9181--9181
+ []                                 @texttt ctxt.new_rvalue ("hello %s\n"),[]  
+
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 9192--9192
+ []  @texttt /* Get a "context" object for working with the library.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[116]
+Overfull \hbox (117.43454pt too wide) in paragraph at lines 9196--9196
+ []     @texttt Turn this on to see the code being generated, in assembler form
+.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (88.6911pt too wide) in paragraph at lines 9197--9197
+ []  @texttt ctxt.set_bool_option (GCC_JIT_BOOL_OPTION_DUMP_GENERATED_CODE, 0);
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 9215--9215
+ []    @texttt (fn_type)gcc_jit_result_get_code (result, "greet");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[117] [118] [119] [120]
+Overfull \hbox (213.79233pt too wide) in paragraph at lines 9547--9547
+ []      @texttt .ident  "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.2-0.5.1920c315ff
+984892399893b380305ab36e07b455.fc20)"[] 
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (213.79233pt too wide) in paragraph at lines 9576--9576
+ []      @texttt .ident  "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.2-0.5.1920c315ff
+984892399893b380305ab36e07b455.fc20)"[] 
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 9593--9593
+ []   @texttt Copyright (C) 2014-2021 Free Software Foundation, Inc.[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[121]
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 9597--9597
+ []@texttt GCC is free software; you can redistribute it and/or modify it[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 9598--9598
+ []@texttt under the terms of the GNU General Public License as published by[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt u
+.@texttt n
+.@texttt d
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 9599--9599
+ []@texttt the Free Software Foundation; either version 3, or (at your option)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt h
+.@texttt e
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 9602--9602
+ []@texttt GCC is distributed in the hope that it will be useful, but[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 9603--9603
+ []@texttt WITHOUT ANY WARRANTY; without even the implied warranty of[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt W
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 9604--9604
+ []@texttt MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU[] 
+ 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt M
+.@texttt E
+.@texttt R
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 9607--9607
+ []@texttt You should have received a copy of the GNU General Public License[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt Y
+.@texttt o
+.@texttt u
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 9619--9619
+ []  @texttt /* Let's try to inject the equivalent of this C code:[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 9626--9626
+ []  @texttt gccjit::type int_type = ctxt.get_type (GCC_JIT_TYPE_INT);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 9627--9627
+ []  @texttt gccjit::param param_i = ctxt.new_param (int_type, "i");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (105.93716pt too wide) in paragraph at lines 9630--9630
+ []  @texttt gccjit::function func = ctxt.new_function (GCC_JIT_FUNCTION_EXPORT
+ED,[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (19.70685pt too wide) in paragraph at lines 9633--9633
+ []                                             @texttt params, 0);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 9638--9638
+ []    @texttt ctxt.new_binary_op (GCC_JIT_BINARY_OP_MULT, int_type,[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[122]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 9647--9647
+ []  @texttt /* Get a "context" object for working with the library.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (117.43454pt too wide) in paragraph at lines 9651--9651
+ []     @texttt Turn this on to see the code being generated, in assembler form
+.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 9662--9662
+ []  @texttt /* We're done with the context; we can release it: */[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.7016pt too wide) in paragraph at lines 9672--9672
+ []  @texttt void *fn_ptr = gcc_jit_result_get_code (result, "square");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[123]
+(libgccjit-figures/sum-of-squares.eps
+./../../gcc/jit/docs/_build/texinfo/libgccjit.texi:9770: Could not open file li
+bgccjit-figures/sum-of-squares.eps, ignoring it.
+@epsfgetbb ...Could not open file #1, ignoring it}
+                                                  @else {@chardef @other = 1...
+
+@next #1->@epsfgetbb {#1}
+                         @epsfsetgraph {#1}
+@imagexxx ...ysize =#3@relax @fi @epsfbox {#1.eps}
+                                                  @fi @ifimagevmode @medskip...
+
+@image ...true @fi @else @imagexxx #1,,,,,@finish 
+                                                  @fi 
+l.9770 ...res,,,image of a control flow graph,png}
+                                                  
+(That was another \errmessage.)
+
+)
+
+Overfull \hbox (123.7298pt too wide) in paragraph at lines 9770--9770
+ []  
+
+@hbox(650.42249+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(650.42249+0.0)x469.74957
+..@vbox(650.42249+0.0)x469.74957, glue set 650.42249fil
+...@glue 0.0 plus 1.0fil
+...@hbox(0.0+0.0)x469.74957, glue set 469.74957fil []
+.@penalty 10000
+.@glue(@parfillskip) 0.0 plus 1.0fil
+.@glue(@rightskip) 43.80011
+
+[124]
+Overfull \vbox (83.05165pt too high) has occurred while \output is active
+\vbox(643.2+4.0)x433.62
+.\glue(\topskip) 36.0
+.\vbox(0.0+694.25165)x433.62
+..\glue 3.0 plus 2.0 minus 1.0
+..\penalty 10000
+..\glue 6.0 plus 2.0 minus 2.0
+..\penalty 10000
+..\glue 3.0 plus 2.0 minus 1.0
+..etc.
+
+
+[125] [126] [127]
+Overfull \hbox (39.53595pt too wide) in paragraph at lines 9989--9991
+[]@textrm and can then use this to add @textsl b[]loop[]cond@textrm 's sole sta
+te-ment, via [gc-cjit;;block;;end[]with[]conditional()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm a
+.@textrm n
+.@textrm d
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+[128]
+Overfull \hbox (0.98152pt too wide) in paragraph at lines 10127--10130
+[]@textrm or use a viewer (my pre-ferred one is xdot.py; see @texttt https://gi
+thub.com/jrfonseca/xdot.py[]@textrm ;
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm o
+.@textrm r
+.@glue 3.65 plus 1.825 minus 1.21666
+.@textrm u
+.etc.
+
+(libgccjit-figures/sum-of-squares.eps
+./../../gcc/jit/docs/_build/texinfo/libgccjit.texi:10136: Could not open file l
+ibgccjit-figures/sum-of-squares.eps, ignoring it.
+@epsfgetbb ...Could not open file #1, ignoring it}
+                                                  @else {@chardef @other = 1...
+
+@next #1->@epsfgetbb {#1}
+                         @epsfsetgraph {#1}
+@imagexxx ...ysize =#3@relax @fi @epsfbox {#1.eps}
+                                                  @fi @ifimagevmode @medskip...
+
+@image ...true @fi @else @imagexxx #1,,,,,@finish 
+                                                  @fi 
+l.10136 ...es,,,image of a control flow graph,png}
+                                                  
+(That was another \errmessage.)
+
+)
+
+Overfull \hbox (123.7298pt too wide) in paragraph at lines 10136--10136
+ []  
+
+@hbox(650.42249+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(650.42249+0.0)x469.74957
+..@vbox(650.42249+0.0)x469.74957, glue set 650.42249fil
+...@glue 0.0 plus 1.0fil
+...@hbox(0.0+0.0)x469.74957, glue set 469.74957fil []
+.@penalty 10000
+.@glue(@parfillskip) 0.0 plus 1.0fil
+.@glue(@rightskip) 43.80011
+
+[129] [130]
+Overfull \vbox (83.05165pt too high) has occurred while \output is active
+\vbox(643.2+4.0)x433.62
+.\glue(\topskip) 36.0
+.\vbox(0.0+694.25165)x433.62
+..\glue 3.0 plus 2.0 minus 1.0
+..\penalty 10000
+..\glue 6.0 plus 2.0 minus 2.0
+..\penalty 10000
+..\glue 3.0 plus 2.0 minus 1.0
+..etc.
+.\write1{@xrdef{cp/intro/tutorial03 full-example-pg}{\folio }}
+.\write1{@xrdef{15d-pg}{\folio }}
+.\mark{\gdef \thischaptername {C++ bindings for libgccjit}\gdef \thischapternum
+ \ETC.}
+
+
+[131]
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 10151--10151
+ []   @texttt Copyright (C) 2014-2021 Free Software Foundation, Inc.[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.19897pt too wide) in paragraph at lines 10155--10155
+ []@texttt GCC is free software; you can redistribute it and/or modify it[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 10156--10156
+ []@texttt under the terms of the GNU General Public License as published by[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt u
+.@texttt n
+.@texttt d
+.etc.
+
+
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 10157--10157
+ []@texttt the Free Software Foundation; either version 3, or (at your option)[
+]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt t
+.@texttt h
+.@texttt e
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 10160--10160
+ []@texttt GCC is distributed in the hope that it will be useful, but[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt G
+.@texttt C
+.@texttt C
+.etc.
+
+
+Overfull \hbox (31.20422pt too wide) in paragraph at lines 10161--10161
+ []@texttt WITHOUT ANY WARRANTY; without even the implied warranty of[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt W
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 10162--10162
+ []@texttt MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU[] 
+ 
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt M
+.@texttt E
+.@texttt R
+.etc.
+
+
+Overfull \hbox (71.44504pt too wide) in paragraph at lines 10165--10165
+ []@texttt You should have received a copy of the GNU General Public License[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt Y
+.@texttt o
+.@texttt u
+.etc.
+
+
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 10178--10178
+ []    @texttt Simple sum-of-squares, to test conditionals and looping[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[132]
+Overfull \hbox (19.70685pt too wide) in paragraph at lines 10204--10204
+ []  @texttt gccjit::lvalue sum = func.new_local (the_type, "sum");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 10206--10206
+ []  @texttt gccjit::block b_initial = func.new_block ("initial");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 10207--10207
+ []  @texttt gccjit::block b_loop_cond = func.new_block ("loop_cond");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 10208--10208
+ []  @texttt gccjit::block b_loop_body = func.new_block ("loop_body");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 10209--10209
+ []  @texttt gccjit::block b_after_loop = func.new_block ("after_loop");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 10212--10212
+ []  @texttt b_initial.add_assignment (sum, ctxt.zero (the_type));[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (19.70685pt too wide) in paragraph at lines 10227--10227
+ []                                 @texttt GCC_JIT_BINARY_OP_PLUS,[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 10232--10232
+ []                                @texttt GCC_JIT_BINARY_OP_PLUS,[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[133]
+Overfull \hbox (48.45029pt too wide) in paragraph at lines 10247--10247
+ []  @texttt /* Get a "context" object for working with the library.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (117.43454pt too wide) in paragraph at lines 10251--10251
+ []     @texttt Turn this on to see the code being generated, in assembler form
+.  */[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (65.69635pt too wide) in paragraph at lines 10252--10252
+ []  @texttt ctxt.set_bool_option (GCC_JIT_BOOL_OPTION_DUMP_GENERATED_CODE,[]  
+
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (94.43979pt too wide) in paragraph at lines 10272--10272
+ []    @texttt (loop_test_fn_type)gcc_jit_result_get_code (result, "loop_test")
+;[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[134] [135]
+Overfull \hbox (82.94241pt too wide) in paragraph at lines 10585--10585
+ []@texttt # Simple recursive factorial implementation, roughly equivalent to:[
+]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt #
+.@penalty 10000
+.@glue 5.74869
+.etc.
+
+[136] [137] [138] [139]
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 10831--10831
+ []  @texttt stack_type = ctxt.new_array_type (int_type, MAX_STACK_DEPTH);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[140] [141]
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 10920--10920
+ []      @texttt op_locs[pc] = ctxt.new_location (toyvmfn.fn_filename,[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 10922--10922
+ []                                       @texttt 0); /* column */[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 10937--10937
+ []@texttt compilation_state::create_function (const char *funcname)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt c
+.@texttt o
+.@texttt m
+.etc.
+
+
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 10940--10940
+ []  @texttt param_arg = ctxt.new_param (int_type, "arg", op_locs[0]);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 10957--10957
+ []  @texttt stack_depth = fn.new_local (int_type, "stack_depth");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[142]
+Overfull \hbox (25.45554pt too wide) in paragraph at lines 11032--11032
+ []      @texttt gccjit::block next_block = (pc < toyvmfn.fn_num_ops[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[143]
+Overfull \hbox (36.95291pt too wide) in paragraph at lines 11086--11086
+ []      @texttt block.add_comment (opcode_names[op->op_opcode], loc);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[144] [145]
+(libgccjit-figures/factorial.eps
+./../../gcc/jit/docs/_build/texinfo/libgccjit.texi:11240: Could not open file l
+ibgccjit-figures/factorial.eps, ignoring it.
+@epsfgetbb ...Could not open file #1, ignoring it}
+                                                  @else {@chardef @other = 1...
+
+@next #1->@epsfgetbb {#1}
+                         @epsfsetgraph {#1}
+@imagexxx ...ysize =#3@relax @fi @epsfbox {#1.eps}
+                                                  @fi @ifimagevmode @medskip...
+
+@image ...true @fi @else @imagexxx #1,,,,,@finish 
+                                                  @fi 
+l.11240 ...al,,,image of a control flow graph,png}
+                                                  
+(That was another \errmessage.)
+
+)
+
+Overfull \hbox (123.7298pt too wide) in paragraph at lines 11240--11240
+ []  
+
+@hbox(650.42249+0.0)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(650.42249+0.0)x469.74957
+..@vbox(650.42249+0.0)x469.74957, glue set 650.42249fil
+...@glue 0.0 plus 1.0fil
+...@hbox(0.0+0.0)x469.74957, glue set 469.74957fil []
+.@penalty 10000
+.@glue(@parfillskip) 0.0 plus 1.0fil
+.@glue(@rightskip) 43.80011
+
+[146]
+Overfull \vbox (83.05165pt too high) has occurred while \output is active
+\vbox(643.2+4.0)x433.62
+.\glue(\topskip) 36.0
+.\vbox(0.0+694.25165)x433.62
+..\glue 3.0 plus 2.0 minus 1.0
+..\penalty 10000
+..\glue 6.0 plus 2.0 minus 2.0
+..\penalty 10000
+..\glue 3.0 plus 2.0 minus 1.0
+..etc.
+.\write1{@xrdef{cp/intro/tutorial04 compiling-the-context-pg}{\folio }}
+.\write1{@xrdef{167-pg}{\folio }}
+.\mark{\gdef \thischaptername {C++ bindings for libgccjit}\gdef \thischapternum
+ \ETC.}
+
+
+[147]
+Overfull \hbox (19.70685pt too wide) in paragraph at lines 11275--11275
+ []    @texttt return gcc_jit_result_get_code (m_result, funcname);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (59.94766pt too wide) in paragraph at lines 11289--11289
+ []    @texttt = (toyvm_compiled_func)compiler_result.get_code (funcname);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11315--11320
+ @textrm [GCC[]JIT[]BOOL[]OPTION[]DEBUGINFO], page 70 on the 
+
+@hbox(8.2125+2.73749)x433.62, glue set 4.89397
+.@glue(@leftskip) 65.48132
+.@textrm [
+.@textrm G
+.@textrm C
+.@textrm C
+.etc.
+
+
+Overfull \hbox (41.38806pt too wide) in paragraph at lines 11322--11322
+ []@texttt ctxt.set_bool_option (GCC_JIT_BOOL_OPTION_DEBUGINFO, 1);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@texttt c
+.@texttt t
+.@texttt x
+.etc.
+
+[148] [149] [150] [151]
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 11550--11550
+ []        @texttt .ident  "GCC: (GNU) 4.9.0 20131023 (Red Hat 0.2-%{gcc_releas
+e})"[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[152]
+Overfull \hbox (18.33694pt too wide) in paragraph at lines 11600--11600
+ []@texttt state.ctxt.set_bool_option (GCC_JIT_BOOL_OPTION_KEEP_INTERMEDIATES, 
+1);[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt s
+.@texttt t
+.@texttt a
+.etc.
+
+
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 11634--11634
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[153]
+Overfull \hbox (12.76413pt too wide) in paragraph at lines 11674--11677
+[]@textrm We can per-haps bet-ter see the code by turn-ing off [GCC[]JIT[]BOOL[
+]OPTION[]DEBUGINFO],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm W
+.@kern-0.91252
+.@textrm e
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 11683--11683
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[154] [155]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 11793--11793
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[156] [157]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 11863--11863
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[158]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 11948--11948
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[159]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 11998--11998
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[160]
+Overfull \hbox (47.08038pt too wide) in paragraph at lines 12055--12055
+ []@texttt ;; Function factorial (factorial, funcdef_no=0, decl_uid=53, symbol_
+order=0)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt ;
+.@texttt ;
+.@penalty 10000
+.etc.
+
+[161] [162] [163] [164]
+Overfull \hbox (47.24449pt too wide) in paragraph at lines 12391--12391
+ []@texttt #ifdef LIBGCCJIT_HAVE_gcc_jit_context_set_bool_allow_unreachable_blo
+cks[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt #
+.@texttt i
+.@texttt f
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12405--12408
+ []@textrm This op-tion can be used to in-stead in-voke an ex-ter-nal driver ex
+-
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.84335
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm T
+.@textrm h
+.@textrm i
+.etc.
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 12405--12408
+ @textrm e-cutable as a sub-pro-cess; it is a thin wrap-per around the C API
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.24916
+.@glue(@leftskip) 28.90755
+.@textrm e
+.@discretionary
+..@textrm -
+.@textrm c
+.@textrm u
+.etc.
+
+
+Overfull \hbox (18.50105pt too wide) in paragraph at lines 12413--12413
+ []@texttt #ifdef LIBGCCJIT_HAVE_gcc_jit_context_set_bool_use_external_driver[]
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt #
+.@texttt i
+.@texttt f
+.etc.
+
+
+Overfull \hbox (5.37639pt too wide) in paragraph at lines 12445--12447
+ []@textrm This is a thin wrap-per around the C API [gcc[]jit[]context[]add[]co
+mmand[]line[]option()],
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm T
+.@textrm h
+.@textrm i
+.etc.
+
+[165] [166]
+Overfull \hbox (17.0234pt too wide) in paragraph at lines 12604--12604
+ []@texttt gccjit::type const_int_star = int_type.get_const ().get_pointer ();[
+] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 65.48132
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+
+Overfull \hbox (17.0234pt too wide) in paragraph at lines 12605--12605
+ []@texttt gccjit::type int_const_star = int_type.get_pointer ().get_const ();[
+] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 65.48132
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+[167] [168] [169] [170] [171] [172]
+Overfull \hbox (13.95816pt too wide) in paragraph at lines 13273--13273
+ []@texttt gccjit::rvalue discriminant = (b * b) - (four * a * c);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 87.60022
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+[173] [174] [175] [176] [177]
+Underfull \hbox (badness 10000) in paragraph at lines 13833--13839
+ []@textrm Add a no-op tex-tual com-ment to the in-ter-nal rep-re-sen-ta-tion o
+f the
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.63435
+.@glue(@leftskip) 28.90755
+.@hbox(0.0+0.0)x0.0
+.@textrm A
+.@textrm d
+.@textrm d
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13833--13839
+ @textrm via [GCC[]JIT[]BOOL[]OPTION[]DUMP[]INITIAL[]TREE], page 70 and
+
+@hbox(8.2125+2.73749)x433.62, glue set 8.38612
+.@glue(@leftskip) 28.90755
+.@textrm v
+.@textrm i
+.@textrm a
+.@glue 3.65 plus 1.825 minus 1.21666
+.etc.
+
+[178] [179]
+Overfull \hbox (37.11702pt too wide) in paragraph at lines 13977--13977
+ []@texttt create_code (gcc_jit_context *c_ctxt, void *user_data)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@texttt c
+.@texttt r
+.@texttt e
+.etc.
+
+[180]
+Overfull \hbox (48.6144pt too wide) in paragraph at lines 14003--14003
+ []  @texttt gccjit::type t_int = ctxt.get_type (GCC_JIT_TYPE_INT);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (134.84471pt too wide) in paragraph at lines 14008--14008
+ []  @texttt gccjit::function func = ctxt.new_function (GCC_JIT_FUNCTION_EXPORT
+ED,[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.36308pt too wide) in paragraph at lines 14009--14009
+ []                                             @texttt return_type,[]  
+
+@hbox(6.06165+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (65.86046pt too wide) in paragraph at lines 14010--14010
+ []                                             @texttt "test_switch",[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (48.6144pt too wide) in paragraph at lines 14011--14011
+ []                                             @texttt params, 0);[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.8657pt too wide) in paragraph at lines 14013--14013
+ []  @texttt gccjit::block b_initial = func.new_block ("initial");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.8657pt too wide) in paragraph at lines 14015--14015
+ []  @texttt gccjit::block b_default = func.new_block ("default");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (54.36308pt too wide) in paragraph at lines 14016--14016
+ []  @texttt gccjit::block b_case_0_5 = func.new_block ("case_0_5");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (77.35783pt too wide) in paragraph at lines 14017--14017
+ []  @texttt gccjit::block b_case_25_27 = func.new_block ("case_25_27");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (100.35258pt too wide) in paragraph at lines 14018--14018
+ []  @texttt gccjit::block b_case_m42_m17 = func.new_block ("case_m42_m17");[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (42.8657pt too wide) in paragraph at lines 14019--14019
+ []  @texttt gccjit::block b_case_40 = func.new_block ("case_40");[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (77.35783pt too wide) in paragraph at lines 14022--14022
+ []  @texttt cases.push_back (ctxt.new_case (ctxt.new_rvalue (t_int, 0),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (77.35783pt too wide) in paragraph at lines 14023--14023
+ []                                  @texttt ctxt.new_rvalue (t_int, 5),[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (83.10652pt too wide) in paragraph at lines 14025--14025
+ []  @texttt cases.push_back (ctxt.new_case (ctxt.new_rvalue (t_int, 25),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (83.10652pt too wide) in paragraph at lines 14026--14026
+ []                                  @texttt ctxt.new_rvalue (t_int, 27),[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (88.85521pt too wide) in paragraph at lines 14028--14028
+ []  @texttt cases.push_back (ctxt.new_case (ctxt.new_rvalue (t_int, -42),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (88.85521pt too wide) in paragraph at lines 14029--14029
+ []                                  @texttt ctxt.new_rvalue (t_int, -17),[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (19.87096pt too wide) in paragraph at lines 14030--14030
+ []                                  @texttt b_case_m42_m17));[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (83.10652pt too wide) in paragraph at lines 14031--14031
+ []  @texttt cases.push_back (ctxt.new_case (ctxt.new_rvalue (t_int, 40),[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (83.10652pt too wide) in paragraph at lines 14032--14032
+ []                                  @texttt ctxt.new_rvalue (t_int, 40),[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (60.11177pt too wide) in paragraph at lines 14038--14038
+ []  @texttt b_case_0_5.end_with_return (ctxt.new_rvalue (t_int, 3));[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (71.60915pt too wide) in paragraph at lines 14039--14039
+ []  @texttt b_case_25_27.end_with_return (ctxt.new_rvalue (t_int, 4));[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (88.85521pt too wide) in paragraph at lines 14040--14040
+ []  @texttt b_case_m42_m17.end_with_return (ctxt.new_rvalue (t_int, 83));[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[181]
+Overfull \hbox (54.36308pt too wide) in paragraph at lines 14041--14041
+ []  @texttt b_case_40.end_with_return (ctxt.new_rvalue (t_int, 8));[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (60.11177pt too wide) in paragraph at lines 14042--14042
+ []  @texttt b_default.end_with_return (ctxt.new_rvalue (t_int, 10));[]  
+
+@hbox(7.60416+1.52081)x433.62
+.@glue(@leftskip) 116.50777
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 14183--14186
+@textrm be used for im-ple-ment-ing more tra-di-tional ahead-of-time com-pil-er
+s, via the
+
+@hbox(7.60416+2.12917)x433.62, glue set 4.32071
+.@textrm b
+.@kern0.30417
+.@textrm e
+.@glue 3.65 plus 1.825 minus 1.21666
+.@textrm u
+.etc.
+
+[182] [183] [184]
+Overfull \hbox (18.50105pt too wide) in paragraph at lines 14414--14414
+ []               @texttt "shl $32, %%rdx\n\t"  // Shift the upper bits left.[]
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[185] [186]
+Overfull \hbox (35.74712pt too wide) in paragraph at lines 14543--14543
+ []@texttt ext_asm.add_clobber ("r0").add_clobber ("cc").add_clobber ("memory")
+;[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt e
+.@texttt x
+.@texttt t
+.etc.
+
+[187] Chapter 4 [188]
+Overfull \hbox (254.03314pt too wide) in paragraph at lines 14652--14652
+ []@texttt gcc/libgccjit.so.0.0.1: ELF 64-bit LSB shared object, x86-64, versio
+n 1 (SYSV), dynamically linked, not stripped[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt g
+.@texttt c
+.@texttt c
+.etc.
+
+
+Overfull \hbox (294.43806pt too wide) in paragraph at lines 14678--14678
+ []@texttt xgcc: error: /home/david/jit/src/gcc/testsuite/jit.dg/test-quadratic
+.cc: C++ compiler not installed on this system[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt x
+.@texttt g
+.@texttt c
+.etc.
+
+
+Overfull \hbox (41.4958pt too wide) in paragraph at lines 14679--14679
+ []@texttt c++: error trying to exec 'cc1plus': execvp: No such file or directo
+ry[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt c
+.@texttt +
+.@texttt +
+.etc.
+
+[189] [190]
+Overfull \hbox (259.78183pt too wide) in paragraph at lines 14799--14799
+ []@texttt XFAIL: jit.dg/test-sum-of-squares.c: test-sum-of-squares.c.exe.valgr
+ind.txt: definitely lost: 8 bytes in 1 blocks[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt X
+.@texttt F
+.@texttt A
+.etc.
+
+
+Overfull \hbox (179.3002pt too wide) in paragraph at lines 14800--14800
+ []@texttt XFAIL: jit.dg/test-sum-of-squares.c: test-sum-of-squares.c.exe.valgr
+ind.txt: unsuppressed errors: 1[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt X
+.@texttt F
+.@texttt A
+.etc.
+
+
+Overfull \hbox (288.68938pt too wide) in paragraph at lines 14835--14835
+ []@texttt libgccjit.so.0.0.1: ELF 64-bit LSB shared object, x86-64, version 1 
+(GNU/Linux), dynamically linked, not stripped[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 72.70766
+.@hbox(0.0+0.0)x0.0
+.@texttt l
+.@texttt i
+.@texttt b
+.etc.
+
+[191] [192] [193]
+Overfull \hbox (12.64462pt too wide) in paragraph at lines 15033--15033
+ []@texttt Client Code   . Generated .            libgccjit.so[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@texttt C
+.@texttt l
+.@texttt i
+.etc.
+
+
+Overfull \hbox (116.121pt too wide) in paragraph at lines 15035--15035
+ []              @texttt .           . JIT API  . JIT "Frontend". (libbackend.a
+)[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (202.35132pt too wide) in paragraph at lines 15036--15036
+ []@texttt ....................................................................
+................[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@texttt .
+.@texttt .
+.@texttt .
+.etc.
+
+l.15037: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15037--15037
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15038: Unicode char @u8:─ not defined for Texinfo
+l.15039: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15039--15039
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (29.89069pt too wide) in paragraph at lines 15040--15040
+ []              @texttt .           .    V     .               .[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15041: Unicode char @u8:─ not defined for Texinfo
+l.15041: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15041--15041
+ []              @texttt .           .    > libgccjit.c       .[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15042: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15042--15042
+ []              @texttt .           .         (error-checking).[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15043: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15043--15043
+ []              @texttt .           .                         .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15044: Unicode char @u8:─ not defined for Texinfo
+l.15044: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15044--15044
+ []              @texttt .           .        > jit-recording.c[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (58.63412pt too wide) in paragraph at lines 15045--15045
+ []              @texttt .           .              (record API calls)[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15046: Unicode char @u8:─ not defined for Texinfo
+l.15047: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15047--15047
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15048: Unicode char @u8:─ not defined for Texinfo
+l.15049: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15049--15049
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15050: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15050--15050
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (29.89069pt too wide) in paragraph at lines 15051--15051
+ []   @texttt V          .           .  gcc_jit_context_compile .[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15052: Unicode char @u8:─ not defined for Texinfo
+l.15053: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (127.61838pt too wide) in paragraph at lines 15053--15053
+ []              @texttt .           .     start of recording::context::compile
+ ()[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15054: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15054--15054
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15055: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (121.86969pt too wide) in paragraph at lines 15055--15055
+ []              @texttt .           .     start of playback::context::compile 
+()[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15056: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15056--15056
+ []              @texttt .           .       (create tempdir)  .[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15057: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15057--15057
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15058: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15058--15058
+ []              @texttt .           .     ACQUIRE MUTEX       .[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15059: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15059--15059
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+l.15060: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (41.38806pt too wide) in paragraph at lines 15060--15060
+ []              @texttt .           .    V> toplev::main (for now)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15061: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15061--15061
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (127.61838pt too wide) in paragraph at lines 15062--15062
+ []              @texttt .           .          .               .   (various co
+de)[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15063: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15063--15063
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (75.88019pt too wide) in paragraph at lines 15064--15064
+ []              @texttt .           .          .               .       V[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+l.15065: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (81.62888pt too wide) in paragraph at lines 15065--15065
+ []              @texttt .           .          .    < langhook:parse_file[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[194] l.15066: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15066--15066
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15067: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (110.37231pt too wide) in paragraph at lines 15067--15067
+ []              @texttt .           .          .     (jit_langhook_parse_file)
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15068: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15068--15068
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15069: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (156.36182pt too wide) in paragraph at lines 15069--15069
+ []@texttt ............................................................VVVVVVVV
+VVVVV...[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@texttt .
+.@texttt .
+.@texttt .
+.etc.
+
+l.15070: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (139.11575pt too wide) in paragraph at lines 15070--15070
+ []              @texttt .           .          .              .       No GC in
+ here[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15071: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (47.13675pt too wide) in paragraph at lines 15071--15071
+ []              @texttt .           .          .     jit-playback.c[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15072: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (110.37231pt too wide) in paragraph at lines 15072--15072
+ []              @texttt .           .          .       (playback of API calls)
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+l.15073: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (98.87494pt too wide) in paragraph at lines 15073--15073
+ []              @texttt .           .          .    > creation of functions,[]
+  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (190.85394pt too wide) in paragraph at lines 15074--15074
+ []              @texttt .           .          .               .     types, ex
+pression trees[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15075: Unicode char @u8:─ not defined for Texinfo
+l.15076: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (162.1105pt too wide) in paragraph at lines 15076--15076
+ []              @texttt .           .          .    (handle_locations: add loc
+ations to[]  
+
+@hbox(7.60416+1.04173)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15077: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (185.10526pt too wide) in paragraph at lines 15077--15077
+ []              @texttt .           .          .     linemap and associate the
+m with trees)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15078: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15078--15078
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15079: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (139.11575pt too wide) in paragraph at lines 15079--15079
+ []              @texttt .           .          .              .       No GC in
+ here[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15080: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (156.36182pt too wide) in paragraph at lines 15080--15080
+ []@texttt ............................................................AAAAAAAA
+AAAAA...[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@texttt .
+.@texttt .
+.@texttt .
+.etc.
+
+l.15081: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (64.38281pt too wide) in paragraph at lines 15081--15081
+ []              @texttt .           .          .     for each function[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15082: Unicode char @u8:─ not defined for Texinfo
+l.15082: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (35.63937pt too wide) in paragraph at lines 15082--15082
+ []              @texttt .           .          .    > postprocess[]  
+
+@hbox(6.08333+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15083: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15083--15083
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+l.15084: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (133.36707pt too wide) in paragraph at lines 15084--15084
+ []              @texttt .           .          .        > cgraph_finalize_func
+tion[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15085: Unicode char @u8:─ not defined for Texinfo
+l.15086: Unicode char @u8:─ not defined for Texinfo
+l.15086: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15086--15086
+ []              @texttt .           .          .     <       .[]  
+
+@hbox(6.08333+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15087: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15087--15087
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+l.15088: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (12.64462pt too wide) in paragraph at lines 15088--15088
+ []              @texttt .           .          .    > (end of[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15089: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (190.85394pt too wide) in paragraph at lines 15089--15089
+ []              @texttt .           .          .               .        langho
+ok_parse_file)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15090: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15090--15090
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (127.61838pt too wide) in paragraph at lines 15091--15091
+ []              @texttt .           .          .               .   (various co
+de)[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15092: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15092--15092
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15093: Unicode char @u8:↓ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15093--15093
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+l.15094: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (98.87494pt too wide) in paragraph at lines 15094--15094
+ []              @texttt .           .          .    < langhook:write_globals[]
+  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15095: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15095--15095
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15096: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (127.61838pt too wide) in paragraph at lines 15096--15096
+ []              @texttt .           .          .     (jit_langhook_write_globa
+ls)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15097: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15097--15097
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15098: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15098--15098
+ []              @texttt .           .          .              .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+l.15099: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (116.121pt too wide) in paragraph at lines 15099--15099
+ []              @texttt .           .          .    > finalize_compilation_uni
+t[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15100: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15100--15100
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15101: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (202.35132pt too wide) in paragraph at lines 15101--15101
+ []              @texttt .           .          .               .   (the middle
+end and backend)[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15102: Unicode char @u8:↓ not defined for Texinfo
+Overfull \hbox (70.1315pt too wide) in paragraph at lines 15102--15102
+ []              @texttt .           .          .               .       []  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+l.15103: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15103--15103
+ []              @texttt .           .    < end of toplev::main[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15104: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15104--15104
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15105: Unicode char @u8:─ not defined for Texinfo
+l.15106: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (179.35657pt too wide) in paragraph at lines 15106--15106
+ []              @texttt .           .          .               .    (purge int
+ernal state)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+l.15107: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (41.38806pt too wide) in paragraph at lines 15107--15107
+ []              @texttt .           .    < end of toplev::finalize[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15108: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15108--15108
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15109: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (93.12625pt too wide) in paragraph at lines 15109--15109
+ []              @texttt .           .    V> playback::context::postprocess:[] 
+ 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15110: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15110--15110
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15111: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (110.37231pt too wide) in paragraph at lines 15111--15111
+ []              @texttt .           .         (assuming an in-memory compile):
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15112: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15112--15112
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[195]
+Overfull \hbox (150.61313pt too wide) in paragraph at lines 15113--15113
+ []              @texttt .           .      --> Convert assembler to DSO, via e
+mbedded[]  
+
+@hbox(6.69167+1.52081)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15114--15114
+ []              @texttt .           .          copy of driver:[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15115--15115
+ []              @texttt .           .           driver::main ()[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (52.88544pt too wide) in paragraph at lines 15116--15116
+ []              @texttt .           .             invocation of "as"[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (52.88544pt too wide) in paragraph at lines 15117--15117
+ []              @texttt .           .             invocation of "ld"[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (47.13675pt too wide) in paragraph at lines 15118--15118
+ []              @texttt .           .           driver::finalize ()[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15120: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15120--15120
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15121: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (93.12625pt too wide) in paragraph at lines 15121--15121
+ []              @texttt .           .         . Load DSO (dlopen "fake.so")[] 
+ 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15122: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15122--15122
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15123: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (104.62363pt too wide) in paragraph at lines 15123--15123
+ []              @texttt .           .         . Bundle it up in a jit::result[
+]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15124: Unicode char @u8:─ not defined for Texinfo
+l.15124: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15124--15124
+ []              @texttt .           .    <   .               .[]  
+
+@hbox(6.08333+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15125: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15125--15125
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15126: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15126--15126
+ []              @texttt .           .     RELEASE MUTEX       .[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15127: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15127--15127
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15128: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (110.37231pt too wide) in paragraph at lines 15128--15128
+ []              @texttt .           .     end of playback::context::compile ()
+[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15129: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15129--15129
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15130: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (29.89069pt too wide) in paragraph at lines 15130--15130
+ []              @texttt .           .     playback::context dtor[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15131: Unicode char @u8:─ not defined for Texinfo
+l.15131: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15131--15131
+ []              @texttt .           .     >  .               .[]  
+
+@hbox(6.08333+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15132: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (133.36707pt too wide) in paragraph at lines 15132--15132
+ []              @texttt .           .        Normally we cleanup the tempdir h
+ere:[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15133: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (110.37231pt too wide) in paragraph at lines 15133--15133
+ []              @texttt .           .          ("fake.so" is unlinked from the
+[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15134: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (81.62888pt too wide) in paragraph at lines 15134--15134
+ []              @texttt .           .           filesystem at this point)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15135: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (167.85919pt too wide) in paragraph at lines 15135--15135
+ []              @texttt .           .        If the client code requested debu
+ginfo, the[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15136: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (202.35132pt too wide) in paragraph at lines 15136--15136
+ []              @texttt .           .        cleanup happens later (in gcc_jit
+_result_release)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15137: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (219.59738pt too wide) in paragraph at lines 15137--15137
+ []              @texttt .           .        to make it easier on the debugger
+ (see PR jit/64206)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15138: Unicode char @u8:─ not defined for Texinfo
+l.15138: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (18.39331pt too wide) in paragraph at lines 15138--15138
+ []              @texttt .           .    <   .               .[]  
+
+@hbox(6.08333+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15139: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15139--15139
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15140: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (116.121pt too wide) in paragraph at lines 15140--15140
+ []              @texttt .           .     end of recording::context::compile (
+)[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15141: Unicode char @u8:─ not defined for Texinfo
+l.15142: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15142--15142
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (29.89069pt too wide) in paragraph at lines 15143--15143
+ []   @texttt V          .           .  gcc_jit_result_get_code .[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15144: Unicode char @u8:─ not defined for Texinfo
+l.15145: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (52.88544pt too wide) in paragraph at lines 15145--15145
+ []              @texttt .           .     dlsym () within loaded DSO[]  
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+l.15146: Unicode char @u8:─ not defined for Texinfo
+Overfull \hbox (29.89069pt too wide) in paragraph at lines 15147--15147
+ []   @texttt Get (void*).           .          .               .[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15148: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15148--15148
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15149: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15149--15149
+ []    @texttt Call it  .           .          .               .[]  
+
+@hbox(6.69167+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15150: Unicode char @u8:─ not defined for Texinfo
+l.15151: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15151--15151
+ []              @texttt .          .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15152: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15152--15152
+ []              @texttt .          .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15153: Unicode char @u8:─ not defined for Texinfo
+l.15154: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15154--15154
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15155: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15155--15155
+ []@texttt etc          .           .          .               .[]  
+
+@hbox(6.06165+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@texttt e
+.@texttt t
+.@texttt c
+.etc.
+
+l.15156: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15156--15156
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+
+Overfull \hbox (29.89069pt too wide) in paragraph at lines 15157--15157
+ []   @texttt V          .           .  gcc_jit_result_release  .[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15158: Unicode char @u8:─ not defined for Texinfo
+l.15159: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (47.13675pt too wide) in paragraph at lines 15159--15159
+ []              @texttt .           .     dlclose () the loaded DSO[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[196] l.15160: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (64.38281pt too wide) in paragraph at lines 15160--15160
+ []              @texttt .           .        (code becomes uncallable)[]  
+
+@hbox(7.60416+0.91246)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15161: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15161--15161
+ []              @texttt .           .         .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15162: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (156.36182pt too wide) in paragraph at lines 15162--15162
+ []              @texttt .           .     If the client code requested debugin
+fo, then[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15163: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (104.62363pt too wide) in paragraph at lines 15163--15163
+ []              @texttt .           .     cleanup of the tempdir was delayed.[
+]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15164: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (121.86969pt too wide) in paragraph at lines 15164--15164
+ []              @texttt .           .     If that was the case, clean it up no
+w.[]  
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15165: Unicode char @u8:─ not defined for Texinfo
+l.15166: Unicode char @u8:│ not defined for Texinfo
+Overfull \hbox (24.142pt too wide) in paragraph at lines 15166--15166
+ []             @texttt .           .          .               .[]  
+
+@hbox(1.36874+0.0)x433.62
+.@glue(@leftskip) 109.28143
+.@hbox(0.0+0.0)x0.0
+.@penalty 10000
+.@glue 5.74869
+.@penalty 10000
+.etc.
+
+[197]
+Overfull \hbox (70.07513pt too wide) in paragraph at lines 15241--15241
+ []@texttt JIT: libgccjit (GCC) version 6.0.0 20150803 (experimental) (x86_64-p
+c-linux-gnu)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (305.77133pt too wide) in paragraph at lines 15242--15242
+ []@texttt JIT: compiled by GNU C version 4.8.3 20140911 (Red Hat 4.8.3-7), GMP
+ version 5.1.2, MPFR version 3.1.2, MPC version 1.0.1[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+[198]
+Overfull \hbox (110.31595pt too wide) in paragraph at lines 15291--15291
+ []@texttt JIT:  entering: void gcc::jit::recording::context::dump_reproducer_t
+o_file(const char*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (104.56726pt too wide) in paragraph at lines 15292--15292
+ []@texttt JIT:  exiting: void gcc::jit::recording::context::dump_reproducer_to
+_file(const char*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (29.83432pt too wide) in paragraph at lines 15296--15296
+ []@texttt JIT:  entering: gcc::jit::result* gcc::jit::recording::context::comp
+ile()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (93.06989pt too wide) in paragraph at lines 15311--15311
+ []@texttt JIT:   entering: gcc::jit::playback::context::context(gcc::jit::reco
+rding::context*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (87.3212pt too wide) in paragraph at lines 15312--15312
+ []@texttt JIT:   exiting: gcc::jit::playback::context::context(gcc::jit::recor
+ding::context*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (208.04364pt too wide) in paragraph at lines 15313--15313
+ []@texttt JIT:   entering: gcc::jit::playback::compile_to_memory::compile_to_m
+emory(gcc::jit::recording::context*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (202.29495pt too wide) in paragraph at lines 15314--15314
+ []@texttt JIT:   exiting: gcc::jit::playback::compile_to_memory::compile_to_me
+mory(gcc::jit::recording::context*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (386.25296pt too wide) in paragraph at lines 15324--15324
+ []@texttt JIT:    entering: void gcc::jit::playback::context::make_fake_args(v
+ec<char*>*, const char*, vec<gcc::jit::recording::requested_dump>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (380.50427pt too wide) in paragraph at lines 15328--15328
+ []@texttt JIT:    exiting: void gcc::jit::playback::context::make_fake_args(ve
+c<char*>*, const char*, vec<gcc::jit::recording::requested_dump>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+[199]
+Overfull \hbox (110.31595pt too wide) in paragraph at lines 15345--15345
+ []@texttt JIT:      entering: void gcc::jit::recording::context::replay_into(g
+cc::jit::replayer*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (104.56726pt too wide) in paragraph at lines 15346--15346
+ []@texttt JIT:      exiting: void gcc::jit::recording::context::replay_into(gc
+c::jit::replayer*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (87.3212pt too wide) in paragraph at lines 15347--15347
+ []@texttt JIT:      entering: void gcc::jit::recording::context::disassociate_
+from_playback()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (81.57251pt too wide) in paragraph at lines 15348--15348
+ []@texttt JIT:      exiting: void gcc::jit::recording::context::disassociate_f
+rom_playback()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 15349--15349
+ []@texttt JIT:      entering: void gcc::jit::playback::context::handle_locatio
+ns()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (18.33694pt too wide) in paragraph at lines 15350--15350
+ []@texttt JIT:      exiting: void gcc::jit::playback::context::handle_location
+s()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 15351--15351
+ []@texttt JIT:      entering: void gcc::jit::playback::function::build_stmt_li
+st()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (18.33694pt too wide) in paragraph at lines 15352--15352
+ []@texttt JIT:      exiting: void gcc::jit::playback::function::build_stmt_lis
+t()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 15353--15353
+ []@texttt JIT:      entering: void gcc::jit::playback::function::build_stmt_li
+st()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (18.33694pt too wide) in paragraph at lines 15354--15354
+ []@texttt JIT:      exiting: void gcc::jit::playback::function::build_stmt_lis
+t()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (311.52002pt too wide) in paragraph at lines 15361--15361
+ []@texttt JIT:    entering: void gcc::jit::playback::context::extract_any_requ
+ested_dumps(vec<gcc::jit::recording::requested_dump>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (305.77133pt too wide) in paragraph at lines 15362--15362
+ []@texttt JIT:    exiting: void gcc::jit::playback::context::extract_any_reque
+sted_dumps(vec<gcc::jit::recording::requested_dump>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (150.55676pt too wide) in paragraph at lines 15365--15365
+ []@texttt JIT:    entering: virtual void gcc::jit::playback::compile_to_memory
+::postprocess(const char*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (70.07513pt too wide) in paragraph at lines 15366--15366
+ []@texttt JIT:     entering: void gcc::jit::playback::context::convert_to_dso(
+const char*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (369.0069pt too wide) in paragraph at lines 15367--15367
+ []@texttt JIT:      entering: void gcc::jit::playback::context::invoke_driver(
+const char*, const char*, const char*, timevar_id_t, bool, bool)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (167.80283pt too wide) in paragraph at lines 15368--15368
+ []@texttt JIT:       entering: void gcc::jit::playback::context::add_multilib_
+driver_arguments(vec<char*>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (162.05414pt too wide) in paragraph at lines 15369--15369
+ []@texttt JIT:       exiting: void gcc::jit::playback::context::add_multilib_d
+river_arguments(vec<char*>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+[200]
+Overfull \hbox (162.05414pt too wide) in paragraph at lines 15377--15377
+ []@texttt JIT:       entering: void gcc::jit::playback::context::invoke_embedd
+ed_driver(const vec<char*>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (156.30545pt too wide) in paragraph at lines 15378--15378
+ []@texttt JIT:       exiting: void gcc::jit::playback::context::invoke_embedde
+d_driver(const vec<char*>*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (363.25821pt too wide) in paragraph at lines 15379--15379
+ []@texttt JIT:      exiting: void gcc::jit::playback::context::invoke_driver(c
+onst char*, const char*, const char*, timevar_id_t, bool, bool)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (64.32645pt too wide) in paragraph at lines 15380--15380
+ []@texttt JIT:     exiting: void gcc::jit::playback::context::convert_to_dso(c
+onst char*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (93.06989pt too wide) in paragraph at lines 15381--15381
+ []@texttt JIT:     entering: gcc::jit::result* gcc::jit::playback::context::dl
+open_built_dso()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (93.06989pt too wide) in paragraph at lines 15382--15382
+ []@texttt JIT:      GCC_JIT_BOOL_OPTION_DEBUGINFO was set: handing over tempdi
+r to jit::result[] 
+
+@hbox(6.69167+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (127.56201pt too wide) in paragraph at lines 15383--15383
+ []@texttt JIT:      entering: gcc::jit::result::result(gcc::jit::logger*, void
+*, gcc::jit::tempdir*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (121.81332pt too wide) in paragraph at lines 15384--15384
+ []@texttt JIT:      exiting: gcc::jit::result::result(gcc::jit::logger*, void*
+, gcc::jit::tempdir*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (87.3212pt too wide) in paragraph at lines 15385--15385
+ []@texttt JIT:     exiting: gcc::jit::result* gcc::jit::playback::context::dlo
+pen_built_dso()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (144.80807pt too wide) in paragraph at lines 15386--15386
+ []@texttt JIT:    exiting: virtual void gcc::jit::playback::compile_to_memory:
+:postprocess(const char*)[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 15392--15392
+ []@texttt JIT:  exiting: gcc::jit::result* gcc::jit::recording::context::compi
+le()[] 
+
+@hbox(7.60416+2.43333)x433.62
+.@glue(@leftskip) 43.80011
+.@hbox(0.0+0.0)x0.0
+.@texttt J
+.@texttt I
+.@texttt T
+.etc.
+
+[201]
+Underfull \hbox (badness 10000) in paragraph at lines 15493--15501
+ @texttt gcc::jit::recording::memento::write_reproducer[] @textrm for the 
+
+@hbox(7.60416+2.43333)x433.62, glue set 6.65233
+.@glue(@leftskip) 65.48132
+.@texttt g
+.@texttt c
+.@texttt c
+.@texttt :
+.etc.
+
+
+Overfull \hbox (9.75566pt too wide) in paragraph at lines 15513--15515
+ []@textrm documentation for the new ABI tag (see @texttt topics/compatibility.
+rst[]@textrm ).  
+
+@hbox(8.2125+2.73749)x433.62, glue set - 1.0
+.@glue(@leftskip) 65.48132
+.@hbox(8.2125+0.0)x0.0, glue set - 12.70244fil
+..@glue 0.0 plus 1.0fil minus 1.0fil
+..@textrm *
+..@kern 7.22743
+.@textrm d
+.@textrm o
+.@kern0.30417
+.etc.
+
+[202]
+Overfull \hbox (16.45424pt too wide) in paragraph at lines 15523--15525
+[]@textrm Every new test-case that doesn't gen-er-ate er-rors should also touch
+ @texttt gcc/testsuite/jit.dg/all-
+
+@hbox(7.60416+2.43333)x433.62, glue set - 1.0
+.@hbox(0.0+0.0)x0.0
+.@textrm E
+.@textrm v
+.@kern-0.30418
+.@textrm e
+.etc.
+
+(Indices and tables) [203] (Index) [204]
+(/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gc
+c/libgccjit.ges [205]
+Overfull \hbox (4.71771pt too wide) in paragraph at lines 165--165
+\smallrm GCC[]JIT[]BOOL[]OPTION[]DUMP[]EVERYTHING 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+
+Overfull \hbox (32.17099pt too wide) in paragraph at lines 166--166
+\smallrm GCC[]JIT[]BOOL[]OPTION[]DUMP[]GENERATED[]CODE 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+
+Overfull \hbox (18.93355pt too wide) in paragraph at lines 167--167
+\smallrm GCC[]JIT[]BOOL[]OPTION[]DUMP[]INITIAL[]GIMPLE 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+
+Overfull \hbox (7.56699pt too wide) in paragraph at lines 168--168
+\smallrm GCC[]JIT[]BOOL[]OPTION[]DUMP[]INITIAL[]TREE 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+
+Overfull \hbox (17.88565pt too wide) in paragraph at lines 170--170
+\smallrm GCC[]JIT[]BOOL[]OPTION[]KEEP[]INTERMEDIATES 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+[206]
+Overfull \hbox (4.90938pt too wide) in paragraph at lines 179--179
+\smallrm GCC[]JIT[]INT[]OPTION[]OPTIMIZATION[]LEVEL 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+
+Overfull \hbox (1.69408pt too wide) in paragraph at lines 181--181
+\smallrm GCC[]JIT[]OUTPUT[]KIND[]DYNAMIC[]LIBRARY 
+
+\hbox(6.14998+0.0)x207.80492
+.\smallrm G
+.\smallrm C
+.\smallrm C
+.\kern 0.64755
+.\vbox(0.38751+0.0)x2.77501
+..\rule(0.38751+0.0)x2.77501
+.etc.
+
+[207]) [208] ) 
+Here is how much of TeX's memory you used:
+ 8134 strings out of 494616
+ 244345 string characters out of 6149137
+ 147083 words of memory out of 5000000
+ 9736 multiletter control sequences out of 15000+600000
+ 32127 words of font info for 112 fonts, out of 8000000 for 9000
+ 1453 hyphenation exceptions out of 8191
+ 16i,6n,18p,823b,6313s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on libgccjit.dvi (213 pages, 618508 bytes).

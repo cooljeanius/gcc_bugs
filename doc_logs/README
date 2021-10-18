@@ -1,0 +1,3 @@
+When TeX fails to build a docfile successfully, it sometimes leaves behind a
+logfile. I'm putting any such logfiles I come across while trying to build GCC docs
+here.
