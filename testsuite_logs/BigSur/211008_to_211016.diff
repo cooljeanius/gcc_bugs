@@ -1,0 +1,678 @@
+--- mail-report_20211008.log	2021-10-09 08:44:00.000000000 -0400
++++ mail-report_20211016.log	2021-10-18 12:17:39.000000000 -0400
+@@ -1,11 +1,66 @@
+ cat <<'EOF' |
+-Native configuration is x86_64-apple-darwin20.6.0
++		=== acats tests ===
++FAIL:	c250002
++FAIL:	c45504e
++FAIL:	c45504f
++FAIL:	cd2b11a
++FAIL:	cd2b15c
++FAIL:	ce3305a
++FAIL:	ce3402c
++FAIL:	ce3405a
++FAIL:	ce3405d
++FAIL:	ce3409c
++FAIL:	ce3410c
++FAIL:	ce3602b
++FAIL:	ce3605d
++FAIL:	ce3605e
++FAIL:	ce3606a
++FAIL:	ce3606b
++FAIL:	ce3706f
++FAIL:	ce3806e
++FAIL:	ce3806h
++FAIL:	ce3906a
++FAIL:	ce3906e
++FAIL:	ce3906f
++FAIL:	cxa5013
++FAIL:	cz1103a
++FAIL:	ee3203a
++FAIL:	ee3402b
++
++		=== acats Summary ===
++# of expected passes		2302
++# of unexpected failures	26
++Native configuration is x86_64-apple-darwin20
+ 
+ 		=== g++ tests ===
+ 
+ 
+ Running target unix
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++14  (test for warnings, line 193)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++14  (test for warnings, line 210)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++14  (test for warnings, line 292)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++14  (test for warnings, line 309)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++17  (test for warnings, line 193)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++17  (test for warnings, line 210)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++17  (test for warnings, line 292)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++17  (test for warnings, line 309)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++2a  (test for warnings, line 193)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++2a  (test for warnings, line 210)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++2a  (test for warnings, line 292)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++2a  (test for warnings, line 309)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++98  (test for warnings, line 193)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++98  (test for warnings, line 210)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++98  (test for warnings, line 292)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -std=gnu++98  (test for warnings, line 309)
+ FAIL: g++.dg/ipa/pr67056.C   scan-ipa-dump cp "Speculative outer type:struct CompositeClass"
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++14  scan-tree-dump-not optimized "goto"
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++14 (test for excess errors)
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++17  scan-tree-dump-not optimized "goto"
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++17 (test for excess errors)
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++2a  scan-tree-dump-not optimized "goto"
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++2a (test for excess errors)
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++98  scan-tree-dump-not optimized "goto"
++FAIL: g++.dg/warn/Warray-bounds-16.C  -std=gnu++98 (test for excess errors)
+ FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++14  gcov failed: spawn failed
+ FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++14 (test for excess errors)
+ UNRESOLVED: g++.dg/gcov/gcov-1.C  -std=gnu++14 compilation failed to produce executable
+@@ -325,7 +380,6 @@
+ FAIL: g++.dg/modules/xtreme-header_b.C -std=c++17 (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header_b.C -std=c++2a (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header_b.C -std=c++2b (test for excess errors)
+-FAIL: g++.dg/torture/pr31863.C   -O2 -flto  (test for excess errors)
+ FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++14 (test for excess errors)
+ UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++14 compilation failed to produce executable
+ FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++17 (test for excess errors)
+@@ -345,12 +399,13 @@
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		209501
+-# of unexpected failures	235
+-# of expected failures		1420
++# of expected passes		209567
++# of unexpected failures	242
++# of unexpected successes	16
++# of expected failures		1400
+ # of unresolved testcases	102
+-# of unsupported tests		9762
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211008 (experimental) (GCC) 
++# of unsupported tests		9766
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211016 (experimental) (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+@@ -407,11 +462,15 @@
+ FAIL: gcc.dg/analyzer/torture/asm-x86-linux-wfx_get_ps_timeout-full.c   -O3 -g  (test for excess errors)
+ FAIL: gcc.dg/analyzer/torture/asm-x86-linux-wfx_get_ps_timeout-full.c   -Os  (test for excess errors)
+ FAIL: gcc.dg/debug/dwarf2/inline4.c scan-assembler DW_TAG_inlined_subroutine[^\\\\(]*\\\\([^\\\\)]*\\\\)[^\\\\(]*\\\\(DIE \\\\(0x[0-9a-f]*\\\\) DW_TAG_formal_parameter[^\\\\(]*\\\\(DIE \\\\(0x[0-9a-f]*\\\\) DW_TAG_variable
++XPASS: c-c++-common/Wstringop-overflow-2.c  -Wc++-compat   (test for warnings, line 193)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -Wc++-compat   (test for warnings, line 210)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -Wc++-compat   (test for warnings, line 292)
++XPASS: c-c++-common/Wstringop-overflow-2.c  -Wc++-compat   (test for warnings, line 309)
+ FAIL: gcc.dg/20020201-1.c (test for excess errors)
+ UNRESOLVED: gcc.dg/20020201-1.c compilation failed to produce executable
+-FAIL: gcc.dg/darwin-minversion-link.c (test for excess errors)
+ FAIL: gcc.dg/gcov-info-to-gcda.c (test for excess errors)
+ UNRESOLVED: gcc.dg/gcov-info-to-gcda.c compilation failed to produce executable
++FAIL: gcc.dg/ira-loop-pressure.c scan-rtl-dump loop2_invariant "Decided to move invariant"
+ FAIL: gcc.dg/pr100509.c (test for excess errors)
+ FAIL: gcc.dg/pragma-diag-10.c (test for excess errors)
+ FAIL: gcc.dg/stack-check-10.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 2
+@@ -421,7 +480,6 @@
+ FAIL: gcc.dg/stack-check-9.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 1
+ FAIL: gcc.dg/stack-layout-dynamic-1.c (test for excess errors)
+ UNRESOLVED: gcc.dg/stack-layout-dynamic-1.c scan-assembler-not cfi_def_cfa_register
+-FAIL: gcc.dg/strlenopt-82.c scan-tree-dump-times optimized "call_in_true_branch_not_eliminated_" 0
+ FAIL: gcc.dg/ipa/ipa-icf-38.c scan-ltrans-tree-dump-not optimized "Function bar"
+ FAIL: gcc-dg-lto-modref-3-01.exe scan-wpa-ipa-dump modref "parm 1 flags: nodirectescape"
+ FAIL: gcc-dg-lto-modref-4-01.exe scan-wpa-ipa-dump modref "parm 1 flags: nodirectescape"
+@@ -613,12 +671,9 @@
+ FAIL: outputs-25 exe savetmp named2-4: outputs.args.3
+ FAIL: outputs-25 exe savetmp named2-4: std out
+ FAIL: gcc.target/i386/auto-init-5.c scan-assembler-times \\\\.long\\t0 14
+-FAIL: gcc.target/i386/avx512bw-pr88465.c scan-assembler-times kxnor[dq][ \\t] 2
+-FAIL: gcc.target/i386/avx512dq-pr88465.c scan-assembler-times kxnorb[ \\t] 1
+-FAIL: gcc.target/i386/avx512f-pr88465.c scan-assembler-times kxnorw[ \\t] 1
+-XPASS: gcc.target/i386/bitwise_mask_op-3.c scan-assembler-times kmovb[\\t ] 4
+-XPASS: gcc.target/i386/bitwise_mask_op-3.c scan-assembler-times korb[\\t ] 1
+-XPASS: gcc.target/i386/bitwise_mask_op-3.c scan-assembler-times kxorb[\\t ] 1
++FAIL: gcc.target/i386/avx256-unaligned-load-2.c scan-assembler (sse2_loaddqu|(vmovdqu|vmovups)[^\\n\\r]*movv16qi_internal)
++FAIL: gcc.target/i386/avx256-unaligned-load-2.c scan-assembler vinsert.128
++FAIL: gcc.target/i386/avx256-unaligned-load-4.c scan-assembler-not (sse_loadups|vmovups[^\\n\\r]*movv4sf_internal)
+ FAIL: gcc.target/i386/cond_op_maxmin__Float16-1.c (test for excess errors)
+ UNRESOLVED: gcc.target/i386/cond_op_maxmin__Float16-1.c scan-assembler-times vmaxph 1
+ UNRESOLVED: gcc.target/i386/cond_op_maxmin__Float16-1.c scan-assembler-times vminph 1
+@@ -645,12 +700,9 @@
+ FAIL: gcc.target/i386/pr85667-10.c scan-assembler-times addsd[ \\t]*40\\\\(%rsp\\\\), .* 1
+ FAIL: gcc.target/i386/pr85667-8.c scan-assembler-times addss[ \\t]*40\\\\(%rsp\\\\), .* 1
+ FAIL: gcc.target/i386/pr90773-1.c scan-assembler-times movq[\\\\t ]+\\\\(%[^,]+\\\\), 1
++FAIL: gcc.target/i386/pr91333.c scan-assembler-times vmovapd|vmovsd 3
+ FAIL: gcc.target/i386/pr92651.c scan-assembler-times sub 2
+-FAIL: gcc.target/i386/pr94650.c scan-assembler-not movabs
+-FAIL: gcc.target/i386/pr94650.c scan-assembler-times shr 3
+ FAIL: gcc.target/i386/pr98060.c scan-assembler-not set
+-FAIL: gcc.target/i386/stackalign/pr88483-1.c -mno-stackrealign  scan-assembler-not and[lq]?[^\\\\n]*-[0-9]+,[^\\\\n]*sp
+-FAIL: gcc.target/i386/stackalign/pr88483-1.c -mstackrealign  scan-assembler-not and[lq]?[^\\\\n]*-[0-9]+,[^\\\\n]*sp
+ FAIL: gcc.target/x86_64/abi/callabi/leaf-2.c scan-assembler-not %rsp
+ FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p0" (test for excess errors)
+ UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p0" compilation failed to produce executable
+@@ -667,26 +719,158 @@
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		155898
+-# of unexpected failures	258
+-# of unexpected successes	6
+-# of expected failures		966
++# of expected passes		156023
++# of unexpected failures	254
++# of unexpected successes	7
++# of expected failures		965
+ # of unresolved testcases	44
+-# of unsupported tests		2941
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211008 (experimental) (GCC) 
++# of unsupported tests		2965
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211016 (experimental) (GCC) 
+ 
+ 		=== gdc tests ===
+ 
+ 
+ Running target unix
+-FAIL: gdc.dg/extern-c++/pr101664.d   (test for excess errors)
++FAIL: gdc.test/runnable/loopunroll.d -O2   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/loopunroll.d -O2   compilation failed to produce executable
++FAIL: gdc.test/runnable/loopunroll.d -O2 -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/loopunroll.d -O2 -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -frelease -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -finline-functions -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -frelease -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -fPIC -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -fPIC -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -frelease -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -finline-functions -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -finline-functions -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -frelease -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -frelease -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -funittest   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -funittest   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -funittest -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -funittest -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -funittest -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -funittest -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -funittest -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -funittest -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -g   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -g   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -g -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -g -shared-libphobos   compilation failed to produce executable
++FAIL: gdc.test/runnable/sdtor.d -O2 -shared-libphobos   (internal compiler error)
++UNRESOLVED: gdc.test/runnable/sdtor.d -O2 -shared-libphobos   compilation failed to produce executable
+ 
+ 		=== gdc Summary ===
+ 
+-# of expected passes		4005
+-# of unexpected failures	1
+-# of unsupported tests		1078
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 12.0.0 20211008 (experimental) (GCC) 
++# of expected passes		10826
++# of unexpected failures	66
++# of unresolved testcases	66
++# of unsupported tests		2
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 12.0.0 20211016 (experimental) (GCC) 
+ 
+ 		=== gfortran tests ===
+ 
+@@ -722,15 +906,221 @@
+ UNRESOLVED: gfortran.dg/c-interop/ff-descriptor-5.f90   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  compilation failed to produce executable
+ UNRESOLVED: gfortran.dg/c-interop/ff-descriptor-5.f90   -O3 -g  compilation failed to produce executable
+ UNRESOLVED: gfortran.dg/c-interop/ff-descriptor-5.f90   -Os  compilation failed to produce executable
++FAIL: gfortran.dg/deferred_type_param_6.f90   -O1  execution test
++FAIL: gfortran.dg/deferred_type_param_6.f90   -Os  execution test
++FAIL: gfortran.dg/reshape_shape_2.f90   -O   (test for errors, line 6)
++FAIL: gfortran.dg/reshape_shape_2.f90   -O  (internal compiler error)
++FAIL: gfortran.dg/reshape_shape_2.f90   -O  (test for excess errors)
+ 
+ 		=== gfortran Summary ===
+ 
+-# of expected passes		60426
+-# of expected failures		477
++# of expected passes		60656
++# of unexpected failures	5
++# of expected failures		463
+ # of unresolved testcases	30
+ # of unsupported tests		78
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 12.0.0 20211008 (experimental) (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 12.0.0 20211016 (experimental) (GCC) 
++
++		=== gnat tests ===
++
++
++Running target unix
++FAIL: gnat.dg/bias1.adb scan-assembler DW_AT_GNU_bias
++FAIL: gnat.dg/debug18.adb scan-assembler-not DW_AT_lower_bound
++FAIL: gnat.dg/gcov/check.adb (test for excess errors)
++UNRESOLVED: gnat.dg/gcov/check.adb compilation failed to produce executable
++FAIL: gnat.dg/gcov/check.adb gcov failed: spawn failed
++
++		=== gnat Summary ===
++
++# of expected passes		3348
++# of unexpected failures	4
++# of expected failures		23
++# of unresolved testcases	1
++# of unsupported tests		14
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 12.0.0 20211016 (experimental)
++
++		=== jit tests ===
+ 
++
++Running target unix
++ERROR: ./emit-alphabet.bf.exe does not exist in unix_load.
++ERROR: ./output-of-test-compile-to-executable.c.exe does not exist in unix_load.
++FAIL: did not find a generated reproducer: test-nested-contexts.c.exe.reproducer.c
++FAIL: emit-alphabet.bf.exe does not have executable bit set
++UNRESOLVED: emit-alphabet.bf.exe execution test
++FAIL: output-of-test-compile-to-dynamic-library.c.so does not exist
++FAIL: output-of-test-compile-to-executable.c.exe does not exist
++FAIL: output-of-test-compile-to-executable.c.exe does not have executable bit set
++UNRESOLVED: output-of-test-compile-to-executable.c.exe execution test
++FAIL: test-accessing-bitfield.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-accessing-bitfield.c.exe killed: 53396 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-accessing-struct.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-accessing-struct.c.exe killed: 53644 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-accessing-union.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-accessing-union.c.exe killed: 53893 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-add-driver-options.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-add-driver-options.c.exe killed: 54196 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-alignment.c.exe iteration 1 of 5: verify_aligned_code_s2: result is NULL
++FAIL: test-alignment.c.exe killed: 54428 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-alignment.cc.exe iteration 1 of 5: verify_aligned_code: result is NULL
++FAIL: test-alignment.cc.exe killed: 54743 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-arith-overflow.c.exe iteration 1 of 5: verify_int_overflow_fn: jit_result is NULL
++FAIL: test-arith-overflow.c.exe killed: 54999 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-array-as-pointer.c.exe: non-zero exit code: 55248 exp10 0 4
++FAIL: test-arrays.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-arrays.c.exe killed: 55476 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-asm.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-asm.c.exe killed: 55706 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-asm.cc.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-asm.cc.exe killed: 56000 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-benchmark.c.exe iteration 1 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 10 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 11 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 12 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 13 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 14 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 15 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 16 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 17 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 18 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 19 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 2 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 20 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 21 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 22 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 23 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 24 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 25 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 26 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 27 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 3 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 4 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 5 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 6 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 7 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 8 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe iteration 9 of 100: verify_code: !result
++FAIL: test-benchmark.c.exe: non-zero exit code: 56603 exp10 0 4
++FAIL: test-builtin-memcpy.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-builtin-memcpy.c.exe killed: 57417 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-builtin-unreachable.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-builtin-unreachable.c.exe killed: 57652 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-calling-external-function.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-calling-external-function.c.exe killed: 57892 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-calling-function-ptr.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-calling-function-ptr.c.exe killed: 58129 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-cast.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-cast.c.exe killed: 58366 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-combination.c.exe iteration 1 of 5: verify_code_accessing_bitfield: result is NULL
++FAIL: test-combination.c.exe killed: 58642 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-compile-to-dynamic-library.c.exe iteration 1 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-dynamic-library.c.exe iteration 2 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-dynamic-library.c.exe iteration 3 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-dynamic-library.c.exe iteration 4 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-dynamic-library.c.exe iteration 5 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-executable.c.exe iteration 1 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-executable.c.exe iteration 2 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-executable.c.exe iteration 3 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-executable.c.exe iteration 4 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compile-to-executable.c.exe iteration 5 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-compound-assignment.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-compound-assignment.c.exe killed: 60727 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-constants.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-constants.c.exe killed: 60978 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-debug-strings.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-debug-strings.c.exe killed: 61230 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-debuginfo.c.exe iteration 1 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-debuginfo.c.exe iteration 2 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-debuginfo.c.exe iteration 3 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-debuginfo.c.exe iteration 4 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-debuginfo.c.exe iteration 5 of 5: test_jit: error unexpectedly occurred: error invoking gcc driver
++FAIL: test-dot-product.c.exe: non-zero exit code: 61864 exp10 0 4
++FAIL: test-empty.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-empty.c.exe killed: 62106 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-expressions.c.exe: non-zero exit code: 76381 exp10 0 4
++FAIL: test-extra-options.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-extra-options.c.exe killed: 76656 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-factorial-must-tail-call.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-factorial-must-tail-call.c.exe killed: 76895 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-factorial.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-factorial.c.exe killed: 77140 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-fibonacci.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-fibonacci.c.exe killed: 77378 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-functions.c.exe iteration 1 of 5: verify_hidden_functions: result is NULL
++FAIL: test-functions.c.exe killed: 77627 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-global-set-initializer.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-global-set-initializer.c.exe killed: 78144 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-hello-world.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-hello-world.c.exe killed: 78378 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-linked-list.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-linked-list.c.exe killed: 78598 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-long-names.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-long-names.c.exe killed: 78830 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-long-string-literal.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-long-string-literal.c.exe killed: 79046 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-nested-contexts.c.exe iteration 1 of 2 of top level; 1 of 2 of middle level: main: middle_result is NULL
++FAIL: test-nested-contexts.c.exe killed: 79278 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-nested-loops.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-nested-loops.c.exe killed: 79419 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-operator-overloading.cc.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-operator-overloading.cc.exe killed: 79697 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-pr66700-observing-write-through-ptr.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-pr66700-observing-write-through-ptr.c.exe killed: 79931 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-pr66779.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-pr66779.c.exe killed: 80182 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-pr95306-builtin-types.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-pr95306-builtin-types.c.exe killed: 80427 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-pr95314-rvalue-reuse.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-pr95314-rvalue-reuse.c.exe killed: 80661 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-quadratic.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-quadratic.c.exe killed: 80921 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-quadratic.cc.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-quadratic.cc.exe killed: 81209 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-reading-struct.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-reading-struct.c.exe killed: 81431 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-returning-function-ptr.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-returning-function-ptr.c.exe killed: 81677 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-string-literal.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-string-literal.c.exe killed: 81924 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-sum-of-squares.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-sum-of-squares.c.exe killed: 82165 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-switch.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-switch.c.exe killed: 82406 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-switch.cc.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-switch.cc.exe killed: 82692 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-threads.c.exe killed: 82971 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-threads.c.exe: verify_code_accessing_bitfield: result is NULL
++FAIL: test-trap.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-trap.c.exe killed: 83120 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-types.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-types.c.exe killed: 83371 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-using-global.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-using-global.c.exe killed: 83623 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-validly-unreachable-block.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-validly-unreachable-block.c.exe killed: 83875 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-vector-rvalues.cc.exe iteration 1 of 5: verify_vec_code: result is NULL
++FAIL: test-vector-rvalues.cc.exe killed: 84145 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-vector-types.cc.exe iteration 1 of 5: verify_vec_code: result is NULL
++FAIL: test-vector-types.cc.exe killed: 84430 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: test-volatile.c.exe iteration 1 of 5: verify_code: result is NULL
++FAIL: test-volatile.c.exe killed: 85038 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: toyvm.c.exe killed: 52910 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: toyvm.c: factorial.toy: code is NULL
++FAIL: toyvm.cc.exe killed: 53106 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: tut01-hello-world.c.exe: non-zero exit code: 51942 exp10 0 1
++FAIL: tut01-hello-world.cc.exe killed: 52124 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: tut02-square.cc.exe killed: 52443 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: tut03-sum-of-squares.cc.exe killed: 52764 exp10 0 0 CHILDKILLED SIGABRT SIGABRT
++FAIL: tut05-bf.c.exe: non-zero exit code: 53249 exp10 0 4
++FAIL: verify-dynamic-library.c.exe execution test
++
++		=== jit Summary ===
++
++# of expected passes		2297
++# of unexpected failures	166
++# of unresolved testcases	2
++# of unsupported tests		4
+ 		=== obj-c++ tests ===
+ 
+ 
+@@ -741,7 +1131,7 @@
+ # of expected passes		3197
+ # of expected failures		22
+ # of unsupported tests		71
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211008 (experimental) (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211016 (experimental) (GCC) 
+ 
+ 		=== objc tests ===
+ 
+@@ -755,7 +1145,7 @@
+ # of unexpected failures	1
+ # of expected failures		12
+ # of unsupported tests		89
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211008 (experimental) (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211016 (experimental) (GCC) 
+ 
+ 		=== libatomic tests ===
+ 
+@@ -875,30 +1265,6 @@
+ 
+ 
+ Running target unix
+-FAIL: libgomp.c/../libgomp.c-c++-common/lastprivate-conditional-7.c scan-tree-dump-times vect "vectorized 1 loops" 3
+-FAIL: libgomp.c/../libgomp.c-c++-common/lastprivate-conditional-8.c scan-tree-dump-times vect "vectorized 1 loops" 3
+-FAIL: libgomp.c/scan-11.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-12.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-13.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-14.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-15.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-16.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-17.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-18.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-19.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-20.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-21.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c/scan-22.c scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/../libgomp.c-c++-common/lastprivate-conditional-7.c scan-tree-dump-times vect "vectorized 1 loops" 3
+-FAIL: libgomp.c++/../libgomp.c-c++-common/lastprivate-conditional-8.c scan-tree-dump-times vect "vectorized 1 loops" 3
+-FAIL: libgomp.c++/scan-10.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-11.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-12.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-13.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-14.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-15.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-16.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+-FAIL: libgomp.c++/scan-9.C scan-tree-dump-times vect "vectorized [2-6] loops" 2
+ WARNING: program timed out.
+ FAIL: libgomp.c++/task-reduction-10.C execution test
+ WARNING: program timed out.
+@@ -908,8 +1274,8 @@
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		11691
+-# of unexpected failures	28
++# of expected passes		11765
++# of unexpected failures	4
+ # of expected failures		102
+ # of unsupported tests		544
+ 		=== libitm tests ===
+@@ -922,27 +1288,60 @@
+ # of expected passes		42
+ # of expected failures		3
+ # of unsupported tests		2
++		=== libphobos tests ===
++
++
++Running target unix
++FAIL: libphobos.druntime/object.d execution test
++FAIL: libphobos.druntime/rt/monitor_.d execution test
++FAIL: libphobos.phobos/std/uuid.d (test for excess errors)
++UNRESOLVED: libphobos.phobos/std/uuid.d compilation failed to produce executable
++
++		=== libphobos Summary ===
++
++# of expected passes		236
++# of unexpected failures	3
++# of unresolved testcases	1
++# of unsupported tests		1
++		=== libphobos tests ===
++
++
++Running target unix
++WARNING: program timed out.
++		=== libphobos tests ===
++
++
++Running target unix
++WARNING: program timed out.
++FAIL: libphobos.phobos/std/concurrency.d execution test
++
++		=== libphobos Summary ===
++
++# of expected passes		112
++# of unexpected failures	1
+ 		=== libstdc++ tests ===
+ 
+ 
+ Running target unix
+-FAIL: 19_diagnostics/headers/system_error/93151.cc (test for excess errors)
+-WARNING: 30_threads/barrier/arrive_and_wait.cc execution test program timed out.
+-FAIL: 30_threads/barrier/arrive_and_wait.cc execution test
++FAIL: 27_io/ios_base/failure/dual_abi.cc execution test
++WARNING: 29_atomics/atomic_integral/wait_notify.cc execution test program timed out.
++FAIL: 29_atomics/atomic_integral/wait_notify.cc execution test
++WARNING: 29_atomics/atomic_ref/wait_notify.cc execution test program timed out.
++FAIL: 29_atomics/atomic_ref/wait_notify.cc execution test
+ WARNING: 30_threads/barrier/completion.cc execution test program timed out.
+ FAIL: 30_threads/barrier/completion.cc execution test
+ 
+ 		=== libstdc++ Summary ===
+ 
+-# of expected passes		13955
+-# of unexpected failures	3
+-# of expected failures		98
++# of expected passes		13969
++# of unexpected failures	4
++# of expected failures		96
+ # of unsupported tests		770
+ 
+-Compiler version: 12.0.0 20211008 (experimental) (GCC) 
+-Platform: x86_64-apple-darwin20.6.0
+-configure flags: --disable-werror --disable-werror-always --enable-languages=all,c,c++,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --with-system-libunwind --enable-secureplt --enable-frame-pointer --enable-debug --without-isl --disable-host-shared --disable-maintainer-mode --disable-default-pie --with-ld64 --without-pic --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --disable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk --disable-gcov CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ OBJC=/usr/local/bin/gcc OBJCXX=/usr/local/bin/g++
++Compiler version: 12.0.0 20211016 (experimental) (GCC) 
++Platform: x86_64-apple-darwin20
++configure flags: --disable-werror --disable-werror-always --enable-languages=all,ada,c,c++,d,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --enable-frame-pointer --enable-debug --without-isl --disable-maintainer-mode --disable-default-pie --with-ld64 --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --disable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer --build=x86_64-apple-darwin20 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --disable-gcov --enable-host-shared --enable-libphobos --with-cpu=skylake CC=x86_64-apple-darwin19-gcc CXX=x86_64-apple-darwin19-g++ OBJC=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gcc OBJCXX=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/g++ GNATMAKE=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatmake GNATBIND=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatbind
+ BOOT_CFLAGS=-g -O2
+ EOF
+-Mail -s "Results for 12.0.0 20211008 (experimental) (GCC) testsuite on x86_64-apple-darwin20.6.0" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 12.0.0 20211016 (experimental) (GCC) testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
+ true
