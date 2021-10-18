@@ -1,0 +1,652 @@
+Process:               toyvm.c.exe [52910]
+Path:                  /Users/USER/*/toyvm.c.exe
+Identifier:            toyvm.c.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [51440]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:41:25.029 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   toyvm.c.exe                   	0x00000001066a2fbd test_script + 801 (toyvm.c:830)
+4   toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+5   toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+6   toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+7   toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+8   toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+9   toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+10  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+11  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+12  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+13  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+14  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+15  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+16  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+17  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+18  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+19  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+20  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+21  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+22  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+23  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+24  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+25  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+26  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+27  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+28  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+29  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+30  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+31  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+32  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+33  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+34  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+35  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+36  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+37  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+38  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+39  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+40  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+41  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+42  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+43  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+44  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+45  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+46  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+47  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+48  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+49  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+50  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+51  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+52  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+53  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+54  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+55  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+56  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+57  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+58  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+59  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+60  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+61  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+62  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+63  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+64  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+65  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+66  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+67  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+68  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+69  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+70  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+71  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+72  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+73  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+74  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+75  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+76  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+77  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+78  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+79  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+80  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+81  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+82  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+83  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+84  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+85  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+86  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+87  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+88  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+89  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+90  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+91  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+92  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+93  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+94  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+95  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+96  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+97  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+98  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+99  toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+100 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+101 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+102 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+103 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+104 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+105 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+106 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+107 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+108 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+109 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+110 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+111 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+112 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+113 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+114 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+115 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+116 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+117 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+118 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+119 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+120 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+121 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+122 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+123 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+124 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+125 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+126 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+127 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+128 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+129 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+130 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+131 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+132 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+133 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+134 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+135 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+136 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+137 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+138 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+139 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+140 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+141 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+142 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+143 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+144 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+145 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+146 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+147 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+148 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+149 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+150 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+151 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+152 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+153 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+154 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+155 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+156 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+157 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+158 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+159 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+160 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+161 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+162 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+163 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+164 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+165 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+166 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+167 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+168 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+169 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+170 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+171 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+172 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+173 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+174 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+175 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+176 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+177 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+178 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+179 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+180 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+181 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+182 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+183 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+184 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+185 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+186 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+187 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+188 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+189 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+190 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+191 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+192 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+193 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+194 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+195 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+196 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+197 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+198 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+199 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+200 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+201 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+202 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+203 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+204 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+205 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+206 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+207 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+208 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+209 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+210 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+211 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+212 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+213 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+214 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+215 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+216 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+217 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+218 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+219 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+220 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+221 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+222 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+223 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+224 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+225 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+226 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+227 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+228 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+229 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+230 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+231 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+232 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+233 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+234 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+235 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+236 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+237 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+238 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+239 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+240 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+241 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+242 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+243 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+244 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+245 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+246 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+247 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+248 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+249 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+250 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+251 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+252 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+253 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+254 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+255 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+256 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+257 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+258 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+259 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+260 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+261 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+262 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+263 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+264 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+265 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+266 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+267 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+268 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+269 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+270 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+271 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+272 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+273 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+274 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+275 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+276 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+277 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+278 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+279 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+280 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+281 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+282 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+283 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+284 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+285 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+286 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+287 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+288 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+289 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+290 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+291 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+292 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+293 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+294 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+295 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+296 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+297 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+298 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+299 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+300 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+301 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+302 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+303 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+304 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+305 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+306 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+307 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+308 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+309 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+310 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+311 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+312 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+313 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+314 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+315 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+316 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+317 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+318 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+319 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+320 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+321 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+322 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+323 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+324 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+325 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+326 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+327 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+328 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+329 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+330 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+331 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+332 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+333 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+334 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+335 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+336 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+337 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+338 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+339 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+340 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+341 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+342 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+343 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+344 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+345 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+346 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+347 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+348 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+349 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+350 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+351 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+352 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+353 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+354 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+355 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+356 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+357 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+358 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+359 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+360 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+361 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+362 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+363 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+364 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+365 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+366 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+367 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+368 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+369 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+370 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+371 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+372 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+373 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+374 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+375 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+376 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+377 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+378 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+379 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+380 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+381 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+382 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+383 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+384 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+385 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+386 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+387 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+388 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+389 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+390 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+391 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+392 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+393 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+394 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+395 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+396 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+397 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+398 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+399 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+400 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+401 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+402 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+403 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+404 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+405 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+406 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+407 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+408 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+409 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+410 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+411 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+412 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+413 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+414 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+415 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+416 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+417 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+418 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+419 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+420 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+421 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+422 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+423 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+424 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+425 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+426 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+427 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+428 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+429 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+430 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+431 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+432 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+433 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+434 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+435 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+436 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+437 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+438 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+439 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+440 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+441 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+442 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+443 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+444 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+445 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+446 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+447 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+448 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+449 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+450 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+451 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+452 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+453 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+454 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+455 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+456 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+457 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+458 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+459 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+460 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+461 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+462 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+463 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+464 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+465 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+466 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+467 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+468 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+469 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+470 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+471 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+472 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+473 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+474 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+475 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+476 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+477 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+478 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+479 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+480 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+481 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+482 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+483 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+484 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+485 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+486 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+487 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+488 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+489 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+490 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+491 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+492 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+493 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+494 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+495 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+496 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+497 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+498 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+499 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+500 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+501 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+502 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+503 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+504 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+505 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+506 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+507 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+508 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+509 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+510 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+511 toyvm.c.exe                   	0x00000001066a31f3 test_suite + 363 (toyvm.c:862)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000010df48e00  rcx: 0x00007ffee9559088  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee95590b0  rsp: 0x00007ffee9559088
+   r8: 0x00007fff806a1018   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x000000010f7aa6c0
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x1066a0000 -        0x1066a3fff +toyvm.c.exe (0) <80DA147E-361C-30D8-87DC-1865F4C4FBD3> /Users/USER/*/toyvm.c.exe
+       0x1066b0000 -        0x1066c3fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x1066d4000 -        0x1067c7fff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x1067dc000 -        0x1067effff +libmpc.3.dylib (0) <54608AC0-D0B2-3035-9480-11D848256BAF> /opt/local/lib/libmpc.3.dylib
+       0x1067fc000 -        0x106857fff +libmpfr.6.dylib (0) <248D0008-190E-3C1E-9064-5EC2D6636D83> /opt/local/lib/libmpfr.6.dylib
+       0x10686c000 -        0x1068dbfff +libgmp.10.dylib (0) <CF77374D-7733-3A23-82C0-E08B5910968E> /opt/local/lib/libgmp.10.dylib
+       0x1068f0000 -        0x106903fff +libz.1.dylib (0) <1DE622A3-18A9-348E-B8C0-C68B7BF55B85> /opt/local/lib/libz.1.dylib
+       0x10de71000 -        0x10df0cfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+       0x10df89000 -        0x10fef8fff +libgccjit.0.dylib (0) <D5E6899A-E432-35A5-849D-79CC168621DD> /Users/USER/*/libgccjit.0.dylib
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=550.5M resident=0K(0%) swapped_out_or_unallocated=550.5M(100%)
+Writable regions: Total=1.2G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=1.2G(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            95.9M       55 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        3 
+VM_ALLOCATE                       2140K        5 
+__DATA                             1.0G       53 
+__DATA_CONST                      2018K       40 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       512.3M       18 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            38.3M       51 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                              1.8G      257 
+

@@ -1,0 +1,647 @@
+Process:               abort-3.exe [1527]
+Path:                  /Users/USER/*/abort-3.exe
+Identifier:            abort-3.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [81539]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-17 22:45:16.830 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 680000 seconds
+Time Since Wake:       520000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   abort-3.exe                   	0x00000001055c5ef0 main._omp_fn.0 + 9
+4   libgomp.1.dylib               	0x00000001055ee628 GOACC_parallel_keyed + 750 (oacc-parallel.c:200)
+5   abort-3.exe                   	0x00000001055c5f37 main + 71
+6   abort-3.exe                   	0x00000001055c5f37 main + 71
+7   abort-3.exe                   	0x00000001055c5f37 main + 71
+8   abort-3.exe                   	0x00000001055c5f37 main + 71
+9   abort-3.exe                   	0x00000001055c5f37 main + 71
+10  abort-3.exe                   	0x00000001055c5f37 main + 71
+11  abort-3.exe                   	0x00000001055c5f37 main + 71
+12  abort-3.exe                   	0x00000001055c5f37 main + 71
+13  abort-3.exe                   	0x00000001055c5f37 main + 71
+14  abort-3.exe                   	0x00000001055c5f37 main + 71
+15  abort-3.exe                   	0x00000001055c5f37 main + 71
+16  abort-3.exe                   	0x00000001055c5f37 main + 71
+17  abort-3.exe                   	0x00000001055c5f37 main + 71
+18  abort-3.exe                   	0x00000001055c5f37 main + 71
+19  abort-3.exe                   	0x00000001055c5f37 main + 71
+20  abort-3.exe                   	0x00000001055c5f37 main + 71
+21  abort-3.exe                   	0x00000001055c5f37 main + 71
+22  abort-3.exe                   	0x00000001055c5f37 main + 71
+23  abort-3.exe                   	0x00000001055c5f37 main + 71
+24  abort-3.exe                   	0x00000001055c5f37 main + 71
+25  abort-3.exe                   	0x00000001055c5f37 main + 71
+26  abort-3.exe                   	0x00000001055c5f37 main + 71
+27  abort-3.exe                   	0x00000001055c5f37 main + 71
+28  abort-3.exe                   	0x00000001055c5f37 main + 71
+29  abort-3.exe                   	0x00000001055c5f37 main + 71
+30  abort-3.exe                   	0x00000001055c5f37 main + 71
+31  abort-3.exe                   	0x00000001055c5f37 main + 71
+32  abort-3.exe                   	0x00000001055c5f37 main + 71
+33  abort-3.exe                   	0x00000001055c5f37 main + 71
+34  abort-3.exe                   	0x00000001055c5f37 main + 71
+35  abort-3.exe                   	0x00000001055c5f37 main + 71
+36  abort-3.exe                   	0x00000001055c5f37 main + 71
+37  abort-3.exe                   	0x00000001055c5f37 main + 71
+38  abort-3.exe                   	0x00000001055c5f37 main + 71
+39  abort-3.exe                   	0x00000001055c5f37 main + 71
+40  abort-3.exe                   	0x00000001055c5f37 main + 71
+41  abort-3.exe                   	0x00000001055c5f37 main + 71
+42  abort-3.exe                   	0x00000001055c5f37 main + 71
+43  abort-3.exe                   	0x00000001055c5f37 main + 71
+44  abort-3.exe                   	0x00000001055c5f37 main + 71
+45  abort-3.exe                   	0x00000001055c5f37 main + 71
+46  abort-3.exe                   	0x00000001055c5f37 main + 71
+47  abort-3.exe                   	0x00000001055c5f37 main + 71
+48  abort-3.exe                   	0x00000001055c5f37 main + 71
+49  abort-3.exe                   	0x00000001055c5f37 main + 71
+50  abort-3.exe                   	0x00000001055c5f37 main + 71
+51  abort-3.exe                   	0x00000001055c5f37 main + 71
+52  abort-3.exe                   	0x00000001055c5f37 main + 71
+53  abort-3.exe                   	0x00000001055c5f37 main + 71
+54  abort-3.exe                   	0x00000001055c5f37 main + 71
+55  abort-3.exe                   	0x00000001055c5f37 main + 71
+56  abort-3.exe                   	0x00000001055c5f37 main + 71
+57  abort-3.exe                   	0x00000001055c5f37 main + 71
+58  abort-3.exe                   	0x00000001055c5f37 main + 71
+59  abort-3.exe                   	0x00000001055c5f37 main + 71
+60  abort-3.exe                   	0x00000001055c5f37 main + 71
+61  abort-3.exe                   	0x00000001055c5f37 main + 71
+62  abort-3.exe                   	0x00000001055c5f37 main + 71
+63  abort-3.exe                   	0x00000001055c5f37 main + 71
+64  abort-3.exe                   	0x00000001055c5f37 main + 71
+65  abort-3.exe                   	0x00000001055c5f37 main + 71
+66  abort-3.exe                   	0x00000001055c5f37 main + 71
+67  abort-3.exe                   	0x00000001055c5f37 main + 71
+68  abort-3.exe                   	0x00000001055c5f37 main + 71
+69  abort-3.exe                   	0x00000001055c5f37 main + 71
+70  abort-3.exe                   	0x00000001055c5f37 main + 71
+71  abort-3.exe                   	0x00000001055c5f37 main + 71
+72  abort-3.exe                   	0x00000001055c5f37 main + 71
+73  abort-3.exe                   	0x00000001055c5f37 main + 71
+74  abort-3.exe                   	0x00000001055c5f37 main + 71
+75  abort-3.exe                   	0x00000001055c5f37 main + 71
+76  abort-3.exe                   	0x00000001055c5f37 main + 71
+77  abort-3.exe                   	0x00000001055c5f37 main + 71
+78  abort-3.exe                   	0x00000001055c5f37 main + 71
+79  abort-3.exe                   	0x00000001055c5f37 main + 71
+80  abort-3.exe                   	0x00000001055c5f37 main + 71
+81  abort-3.exe                   	0x00000001055c5f37 main + 71
+82  abort-3.exe                   	0x00000001055c5f37 main + 71
+83  abort-3.exe                   	0x00000001055c5f37 main + 71
+84  abort-3.exe                   	0x00000001055c5f37 main + 71
+85  abort-3.exe                   	0x00000001055c5f37 main + 71
+86  abort-3.exe                   	0x00000001055c5f37 main + 71
+87  abort-3.exe                   	0x00000001055c5f37 main + 71
+88  abort-3.exe                   	0x00000001055c5f37 main + 71
+89  abort-3.exe                   	0x00000001055c5f37 main + 71
+90  abort-3.exe                   	0x00000001055c5f37 main + 71
+91  abort-3.exe                   	0x00000001055c5f37 main + 71
+92  abort-3.exe                   	0x00000001055c5f37 main + 71
+93  abort-3.exe                   	0x00000001055c5f37 main + 71
+94  abort-3.exe                   	0x00000001055c5f37 main + 71
+95  abort-3.exe                   	0x00000001055c5f37 main + 71
+96  abort-3.exe                   	0x00000001055c5f37 main + 71
+97  abort-3.exe                   	0x00000001055c5f37 main + 71
+98  abort-3.exe                   	0x00000001055c5f37 main + 71
+99  abort-3.exe                   	0x00000001055c5f37 main + 71
+100 abort-3.exe                   	0x00000001055c5f37 main + 71
+101 abort-3.exe                   	0x00000001055c5f37 main + 71
+102 abort-3.exe                   	0x00000001055c5f37 main + 71
+103 abort-3.exe                   	0x00000001055c5f37 main + 71
+104 abort-3.exe                   	0x00000001055c5f37 main + 71
+105 abort-3.exe                   	0x00000001055c5f37 main + 71
+106 abort-3.exe                   	0x00000001055c5f37 main + 71
+107 abort-3.exe                   	0x00000001055c5f37 main + 71
+108 abort-3.exe                   	0x00000001055c5f37 main + 71
+109 abort-3.exe                   	0x00000001055c5f37 main + 71
+110 abort-3.exe                   	0x00000001055c5f37 main + 71
+111 abort-3.exe                   	0x00000001055c5f37 main + 71
+112 abort-3.exe                   	0x00000001055c5f37 main + 71
+113 abort-3.exe                   	0x00000001055c5f37 main + 71
+114 abort-3.exe                   	0x00000001055c5f37 main + 71
+115 abort-3.exe                   	0x00000001055c5f37 main + 71
+116 abort-3.exe                   	0x00000001055c5f37 main + 71
+117 abort-3.exe                   	0x00000001055c5f37 main + 71
+118 abort-3.exe                   	0x00000001055c5f37 main + 71
+119 abort-3.exe                   	0x00000001055c5f37 main + 71
+120 abort-3.exe                   	0x00000001055c5f37 main + 71
+121 abort-3.exe                   	0x00000001055c5f37 main + 71
+122 abort-3.exe                   	0x00000001055c5f37 main + 71
+123 abort-3.exe                   	0x00000001055c5f37 main + 71
+124 abort-3.exe                   	0x00000001055c5f37 main + 71
+125 abort-3.exe                   	0x00000001055c5f37 main + 71
+126 abort-3.exe                   	0x00000001055c5f37 main + 71
+127 abort-3.exe                   	0x00000001055c5f37 main + 71
+128 abort-3.exe                   	0x00000001055c5f37 main + 71
+129 abort-3.exe                   	0x00000001055c5f37 main + 71
+130 abort-3.exe                   	0x00000001055c5f37 main + 71
+131 abort-3.exe                   	0x00000001055c5f37 main + 71
+132 abort-3.exe                   	0x00000001055c5f37 main + 71
+133 abort-3.exe                   	0x00000001055c5f37 main + 71
+134 abort-3.exe                   	0x00000001055c5f37 main + 71
+135 abort-3.exe                   	0x00000001055c5f37 main + 71
+136 abort-3.exe                   	0x00000001055c5f37 main + 71
+137 abort-3.exe                   	0x00000001055c5f37 main + 71
+138 abort-3.exe                   	0x00000001055c5f37 main + 71
+139 abort-3.exe                   	0x00000001055c5f37 main + 71
+140 abort-3.exe                   	0x00000001055c5f37 main + 71
+141 abort-3.exe                   	0x00000001055c5f37 main + 71
+142 abort-3.exe                   	0x00000001055c5f37 main + 71
+143 abort-3.exe                   	0x00000001055c5f37 main + 71
+144 abort-3.exe                   	0x00000001055c5f37 main + 71
+145 abort-3.exe                   	0x00000001055c5f37 main + 71
+146 abort-3.exe                   	0x00000001055c5f37 main + 71
+147 abort-3.exe                   	0x00000001055c5f37 main + 71
+148 abort-3.exe                   	0x00000001055c5f37 main + 71
+149 abort-3.exe                   	0x00000001055c5f37 main + 71
+150 abort-3.exe                   	0x00000001055c5f37 main + 71
+151 abort-3.exe                   	0x00000001055c5f37 main + 71
+152 abort-3.exe                   	0x00000001055c5f37 main + 71
+153 abort-3.exe                   	0x00000001055c5f37 main + 71
+154 abort-3.exe                   	0x00000001055c5f37 main + 71
+155 abort-3.exe                   	0x00000001055c5f37 main + 71
+156 abort-3.exe                   	0x00000001055c5f37 main + 71
+157 abort-3.exe                   	0x00000001055c5f37 main + 71
+158 abort-3.exe                   	0x00000001055c5f37 main + 71
+159 abort-3.exe                   	0x00000001055c5f37 main + 71
+160 abort-3.exe                   	0x00000001055c5f37 main + 71
+161 abort-3.exe                   	0x00000001055c5f37 main + 71
+162 abort-3.exe                   	0x00000001055c5f37 main + 71
+163 abort-3.exe                   	0x00000001055c5f37 main + 71
+164 abort-3.exe                   	0x00000001055c5f37 main + 71
+165 abort-3.exe                   	0x00000001055c5f37 main + 71
+166 abort-3.exe                   	0x00000001055c5f37 main + 71
+167 abort-3.exe                   	0x00000001055c5f37 main + 71
+168 abort-3.exe                   	0x00000001055c5f37 main + 71
+169 abort-3.exe                   	0x00000001055c5f37 main + 71
+170 abort-3.exe                   	0x00000001055c5f37 main + 71
+171 abort-3.exe                   	0x00000001055c5f37 main + 71
+172 abort-3.exe                   	0x00000001055c5f37 main + 71
+173 abort-3.exe                   	0x00000001055c5f37 main + 71
+174 abort-3.exe                   	0x00000001055c5f37 main + 71
+175 abort-3.exe                   	0x00000001055c5f37 main + 71
+176 abort-3.exe                   	0x00000001055c5f37 main + 71
+177 abort-3.exe                   	0x00000001055c5f37 main + 71
+178 abort-3.exe                   	0x00000001055c5f37 main + 71
+179 abort-3.exe                   	0x00000001055c5f37 main + 71
+180 abort-3.exe                   	0x00000001055c5f37 main + 71
+181 abort-3.exe                   	0x00000001055c5f37 main + 71
+182 abort-3.exe                   	0x00000001055c5f37 main + 71
+183 abort-3.exe                   	0x00000001055c5f37 main + 71
+184 abort-3.exe                   	0x00000001055c5f37 main + 71
+185 abort-3.exe                   	0x00000001055c5f37 main + 71
+186 abort-3.exe                   	0x00000001055c5f37 main + 71
+187 abort-3.exe                   	0x00000001055c5f37 main + 71
+188 abort-3.exe                   	0x00000001055c5f37 main + 71
+189 abort-3.exe                   	0x00000001055c5f37 main + 71
+190 abort-3.exe                   	0x00000001055c5f37 main + 71
+191 abort-3.exe                   	0x00000001055c5f37 main + 71
+192 abort-3.exe                   	0x00000001055c5f37 main + 71
+193 abort-3.exe                   	0x00000001055c5f37 main + 71
+194 abort-3.exe                   	0x00000001055c5f37 main + 71
+195 abort-3.exe                   	0x00000001055c5f37 main + 71
+196 abort-3.exe                   	0x00000001055c5f37 main + 71
+197 abort-3.exe                   	0x00000001055c5f37 main + 71
+198 abort-3.exe                   	0x00000001055c5f37 main + 71
+199 abort-3.exe                   	0x00000001055c5f37 main + 71
+200 abort-3.exe                   	0x00000001055c5f37 main + 71
+201 abort-3.exe                   	0x00000001055c5f37 main + 71
+202 abort-3.exe                   	0x00000001055c5f37 main + 71
+203 abort-3.exe                   	0x00000001055c5f37 main + 71
+204 abort-3.exe                   	0x00000001055c5f37 main + 71
+205 abort-3.exe                   	0x00000001055c5f37 main + 71
+206 abort-3.exe                   	0x00000001055c5f37 main + 71
+207 abort-3.exe                   	0x00000001055c5f37 main + 71
+208 abort-3.exe                   	0x00000001055c5f37 main + 71
+209 abort-3.exe                   	0x00000001055c5f37 main + 71
+210 abort-3.exe                   	0x00000001055c5f37 main + 71
+211 abort-3.exe                   	0x00000001055c5f37 main + 71
+212 abort-3.exe                   	0x00000001055c5f37 main + 71
+213 abort-3.exe                   	0x00000001055c5f37 main + 71
+214 abort-3.exe                   	0x00000001055c5f37 main + 71
+215 abort-3.exe                   	0x00000001055c5f37 main + 71
+216 abort-3.exe                   	0x00000001055c5f37 main + 71
+217 abort-3.exe                   	0x00000001055c5f37 main + 71
+218 abort-3.exe                   	0x00000001055c5f37 main + 71
+219 abort-3.exe                   	0x00000001055c5f37 main + 71
+220 abort-3.exe                   	0x00000001055c5f37 main + 71
+221 abort-3.exe                   	0x00000001055c5f37 main + 71
+222 abort-3.exe                   	0x00000001055c5f37 main + 71
+223 abort-3.exe                   	0x00000001055c5f37 main + 71
+224 abort-3.exe                   	0x00000001055c5f37 main + 71
+225 abort-3.exe                   	0x00000001055c5f37 main + 71
+226 abort-3.exe                   	0x00000001055c5f37 main + 71
+227 abort-3.exe                   	0x00000001055c5f37 main + 71
+228 abort-3.exe                   	0x00000001055c5f37 main + 71
+229 abort-3.exe                   	0x00000001055c5f37 main + 71
+230 abort-3.exe                   	0x00000001055c5f37 main + 71
+231 abort-3.exe                   	0x00000001055c5f37 main + 71
+232 abort-3.exe                   	0x00000001055c5f37 main + 71
+233 abort-3.exe                   	0x00000001055c5f37 main + 71
+234 abort-3.exe                   	0x00000001055c5f37 main + 71
+235 abort-3.exe                   	0x00000001055c5f37 main + 71
+236 abort-3.exe                   	0x00000001055c5f37 main + 71
+237 abort-3.exe                   	0x00000001055c5f37 main + 71
+238 abort-3.exe                   	0x00000001055c5f37 main + 71
+239 abort-3.exe                   	0x00000001055c5f37 main + 71
+240 abort-3.exe                   	0x00000001055c5f37 main + 71
+241 abort-3.exe                   	0x00000001055c5f37 main + 71
+242 abort-3.exe                   	0x00000001055c5f37 main + 71
+243 abort-3.exe                   	0x00000001055c5f37 main + 71
+244 abort-3.exe                   	0x00000001055c5f37 main + 71
+245 abort-3.exe                   	0x00000001055c5f37 main + 71
+246 abort-3.exe                   	0x00000001055c5f37 main + 71
+247 abort-3.exe                   	0x00000001055c5f37 main + 71
+248 abort-3.exe                   	0x00000001055c5f37 main + 71
+249 abort-3.exe                   	0x00000001055c5f37 main + 71
+250 abort-3.exe                   	0x00000001055c5f37 main + 71
+251 abort-3.exe                   	0x00000001055c5f37 main + 71
+252 abort-3.exe                   	0x00000001055c5f37 main + 71
+253 abort-3.exe                   	0x00000001055c5f37 main + 71
+254 abort-3.exe                   	0x00000001055c5f37 main + 71
+255 abort-3.exe                   	0x00000001055c5f37 main + 71
+256 abort-3.exe                   	0x00000001055c5f37 main + 71
+257 abort-3.exe                   	0x00000001055c5f37 main + 71
+258 abort-3.exe                   	0x00000001055c5f37 main + 71
+259 abort-3.exe                   	0x00000001055c5f37 main + 71
+260 abort-3.exe                   	0x00000001055c5f37 main + 71
+261 abort-3.exe                   	0x00000001055c5f37 main + 71
+262 abort-3.exe                   	0x00000001055c5f37 main + 71
+263 abort-3.exe                   	0x00000001055c5f37 main + 71
+264 abort-3.exe                   	0x00000001055c5f37 main + 71
+265 abort-3.exe                   	0x00000001055c5f37 main + 71
+266 abort-3.exe                   	0x00000001055c5f37 main + 71
+267 abort-3.exe                   	0x00000001055c5f37 main + 71
+268 abort-3.exe                   	0x00000001055c5f37 main + 71
+269 abort-3.exe                   	0x00000001055c5f37 main + 71
+270 abort-3.exe                   	0x00000001055c5f37 main + 71
+271 abort-3.exe                   	0x00000001055c5f37 main + 71
+272 abort-3.exe                   	0x00000001055c5f37 main + 71
+273 abort-3.exe                   	0x00000001055c5f37 main + 71
+274 abort-3.exe                   	0x00000001055c5f37 main + 71
+275 abort-3.exe                   	0x00000001055c5f37 main + 71
+276 abort-3.exe                   	0x00000001055c5f37 main + 71
+277 abort-3.exe                   	0x00000001055c5f37 main + 71
+278 abort-3.exe                   	0x00000001055c5f37 main + 71
+279 abort-3.exe                   	0x00000001055c5f37 main + 71
+280 abort-3.exe                   	0x00000001055c5f37 main + 71
+281 abort-3.exe                   	0x00000001055c5f37 main + 71
+282 abort-3.exe                   	0x00000001055c5f37 main + 71
+283 abort-3.exe                   	0x00000001055c5f37 main + 71
+284 abort-3.exe                   	0x00000001055c5f37 main + 71
+285 abort-3.exe                   	0x00000001055c5f37 main + 71
+286 abort-3.exe                   	0x00000001055c5f37 main + 71
+287 abort-3.exe                   	0x00000001055c5f37 main + 71
+288 abort-3.exe                   	0x00000001055c5f37 main + 71
+289 abort-3.exe                   	0x00000001055c5f37 main + 71
+290 abort-3.exe                   	0x00000001055c5f37 main + 71
+291 abort-3.exe                   	0x00000001055c5f37 main + 71
+292 abort-3.exe                   	0x00000001055c5f37 main + 71
+293 abort-3.exe                   	0x00000001055c5f37 main + 71
+294 abort-3.exe                   	0x00000001055c5f37 main + 71
+295 abort-3.exe                   	0x00000001055c5f37 main + 71
+296 abort-3.exe                   	0x00000001055c5f37 main + 71
+297 abort-3.exe                   	0x00000001055c5f37 main + 71
+298 abort-3.exe                   	0x00000001055c5f37 main + 71
+299 abort-3.exe                   	0x00000001055c5f37 main + 71
+300 abort-3.exe                   	0x00000001055c5f37 main + 71
+301 abort-3.exe                   	0x00000001055c5f37 main + 71
+302 abort-3.exe                   	0x00000001055c5f37 main + 71
+303 abort-3.exe                   	0x00000001055c5f37 main + 71
+304 abort-3.exe                   	0x00000001055c5f37 main + 71
+305 abort-3.exe                   	0x00000001055c5f37 main + 71
+306 abort-3.exe                   	0x00000001055c5f37 main + 71
+307 abort-3.exe                   	0x00000001055c5f37 main + 71
+308 abort-3.exe                   	0x00000001055c5f37 main + 71
+309 abort-3.exe                   	0x00000001055c5f37 main + 71
+310 abort-3.exe                   	0x00000001055c5f37 main + 71
+311 abort-3.exe                   	0x00000001055c5f37 main + 71
+312 abort-3.exe                   	0x00000001055c5f37 main + 71
+313 abort-3.exe                   	0x00000001055c5f37 main + 71
+314 abort-3.exe                   	0x00000001055c5f37 main + 71
+315 abort-3.exe                   	0x00000001055c5f37 main + 71
+316 abort-3.exe                   	0x00000001055c5f37 main + 71
+317 abort-3.exe                   	0x00000001055c5f37 main + 71
+318 abort-3.exe                   	0x00000001055c5f37 main + 71
+319 abort-3.exe                   	0x00000001055c5f37 main + 71
+320 abort-3.exe                   	0x00000001055c5f37 main + 71
+321 abort-3.exe                   	0x00000001055c5f37 main + 71
+322 abort-3.exe                   	0x00000001055c5f37 main + 71
+323 abort-3.exe                   	0x00000001055c5f37 main + 71
+324 abort-3.exe                   	0x00000001055c5f37 main + 71
+325 abort-3.exe                   	0x00000001055c5f37 main + 71
+326 abort-3.exe                   	0x00000001055c5f37 main + 71
+327 abort-3.exe                   	0x00000001055c5f37 main + 71
+328 abort-3.exe                   	0x00000001055c5f37 main + 71
+329 abort-3.exe                   	0x00000001055c5f37 main + 71
+330 abort-3.exe                   	0x00000001055c5f37 main + 71
+331 abort-3.exe                   	0x00000001055c5f37 main + 71
+332 abort-3.exe                   	0x00000001055c5f37 main + 71
+333 abort-3.exe                   	0x00000001055c5f37 main + 71
+334 abort-3.exe                   	0x00000001055c5f37 main + 71
+335 abort-3.exe                   	0x00000001055c5f37 main + 71
+336 abort-3.exe                   	0x00000001055c5f37 main + 71
+337 abort-3.exe                   	0x00000001055c5f37 main + 71
+338 abort-3.exe                   	0x00000001055c5f37 main + 71
+339 abort-3.exe                   	0x00000001055c5f37 main + 71
+340 abort-3.exe                   	0x00000001055c5f37 main + 71
+341 abort-3.exe                   	0x00000001055c5f37 main + 71
+342 abort-3.exe                   	0x00000001055c5f37 main + 71
+343 abort-3.exe                   	0x00000001055c5f37 main + 71
+344 abort-3.exe                   	0x00000001055c5f37 main + 71
+345 abort-3.exe                   	0x00000001055c5f37 main + 71
+346 abort-3.exe                   	0x00000001055c5f37 main + 71
+347 abort-3.exe                   	0x00000001055c5f37 main + 71
+348 abort-3.exe                   	0x00000001055c5f37 main + 71
+349 abort-3.exe                   	0x00000001055c5f37 main + 71
+350 abort-3.exe                   	0x00000001055c5f37 main + 71
+351 abort-3.exe                   	0x00000001055c5f37 main + 71
+352 abort-3.exe                   	0x00000001055c5f37 main + 71
+353 abort-3.exe                   	0x00000001055c5f37 main + 71
+354 abort-3.exe                   	0x00000001055c5f37 main + 71
+355 abort-3.exe                   	0x00000001055c5f37 main + 71
+356 abort-3.exe                   	0x00000001055c5f37 main + 71
+357 abort-3.exe                   	0x00000001055c5f37 main + 71
+358 abort-3.exe                   	0x00000001055c5f37 main + 71
+359 abort-3.exe                   	0x00000001055c5f37 main + 71
+360 abort-3.exe                   	0x00000001055c5f37 main + 71
+361 abort-3.exe                   	0x00000001055c5f37 main + 71
+362 abort-3.exe                   	0x00000001055c5f37 main + 71
+363 abort-3.exe                   	0x00000001055c5f37 main + 71
+364 abort-3.exe                   	0x00000001055c5f37 main + 71
+365 abort-3.exe                   	0x00000001055c5f37 main + 71
+366 abort-3.exe                   	0x00000001055c5f37 main + 71
+367 abort-3.exe                   	0x00000001055c5f37 main + 71
+368 abort-3.exe                   	0x00000001055c5f37 main + 71
+369 abort-3.exe                   	0x00000001055c5f37 main + 71
+370 abort-3.exe                   	0x00000001055c5f37 main + 71
+371 abort-3.exe                   	0x00000001055c5f37 main + 71
+372 abort-3.exe                   	0x00000001055c5f37 main + 71
+373 abort-3.exe                   	0x00000001055c5f37 main + 71
+374 abort-3.exe                   	0x00000001055c5f37 main + 71
+375 abort-3.exe                   	0x00000001055c5f37 main + 71
+376 abort-3.exe                   	0x00000001055c5f37 main + 71
+377 abort-3.exe                   	0x00000001055c5f37 main + 71
+378 abort-3.exe                   	0x00000001055c5f37 main + 71
+379 abort-3.exe                   	0x00000001055c5f37 main + 71
+380 abort-3.exe                   	0x00000001055c5f37 main + 71
+381 abort-3.exe                   	0x00000001055c5f37 main + 71
+382 abort-3.exe                   	0x00000001055c5f37 main + 71
+383 abort-3.exe                   	0x00000001055c5f37 main + 71
+384 abort-3.exe                   	0x00000001055c5f37 main + 71
+385 abort-3.exe                   	0x00000001055c5f37 main + 71
+386 abort-3.exe                   	0x00000001055c5f37 main + 71
+387 abort-3.exe                   	0x00000001055c5f37 main + 71
+388 abort-3.exe                   	0x00000001055c5f37 main + 71
+389 abort-3.exe                   	0x00000001055c5f37 main + 71
+390 abort-3.exe                   	0x00000001055c5f37 main + 71
+391 abort-3.exe                   	0x00000001055c5f37 main + 71
+392 abort-3.exe                   	0x00000001055c5f37 main + 71
+393 abort-3.exe                   	0x00000001055c5f37 main + 71
+394 abort-3.exe                   	0x00000001055c5f37 main + 71
+395 abort-3.exe                   	0x00000001055c5f37 main + 71
+396 abort-3.exe                   	0x00000001055c5f37 main + 71
+397 abort-3.exe                   	0x00000001055c5f37 main + 71
+398 abort-3.exe                   	0x00000001055c5f37 main + 71
+399 abort-3.exe                   	0x00000001055c5f37 main + 71
+400 abort-3.exe                   	0x00000001055c5f37 main + 71
+401 abort-3.exe                   	0x00000001055c5f37 main + 71
+402 abort-3.exe                   	0x00000001055c5f37 main + 71
+403 abort-3.exe                   	0x00000001055c5f37 main + 71
+404 abort-3.exe                   	0x00000001055c5f37 main + 71
+405 abort-3.exe                   	0x00000001055c5f37 main + 71
+406 abort-3.exe                   	0x00000001055c5f37 main + 71
+407 abort-3.exe                   	0x00000001055c5f37 main + 71
+408 abort-3.exe                   	0x00000001055c5f37 main + 71
+409 abort-3.exe                   	0x00000001055c5f37 main + 71
+410 abort-3.exe                   	0x00000001055c5f37 main + 71
+411 abort-3.exe                   	0x00000001055c5f37 main + 71
+412 abort-3.exe                   	0x00000001055c5f37 main + 71
+413 abort-3.exe                   	0x00000001055c5f37 main + 71
+414 abort-3.exe                   	0x00000001055c5f37 main + 71
+415 abort-3.exe                   	0x00000001055c5f37 main + 71
+416 abort-3.exe                   	0x00000001055c5f37 main + 71
+417 abort-3.exe                   	0x00000001055c5f37 main + 71
+418 abort-3.exe                   	0x00000001055c5f37 main + 71
+419 abort-3.exe                   	0x00000001055c5f37 main + 71
+420 abort-3.exe                   	0x00000001055c5f37 main + 71
+421 abort-3.exe                   	0x00000001055c5f37 main + 71
+422 abort-3.exe                   	0x00000001055c5f37 main + 71
+423 abort-3.exe                   	0x00000001055c5f37 main + 71
+424 abort-3.exe                   	0x00000001055c5f37 main + 71
+425 abort-3.exe                   	0x00000001055c5f37 main + 71
+426 abort-3.exe                   	0x00000001055c5f37 main + 71
+427 abort-3.exe                   	0x00000001055c5f37 main + 71
+428 abort-3.exe                   	0x00000001055c5f37 main + 71
+429 abort-3.exe                   	0x00000001055c5f37 main + 71
+430 abort-3.exe                   	0x00000001055c5f37 main + 71
+431 abort-3.exe                   	0x00000001055c5f37 main + 71
+432 abort-3.exe                   	0x00000001055c5f37 main + 71
+433 abort-3.exe                   	0x00000001055c5f37 main + 71
+434 abort-3.exe                   	0x00000001055c5f37 main + 71
+435 abort-3.exe                   	0x00000001055c5f37 main + 71
+436 abort-3.exe                   	0x00000001055c5f37 main + 71
+437 abort-3.exe                   	0x00000001055c5f37 main + 71
+438 abort-3.exe                   	0x00000001055c5f37 main + 71
+439 abort-3.exe                   	0x00000001055c5f37 main + 71
+440 abort-3.exe                   	0x00000001055c5f37 main + 71
+441 abort-3.exe                   	0x00000001055c5f37 main + 71
+442 abort-3.exe                   	0x00000001055c5f37 main + 71
+443 abort-3.exe                   	0x00000001055c5f37 main + 71
+444 abort-3.exe                   	0x00000001055c5f37 main + 71
+445 abort-3.exe                   	0x00000001055c5f37 main + 71
+446 abort-3.exe                   	0x00000001055c5f37 main + 71
+447 abort-3.exe                   	0x00000001055c5f37 main + 71
+448 abort-3.exe                   	0x00000001055c5f37 main + 71
+449 abort-3.exe                   	0x00000001055c5f37 main + 71
+450 abort-3.exe                   	0x00000001055c5f37 main + 71
+451 abort-3.exe                   	0x00000001055c5f37 main + 71
+452 abort-3.exe                   	0x00000001055c5f37 main + 71
+453 abort-3.exe                   	0x00000001055c5f37 main + 71
+454 abort-3.exe                   	0x00000001055c5f37 main + 71
+455 abort-3.exe                   	0x00000001055c5f37 main + 71
+456 abort-3.exe                   	0x00000001055c5f37 main + 71
+457 abort-3.exe                   	0x00000001055c5f37 main + 71
+458 abort-3.exe                   	0x00000001055c5f37 main + 71
+459 abort-3.exe                   	0x00000001055c5f37 main + 71
+460 abort-3.exe                   	0x00000001055c5f37 main + 71
+461 abort-3.exe                   	0x00000001055c5f37 main + 71
+462 abort-3.exe                   	0x00000001055c5f37 main + 71
+463 abort-3.exe                   	0x00000001055c5f37 main + 71
+464 abort-3.exe                   	0x00000001055c5f37 main + 71
+465 abort-3.exe                   	0x00000001055c5f37 main + 71
+466 abort-3.exe                   	0x00000001055c5f37 main + 71
+467 abort-3.exe                   	0x00000001055c5f37 main + 71
+468 abort-3.exe                   	0x00000001055c5f37 main + 71
+469 abort-3.exe                   	0x00000001055c5f37 main + 71
+470 abort-3.exe                   	0x00000001055c5f37 main + 71
+471 abort-3.exe                   	0x00000001055c5f37 main + 71
+472 abort-3.exe                   	0x00000001055c5f37 main + 71
+473 abort-3.exe                   	0x00000001055c5f37 main + 71
+474 abort-3.exe                   	0x00000001055c5f37 main + 71
+475 abort-3.exe                   	0x00000001055c5f37 main + 71
+476 abort-3.exe                   	0x00000001055c5f37 main + 71
+477 abort-3.exe                   	0x00000001055c5f37 main + 71
+478 abort-3.exe                   	0x00000001055c5f37 main + 71
+479 abort-3.exe                   	0x00000001055c5f37 main + 71
+480 abort-3.exe                   	0x00000001055c5f37 main + 71
+481 abort-3.exe                   	0x00000001055c5f37 main + 71
+482 abort-3.exe                   	0x00000001055c5f37 main + 71
+483 abort-3.exe                   	0x00000001055c5f37 main + 71
+484 abort-3.exe                   	0x00000001055c5f37 main + 71
+485 abort-3.exe                   	0x00000001055c5f37 main + 71
+486 abort-3.exe                   	0x00000001055c5f37 main + 71
+487 abort-3.exe                   	0x00000001055c5f37 main + 71
+488 abort-3.exe                   	0x00000001055c5f37 main + 71
+489 abort-3.exe                   	0x00000001055c5f37 main + 71
+490 abort-3.exe                   	0x00000001055c5f37 main + 71
+491 abort-3.exe                   	0x00000001055c5f37 main + 71
+492 abort-3.exe                   	0x00000001055c5f37 main + 71
+493 abort-3.exe                   	0x00000001055c5f37 main + 71
+494 abort-3.exe                   	0x00000001055c5f37 main + 71
+495 abort-3.exe                   	0x00000001055c5f37 main + 71
+496 abort-3.exe                   	0x00000001055c5f37 main + 71
+497 abort-3.exe                   	0x00000001055c5f37 main + 71
+498 abort-3.exe                   	0x00000001055c5f37 main + 71
+499 abort-3.exe                   	0x00000001055c5f37 main + 71
+500 abort-3.exe                   	0x00000001055c5f37 main + 71
+501 abort-3.exe                   	0x00000001055c5f37 main + 71
+502 abort-3.exe                   	0x00000001055c5f37 main + 71
+503 abort-3.exe                   	0x00000001055c5f37 main + 71
+504 abort-3.exe                   	0x00000001055c5f37 main + 71
+505 abort-3.exe                   	0x00000001055c5f37 main + 71
+506 abort-3.exe                   	0x00000001055c5f37 main + 71
+507 abort-3.exe                   	0x00000001055c5f37 main + 71
+508 abort-3.exe                   	0x00000001055c5f37 main + 71
+509 abort-3.exe                   	0x00000001055c5f37 main + 71
+510 abort-3.exe                   	0x00000001055c5f37 main + 71
+511 abort-3.exe                   	0x00000001055c5f37 main + 71
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00000001072c1e00  rcx: 0x00007ffeea6369e8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeea636a10  rsp: 0x00007ffeea6369e8
+   r8: 0x00007ffc01d04198   r9: 0xffffffff00000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00007fff806d5498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x1055c2000 -        0x1055c5fff +abort-3.exe (0) <5A0AD665-ED93-3EC5-91AC-E3D3B4EA8FD5> /Users/USER/*/abort-3.exe
+       0x1055d7000 -        0x105606fff +libgomp.1.dylib (0) <378CAF92-4E44-3477-9A1C-342F779BEC22> /Users/USER/*/libgomp.1.dylib
+       0x105635000 -        0x105648fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x1071ea000 -        0x107285fff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=505.5M resident=0K(0%) swapped_out_or_unallocated=505.5M(100%)
+Writable regions: Total=18.3M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=18.3M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            10.1M        8 
+MALLOC guard page                   16K        3 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             436K       45 
+__DATA_CONST                       274K       35 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.4M        9 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            5272K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            653.1M      178 
+

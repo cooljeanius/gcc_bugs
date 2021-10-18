@@ -1,0 +1,682 @@
+Process:               ld [76462]
+Path:                  /opt/iains/*/ld
+Identifier:            ld
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        test-expressions.c.exe [76381]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:54:08.803 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        1
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x000000000000003d
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Segmentation fault: 11
+Termination Reason:    Namespace SIGNAL, Code 0xb
+Terminating Process:   exc handler [76462]
+
+VM Regions Near 0x3d:
+--> 
+    __TEXT                      106a6c000-106bc2000    [ 1368K] r-x/r-x SM=COW  /opt/iains/*
+
+Application Specific Information:
+dyld2 mode
+xtools-ld64-351.8
+ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 11.5.0 -o /var/folders/28/gnjs38js27lfysyhm4zfvx5w0000gn/T//libgccjit-9EzGOt/fake.so -L/usr/local/lib/gcc -L/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc -L/usr/local/lib/gcc/.. /var/folders/28/gnjs38js27lfysyhm4zfvx5w0000gn/T//ccDQJpkB.o -undefined dynamic_lookup -dylib -lSystem -lgcc_ext.10.5 -lgcc -lSystem -no_compact_unwind 
+
+Thread 0:: Dispatch queue: com.apple.main-thread
+0   libLTO.dylib                  	0x000000010754add0 llvm::PassNameParser::~PassNameParser() + 0
+1   libLTO.dylib                  	0x0000000107520f12 llvm::cl::list<llvm::PassInfo const*, bool, llvm::PassNameParser>::~list() + 34
+2   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+3   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+4   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+5   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+6   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+7   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+8   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+9   libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+10  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+11  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+12  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+13  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+14  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+15  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+16  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+17  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+18  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+19  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+20  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+21  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+22  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+23  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+24  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+25  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+26  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+27  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+28  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+29  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+30  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+31  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+32  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+33  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+34  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+35  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+36  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+37  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+38  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+39  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+40  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+41  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+42  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+43  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+44  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+45  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+46  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+47  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+48  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+49  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+50  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+51  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+52  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+53  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+54  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+55  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+56  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+57  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+58  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+59  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+60  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+61  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+62  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+63  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+64  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+65  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+66  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+67  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+68  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+69  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+70  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+71  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+72  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+73  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+74  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+75  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+76  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+77  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+78  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+79  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+80  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+81  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+82  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+83  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+84  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+85  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+86  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+87  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+88  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+89  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+90  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+91  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+92  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+93  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+94  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+95  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+96  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+97  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+98  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+99  libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+100 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+101 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+102 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+103 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+104 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+105 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+106 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+107 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+108 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+109 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+110 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+111 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+112 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+113 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+114 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+115 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+116 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+117 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+118 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+119 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+120 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+121 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+122 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+123 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+124 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+125 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+126 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+127 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+128 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+129 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+130 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+131 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+132 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+133 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+134 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+135 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+136 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+137 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+138 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+139 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+140 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+141 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+142 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+143 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+144 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+145 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+146 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+147 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+148 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+149 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+150 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+151 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+152 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+153 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+154 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+155 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+156 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+157 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+158 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+159 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+160 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+161 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+162 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+163 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+164 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+165 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+166 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+167 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+168 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+169 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+170 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+171 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+172 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+173 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+174 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+175 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+176 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+177 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+178 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+179 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+180 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+181 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+182 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+183 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+184 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+185 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+186 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+187 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+188 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+189 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+190 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+191 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+192 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+193 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+194 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+195 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+196 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+197 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+198 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+199 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+200 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+201 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+202 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+203 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+204 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+205 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+206 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+207 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+208 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+209 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+210 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+211 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+212 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+213 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+214 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+215 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+216 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+217 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+218 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+219 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+220 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+221 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+222 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+223 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+224 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+225 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+226 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+227 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+228 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+229 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+230 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+231 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+232 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+233 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+234 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+235 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+236 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+237 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+238 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+239 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+240 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+241 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+242 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+243 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+244 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+245 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+246 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+247 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+248 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+249 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+250 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+251 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+252 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+253 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+254 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+255 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+256 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+257 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+258 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+259 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+260 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+261 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+262 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+263 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+264 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+265 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+266 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+267 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+268 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+269 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+270 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+271 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+272 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+273 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+274 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+275 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+276 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+277 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+278 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+279 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+280 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+281 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+282 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+283 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+284 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+285 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+286 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+287 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+288 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+289 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+290 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+291 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+292 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+293 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+294 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+295 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+296 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+297 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+298 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+299 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+300 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+301 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+302 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+303 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+304 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+305 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+306 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+307 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+308 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+309 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+310 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+311 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+312 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+313 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+314 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+315 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+316 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+317 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+318 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+319 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+320 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+321 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+322 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+323 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+324 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+325 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+326 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+327 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+328 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+329 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+330 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+331 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+332 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+333 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+334 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+335 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+336 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+337 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+338 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+339 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+340 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+341 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+342 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+343 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+344 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+345 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+346 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+347 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+348 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+349 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+350 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+351 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+352 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+353 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+354 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+355 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+356 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+357 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+358 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+359 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+360 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+361 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+362 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+363 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+364 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+365 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+366 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+367 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+368 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+369 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+370 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+371 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+372 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+373 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+374 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+375 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+376 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+377 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+378 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+379 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+380 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+381 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+382 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+383 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+384 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+385 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+386 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+387 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+388 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+389 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+390 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+391 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+392 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+393 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+394 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+395 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+396 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+397 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+398 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+399 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+400 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+401 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+402 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+403 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+404 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+405 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+406 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+407 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+408 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+409 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+410 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+411 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+412 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+413 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+414 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+415 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+416 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+417 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+418 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+419 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+420 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+421 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+422 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+423 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+424 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+425 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+426 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+427 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+428 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+429 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+430 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+431 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+432 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+433 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+434 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+435 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+436 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+437 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+438 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+439 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+440 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+441 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+442 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+443 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+444 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+445 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+446 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+447 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+448 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+449 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+450 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+451 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+452 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+453 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+454 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+455 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+456 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+457 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+458 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+459 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+460 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+461 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+462 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+463 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+464 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+465 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+466 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+467 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+468 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+469 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+470 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+471 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+472 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+473 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+474 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+475 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+476 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+477 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+478 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+479 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+480 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+481 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+482 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+483 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+484 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+485 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+486 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+487 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+488 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+489 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+490 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+491 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+492 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+493 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+494 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+495 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+496 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+497 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+498 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+499 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+500 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+501 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+502 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+503 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+504 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+505 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+506 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+507 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+508 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+509 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+510 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+511 libsystem_c.dylib             	0x00007fff202d8d25 __cxa_finalize_ranges + 316
+
+Thread 1 Crashed:
+0   ld                            	0x0000000106a8e709 ld::tool::InputFiles::parseWorkerThread() + 361
+1   libsystem_pthread.dylib       	0x00007fff203a98fc _pthread_start + 224
+2   libsystem_pthread.dylib       	0x00007fff203a5443 thread_start + 15
+
+Thread 1 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000025  rbx: 0x00007f8850b043c0  rcx: 0x0000000000000000  rdx: 0x00007f8850b00000
+  rdi: 0x00007ffee918cc60  rsi: 0x0000000000000000  rbp: 0x00007000043edfb0  rsp: 0x00007000043edf30
+   r8: 0x0000000000000228   r9: 0x0000000000000229  r10: 0x00000000fffffeff  r11: 0x0000000000003fff
+  r12: 0x0000000000000003  r13: 0x0000000100000000  r14: 0x0000000000000004  r15: 0x00007ffee918cba8
+  rip: 0x0000000106a8e709  rfl: 0x0000000000010246  cr2: 0x000000000000003d
+  
+Logical CPU:     1
+Error Code:      0x00000006 (no mapping for user data write)
+Trap Number:     14
+
+Thread 1 instruction stream:
+  c8 45 89 87 68 01 00 00-c6 44 18 28 00 48 8b 7d  .E..h....D.(.H.}
+  d0 48 89 45 98 e8 8d 16-11 00 4c 89 ff 4c 8b 7d  .H.E......L..L.}
+  88 4c 89 fe 31 d2 e8 0a-d5 ff ff 48 89 c3 48 8b  .L..1......H..H.
+  7d d0 e8 6a 16 11 00 4c-8b 7d b8 41 8b 87 78 01  }..j...L.}.A..x.
+  00 00 85 c0 7e 09 ff c8-41 89 87 78 01 00 00 48  ....~...A..x...H
+  8b 45 b0 48 85 c0 0f 85-27 01 00 00 49 8b 47 30  .E.H....'...I.G0
+ [4a]89 1c e0 45 2b b7 60-01 00 00 41 83 fe 01 75  J...E+.`...A...u	<==
+  26 48 8b 7d c8 e8 09 16-11 00 eb 1b 41 ff 87 5c  &H.}........A..\
+  01 00 00 48 8b 7d c0 48-8b 75 d0 e8 f9 15 11 00  ...H.}.H.u......
+  41 ff 8f 5c 01 00 00 41-83 bf 78 01 00 00 00 0f  A..\...A..x.....
+  85 bc fe ff ff e9 eb 00-00 00 48 89 5d a8 48 89  ..........H.].H.
+  c3 83 fa 01 0f 85 12 01-00 00 48 89 df e8 5d 13  ..........H...].
+  
+Thread 1 last branch register state not available.
+
+
+Binary Images:
+       0x106a6c000 -        0x106bc1fff +ld (0) <CC52CD70-5DDE-307B-A288-B057815163AE> /opt/iains/*/ld
+       0x106cea000 -        0x1090d0fff +libLTO.dylib (0) <8709B1DB-FFA7-3CE6-B840-C039A7FD524A> /opt/iains/*/libLTO.dylib
+       0x10a3d9000 -        0x10a4c5fff +libtapi.dylib (0) <2D2C4AE8-0940-352C-849F-551353A01B61> /opt/iains/*/libtapi.dylib
+       0x10a532000 -        0x10a541fff +libgcc_s.2.dylib (2) <09A87921-4402-309E-A228-410E4F8D2E18> /opt/iains/*/libgcc_s.2.dylib
+       0x115512000 -        0x1155adfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff22590000 -     0x7fff227effff  libicucore.A.dylib (66112) <AC994BC1-F9CC-359C-A7B5-F2821EAEF650> /usr/lib/libicucore.A.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff27215000 -     0x7fff272f7fff  libxml2.2.dylib (34.10) <DD2093F0-F9B7-3F30-B46D-B028CE15E2B1> /usr/lib/libxml2.2.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2ac000 -     0x7fff2a2b8fff  libbz2.1.0.dylib (44) <ECD22F5B-FD6C-39A5-884B-418C6B896263> /usr/lib/libbz2.1.0.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4ba000 -     0x7fff2a4ccfff  libz.1.dylib (76) <F805C1CB-1B80-33D0-994C-1D522D347A68> /usr/lib/libz.1.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2ad24000 -     0x7fff2ad31fff  libxar.1.dylib (452) <0B0B68CC-D627-3BDC-AE01-007C6AD8E97B> /usr/lib/libxar.1.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+    0x7fff40d3d000 -     0x7fff40d6cfff  libncurses.5.4.dylib (57) <C2E7A8C6-E9D4-3689-9EF3-0DB4D8AF7E5A> /usr/lib/libncurses.5.4.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=564.5M resident=0K(0%) swapped_out_or_unallocated=564.5M(100%)
+Writable regions: Total=121.7M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=121.7M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            49.2M       21 
+MALLOC guard page                   16K        3 
+STACK GUARD                          8K        2 
+Stack                             72.0M        3 
+VM_ALLOCATE                          8K        2 
+__DATA                             797K       54 
+__DATA_CONST                      3133K       40 
+__DATA_DIRTY                        67K       24 
+__LINKEDIT                       517.8M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            46.7M       53 
+mapped file                        976K        3 
+shared memory                        8K        2 
+===========                     =======  ======= 
+TOTAL                            763.3M      219 
+

@@ -1,0 +1,652 @@
+Process:               cf-out-descriptor-4.exe [93967]
+Path:                  /Users/USER/*/cf-out-descriptor-4.exe
+Identifier:            cf-out-descriptor-4.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [89764]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 05:41:49.037 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 710000 seconds
+Time Since Wake:       550000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+cf-out-descriptor-4.exe(93967,0x10f2c8e00) malloc: *** error for object 0x10561d958: pointer being freed was not allocated
+ 
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   libsystem_malloc.dylib        	0x00007fff201de165 malloc_vreport + 548
+4   libsystem_malloc.dylib        	0x00007fff201e12aa malloc_report + 151
+5   cf-out-descriptor-4.exe       	0x000000010560633f MAIN__ + 412 (cf-out-descriptor-4.f90:166)
+6   cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+7   cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+8   cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+9   cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+10  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+11  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+12  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+13  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+14  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+15  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+16  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+17  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+18  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+19  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+20  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+21  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+22  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+23  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+24  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+25  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+26  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+27  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+28  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+29  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+30  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+31  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+32  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+33  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+34  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+35  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+36  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+37  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+38  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+39  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+40  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+41  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+42  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+43  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+44  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+45  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+46  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+47  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+48  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+49  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+50  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+51  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+52  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+53  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+54  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+55  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+56  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+57  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+58  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+59  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+60  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+61  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+62  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+63  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+64  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+65  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+66  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+67  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+68  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+69  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+70  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+71  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+72  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+73  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+74  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+75  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+76  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+77  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+78  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+79  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+80  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+81  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+82  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+83  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+84  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+85  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+86  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+87  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+88  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+89  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+90  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+91  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+92  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+93  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+94  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+95  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+96  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+97  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+98  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+99  cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+100 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+101 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+102 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+103 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+104 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+105 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+106 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+107 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+108 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+109 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+110 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+111 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+112 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+113 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+114 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+115 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+116 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+117 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+118 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+119 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+120 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+121 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+122 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+123 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+124 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+125 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+126 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+127 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+128 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+129 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+130 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+131 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+132 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+133 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+134 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+135 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+136 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+137 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+138 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+139 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+140 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+141 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+142 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+143 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+144 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+145 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+146 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+147 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+148 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+149 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+150 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+151 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+152 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+153 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+154 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+155 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+156 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+157 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+158 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+159 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+160 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+161 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+162 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+163 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+164 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+165 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+166 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+167 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+168 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+169 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+170 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+171 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+172 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+173 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+174 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+175 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+176 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+177 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+178 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+179 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+180 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+181 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+182 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+183 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+184 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+185 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+186 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+187 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+188 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+189 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+190 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+191 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+192 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+193 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+194 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+195 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+196 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+197 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+198 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+199 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+200 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+201 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+202 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+203 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+204 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+205 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+206 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+207 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+208 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+209 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+210 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+211 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+212 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+213 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+214 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+215 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+216 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+217 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+218 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+219 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+220 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+221 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+222 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+223 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+224 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+225 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+226 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+227 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+228 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+229 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+230 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+231 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+232 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+233 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+234 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+235 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+236 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+237 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+238 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+239 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+240 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+241 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+242 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+243 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+244 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+245 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+246 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+247 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+248 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+249 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+250 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+251 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+252 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+253 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+254 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+255 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+256 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+257 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+258 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+259 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+260 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+261 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+262 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+263 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+264 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+265 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+266 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+267 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+268 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+269 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+270 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+271 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+272 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+273 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+274 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+275 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+276 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+277 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+278 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+279 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+280 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+281 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+282 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+283 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+284 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+285 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+286 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+287 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+288 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+289 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+290 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+291 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+292 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+293 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+294 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+295 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+296 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+297 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+298 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+299 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+300 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+301 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+302 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+303 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+304 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+305 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+306 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+307 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+308 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+309 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+310 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+311 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+312 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+313 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+314 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+315 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+316 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+317 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+318 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+319 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+320 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+321 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+322 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+323 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+324 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+325 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+326 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+327 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+328 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+329 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+330 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+331 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+332 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+333 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+334 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+335 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+336 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+337 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+338 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+339 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+340 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+341 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+342 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+343 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+344 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+345 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+346 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+347 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+348 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+349 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+350 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+351 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+352 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+353 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+354 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+355 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+356 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+357 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+358 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+359 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+360 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+361 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+362 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+363 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+364 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+365 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+366 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+367 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+368 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+369 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+370 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+371 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+372 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+373 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+374 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+375 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+376 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+377 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+378 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+379 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+380 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+381 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+382 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+383 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+384 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+385 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+386 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+387 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+388 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+389 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+390 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+391 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+392 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+393 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+394 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+395 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+396 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+397 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+398 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+399 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+400 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+401 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+402 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+403 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+404 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+405 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+406 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+407 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+408 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+409 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+410 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+411 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+412 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+413 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+414 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+415 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+416 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+417 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+418 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+419 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+420 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+421 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+422 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+423 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+424 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+425 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+426 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+427 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+428 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+429 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+430 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+431 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+432 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+433 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+434 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+435 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+436 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+437 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+438 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+439 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+440 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+441 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+442 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+443 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+444 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+445 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+446 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+447 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+448 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+449 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+450 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+451 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+452 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+453 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+454 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+455 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+456 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+457 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+458 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+459 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+460 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+461 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+462 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+463 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+464 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+465 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+466 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+467 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+468 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+469 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+470 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+471 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+472 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+473 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+474 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+475 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+476 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+477 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+478 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+479 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+480 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+481 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+482 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+483 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+484 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+485 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+486 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+487 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+488 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+489 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+490 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+491 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+492 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+493 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+494 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+495 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+496 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+497 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+498 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+499 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+500 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+501 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+502 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+503 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+504 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+505 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+506 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+507 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+508 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+509 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+510 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+511 cf-out-descriptor-4.exe       	0x0000000105607418 main + 31 (cf-out-descriptor-4.f90:132)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000010f2c8e00  rcx: 0x00007ffeea5f4788  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeea5f47b0  rsp: 0x00007ffeea5f4788
+   r8: 0x0000000000000000   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000050  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00000001058cfdee
+  
+Logical CPU:     0
+Error Code:      0x020000b8
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x105604000 -        0x105607fff +cf-out-descriptor-4.exe (0) <481862CE-9F32-3CC1-9672-A55C37EDA6F5> /Users/USER/*/cf-out-descriptor-4.exe
+       0x105619000 -        0x1057a8fff +libgfortran.5.dylib (0) <DE245362-B019-3FDC-A92B-C60CE19033D3> /Users/USER/*/libgfortran.5.dylib
+       0x105837000 -        0x10584afff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x10585e000 -        0x105891fff +libquadmath.0.dylib (0) <E73C1E5D-DE76-3029-970C-24D541CF92DB> /Users/USER/*/libquadmath.0.dylib
+       0x10f1f1000 -        0x10f28cfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=507.5M resident=0K(0%) swapped_out_or_unallocated=507.5M(100%)
+Writable regions: Total=33.1M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=33.1M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                       15.8M      142 
+__DATA                             452K       46 
+__DATA_CONST                       290K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.9M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            6888K       47 
+mapped file                       2988K       13 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            672.9M      336 
+

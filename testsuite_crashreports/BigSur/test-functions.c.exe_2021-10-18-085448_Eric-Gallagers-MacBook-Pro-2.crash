@@ -1,0 +1,652 @@
+Process:               test-functions.c.exe [77627]
+Path:                  /Users/USER/*/test-functions.c.exe
+Identifier:            test-functions.c.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [51440]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:54:47.631 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   test-functions.c.exe          	0x00000001062bf877 verify_hidden_functions + 161 (test-functions.c:95)
+4   test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+5   test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+6   test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+7   test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+8   test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+9   test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+10  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+11  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+12  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+13  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+14  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+15  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+16  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+17  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+18  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+19  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+20  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+21  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+22  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+23  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+24  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+25  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+26  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+27  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+28  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+29  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+30  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+31  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+32  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+33  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+34  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+35  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+36  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+37  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+38  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+39  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+40  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+41  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+42  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+43  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+44  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+45  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+46  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+47  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+48  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+49  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+50  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+51  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+52  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+53  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+54  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+55  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+56  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+57  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+58  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+59  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+60  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+61  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+62  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+63  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+64  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+65  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+66  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+67  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+68  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+69  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+70  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+71  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+72  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+73  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+74  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+75  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+76  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+77  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+78  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+79  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+80  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+81  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+82  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+83  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+84  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+85  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+86  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+87  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+88  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+89  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+90  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+91  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+92  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+93  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+94  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+95  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+96  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+97  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+98  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+99  test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+100 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+101 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+102 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+103 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+104 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+105 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+106 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+107 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+108 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+109 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+110 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+111 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+112 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+113 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+114 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+115 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+116 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+117 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+118 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+119 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+120 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+121 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+122 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+123 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+124 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+125 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+126 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+127 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+128 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+129 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+130 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+131 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+132 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+133 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+134 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+135 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+136 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+137 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+138 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+139 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+140 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+141 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+142 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+143 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+144 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+145 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+146 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+147 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+148 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+149 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+150 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+151 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+152 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+153 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+154 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+155 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+156 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+157 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+158 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+159 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+160 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+161 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+162 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+163 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+164 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+165 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+166 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+167 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+168 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+169 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+170 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+171 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+172 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+173 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+174 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+175 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+176 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+177 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+178 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+179 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+180 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+181 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+182 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+183 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+184 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+185 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+186 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+187 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+188 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+189 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+190 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+191 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+192 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+193 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+194 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+195 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+196 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+197 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+198 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+199 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+200 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+201 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+202 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+203 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+204 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+205 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+206 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+207 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+208 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+209 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+210 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+211 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+212 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+213 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+214 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+215 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+216 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+217 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+218 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+219 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+220 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+221 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+222 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+223 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+224 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+225 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+226 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+227 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+228 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+229 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+230 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+231 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+232 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+233 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+234 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+235 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+236 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+237 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+238 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+239 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+240 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+241 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+242 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+243 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+244 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+245 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+246 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+247 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+248 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+249 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+250 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+251 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+252 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+253 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+254 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+255 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+256 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+257 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+258 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+259 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+260 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+261 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+262 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+263 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+264 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+265 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+266 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+267 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+268 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+269 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+270 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+271 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+272 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+273 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+274 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+275 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+276 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+277 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+278 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+279 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+280 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+281 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+282 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+283 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+284 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+285 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+286 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+287 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+288 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+289 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+290 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+291 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+292 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+293 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+294 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+295 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+296 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+297 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+298 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+299 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+300 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+301 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+302 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+303 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+304 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+305 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+306 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+307 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+308 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+309 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+310 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+311 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+312 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+313 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+314 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+315 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+316 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+317 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+318 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+319 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+320 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+321 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+322 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+323 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+324 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+325 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+326 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+327 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+328 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+329 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+330 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+331 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+332 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+333 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+334 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+335 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+336 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+337 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+338 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+339 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+340 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+341 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+342 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+343 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+344 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+345 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+346 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+347 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+348 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+349 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+350 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+351 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+352 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+353 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+354 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+355 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+356 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+357 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+358 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+359 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+360 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+361 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+362 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+363 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+364 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+365 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+366 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+367 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+368 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+369 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+370 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+371 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+372 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+373 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+374 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+375 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+376 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+377 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+378 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+379 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+380 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+381 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+382 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+383 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+384 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+385 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+386 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+387 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+388 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+389 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+390 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+391 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+392 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+393 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+394 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+395 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+396 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+397 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+398 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+399 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+400 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+401 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+402 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+403 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+404 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+405 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+406 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+407 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+408 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+409 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+410 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+411 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+412 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+413 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+414 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+415 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+416 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+417 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+418 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+419 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+420 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+421 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+422 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+423 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+424 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+425 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+426 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+427 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+428 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+429 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+430 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+431 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+432 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+433 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+434 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+435 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+436 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+437 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+438 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+439 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+440 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+441 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+442 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+443 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+444 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+445 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+446 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+447 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+448 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+449 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+450 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+451 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+452 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+453 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+454 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+455 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+456 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+457 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+458 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+459 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+460 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+461 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+462 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+463 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+464 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+465 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+466 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+467 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+468 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+469 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+470 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+471 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+472 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+473 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+474 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+475 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+476 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+477 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+478 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+479 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+480 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+481 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+482 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+483 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+484 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+485 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+486 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+487 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+488 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+489 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+490 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+491 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+492 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+493 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+494 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+495 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+496 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+497 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+498 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+499 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+500 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+501 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+502 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+503 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+504 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+505 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+506 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+507 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+508 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+509 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+510 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+511 test-functions.c.exe          	0x00000001062c0e25 verify_code + 35 (test-functions.c:380)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000010b0f6e00  rcx: 0x00007ffee993b088  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee993b0b0  rsp: 0x00007ffee993b088
+   r8: 0x00007fff806a1018   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00007ffee993b090
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x1062be000 -        0x1062c1fff +test-functions.c.exe (0) <1919013C-CF3B-3A32-B1F6-C3014CE7A296> /Users/USER/*/test-functions.c.exe
+       0x1062ce000 -        0x1062e1fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x1062f2000 -        0x1063e5fff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x1063fa000 -        0x10640dfff +libmpc.3.dylib (0) <54608AC0-D0B2-3035-9480-11D848256BAF> /opt/local/lib/libmpc.3.dylib
+       0x10641a000 -        0x106475fff +libmpfr.6.dylib (0) <248D0008-190E-3C1E-9064-5EC2D6636D83> /opt/local/lib/libmpfr.6.dylib
+       0x10648a000 -        0x1064f9fff +libgmp.10.dylib (0) <CF77374D-7733-3A23-82C0-E08B5910968E> /opt/local/lib/libgmp.10.dylib
+       0x10650e000 -        0x106521fff +libz.1.dylib (0) <1DE622A3-18A9-348E-B8C0-C68B7BF55B85> /opt/local/lib/libz.1.dylib
+       0x10b01f000 -        0x10b0bafff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+       0x10b137000 -        0x10d0a6fff +libgccjit.0.dylib (0) <D5E6899A-E432-35A5-849D-79CC168621DD> /Users/USER/*/libgccjit.0.dylib
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=550.5M resident=0K(0%) swapped_out_or_unallocated=550.5M(100%)
+Writable regions: Total=1.2G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=1.2G(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                           113.1M       62 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        3 
+VM_ALLOCATE                        368K       18 
+__DATA                             1.0G       53 
+__DATA_CONST                      2018K       40 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       512.3M       18 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            38.3M       51 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                              1.8G      277 
+

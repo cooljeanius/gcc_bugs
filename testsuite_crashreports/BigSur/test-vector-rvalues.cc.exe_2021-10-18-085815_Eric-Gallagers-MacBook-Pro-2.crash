@@ -1,0 +1,653 @@
+Process:               test-vector-rvalues.cc.exe [84145]
+Path:                  /Users/USER/*/test-vector-rvalues.cc.exe
+Identifier:            test-vector-rvalues.cc.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [51440]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:58:14.984 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   test-vector-rvalues.cc.exe    	0x000000010946312b void verify_vec_code<int vector[4], int>(gcc_jit_context*, gcc_jit_result*, char const*, void (*)(int vector[4] const&, int vector[4] const&, int vector[4] const&)) + 169 (test-vector-rvalues.cc:183)
+4   test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+5   test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+6   test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+7   test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+8   test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+9   test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+10  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+11  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+12  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+13  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+14  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+15  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+16  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+17  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+18  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+19  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+20  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+21  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+22  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+23  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+24  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+25  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+26  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+27  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+28  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+29  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+30  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+31  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+32  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+33  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+34  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+35  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+36  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+37  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+38  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+39  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+40  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+41  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+42  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+43  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+44  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+45  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+46  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+47  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+48  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+49  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+50  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+51  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+52  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+53  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+54  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+55  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+56  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+57  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+58  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+59  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+60  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+61  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+62  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+63  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+64  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+65  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+66  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+67  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+68  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+69  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+70  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+71  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+72  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+73  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+74  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+75  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+76  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+77  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+78  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+79  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+80  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+81  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+82  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+83  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+84  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+85  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+86  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+87  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+88  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+89  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+90  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+91  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+92  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+93  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+94  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+95  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+96  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+97  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+98  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+99  test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+100 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+101 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+102 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+103 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+104 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+105 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+106 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+107 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+108 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+109 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+110 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+111 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+112 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+113 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+114 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+115 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+116 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+117 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+118 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+119 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+120 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+121 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+122 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+123 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+124 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+125 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+126 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+127 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+128 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+129 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+130 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+131 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+132 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+133 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+134 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+135 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+136 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+137 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+138 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+139 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+140 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+141 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+142 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+143 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+144 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+145 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+146 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+147 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+148 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+149 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+150 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+151 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+152 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+153 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+154 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+155 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+156 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+157 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+158 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+159 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+160 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+161 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+162 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+163 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+164 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+165 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+166 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+167 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+168 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+169 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+170 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+171 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+172 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+173 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+174 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+175 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+176 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+177 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+178 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+179 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+180 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+181 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+182 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+183 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+184 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+185 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+186 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+187 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+188 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+189 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+190 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+191 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+192 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+193 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+194 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+195 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+196 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+197 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+198 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+199 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+200 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+201 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+202 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+203 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+204 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+205 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+206 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+207 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+208 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+209 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+210 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+211 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+212 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+213 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+214 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+215 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+216 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+217 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+218 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+219 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+220 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+221 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+222 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+223 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+224 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+225 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+226 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+227 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+228 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+229 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+230 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+231 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+232 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+233 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+234 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+235 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+236 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+237 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+238 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+239 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+240 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+241 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+242 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+243 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+244 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+245 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+246 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+247 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+248 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+249 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+250 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+251 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+252 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+253 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+254 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+255 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+256 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+257 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+258 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+259 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+260 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+261 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+262 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+263 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+264 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+265 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+266 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+267 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+268 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+269 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+270 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+271 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+272 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+273 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+274 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+275 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+276 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+277 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+278 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+279 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+280 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+281 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+282 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+283 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+284 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+285 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+286 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+287 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+288 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+289 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+290 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+291 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+292 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+293 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+294 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+295 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+296 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+297 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+298 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+299 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+300 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+301 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+302 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+303 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+304 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+305 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+306 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+307 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+308 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+309 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+310 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+311 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+312 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+313 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+314 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+315 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+316 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+317 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+318 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+319 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+320 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+321 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+322 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+323 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+324 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+325 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+326 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+327 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+328 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+329 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+330 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+331 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+332 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+333 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+334 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+335 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+336 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+337 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+338 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+339 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+340 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+341 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+342 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+343 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+344 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+345 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+346 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+347 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+348 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+349 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+350 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+351 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+352 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+353 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+354 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+355 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+356 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+357 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+358 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+359 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+360 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+361 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+362 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+363 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+364 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+365 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+366 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+367 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+368 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+369 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+370 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+371 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+372 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+373 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+374 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+375 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+376 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+377 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+378 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+379 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+380 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+381 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+382 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+383 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+384 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+385 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+386 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+387 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+388 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+389 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+390 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+391 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+392 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+393 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+394 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+395 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+396 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+397 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+398 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+399 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+400 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+401 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+402 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+403 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+404 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+405 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+406 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+407 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+408 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+409 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+410 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+411 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+412 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+413 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+414 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+415 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+416 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+417 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+418 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+419 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+420 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+421 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+422 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+423 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+424 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+425 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+426 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+427 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+428 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+429 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+430 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+431 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+432 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+433 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+434 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+435 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+436 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+437 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+438 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+439 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+440 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+441 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+442 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+443 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+444 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+445 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+446 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+447 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+448 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+449 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+450 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+451 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+452 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+453 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+454 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+455 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+456 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+457 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+458 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+459 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+460 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+461 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+462 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+463 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+464 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+465 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+466 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+467 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+468 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+469 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+470 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+471 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+472 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+473 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+474 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+475 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+476 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+477 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+478 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+479 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+480 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+481 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+482 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+483 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+484 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+485 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+486 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+487 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+488 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+489 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+490 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+491 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+492 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+493 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+494 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+495 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+496 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+497 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+498 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+499 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+500 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+501 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+502 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+503 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+504 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+505 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+506 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+507 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+508 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+509 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+510 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+511 test-vector-rvalues.cc.exe    	0x0000000109462e1a verify_code(gcc_jit_context*, gcc_jit_result*) + 49 (test-vector-rvalues.cc:205)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000111c42e00  rcx: 0x00007ffee6798028  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee6798050  rsp: 0x00007ffee6798028
+   r8: 0x00007fff806a1018   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00007ffee6798080
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x109461000 -        0x109464fff +test-vector-rvalues.cc.exe (0) <0C418FED-76EB-3EC5-8DD6-57797E42B4CF> /Users/USER/*/test-vector-rvalues.cc.exe
+       0x109471000 -        0x109584fff +libstdc++.6.dylib (0) <EF27C18F-1DBB-3D37-BECE-4FA92F8E3F40> /Users/USER/*/libstdc++.6.dylib
+       0x109785000 -        0x109798fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x1097a9000 -        0x10989cfff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x1098b1000 -        0x1098c4fff +libmpc.3.dylib (0) <54608AC0-D0B2-3035-9480-11D848256BAF> /opt/local/lib/libmpc.3.dylib
+       0x1098d1000 -        0x10992cfff +libmpfr.6.dylib (0) <248D0008-190E-3C1E-9064-5EC2D6636D83> /opt/local/lib/libmpfr.6.dylib
+       0x109941000 -        0x1099b0fff +libgmp.10.dylib (0) <CF77374D-7733-3A23-82C0-E08B5910968E> /opt/local/lib/libgmp.10.dylib
+       0x1099c5000 -        0x1099d8fff +libz.1.dylib (0) <1DE622A3-18A9-348E-B8C0-C68B7BF55B85> /opt/local/lib/libz.1.dylib
+       0x111b6b000 -        0x111c06fff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+       0x111c83000 -        0x113bf2fff +libgccjit.0.dylib (0) <D5E6899A-E432-35A5-849D-79CC168621DD> /Users/USER/*/libgccjit.0.dylib
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=553.5M resident=0K(0%) swapped_out_or_unallocated=553.5M(100%)
+Writable regions: Total=1.2G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=1.2G(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                           122.1M       64 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        3 
+VM_ALLOCATE                        456K       23 
+__DATA                             1.0G       55 
+__DATA_CONST                      2066K       41 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       514.2M       20 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            39.4M       52 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                              1.8G      290 
+

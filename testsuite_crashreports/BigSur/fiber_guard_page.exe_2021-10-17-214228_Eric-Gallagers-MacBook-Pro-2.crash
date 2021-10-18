@@ -1,0 +1,160 @@
+Process:               fiber_guard_page.exe [51389]
+Path:                  /Users/USER/*/fiber_guard_page.exe
+Identifier:            fiber_guard_page.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [91836]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-17 21:42:27.980 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 680000 seconds
+Time Since Wake:       520000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGBUS)
+Exception Codes:       KERN_PROTECTION_FAILURE at 0x0000000102e2de38
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Bus error: 10
+Termination Reason:    Namespace SIGNAL, Code 0xa
+Terminating Process:   exc handler [51389]
+
+VM Regions Near 0x102e2de38:
+    VM_ALLOCATE                 102d26000-102e26000    [ 1024K] rw-/rwx SM=PRV  
+--> VM_ALLOCATE                 102e26000-102e2e000    [   32K] ---/rwx SM=NUL  
+    shared memory               102e2e000-102e36000    [   32K] rw-/rwx SM=SHM  
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   fiber_guard_page.exe          	0x00000001023bacf1 _D16fiber_guard_page11stackMethodFZv + 31 (fiber_guard_page.d:18)
+1   libgphobos.2.dylib            	0x00000001024e0ec4 fiber_entryPoint + 68 (fiber.d:932)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000102e2de40  rbx: 0x0000000000000000  rcx: 0x0000000000000000  rdx: 0x0000000000008190
+  rdi: 0x0000000102e2de40  rsi: 0x0000000000000000  rbp: 0x0000000102e35fd0  rsp: 0x0000000102e2de40
+   r8: 0x0000000000000000   r9: 0x0000000000000000  r10: 0x00000000ffffff00  r11: 0x00007fca7e9ae1c8
+  r12: 0x0000000102d26000  r13: 0x0000000000000000  r14: 0x0000000000000000  r15: 0x0000000000000000
+  rip: 0x00000001023bacf1  rfl: 0x0000000000010202  cr2: 0x0000000102e2de38
+  
+Logical CPU:     4
+Error Code:      0x00000006 (no mapping for user data write)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  33 01 00 00 b8 00 00 00-00 48 83 c4 28 5b 41 5c  3........H..([A\
+  41 5d 41 5e 41 5f 5d c3-55 48 89 e5 48 83 ec 10  A]A^A_].UH..H...
+  89 7d fc 48 89 75 f0 48-8b 4d f0 8b 45 fc 48 8d  .}.H.u.H.M..E.H.
+  15 ee fe ff ff 48 89 ce-89 c7 e8 16 01 00 00 c9  .....H..........
+  c3 55 48 89 e5 48 81 ec-90 81 00 00 48 8d 85 70  .UH..H......H..p
+  7e ff ff ba 90 81 00 00-be 00 00 00 00 48 89 c7  ~............H..
+ [e8]f6 00 00 00 90 c9 c3-55 48 89 e5 48 83 ec 30  ........UH..H..0	<==
+  0f b6 05 90 43 00 00 83-f0 01 84 c0 74 50 c6 05  ....C.......tP..
+  82 43 00 00 01 66 45 0f-ef ff 44 0f 29 7d d0 44  .C...fE...D.)}.D
+  0f 29 7d e0 44 0f 29 7d-f0 48 c7 45 d0 01 00 00  .)}.D.)}.H.E....
+  00 48 8d 05 57 43 00 00-48 89 45 d8 48 8d 05 5c  .H..WC..H.E.H..\
+  43 00 00 48 89 45 e0 48-8d 05 59 43 00 00 48 89  C..H.E.H..YC..H.
+  
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x1023b7000 -        0x1023bafff +fiber_guard_page.exe (0) <A86DD267-DC0E-3F78-8553-AAFDB0CB7F90> /Users/USER/*/fiber_guard_page.exe
+       0x1023c9000 -        0x102618fff +libgphobos.2.dylib (0) <B5349DA6-162E-378A-A761-D9770C3B86D5> /Users/USER/*/libgphobos.2.dylib
+       0x102ce2000 -        0x102cf5fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x1114aa000 -        0x111545fff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=513.5M resident=0K(0%) swapped_out_or_unallocated=513.5M(100%)
+Writable regions: Total=55.6M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=55.6M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            46.1M       16 
+MALLOC guard page                   16K        4 
+Stack                             8192K        2 
+Stack Guard                       56.0M        1 
+VM_ALLOCATE                       1064K        4 
+VM_ALLOCATE (reserved)             256K        1         reserved VM address space (unallocated)
+__DATA                            1028K       45 
+__DATA_CONST                       450K       35 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       506.3M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7448K       46 
+shared memory                       36K        2 
+===========                     =======  ======= 
+TOTAL                            699.2M      190 
+TOTAL, minus reserved VM space   699.0M      190 
+

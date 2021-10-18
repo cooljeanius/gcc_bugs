@@ -1,0 +1,650 @@
+Process:               allocatable-dummy.exe [85041]
+Path:                  /Users/USER/*/allocatable-dummy.exe
+Identifier:            allocatable-dummy.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [83977]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 05:37:37.627 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 710000 seconds
+Time Since Wake:       550000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   allocatable-dummy.exe         	0x00000001036989ac testit_c + 56 (allocatable-dummy-c.c:24)
+4   allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+5   allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+6   allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+7   allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+8   allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+9   allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+10  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+11  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+12  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+13  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+14  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+15  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+16  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+17  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+18  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+19  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+20  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+21  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+22  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+23  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+24  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+25  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+26  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+27  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+28  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+29  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+30  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+31  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+32  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+33  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+34  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+35  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+36  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+37  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+38  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+39  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+40  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+41  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+42  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+43  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+44  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+45  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+46  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+47  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+48  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+49  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+50  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+51  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+52  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+53  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+54  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+55  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+56  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+57  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+58  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+59  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+60  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+61  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+62  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+63  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+64  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+65  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+66  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+67  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+68  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+69  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+70  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+71  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+72  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+73  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+74  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+75  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+76  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+77  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+78  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+79  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+80  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+81  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+82  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+83  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+84  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+85  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+86  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+87  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+88  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+89  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+90  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+91  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+92  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+93  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+94  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+95  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+96  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+97  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+98  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+99  allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+100 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+101 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+102 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+103 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+104 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+105 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+106 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+107 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+108 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+109 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+110 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+111 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+112 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+113 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+114 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+115 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+116 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+117 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+118 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+119 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+120 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+121 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+122 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+123 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+124 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+125 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+126 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+127 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+128 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+129 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+130 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+131 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+132 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+133 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+134 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+135 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+136 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+137 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+138 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+139 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+140 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+141 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+142 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+143 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+144 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+145 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+146 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+147 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+148 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+149 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+150 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+151 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+152 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+153 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+154 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+155 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+156 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+157 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+158 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+159 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+160 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+161 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+162 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+163 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+164 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+165 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+166 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+167 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+168 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+169 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+170 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+171 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+172 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+173 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+174 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+175 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+176 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+177 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+178 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+179 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+180 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+181 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+182 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+183 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+184 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+185 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+186 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+187 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+188 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+189 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+190 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+191 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+192 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+193 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+194 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+195 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+196 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+197 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+198 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+199 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+200 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+201 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+202 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+203 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+204 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+205 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+206 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+207 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+208 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+209 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+210 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+211 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+212 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+213 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+214 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+215 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+216 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+217 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+218 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+219 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+220 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+221 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+222 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+223 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+224 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+225 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+226 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+227 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+228 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+229 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+230 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+231 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+232 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+233 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+234 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+235 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+236 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+237 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+238 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+239 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+240 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+241 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+242 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+243 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+244 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+245 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+246 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+247 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+248 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+249 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+250 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+251 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+252 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+253 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+254 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+255 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+256 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+257 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+258 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+259 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+260 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+261 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+262 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+263 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+264 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+265 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+266 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+267 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+268 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+269 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+270 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+271 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+272 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+273 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+274 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+275 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+276 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+277 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+278 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+279 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+280 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+281 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+282 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+283 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+284 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+285 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+286 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+287 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+288 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+289 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+290 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+291 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+292 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+293 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+294 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+295 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+296 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+297 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+298 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+299 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+300 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+301 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+302 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+303 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+304 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+305 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+306 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+307 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+308 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+309 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+310 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+311 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+312 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+313 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+314 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+315 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+316 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+317 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+318 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+319 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+320 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+321 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+322 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+323 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+324 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+325 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+326 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+327 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+328 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+329 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+330 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+331 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+332 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+333 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+334 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+335 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+336 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+337 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+338 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+339 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+340 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+341 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+342 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+343 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+344 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+345 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+346 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+347 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+348 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+349 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+350 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+351 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+352 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+353 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+354 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+355 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+356 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+357 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+358 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+359 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+360 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+361 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+362 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+363 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+364 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+365 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+366 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+367 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+368 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+369 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+370 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+371 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+372 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+373 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+374 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+375 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+376 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+377 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+378 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+379 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+380 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+381 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+382 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+383 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+384 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+385 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+386 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+387 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+388 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+389 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+390 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+391 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+392 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+393 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+394 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+395 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+396 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+397 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+398 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+399 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+400 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+401 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+402 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+403 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+404 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+405 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+406 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+407 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+408 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+409 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+410 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+411 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+412 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+413 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+414 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+415 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+416 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+417 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+418 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+419 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+420 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+421 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+422 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+423 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+424 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+425 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+426 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+427 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+428 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+429 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+430 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+431 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+432 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+433 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+434 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+435 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+436 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+437 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+438 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+439 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+440 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+441 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+442 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+443 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+444 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+445 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+446 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+447 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+448 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+449 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+450 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+451 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+452 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+453 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+454 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+455 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+456 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+457 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+458 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+459 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+460 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+461 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+462 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+463 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+464 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+465 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+466 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+467 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+468 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+469 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+470 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+471 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+472 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+473 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+474 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+475 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+476 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+477 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+478 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+479 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+480 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+481 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+482 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+483 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+484 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+485 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+486 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+487 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+488 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+489 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+490 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+491 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+492 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+493 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+494 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+495 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+496 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+497 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+498 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+499 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+500 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+501 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+502 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+503 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+504 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+505 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+506 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+507 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+508 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+509 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+510 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+511 allocatable-dummy.exe         	0x0000000103698834 MAIN__ + 796 (allocatable-dummy.f90:65)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000106b8ce00  rcx: 0x00007ffeec5629d8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeec562a00  rsp: 0x00007ffeec5629d8
+   r8: 0x00007fff806a10e8   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x000000022dd47000
+  
+Logical CPU:     0
+Error Code:      0x020000b8
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x103696000 -        0x103699fff +allocatable-dummy.exe (0) <B69697AC-5C27-3DD7-9344-22626E8466BE> /Users/USER/*/allocatable-dummy.exe
+       0x1036a9000 -        0x103838fff +libgfortran.5.dylib (0) <DE245362-B019-3FDC-A92B-C60CE19033D3> /Users/USER/*/libgfortran.5.dylib
+       0x1038cb000 -        0x1038defff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x1038f0000 -        0x103923fff +libquadmath.0.dylib (0) <E73C1E5D-DE76-3029-970C-24D541CF92DB> /Users/USER/*/libquadmath.0.dylib
+       0x106ab5000 -        0x106b50fff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=507.5M resident=0K(0%) swapped_out_or_unallocated=507.5M(100%)
+Writable regions: Total=33.1M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=33.1M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        3 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                       15.8M      140 
+__DATA                             452K       46 
+__DATA_CONST                       290K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.9M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            6888K       47 
+mapped file                       2992K       13 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            672.9M      333 
+

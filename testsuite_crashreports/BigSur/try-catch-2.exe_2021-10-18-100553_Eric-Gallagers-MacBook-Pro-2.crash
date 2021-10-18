@@ -1,0 +1,668 @@
+Process:               try-catch-2.exe [9102]
+Path:                  /Users/USER/*/try-catch-2.exe
+Identifier:            try-catch-2.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [98335]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 10:05:53.481 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x00000000626f7266
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Segmentation fault: 11
+Termination Reason:    Namespace SIGNAL, Code 0xb
+Terminating Process:   exc handler [9102]
+
+VM Regions Near 0x626f7266:
+--> 
+    __TEXT                      10d079000-10d07d000    [   16K] r-x/r-x SM=COW  /Users/*/*.exe
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libstdc++.6.dylib             	0x000000010d0c1534 get_adjusted_ptr(std::type_info const*, std::type_info const*, void**) + 72 (eh_personality.cc:236)
+1   libstdc++.6.dylib             	0x000000010d0c1aaf __gxx_personality_v0 + 638 (eh_personality.cc:604)
+2   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+3   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+4   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+5   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+6   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+7   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+8   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+9   libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+10  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+11  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+12  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+13  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+14  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+15  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+16  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+17  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+18  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+19  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+20  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+21  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+22  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+23  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+24  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+25  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+26  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+27  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+28  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+29  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+30  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+31  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+32  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+33  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+34  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+35  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+36  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+37  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+38  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+39  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+40  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+41  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+42  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+43  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+44  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+45  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+46  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+47  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+48  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+49  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+50  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+51  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+52  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+53  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+54  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+55  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+56  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+57  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+58  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+59  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+60  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+61  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+62  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+63  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+64  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+65  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+66  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+67  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+68  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+69  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+70  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+71  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+72  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+73  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+74  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+75  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+76  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+77  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+78  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+79  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+80  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+81  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+82  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+83  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+84  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+85  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+86  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+87  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+88  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+89  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+90  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+91  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+92  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+93  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+94  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+95  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+96  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+97  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+98  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+99  libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+100 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+101 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+102 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+103 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+104 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+105 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+106 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+107 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+108 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+109 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+110 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+111 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+112 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+113 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+114 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+115 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+116 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+117 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+118 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+119 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+120 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+121 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+122 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+123 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+124 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+125 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+126 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+127 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+128 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+129 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+130 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+131 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+132 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+133 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+134 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+135 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+136 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+137 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+138 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+139 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+140 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+141 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+142 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+143 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+144 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+145 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+146 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+147 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+148 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+149 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+150 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+151 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+152 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+153 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+154 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+155 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+156 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+157 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+158 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+159 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+160 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+161 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+162 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+163 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+164 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+165 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+166 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+167 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+168 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+169 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+170 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+171 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+172 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+173 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+174 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+175 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+176 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+177 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+178 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+179 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+180 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+181 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+182 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+183 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+184 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+185 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+186 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+187 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+188 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+189 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+190 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+191 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+192 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+193 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+194 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+195 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+196 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+197 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+198 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+199 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+200 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+201 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+202 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+203 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+204 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+205 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+206 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+207 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+208 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+209 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+210 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+211 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+212 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+213 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+214 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+215 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+216 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+217 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+218 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+219 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+220 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+221 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+222 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+223 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+224 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+225 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+226 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+227 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+228 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+229 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+230 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+231 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+232 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+233 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+234 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+235 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+236 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+237 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+238 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+239 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+240 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+241 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+242 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+243 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+244 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+245 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+246 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+247 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+248 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+249 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+250 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+251 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+252 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+253 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+254 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+255 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+256 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+257 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+258 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+259 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+260 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+261 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+262 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+263 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+264 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+265 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+266 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+267 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+268 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+269 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+270 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+271 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+272 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+273 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+274 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+275 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+276 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+277 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+278 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+279 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+280 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+281 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+282 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+283 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+284 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+285 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+286 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+287 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+288 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+289 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+290 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+291 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+292 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+293 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+294 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+295 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+296 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+297 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+298 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+299 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+300 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+301 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+302 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+303 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+304 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+305 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+306 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+307 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+308 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+309 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+310 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+311 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+312 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+313 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+314 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+315 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+316 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+317 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+318 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+319 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+320 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+321 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+322 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+323 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+324 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+325 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+326 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+327 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+328 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+329 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+330 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+331 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+332 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+333 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+334 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+335 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+336 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+337 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+338 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+339 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+340 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+341 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+342 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+343 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+344 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+345 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+346 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+347 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+348 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+349 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+350 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+351 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+352 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+353 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+354 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+355 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+356 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+357 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+358 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+359 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+360 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+361 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+362 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+363 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+364 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+365 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+366 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+367 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+368 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+369 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+370 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+371 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+372 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+373 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+374 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+375 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+376 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+377 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+378 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+379 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+380 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+381 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+382 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+383 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+384 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+385 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+386 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+387 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+388 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+389 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+390 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+391 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+392 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+393 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+394 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+395 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+396 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+397 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+398 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+399 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+400 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+401 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+402 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+403 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+404 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+405 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+406 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+407 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+408 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+409 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+410 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+411 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+412 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+413 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+414 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+415 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+416 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+417 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+418 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+419 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+420 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+421 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+422 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+423 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+424 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+425 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+426 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+427 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+428 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+429 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+430 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+431 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+432 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+433 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+434 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+435 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+436 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+437 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+438 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+439 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+440 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+441 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+442 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+443 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+444 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+445 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+446 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+447 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+448 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+449 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+450 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+451 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+452 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+453 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+454 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+455 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+456 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+457 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+458 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+459 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+460 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+461 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+462 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+463 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+464 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+465 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+466 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+467 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+468 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+469 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+470 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+471 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+472 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+473 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+474 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+475 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+476 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+477 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+478 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+479 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+480 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+481 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+482 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+483 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+484 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+485 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+486 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+487 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+488 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+489 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+490 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+491 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+492 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+493 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+494 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+495 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+496 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+497 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+498 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+499 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+500 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+501 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+502 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+503 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+504 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+505 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+506 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+507 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+508 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+509 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+510 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+511 libunwind.dylib               	0x00007fff2a54da65 _Unwind_RaiseException + 266
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x00000000626f7246  rbx: 0x00007ffee2b7fcd8  rcx: 0x0000000000000001  rdx: 0x00007ffee2b7fc68
+  rdi: 0x000000010d081608  rsi: 0x000000010d1cc8d8  rbp: 0x00007ffee2b7fc80  rsp: 0x00007ffee2b7fc50
+   r8: 0x0000000000000000   r9: 0x000000010d081088  r10: 0x00007ffee2b7fc78  r11: 0x0000000000000000
+  r12: 0x00007f8abb4098d0  r13: 0x000000010d081608  r14: 0x000000010d07c93b  r15: 0x000000010d081068
+  rip: 0x000000010d0c1534  rfl: 0x0000000000010246  cr2: 0x00000000626f7266
+  
+Logical CPU:     10
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  f9 3f 77 10 40 80 e7 40-74 0a 48 83 cf ff 48 d3  .?w.@..@t.H...H.
+  e7 48 09 fa 48 89 16 c3-55 48 89 e5 41 55 49 89  .H..H...UH..AUI.
+  fd 48 89 f7 53 48 89 d3-48 83 ec 20 48 8b 02 48  .H..SH..H.. H..H
+  89 75 d8 48 89 45 e8 48-8b 06 ff 50 10 84 c0 48  .u.H.E.H...P...H
+  8b 75 d8 74 0b 48 8b 45-e8 48 8b 00 48 89 45 e8  .u.t.H.E.H..H.E.
+  49 8b 45 00 48 8d 55 e8-b9 01 00 00 00 4c 89 ef  I.E.H.U......L..
+ [ff]50 20 84 c0 74 07 48-8b 55 e8 48 89 13 48 83  .P ..t.H.U.H..H.	<==
+  c4 20 5b 41 5d 5d c3 49-89 d1 49 89 ca 40 80 ff  . [A]].I..I..@..
+  50 75 13 48 8d 42 07 48-83 e0 f8 48 8b 10 48 83  Pu.H.B.H...H..H.
+  c0 08 48 89 11 c3 55 89-f8 83 e0 0f 48 89 e5 53  ..H...U.....H..S
+  41 89 fb 48 83 ec 18 3c-0c 0f 87 94 00 00 00 48  A..H...<.......H
+  8d 15 12 00 00 00 0f b6-c0 48 63 04 82 48 89 f3  .........Hc..H..
+  
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10d079000 -        0x10d07cfff +try-catch-2.exe (0) <E54E8028-6967-3827-946E-081C70AEC54E> /Users/USER/*/try-catch-2.exe
+       0x10d08e000 -        0x10d099fff +libobjc-gnu.4.dylib (0) <8636F073-739C-33BC-A6AF-6D9F6162A48A> /Users/USER/*/libobjc-gnu.4.dylib
+       0x10d0b7000 -        0x10d1cafff +libstdc++.6.dylib (0) <EF27C18F-1DBB-3D37-BECE-4FA92F8E3F40> /Users/USER/*/libstdc++.6.dylib
+       0x10d3cd000 -        0x10d3e0fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x11a832000 -        0x11a8cdfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=508.3M resident=0K(0%) swapped_out_or_unallocated=508.3M(100%)
+Writable regions: Total=17.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=17.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9404K        8 
+MALLOC guard page                   16K        3 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             500K       47 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            6232K       47 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            655.1M      184 
+

@@ -1,0 +1,652 @@
+Process:               test-alignment.c.exe [54428]
+Path:                  /Users/USER/*/test-alignment.c.exe
+Identifier:            test-alignment.c.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [51440]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:42:21.335 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   test-alignment.c.exe          	0x000000010ea689da verify_aligned_code_s2 + 178 (test-alignment.c:207)
+4   test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+5   test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+6   test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+7   test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+8   test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+9   test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+10  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+11  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+12  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+13  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+14  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+15  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+16  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+17  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+18  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+19  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+20  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+21  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+22  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+23  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+24  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+25  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+26  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+27  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+28  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+29  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+30  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+31  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+32  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+33  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+34  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+35  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+36  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+37  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+38  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+39  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+40  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+41  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+42  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+43  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+44  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+45  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+46  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+47  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+48  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+49  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+50  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+51  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+52  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+53  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+54  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+55  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+56  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+57  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+58  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+59  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+60  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+61  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+62  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+63  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+64  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+65  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+66  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+67  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+68  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+69  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+70  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+71  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+72  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+73  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+74  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+75  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+76  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+77  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+78  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+79  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+80  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+81  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+82  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+83  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+84  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+85  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+86  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+87  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+88  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+89  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+90  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+91  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+92  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+93  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+94  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+95  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+96  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+97  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+98  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+99  test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+100 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+101 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+102 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+103 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+104 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+105 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+106 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+107 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+108 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+109 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+110 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+111 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+112 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+113 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+114 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+115 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+116 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+117 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+118 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+119 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+120 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+121 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+122 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+123 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+124 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+125 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+126 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+127 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+128 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+129 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+130 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+131 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+132 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+133 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+134 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+135 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+136 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+137 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+138 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+139 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+140 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+141 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+142 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+143 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+144 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+145 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+146 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+147 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+148 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+149 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+150 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+151 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+152 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+153 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+154 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+155 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+156 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+157 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+158 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+159 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+160 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+161 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+162 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+163 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+164 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+165 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+166 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+167 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+168 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+169 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+170 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+171 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+172 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+173 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+174 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+175 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+176 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+177 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+178 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+179 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+180 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+181 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+182 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+183 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+184 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+185 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+186 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+187 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+188 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+189 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+190 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+191 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+192 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+193 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+194 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+195 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+196 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+197 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+198 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+199 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+200 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+201 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+202 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+203 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+204 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+205 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+206 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+207 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+208 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+209 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+210 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+211 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+212 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+213 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+214 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+215 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+216 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+217 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+218 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+219 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+220 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+221 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+222 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+223 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+224 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+225 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+226 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+227 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+228 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+229 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+230 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+231 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+232 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+233 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+234 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+235 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+236 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+237 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+238 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+239 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+240 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+241 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+242 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+243 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+244 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+245 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+246 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+247 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+248 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+249 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+250 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+251 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+252 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+253 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+254 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+255 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+256 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+257 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+258 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+259 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+260 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+261 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+262 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+263 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+264 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+265 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+266 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+267 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+268 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+269 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+270 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+271 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+272 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+273 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+274 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+275 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+276 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+277 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+278 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+279 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+280 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+281 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+282 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+283 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+284 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+285 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+286 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+287 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+288 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+289 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+290 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+291 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+292 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+293 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+294 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+295 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+296 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+297 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+298 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+299 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+300 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+301 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+302 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+303 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+304 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+305 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+306 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+307 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+308 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+309 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+310 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+311 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+312 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+313 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+314 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+315 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+316 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+317 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+318 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+319 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+320 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+321 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+322 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+323 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+324 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+325 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+326 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+327 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+328 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+329 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+330 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+331 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+332 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+333 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+334 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+335 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+336 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+337 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+338 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+339 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+340 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+341 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+342 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+343 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+344 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+345 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+346 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+347 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+348 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+349 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+350 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+351 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+352 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+353 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+354 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+355 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+356 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+357 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+358 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+359 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+360 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+361 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+362 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+363 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+364 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+365 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+366 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+367 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+368 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+369 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+370 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+371 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+372 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+373 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+374 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+375 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+376 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+377 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+378 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+379 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+380 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+381 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+382 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+383 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+384 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+385 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+386 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+387 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+388 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+389 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+390 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+391 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+392 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+393 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+394 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+395 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+396 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+397 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+398 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+399 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+400 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+401 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+402 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+403 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+404 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+405 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+406 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+407 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+408 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+409 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+410 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+411 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+412 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+413 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+414 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+415 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+416 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+417 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+418 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+419 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+420 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+421 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+422 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+423 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+424 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+425 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+426 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+427 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+428 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+429 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+430 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+431 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+432 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+433 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+434 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+435 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+436 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+437 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+438 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+439 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+440 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+441 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+442 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+443 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+444 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+445 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+446 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+447 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+448 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+449 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+450 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+451 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+452 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+453 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+454 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+455 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+456 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+457 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+458 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+459 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+460 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+461 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+462 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+463 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+464 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+465 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+466 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+467 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+468 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+469 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+470 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+471 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+472 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+473 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+474 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+475 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+476 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+477 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+478 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+479 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+480 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+481 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+482 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+483 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+484 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+485 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+486 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+487 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+488 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+489 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+490 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+491 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+492 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+493 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+494 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+495 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+496 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+497 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+498 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+499 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+500 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+501 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+502 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+503 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+504 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+505 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+506 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+507 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+508 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+509 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+510 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+511 test-alignment.c.exe          	0x000000010ea6a097 verify_code + 42 (test-alignment.c:218)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000010fd58e00  rcx: 0x00007ffee1192078  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee11920a0  rsp: 0x00007ffee1192078
+   r8: 0x00007fff806a1018   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00007ffee1192090
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10ea67000 -        0x10ea6afff +test-alignment.c.exe (0) <37DB6CC9-3867-3B72-BCF8-76DF285FB83B> /Users/USER/*/test-alignment.c.exe
+       0x10ea77000 -        0x10ea8afff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x10ea9b000 -        0x10eb8efff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x10eba3000 -        0x10ebb6fff +libmpc.3.dylib (0) <54608AC0-D0B2-3035-9480-11D848256BAF> /opt/local/lib/libmpc.3.dylib
+       0x10ebc3000 -        0x10ec1efff +libmpfr.6.dylib (0) <248D0008-190E-3C1E-9064-5EC2D6636D83> /opt/local/lib/libmpfr.6.dylib
+       0x10ec33000 -        0x10eca2fff +libgmp.10.dylib (0) <CF77374D-7733-3A23-82C0-E08B5910968E> /opt/local/lib/libgmp.10.dylib
+       0x10ecb7000 -        0x10eccafff +libz.1.dylib (0) <1DE622A3-18A9-348E-B8C0-C68B7BF55B85> /opt/local/lib/libz.1.dylib
+       0x10fc81000 -        0x10fd1cfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+       0x10fd99000 -        0x111d08fff +libgccjit.0.dylib (0) <D5E6899A-E432-35A5-849D-79CC168621DD> /Users/USER/*/libgccjit.0.dylib
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=550.5M resident=0K(0%) swapped_out_or_unallocated=550.5M(100%)
+Writable regions: Total=1.2G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=1.2G(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                           137.9M       63 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        3 
+VM_ALLOCATE                        464K       31 
+__DATA                             1.0G       53 
+__DATA_CONST                      2018K       40 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       512.3M       18 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            38.3M       51 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                              1.8G      291 
+

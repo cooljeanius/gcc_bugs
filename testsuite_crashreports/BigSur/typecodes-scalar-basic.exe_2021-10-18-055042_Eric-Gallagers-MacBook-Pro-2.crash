@@ -1,0 +1,1157 @@
+Process:               typecodes-scalar-basic.exe [12311]
+Path:                  /Users/USER/*/typecodes-scalar-basic.exe
+Identifier:            typecodes-scalar-basic.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [83977]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 05:50:42.636 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 710000 seconds
+Time Since Wake:       550000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   typecodes-scalar-basic.exe    	0x000000010a105d3a check + 91 (typecodes-scalar-basic-c.c:57)
+4   typecodes-scalar-basic.exe    	0x000000010a105d6a ctest_int1 + 38 (typecodes-scalar-basic-c.c:73)
+5   typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+6   typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+7   typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+8   typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+9   typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+10  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+11  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+12  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+13  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+14  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+15  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+16  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+17  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+18  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+19  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+20  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+21  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+22  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+23  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+24  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+25  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+26  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+27  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+28  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+29  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+30  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+31  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+32  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+33  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+34  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+35  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+36  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+37  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+38  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+39  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+40  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+41  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+42  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+43  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+44  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+45  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+46  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+47  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+48  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+49  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+50  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+51  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+52  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+53  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+54  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+55  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+56  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+57  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+58  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+59  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+60  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+61  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+62  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+63  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+64  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+65  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+66  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+67  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+68  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+69  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+70  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+71  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+72  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+73  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+74  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+75  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+76  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+77  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+78  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+79  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+80  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+81  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+82  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+83  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+84  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+85  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+86  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+87  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+88  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+89  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+90  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+91  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+92  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+93  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+94  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+95  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+96  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+97  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+98  typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+99  typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+100 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+101 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+102 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+103 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+104 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+105 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+106 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+107 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+108 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+109 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+110 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+111 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+112 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+113 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+114 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+115 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+116 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+117 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+118 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+119 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+120 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+121 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+122 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+123 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+124 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+125 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+126 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+127 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+128 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+129 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+130 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+131 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+132 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+133 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+134 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+135 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+136 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+137 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+138 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+139 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+140 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+141 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+142 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+143 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+144 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+145 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+146 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+147 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+148 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+149 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+150 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+151 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+152 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+153 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+154 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+155 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+156 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+157 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+158 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+159 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+160 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+161 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+162 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+163 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+164 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+165 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+166 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+167 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+168 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+169 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+170 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+171 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+172 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+173 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+174 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+175 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+176 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+177 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+178 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+179 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+180 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+181 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+182 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+183 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+184 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+185 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+186 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+187 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+188 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+189 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+190 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+191 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+192 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+193 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+194 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+195 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+196 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+197 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+198 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+199 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+200 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+201 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+202 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+203 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+204 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+205 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+206 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+207 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+208 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+209 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+210 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+211 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+212 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+213 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+214 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+215 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+216 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+217 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+218 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+219 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+220 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+221 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+222 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+223 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+224 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+225 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+226 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+227 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+228 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+229 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+230 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+231 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+232 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+233 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+234 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+235 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+236 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+237 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+238 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+239 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+240 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+241 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+242 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+243 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+244 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+245 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+246 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+247 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+248 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+249 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+250 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+251 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+252 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+253 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+254 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+255 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+256 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+257 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+258 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+259 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+260 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+261 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+262 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+263 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+264 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+265 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+266 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+267 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+268 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+269 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+270 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+271 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+272 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+273 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+274 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+275 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+276 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+277 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+278 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+279 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+280 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+281 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+282 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+283 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+284 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+285 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+286 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+287 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+288 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+289 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+290 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+291 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+292 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+293 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+294 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+295 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+296 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+297 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+298 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+299 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+300 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+301 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+302 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+303 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+304 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+305 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+306 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+307 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+308 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+309 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+310 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+311 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+312 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+313 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+314 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+315 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+316 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+317 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+318 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+319 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+320 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+321 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+322 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+323 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+324 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+325 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+326 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+327 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+328 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+329 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+330 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+331 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+332 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+333 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+334 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+335 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+336 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+337 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+338 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+339 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+340 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+341 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+342 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+343 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+344 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+345 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+346 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+347 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+348 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+349 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+350 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+351 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+352 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+353 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+354 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+355 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+356 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+357 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+358 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+359 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+360 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+361 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+362 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+363 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+364 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+365 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+366 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+367 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+368 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+369 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+370 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+371 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+372 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+373 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+374 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+375 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+376 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+377 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+378 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+379 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+380 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+381 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+382 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+383 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+384 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+385 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+386 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+387 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+388 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+389 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+390 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+391 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+392 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+393 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+394 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+395 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+396 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+397 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+398 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+399 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+400 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+401 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+402 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+403 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+404 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+405 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+406 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+407 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+408 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+409 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+410 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+411 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+412 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+413 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+414 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+415 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+416 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+417 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+418 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+419 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+420 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+421 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+422 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+423 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+424 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+425 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+426 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+427 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+428 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+429 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+430 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+431 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+432 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+433 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+434 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+435 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+436 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+437 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+438 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+439 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+440 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+441 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+442 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+443 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+444 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+445 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+446 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+447 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+448 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+449 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+450 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+451 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+452 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+453 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+454 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+455 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+456 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+457 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+458 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+459 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+460 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+461 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+462 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+463 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+464 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+465 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+466 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+467 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+468 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+469 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+470 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+471 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+472 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+473 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+474 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+475 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+476 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+477 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+478 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+479 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+480 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+481 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+482 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+483 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+484 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+485 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+486 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+487 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+488 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+489 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+490 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+491 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+492 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+493 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+494 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+495 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+496 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+497 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+498 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+499 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+500 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+501 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+502 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+503 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+504 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+505 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+506 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+507 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+508 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+509 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+510 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+511 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+512 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+513 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+514 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+515 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+516 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+517 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+518 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+519 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+520 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+521 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+522 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+523 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+524 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+525 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+526 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+527 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+528 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+529 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+530 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+531 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+532 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+533 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+534 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+535 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+536 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+537 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+538 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+539 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+540 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+541 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+542 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+543 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+544 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+545 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+546 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+547 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+548 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+549 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+550 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+551 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+552 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+553 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+554 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+555 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+556 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+557 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+558 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+559 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+560 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+561 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+562 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+563 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+564 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+565 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+566 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+567 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+568 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+569 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+570 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+571 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+572 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+573 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+574 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+575 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+576 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+577 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+578 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+579 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+580 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+581 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+582 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+583 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+584 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+585 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+586 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+587 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+588 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+589 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+590 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+591 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+592 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+593 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+594 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+595 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+596 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+597 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+598 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+599 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+600 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+601 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+602 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+603 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+604 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+605 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+606 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+607 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+608 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+609 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+610 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+611 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+612 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+613 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+614 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+615 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+616 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+617 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+618 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+619 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+620 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+621 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+622 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+623 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+624 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+625 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+626 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+627 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+628 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+629 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+630 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+631 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+632 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+633 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+634 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+635 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+636 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+637 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+638 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+639 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+640 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+641 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+642 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+643 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+644 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+645 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+646 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+647 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+648 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+649 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+650 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+651 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+652 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+653 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+654 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+655 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+656 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+657 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+658 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+659 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+660 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+661 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+662 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+663 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+664 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+665 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+666 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+667 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+668 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+669 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+670 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+671 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+672 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+673 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+674 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+675 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+676 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+677 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+678 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+679 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+680 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+681 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+682 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+683 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+684 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+685 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+686 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+687 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+688 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+689 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+690 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+691 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+692 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+693 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+694 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+695 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+696 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+697 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+698 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+699 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+700 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+701 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+702 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+703 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+704 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+705 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+706 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+707 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+708 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+709 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+710 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+711 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+712 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+713 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+714 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+715 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+716 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+717 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+718 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+719 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+720 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+721 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+722 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+723 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+724 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+725 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+726 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+727 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+728 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+729 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+730 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+731 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+732 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+733 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+734 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+735 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+736 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+737 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+738 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+739 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+740 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+741 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+742 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+743 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+744 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+745 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+746 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+747 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+748 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+749 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+750 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+751 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+752 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+753 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+754 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+755 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+756 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+757 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+758 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+759 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+760 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+761 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+762 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+763 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+764 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+765 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+766 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+767 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+768 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+769 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+770 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+771 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+772 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+773 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+774 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+775 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+776 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+777 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+778 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+779 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+780 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+781 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+782 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+783 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+784 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+785 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+786 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+787 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+788 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+789 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+790 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+791 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+792 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+793 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+794 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+795 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+796 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+797 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+798 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+799 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+800 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+801 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+802 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+803 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+804 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+805 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+806 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+807 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+808 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+809 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+810 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+811 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+812 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+813 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+814 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+815 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+816 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+817 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+818 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+819 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+820 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+821 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+822 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+823 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+824 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+825 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+826 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+827 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+828 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+829 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+830 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+831 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+832 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+833 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+834 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+835 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+836 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+837 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+838 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+839 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+840 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+841 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+842 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+843 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+844 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+845 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+846 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+847 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+848 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+849 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+850 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+851 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+852 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+853 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+854 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+855 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+856 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+857 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+858 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+859 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+860 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+861 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+862 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+863 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+864 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+865 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+866 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+867 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+868 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+869 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+870 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+871 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+872 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+873 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+874 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+875 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+876 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+877 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+878 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+879 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+880 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+881 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+882 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+883 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+884 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+885 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+886 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+887 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+888 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+889 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+890 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+891 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+892 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+893 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+894 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+895 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+896 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+897 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+898 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+899 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+900 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+901 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+902 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+903 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+904 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+905 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+906 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+907 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+908 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+909 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+910 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+911 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+912 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+913 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+914 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+915 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+916 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+917 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+918 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+919 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+920 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+921 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+922 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+923 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+924 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+925 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+926 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+927 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+928 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+929 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+930 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+931 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+932 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+933 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+934 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+935 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+936 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+937 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+938 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+939 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+940 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+941 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+942 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+943 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+944 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+945 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+946 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+947 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+948 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+949 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+950 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+951 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+952 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+953 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+954 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+955 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+956 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+957 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+958 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+959 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+960 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+961 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+962 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+963 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+964 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+965 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+966 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+967 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+968 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+969 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+970 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+971 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+972 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+973 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+974 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+975 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+976 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+977 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+978 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+979 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+980 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+981 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+982 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+983 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+984 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+985 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+986 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+987 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+988 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+989 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+990 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+991 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+992 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+993 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+994 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+995 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+996 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+997 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+998 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+999 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1000 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1001 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1002 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1003 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1004 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1005 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1006 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1007 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1008 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1009 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1010 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1011 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1012 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1013 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1014 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1015 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1016 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+1017 typecodes-scalar-basic.exe    	0x000000010a106489 testit + 71 (typecodes-scalar-basic.f90:133) [inlined]
+1018 typecodes-scalar-basic.exe    	0x000000010a106489 main + 104
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000010fbf9e00  rcx: 0x00007ffee5af58e8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee5af5910  rsp: 0x00007ffee5af58e8
+   r8: 0x00007fff806a10e8   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000401  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x000000010a3cfdee
+  
+Logical CPU:     0
+Error Code:      0x020000b8
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10a103000 -        0x10a106fff +typecodes-scalar-basic.exe (0) <95EB1352-E79C-37ED-BBE6-2742F93248F3> /Users/USER/*/typecodes-scalar-basic.exe
+       0x10a114000 -        0x10a2a3fff +libgfortran.5.dylib (0) <DE245362-B019-3FDC-A92B-C60CE19033D3> /Users/USER/*/libgfortran.5.dylib
+       0x10a332000 -        0x10a345fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x10a359000 -        0x10a38cfff +libquadmath.0.dylib (0) <E73C1E5D-DE76-3029-970C-24D541CF92DB> /Users/USER/*/libquadmath.0.dylib
+       0x10fb22000 -        0x10fbbdfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=507.5M resident=0K(0%) swapped_out_or_unallocated=507.5M(100%)
+Writable regions: Total=33.1M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=33.1M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                       15.8M      141 
+__DATA                             452K       46 
+__DATA_CONST                       290K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.9M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            6888K       47 
+mapped file                       2996K       13 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            672.9M      335 
+

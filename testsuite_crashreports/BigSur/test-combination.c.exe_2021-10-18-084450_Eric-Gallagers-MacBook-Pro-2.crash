@@ -1,0 +1,652 @@
+Process:               test-combination.c.exe [58642]
+Path:                  /Users/USER/*/test-combination.c.exe
+Identifier:            test-combination.c.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [51440]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:44:49.816 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   test-combination.c.exe        	0x00000001079da8bf verify_code_accessing_bitfield + 167 (test-accessing-bitfield.c:112)
+4   test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+5   test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+6   test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+7   test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+8   test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+9   test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+10  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+11  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+12  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+13  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+14  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+15  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+16  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+17  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+18  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+19  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+20  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+21  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+22  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+23  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+24  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+25  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+26  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+27  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+28  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+29  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+30  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+31  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+32  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+33  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+34  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+35  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+36  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+37  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+38  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+39  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+40  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+41  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+42  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+43  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+44  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+45  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+46  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+47  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+48  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+49  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+50  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+51  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+52  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+53  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+54  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+55  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+56  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+57  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+58  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+59  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+60  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+61  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+62  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+63  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+64  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+65  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+66  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+67  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+68  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+69  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+70  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+71  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+72  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+73  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+74  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+75  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+76  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+77  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+78  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+79  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+80  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+81  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+82  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+83  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+84  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+85  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+86  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+87  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+88  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+89  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+90  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+91  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+92  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+93  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+94  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+95  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+96  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+97  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+98  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+99  test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+100 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+101 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+102 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+103 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+104 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+105 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+106 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+107 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+108 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+109 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+110 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+111 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+112 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+113 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+114 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+115 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+116 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+117 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+118 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+119 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+120 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+121 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+122 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+123 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+124 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+125 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+126 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+127 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+128 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+129 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+130 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+131 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+132 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+133 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+134 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+135 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+136 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+137 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+138 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+139 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+140 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+141 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+142 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+143 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+144 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+145 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+146 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+147 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+148 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+149 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+150 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+151 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+152 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+153 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+154 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+155 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+156 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+157 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+158 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+159 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+160 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+161 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+162 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+163 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+164 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+165 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+166 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+167 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+168 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+169 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+170 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+171 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+172 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+173 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+174 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+175 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+176 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+177 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+178 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+179 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+180 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+181 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+182 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+183 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+184 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+185 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+186 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+187 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+188 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+189 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+190 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+191 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+192 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+193 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+194 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+195 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+196 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+197 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+198 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+199 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+200 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+201 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+202 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+203 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+204 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+205 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+206 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+207 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+208 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+209 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+210 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+211 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+212 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+213 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+214 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+215 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+216 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+217 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+218 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+219 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+220 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+221 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+222 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+223 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+224 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+225 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+226 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+227 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+228 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+229 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+230 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+231 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+232 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+233 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+234 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+235 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+236 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+237 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+238 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+239 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+240 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+241 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+242 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+243 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+244 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+245 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+246 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+247 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+248 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+249 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+250 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+251 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+252 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+253 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+254 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+255 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+256 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+257 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+258 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+259 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+260 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+261 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+262 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+263 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+264 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+265 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+266 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+267 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+268 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+269 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+270 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+271 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+272 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+273 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+274 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+275 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+276 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+277 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+278 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+279 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+280 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+281 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+282 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+283 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+284 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+285 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+286 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+287 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+288 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+289 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+290 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+291 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+292 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+293 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+294 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+295 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+296 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+297 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+298 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+299 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+300 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+301 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+302 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+303 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+304 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+305 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+306 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+307 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+308 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+309 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+310 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+311 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+312 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+313 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+314 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+315 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+316 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+317 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+318 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+319 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+320 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+321 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+322 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+323 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+324 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+325 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+326 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+327 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+328 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+329 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+330 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+331 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+332 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+333 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+334 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+335 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+336 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+337 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+338 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+339 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+340 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+341 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+342 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+343 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+344 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+345 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+346 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+347 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+348 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+349 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+350 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+351 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+352 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+353 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+354 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+355 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+356 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+357 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+358 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+359 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+360 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+361 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+362 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+363 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+364 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+365 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+366 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+367 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+368 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+369 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+370 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+371 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+372 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+373 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+374 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+375 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+376 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+377 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+378 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+379 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+380 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+381 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+382 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+383 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+384 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+385 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+386 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+387 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+388 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+389 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+390 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+391 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+392 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+393 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+394 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+395 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+396 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+397 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+398 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+399 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+400 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+401 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+402 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+403 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+404 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+405 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+406 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+407 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+408 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+409 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+410 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+411 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+412 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+413 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+414 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+415 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+416 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+417 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+418 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+419 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+420 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+421 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+422 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+423 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+424 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+425 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+426 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+427 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+428 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+429 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+430 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+431 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+432 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+433 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+434 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+435 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+436 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+437 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+438 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+439 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+440 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+441 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+442 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+443 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+444 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+445 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+446 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+447 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+448 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+449 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+450 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+451 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+452 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+453 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+454 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+455 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+456 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+457 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+458 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+459 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+460 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+461 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+462 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+463 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+464 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+465 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+466 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+467 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+468 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+469 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+470 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+471 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+472 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+473 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+474 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+475 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+476 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+477 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+478 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+479 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+480 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+481 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+482 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+483 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+484 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+485 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+486 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+487 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+488 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+489 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+490 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+491 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+492 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+493 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+494 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+495 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+496 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+497 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+498 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+499 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+500 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+501 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+502 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+503 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+504 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+505 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+506 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+507 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+508 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+509 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+510 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+511 test-combination.c.exe        	0x00000001079f6205 verify_code + 74 (test-combination.c:26)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00000001107e7e00  rcx: 0x00007ffee8220078  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee82200a0  rsp: 0x00007ffee8220078
+   r8: 0x00007fff806a1018   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x000000010b4b3898
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x1079d9000 -        0x1079fcfff +test-combination.c.exe (0) <BDF649DD-69F0-3703-A9E2-4749D570ABB2> /Users/USER/*/test-combination.c.exe
+       0x107a51000 -        0x107a64fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x107a75000 -        0x107b68fff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x107b7d000 -        0x107b90fff +libmpc.3.dylib (0) <54608AC0-D0B2-3035-9480-11D848256BAF> /opt/local/lib/libmpc.3.dylib
+       0x107b9d000 -        0x107bf8fff +libmpfr.6.dylib (0) <248D0008-190E-3C1E-9064-5EC2D6636D83> /opt/local/lib/libmpfr.6.dylib
+       0x107c0d000 -        0x107c7cfff +libgmp.10.dylib (0) <CF77374D-7733-3A23-82C0-E08B5910968E> /opt/local/lib/libgmp.10.dylib
+       0x107c91000 -        0x107ca4fff +libz.1.dylib (0) <1DE622A3-18A9-348E-B8C0-C68B7BF55B85> /opt/local/lib/libz.1.dylib
+       0x110710000 -        0x1107abfff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+       0x110828000 -        0x112797fff +libgccjit.0.dylib (0) <D5E6899A-E432-35A5-849D-79CC168621DD> /Users/USER/*/libgccjit.0.dylib
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=550.7M resident=0K(0%) swapped_out_or_unallocated=550.7M(100%)
+Writable regions: Total=1.2G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=1.2G(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                           151.3M       87 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        3 
+VM_ALLOCATE                       2508K      166 
+__DATA                             1.0G       54 
+__DATA_CONST                      2018K       40 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       512.3M       18 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            38.4M       51 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                              1.8G      451 
+

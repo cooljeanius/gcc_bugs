@@ -1,0 +1,650 @@
+Process:               typecodes-array-float128.exe [8457]
+Path:                  /Users/USER/*/typecodes-array-float128.exe
+Identifier:            typecodes-array-float128.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [83977]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 05:48:45.485 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 710000 seconds
+Time Since Wake:       550000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   typecodes-array-float128.exe  	0x000000010eb45808 ctest.cold + 5 (typecodes-array-float128-c.c:20)
+4   typecodes-array-float128.exe  	0x000000010eb452de MAIN__ + 318 (typecodes-array-float128.f90:32)
+5   typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+6   typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+7   typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+8   typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+9   typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+10  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+11  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+12  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+13  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+14  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+15  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+16  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+17  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+18  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+19  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+20  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+21  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+22  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+23  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+24  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+25  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+26  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+27  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+28  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+29  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+30  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+31  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+32  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+33  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+34  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+35  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+36  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+37  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+38  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+39  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+40  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+41  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+42  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+43  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+44  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+45  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+46  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+47  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+48  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+49  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+50  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+51  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+52  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+53  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+54  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+55  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+56  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+57  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+58  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+59  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+60  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+61  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+62  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+63  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+64  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+65  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+66  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+67  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+68  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+69  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+70  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+71  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+72  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+73  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+74  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+75  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+76  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+77  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+78  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+79  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+80  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+81  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+82  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+83  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+84  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+85  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+86  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+87  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+88  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+89  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+90  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+91  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+92  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+93  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+94  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+95  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+96  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+97  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+98  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+99  typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+100 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+101 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+102 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+103 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+104 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+105 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+106 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+107 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+108 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+109 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+110 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+111 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+112 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+113 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+114 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+115 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+116 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+117 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+118 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+119 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+120 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+121 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+122 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+123 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+124 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+125 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+126 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+127 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+128 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+129 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+130 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+131 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+132 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+133 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+134 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+135 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+136 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+137 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+138 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+139 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+140 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+141 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+142 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+143 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+144 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+145 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+146 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+147 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+148 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+149 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+150 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+151 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+152 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+153 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+154 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+155 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+156 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+157 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+158 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+159 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+160 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+161 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+162 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+163 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+164 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+165 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+166 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+167 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+168 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+169 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+170 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+171 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+172 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+173 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+174 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+175 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+176 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+177 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+178 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+179 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+180 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+181 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+182 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+183 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+184 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+185 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+186 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+187 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+188 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+189 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+190 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+191 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+192 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+193 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+194 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+195 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+196 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+197 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+198 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+199 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+200 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+201 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+202 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+203 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+204 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+205 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+206 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+207 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+208 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+209 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+210 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+211 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+212 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+213 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+214 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+215 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+216 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+217 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+218 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+219 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+220 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+221 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+222 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+223 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+224 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+225 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+226 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+227 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+228 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+229 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+230 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+231 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+232 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+233 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+234 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+235 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+236 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+237 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+238 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+239 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+240 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+241 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+242 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+243 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+244 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+245 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+246 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+247 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+248 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+249 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+250 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+251 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+252 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+253 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+254 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+255 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+256 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+257 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+258 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+259 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+260 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+261 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+262 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+263 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+264 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+265 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+266 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+267 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+268 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+269 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+270 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+271 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+272 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+273 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+274 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+275 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+276 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+277 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+278 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+279 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+280 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+281 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+282 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+283 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+284 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+285 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+286 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+287 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+288 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+289 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+290 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+291 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+292 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+293 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+294 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+295 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+296 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+297 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+298 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+299 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+300 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+301 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+302 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+303 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+304 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+305 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+306 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+307 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+308 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+309 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+310 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+311 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+312 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+313 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+314 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+315 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+316 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+317 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+318 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+319 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+320 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+321 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+322 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+323 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+324 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+325 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+326 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+327 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+328 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+329 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+330 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+331 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+332 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+333 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+334 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+335 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+336 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+337 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+338 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+339 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+340 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+341 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+342 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+343 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+344 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+345 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+346 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+347 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+348 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+349 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+350 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+351 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+352 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+353 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+354 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+355 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+356 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+357 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+358 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+359 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+360 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+361 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+362 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+363 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+364 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+365 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+366 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+367 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+368 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+369 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+370 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+371 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+372 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+373 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+374 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+375 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+376 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+377 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+378 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+379 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+380 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+381 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+382 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+383 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+384 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+385 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+386 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+387 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+388 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+389 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+390 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+391 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+392 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+393 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+394 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+395 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+396 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+397 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+398 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+399 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+400 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+401 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+402 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+403 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+404 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+405 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+406 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+407 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+408 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+409 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+410 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+411 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+412 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+413 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+414 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+415 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+416 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+417 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+418 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+419 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+420 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+421 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+422 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+423 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+424 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+425 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+426 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+427 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+428 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+429 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+430 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+431 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+432 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+433 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+434 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+435 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+436 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+437 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+438 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+439 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+440 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+441 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+442 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+443 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+444 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+445 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+446 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+447 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+448 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+449 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+450 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+451 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+452 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+453 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+454 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+455 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+456 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+457 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+458 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+459 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+460 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+461 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+462 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+463 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+464 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+465 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+466 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+467 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+468 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+469 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+470 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+471 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+472 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+473 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+474 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+475 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+476 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+477 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+478 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+479 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+480 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+481 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+482 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+483 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+484 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+485 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+486 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+487 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+488 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+489 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+490 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+491 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+492 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+493 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+494 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+495 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+496 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+497 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+498 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+499 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+500 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+501 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+502 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+503 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+504 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+505 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+506 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+507 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+508 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+509 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+510 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+511 typecodes-array-float128.exe  	0x000000010eb457ff main + 31 (typecodes-array-float128.f90:34)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000117c76e00  rcx: 0x00007ffee10b68a8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee10b68d0  rsp: 0x00007ffee10b68a8
+   r8: 0x00007fff806a10e8   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x00007f9f64c06f50  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x000000010ee0ddee
+  
+Logical CPU:     0
+Error Code:      0x020000b8
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10eb42000 -        0x10eb45fff +typecodes-array-float128.exe (0) <8DF9DC08-E430-3188-8C45-F99376E2B4CF> /Users/USER/*/typecodes-array-float128.exe
+       0x10eb56000 -        0x10ece5fff +libgfortran.5.dylib (0) <DE245362-B019-3FDC-A92B-C60CE19033D3> /Users/USER/*/libgfortran.5.dylib
+       0x10ed75000 -        0x10ed88fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x10ed9e000 -        0x10edd1fff +libquadmath.0.dylib (0) <E73C1E5D-DE76-3029-970C-24D541CF92DB> /Users/USER/*/libquadmath.0.dylib
+       0x117b9f000 -        0x117c3afff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=507.5M resident=0K(0%) swapped_out_or_unallocated=507.5M(100%)
+Writable regions: Total=33.1M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=33.1M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        3 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                       15.8M      140 
+__DATA                             452K       46 
+__DATA_CONST                       290K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.9M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            6888K       47 
+mapped file                       2992K       13 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            672.9M      333 
+

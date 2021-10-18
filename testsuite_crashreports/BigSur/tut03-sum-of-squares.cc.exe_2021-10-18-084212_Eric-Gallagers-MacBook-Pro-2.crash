@@ -1,0 +1,653 @@
+Process:               tut03-sum-of-squares.cc.exe [52764]
+Path:                  /Users/USER/*/tut03-sum-of-squares.cc.exe
+Identifier:            tut03-sum-of-squares.cc.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [51440]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-18 08:41:19.629 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 720000 seconds
+Time Since Wake:       560000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   libgccjit.0.dylib             	0x0000000113c93f91 __gnu_cxx::__verbose_terminate_handler() + 190 (vterminate.cc:95)
+4   libgccjit.0.dylib             	0x0000000113c93661 __cxxabiv1::__terminate(void (*)()) + 6 (eh_terminate.cc:48)
+5   libgccjit.0.dylib             	0x0000000113c936a9 std::terminate() + 17 (eh_terminate.cc:58)
+6   libgccjit.0.dylib             	0x0000000113c937bf __cxa_throw + 78 (eh_throw.cc:95)
+7   tut03-sum-of-squares.cc.exe   	0x000000010d7b1c1e gccjit::context::compile() + 74 (libgccjit++.h:658)
+8   tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+9   tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+10  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+11  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+12  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+13  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+14  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+15  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+16  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+17  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+18  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+19  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+20  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+21  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+22  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+23  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+24  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+25  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+26  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+27  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+28  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+29  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+30  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+31  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+32  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+33  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+34  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+35  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+36  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+37  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+38  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+39  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+40  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+41  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+42  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+43  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+44  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+45  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+46  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+47  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+48  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+49  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+50  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+51  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+52  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+53  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+54  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+55  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+56  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+57  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+58  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+59  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+60  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+61  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+62  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+63  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+64  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+65  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+66  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+67  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+68  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+69  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+70  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+71  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+72  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+73  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+74  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+75  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+76  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+77  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+78  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+79  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+80  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+81  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+82  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+83  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+84  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+85  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+86  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+87  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+88  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+89  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+90  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+91  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+92  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+93  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+94  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+95  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+96  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+97  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+98  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+99  tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+100 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+101 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+102 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+103 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+104 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+105 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+106 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+107 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+108 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+109 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+110 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+111 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+112 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+113 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+114 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+115 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+116 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+117 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+118 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+119 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+120 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+121 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+122 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+123 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+124 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+125 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+126 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+127 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+128 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+129 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+130 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+131 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+132 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+133 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+134 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+135 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+136 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+137 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+138 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+139 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+140 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+141 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+142 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+143 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+144 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+145 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+146 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+147 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+148 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+149 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+150 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+151 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+152 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+153 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+154 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+155 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+156 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+157 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+158 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+159 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+160 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+161 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+162 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+163 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+164 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+165 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+166 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+167 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+168 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+169 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+170 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+171 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+172 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+173 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+174 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+175 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+176 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+177 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+178 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+179 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+180 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+181 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+182 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+183 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+184 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+185 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+186 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+187 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+188 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+189 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+190 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+191 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+192 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+193 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+194 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+195 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+196 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+197 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+198 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+199 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+200 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+201 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+202 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+203 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+204 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+205 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+206 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+207 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+208 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+209 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+210 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+211 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+212 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+213 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+214 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+215 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+216 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+217 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+218 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+219 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+220 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+221 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+222 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+223 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+224 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+225 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+226 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+227 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+228 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+229 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+230 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+231 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+232 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+233 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+234 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+235 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+236 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+237 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+238 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+239 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+240 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+241 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+242 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+243 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+244 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+245 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+246 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+247 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+248 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+249 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+250 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+251 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+252 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+253 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+254 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+255 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+256 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+257 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+258 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+259 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+260 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+261 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+262 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+263 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+264 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+265 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+266 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+267 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+268 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+269 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+270 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+271 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+272 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+273 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+274 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+275 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+276 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+277 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+278 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+279 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+280 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+281 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+282 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+283 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+284 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+285 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+286 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+287 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+288 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+289 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+290 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+291 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+292 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+293 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+294 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+295 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+296 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+297 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+298 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+299 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+300 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+301 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+302 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+303 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+304 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+305 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+306 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+307 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+308 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+309 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+310 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+311 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+312 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+313 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+314 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+315 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+316 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+317 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+318 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+319 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+320 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+321 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+322 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+323 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+324 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+325 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+326 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+327 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+328 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+329 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+330 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+331 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+332 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+333 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+334 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+335 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+336 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+337 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+338 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+339 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+340 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+341 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+342 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+343 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+344 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+345 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+346 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+347 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+348 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+349 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+350 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+351 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+352 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+353 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+354 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+355 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+356 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+357 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+358 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+359 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+360 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+361 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+362 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+363 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+364 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+365 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+366 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+367 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+368 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+369 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+370 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+371 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+372 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+373 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+374 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+375 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+376 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+377 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+378 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+379 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+380 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+381 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+382 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+383 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+384 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+385 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+386 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+387 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+388 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+389 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+390 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+391 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+392 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+393 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+394 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+395 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+396 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+397 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+398 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+399 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+400 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+401 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+402 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+403 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+404 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+405 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+406 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+407 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+408 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+409 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+410 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+411 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+412 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+413 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+414 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+415 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+416 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+417 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+418 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+419 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+420 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+421 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+422 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+423 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+424 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+425 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+426 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+427 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+428 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+429 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+430 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+431 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+432 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+433 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+434 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+435 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+436 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+437 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+438 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+439 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+440 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+441 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+442 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+443 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+444 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+445 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+446 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+447 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+448 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+449 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+450 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+451 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+452 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+453 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+454 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+455 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+456 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+457 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+458 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+459 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+460 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+461 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+462 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+463 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+464 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+465 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+466 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+467 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+468 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+469 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+470 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+471 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+472 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+473 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+474 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+475 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+476 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+477 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+478 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+479 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+480 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+481 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+482 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+483 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+484 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+485 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+486 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+487 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+488 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+489 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+490 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+491 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+492 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+493 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+494 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+495 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+496 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+497 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+498 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+499 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+500 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+501 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+502 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+503 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+504 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+505 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+506 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+507 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+508 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+509 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+510 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+511 tut03-sum-of-squares.cc.exe   	0x000000010d7b2f48 main + 90 (tut03-sum-of-squares.cc:110)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000011265ae00  rcx: 0x00007ffee244b028  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee244b050  rsp: 0x00007ffee244b028
+   r8: 0x00007ff0df404228   r9: 0x00007ff0df400000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x00007ff0df404240  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00007fff806d5498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10d7ae000 -        0x10d7b5fff +tut03-sum-of-squares.cc.exe (0) <59922D35-7D47-3BD3-8B11-202E418F5E2E> /Users/USER/*/tut03-sum-of-squares.cc.exe
+       0x10d7ca000 -        0x10d8ddfff +libstdc++.6.dylib (0) <EF27C18F-1DBB-3D37-BECE-4FA92F8E3F40> /Users/USER/*/libstdc++.6.dylib
+       0x10dade000 -        0x10daf1fff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x10db02000 -        0x10dbf5fff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x10dc0a000 -        0x10dc1dfff +libmpc.3.dylib (0) <54608AC0-D0B2-3035-9480-11D848256BAF> /opt/local/lib/libmpc.3.dylib
+       0x10dc2a000 -        0x10dc85fff +libmpfr.6.dylib (0) <248D0008-190E-3C1E-9064-5EC2D6636D83> /opt/local/lib/libmpfr.6.dylib
+       0x10dc9a000 -        0x10dd09fff +libgmp.10.dylib (0) <CF77374D-7733-3A23-82C0-E08B5910968E> /opt/local/lib/libgmp.10.dylib
+       0x10dd1e000 -        0x10dd31fff +libz.1.dylib (0) <1DE622A3-18A9-348E-B8C0-C68B7BF55B85> /opt/local/lib/libz.1.dylib
+       0x112583000 -        0x11261efff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+       0x11269b000 -        0x11460afff +libgccjit.0.dylib (0) <D5E6899A-E432-35A5-849D-79CC168621DD> /Users/USER/*/libgccjit.0.dylib
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=553.6M resident=0K(0%) swapped_out_or_unallocated=553.6M(100%)
+Writable regions: Total=1.1G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=1.1G(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            48.5M       37 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        3 
+VM_ALLOCATE                       2132K        5 
+__DATA                             1.0G       55 
+__DATA_CONST                      2066K       41 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       514.2M       20 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            39.4M       52 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                              1.7G      245 
+

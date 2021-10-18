@@ -1,0 +1,649 @@
+Process:               cons_2_assert_neg.exe [10178]
+Path:                  /Users/USER/*/cons_2_assert_neg.exe
+Identifier:            cons_2_assert_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [94776]
+Responsible:           Terminal [783]
+User ID:               501
+
+Date/Time:             2021-10-17 22:08:37.855 -0400
+OS Version:            macOS 11.6 (20G165)
+Report Version:        12
+Bridge OS Version:     5.5 (18P4759a)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       37A66908-7226-4E5F-93EF-CC4D763EE6F6
+
+Time Awake Since Boot: 680000 seconds
+Time Since Wake:       520000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2037a92e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203a95bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff202fe406 abort + 125
+3   libstdc++.6.dylib             	0x0000000104f12bf3 __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1152)
+4   cons_2_assert_neg.exe         	0x0000000104db5240 __gnu_debug::operator-(__gnu_debug::_Safe_iterator<__gnu_cxx::__normal_iterator<int*, std::__cxx1998::vector<int, std::allocator<int> > >, std::__debug::vector<int, std::allocator<int> >, std::random_access_iterator_tag> const&, __gnu_debug::_Safe_iterator<__gnu_cxx::__normal_iterator<int*, std::__cxx1998::vector<int, std::allocator<int> > >, std::__debug::vector<int, std::allocator<int> >, std::random_access_iterator_tag> const&) + 242 (safe_iterator.h:926)
+5   cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+6   cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+7   cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+8   cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+9   cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+10  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+11  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+12  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+13  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+14  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+15  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+16  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+17  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+18  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+19  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+20  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+21  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+22  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+23  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+24  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+25  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+26  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+27  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+28  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+29  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+30  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+31  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+32  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+33  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+34  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+35  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+36  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+37  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+38  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+39  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+40  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+41  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+42  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+43  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+44  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+45  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+46  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+47  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+48  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+49  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+50  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+51  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+52  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+53  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+54  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+55  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+56  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+57  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+58  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+59  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+60  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+61  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+62  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+63  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+64  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+65  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+66  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+67  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+68  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+69  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+70  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+71  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+72  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+73  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+74  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+75  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+76  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+77  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+78  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+79  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+80  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+81  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+82  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+83  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+84  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+85  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+86  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+87  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+88  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+89  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+90  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+91  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+92  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+93  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+94  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+95  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+96  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+97  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+98  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+99  cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+100 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+101 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+102 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+103 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+104 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+105 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+106 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+107 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+108 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+109 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+110 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+111 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+112 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+113 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+114 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+115 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+116 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+117 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+118 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+119 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+120 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+121 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+122 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+123 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+124 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+125 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+126 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+127 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+128 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+129 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+130 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+131 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+132 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+133 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+134 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+135 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+136 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+137 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+138 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+139 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+140 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+141 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+142 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+143 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+144 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+145 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+146 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+147 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+148 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+149 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+150 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+151 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+152 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+153 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+154 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+155 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+156 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+157 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+158 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+159 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+160 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+161 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+162 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+163 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+164 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+165 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+166 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+167 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+168 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+169 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+170 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+171 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+172 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+173 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+174 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+175 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+176 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+177 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+178 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+179 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+180 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+181 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+182 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+183 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+184 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+185 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+186 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+187 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+188 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+189 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+190 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+191 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+192 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+193 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+194 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+195 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+196 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+197 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+198 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+199 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+200 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+201 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+202 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+203 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+204 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+205 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+206 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+207 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+208 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+209 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+210 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+211 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+212 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+213 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+214 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+215 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+216 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+217 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+218 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+219 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+220 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+221 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+222 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+223 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+224 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+225 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+226 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+227 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+228 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+229 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+230 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+231 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+232 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+233 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+234 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+235 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+236 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+237 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+238 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+239 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+240 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+241 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+242 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+243 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+244 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+245 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+246 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+247 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+248 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+249 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+250 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+251 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+252 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+253 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+254 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+255 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+256 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+257 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+258 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+259 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+260 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+261 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+262 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+263 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+264 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+265 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+266 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+267 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+268 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+269 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+270 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+271 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+272 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+273 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+274 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+275 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+276 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+277 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+278 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+279 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+280 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+281 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+282 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+283 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+284 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+285 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+286 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+287 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+288 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+289 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+290 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+291 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+292 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+293 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+294 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+295 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+296 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+297 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+298 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+299 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+300 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+301 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+302 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+303 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+304 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+305 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+306 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+307 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+308 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+309 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+310 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+311 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+312 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+313 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+314 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+315 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+316 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+317 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+318 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+319 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+320 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+321 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+322 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+323 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+324 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+325 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+326 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+327 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+328 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+329 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+330 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+331 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+332 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+333 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+334 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+335 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+336 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+337 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+338 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+339 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+340 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+341 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+342 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+343 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+344 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+345 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+346 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+347 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+348 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+349 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+350 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+351 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+352 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+353 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+354 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+355 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+356 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+357 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+358 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+359 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+360 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+361 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+362 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+363 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+364 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+365 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+366 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+367 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+368 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+369 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+370 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+371 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+372 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+373 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+374 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+375 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+376 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+377 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+378 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+379 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+380 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+381 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+382 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+383 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+384 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+385 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+386 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+387 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+388 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+389 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+390 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+391 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+392 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+393 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+394 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+395 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+396 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+397 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+398 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+399 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+400 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+401 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+402 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+403 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+404 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+405 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+406 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+407 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+408 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+409 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+410 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+411 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+412 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+413 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+414 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+415 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+416 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+417 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+418 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+419 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+420 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+421 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+422 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+423 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+424 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+425 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+426 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+427 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+428 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+429 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+430 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+431 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+432 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+433 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+434 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+435 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+436 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+437 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+438 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+439 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+440 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+441 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+442 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+443 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+444 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+445 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+446 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+447 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+448 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+449 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+450 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+451 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+452 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+453 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+454 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+455 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+456 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+457 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+458 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+459 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+460 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+461 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+462 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+463 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+464 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+465 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+466 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+467 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+468 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+469 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+470 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+471 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+472 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+473 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+474 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+475 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+476 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+477 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+478 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+479 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+480 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+481 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+482 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+483 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+484 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+485 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+486 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+487 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+488 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+489 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+490 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+491 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+492 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+493 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+494 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+495 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+496 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+497 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+498 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+499 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+500 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+501 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+502 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+503 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+504 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+505 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+506 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+507 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+508 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+509 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+510 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+511 cons_2_assert_neg.exe         	0x0000000104db5364 main + 270 (span:173)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000113a42e00  rcx: 0x00007ffeeae47cb8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeeae47ce0  rsp: 0x00007ffeeae47cb8
+   r8: 0x00007fff806a10e8   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000104dba0b8  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2037a92e  rfl: 0x0000000000000246  cr2: 0x00007fff806d5498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x104db2000 -        0x104db5fff +cons_2_assert_neg.exe (0) <4232E795-2CBF-3A86-B75C-62CE0CF78BBC> /Users/USER/*/cons_2_assert_neg.exe
+       0x104dc9000 -        0x104ebcfff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x104ed6000 -        0x104fe9fff +libstdc++.6.dylib (0) <EF27C18F-1DBB-3D37-BECE-4FA92F8E3F40> /Users/USER/*/libstdc++.6.dylib
+       0x1051eb000 -        0x1051fefff +libgcc_s.1.dylib (1) <0F6A1D1D-3AA9-38C7-B7E2-67AC3B706514> /Users/USER/*/libgcc_s.1.dylib
+       0x11396b000 -        0x113a06fff  dyld (852.2) <0CC19410-FD43-39AE-A32A-50273F8303A4> /usr/lib/dyld
+    0x7fff200e1000 -     0x7fff200e2fff  libsystem_blocks.dylib (79) <925E3B6D-184D-3E73-97B1-643C4ADB387A> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff200e3000 -     0x7fff20118fff  libxpc.dylib (2038.120.1) <FFFB49D7-2CA6-3E1F-AE4E-5697B19B7D76> /usr/lib/system/libxpc.dylib
+    0x7fff20119000 -     0x7fff20130fff  libsystem_trace.dylib (1277.120.1) <7E800ECA-DFDB-3737-A3C5-FFDE37E65383> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20131000 -     0x7fff201cefff  libcorecrypto.dylib (1000.140.4) <D211160D-E22F-3440-8054-1F5824519C7F> /usr/lib/system/libcorecrypto.dylib
+    0x7fff201cf000 -     0x7fff201fbfff  libsystem_malloc.dylib (317.140.5) <050E37E1-1458-3F80-BFA3-F1488570169D> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff201fc000 -     0x7fff20240fff  libdispatch.dylib (1271.120.2) <8144B0BD-90D2-3EAE-999F-AB0D14082088> /usr/lib/system/libdispatch.dylib
+    0x7fff20241000 -     0x7fff2027afff  libobjc.A.dylib (824) <8C7C49A1-4211-3E4C-BA3D-160D675EEE96> /usr/lib/libobjc.A.dylib
+    0x7fff2027b000 -     0x7fff2027dfff  libsystem_featureflags.dylib (28.60.1) <E5C43AE3-19E7-3DAB-8B5D-D79A4B68B5C0> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff2027e000 -     0x7fff20306fff  libsystem_c.dylib (1439.141.1) <3C273899-4CBE-32D5-BB31-7A449743204F> /usr/lib/system/libsystem_c.dylib
+    0x7fff20307000 -     0x7fff2035cfff  libc++.1.dylib (905.6) <FD6DB1CB-B14B-3404-8BEB-B459C2F6C303> /usr/lib/libc++.1.dylib
+    0x7fff2035d000 -     0x7fff20372fff  libc++abi.dylib (905.6) <D0CDDF98-1C04-300F-B685-4A4C59C04C42> /usr/lib/libc++abi.dylib
+    0x7fff20373000 -     0x7fff203a2fff  libsystem_kernel.dylib (7195.141.6) <78289AAE-61B5-339F-A485-8819BC2388F2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff203a3000 -     0x7fff203aefff  libsystem_pthread.dylib (454.120.2) <1268FF2D-A513-3B51-BA65-AF2FF5789DDB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff203af000 -     0x7fff203eafff  libdyld.dylib (852.2) <3DE0178A-0AEE-3D08-AE19-6C6403F69BA1> /usr/lib/system/libdyld.dylib
+    0x7fff203eb000 -     0x7fff203f4fff  libsystem_platform.dylib (254.80.2) <EF52D569-09F5-32E1-B1B3-34E2CA55A017> /usr/lib/system/libsystem_platform.dylib
+    0x7fff203f5000 -     0x7fff20420fff  libsystem_info.dylib (542.40.3) <55B39B7F-957B-3D99-A8DF-7CA80D38155D> /usr/lib/system/libsystem_info.dylib
+    0x7fff227f0000 -     0x7fff227f9fff  libsystem_darwin.dylib (1439.141.1) <2C81A009-45BB-30D7-A4F7-4B2EEC691617> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22c0f000 -     0x7fff22c1afff  libsystem_notify.dylib (279.40.4) <2E40EA4A-B124-3010-8379-1B4D7082A08F> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24ba7000 -     0x7fff24bb5fff  libsystem_networkextension.dylib (1295.140.3) <83AA4425-2F1D-36EC-B77B-8D4F03CDDB68> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24c14000 -     0x7fff24c2afff  libsystem_asl.dylib (385) <8D324D65-EE16-3A1A-BD39-ACB1B3050D1F> /usr/lib/system/libsystem_asl.dylib
+    0x7fff262f1000 -     0x7fff262f8fff  libsystem_symptoms.dylib (1431.140.1) <1B4D8837-C951-3B69-B079-85D477749E8B> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28300000 -     0x7fff28310fff  libsystem_containermanager.dylib (318.100.4) <1139CD47-9CBA-356F-8694-1D00EB9F0C8F> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff29014000 -     0x7fff29017fff  libsystem_configuration.dylib (1109.140.1) <02F3A5C9-6289-3012-8F5F-F1DB669ADB79> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29018000 -     0x7fff2901cfff  libsystem_sandbox.dylib (1441.141.4) <5471601B-5072-3E97-8926-804FF08DC4C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29d0e000 -     0x7fff29d10fff  libquarantine.dylib (119.40.2) <3244B57B-9FDF-373E-9F96-A7BAD7534F23> /usr/lib/system/libquarantine.dylib
+    0x7fff2a2b9000 -     0x7fff2a2bdfff  libsystem_coreservices.dylib (127.1) <619CCB6D-226C-35BD-98FB-04A18FD54792> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a4cd000 -     0x7fff2a514fff  libsystem_m.dylib (3186.100.3) <D61B56FE-649B-34A0-8446-25685B2BBBF2> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a516000 -     0x7fff2a51bfff  libmacho.dylib (980) <A4F4D532-7824-3E4E-8FB6-45617415E7DD> /usr/lib/system/libmacho.dylib
+    0x7fff2a538000 -     0x7fff2a543fff  libcommonCrypto.dylib (60178.120.3) <CF1E0E70-9F6C-3FAF-82B2-D55F7C9EBB03> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a544000 -     0x7fff2a54efff  libunwind.dylib (201) <4602E909-C71A-3006-8140-BE616DA241EE> /usr/lib/system/libunwind.dylib
+    0x7fff2a54f000 -     0x7fff2a556fff  liboah.dylib (203.58) <F72C2D50-7279-3497-8A59-56908F9661F3> /usr/lib/liboah.dylib
+    0x7fff2a557000 -     0x7fff2a561fff  libcopyfile.dylib (173.40.2) <B0F35A80-D5E3-33DD-A47D-ACBFE1300523> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a562000 -     0x7fff2a569fff  libcompiler_rt.dylib (102.2) <1C049207-1719-39AC-A2A9-6E5BE28AA138> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a56a000 -     0x7fff2a56cfff  libsystem_collections.dylib (1439.141.1) <F2D775D9-AAEF-371F-AA54-CFB882B9B430> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a56d000 -     0x7fff2a56ffff  libsystem_secinit.dylib (87.60.1) <EB4516ED-1F8B-3E8A-8C4B-B209A33DCCEF> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a570000 -     0x7fff2a572fff  libremovefile.dylib (49.120.1) <1AEE3D84-32F9-35FB-8036-B178C9E27D20> /usr/lib/system/libremovefile.dylib
+    0x7fff2a573000 -     0x7fff2a573fff  libkeymgr.dylib (31) <698AF6EE-08BB-36CF-B7AD-9EC16E36FA0B> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a574000 -     0x7fff2a57bfff  libsystem_dnssd.dylib (1310.140.1) <0685BDB0-9A98-3ADD-B95A-11F221FD80D7> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a57c000 -     0x7fff2a581fff  libcache.dylib (83) <B51FAB34-AA9C-38C5-95F1-E5E54B21EA67> /usr/lib/system/libcache.dylib
+    0x7fff2a582000 -     0x7fff2a583fff  libSystem.B.dylib (1292.120.1) <DBD0A184-CD98-3225-8E9B-D5BFE0D30562> /usr/lib/libSystem.B.dylib
+    0x7fff2d986000 -     0x7fff2d986fff  liblaunch.dylib (2038.120.1) <4A353070-A560-3A98-8869-28C92435C6B2> /usr/lib/system/liblaunch.dylib
+    0x7fff2fe1d000 -     0x7fff2fe1dfff  libsystem_product_info_filter.dylib (8.40.1) <78928329-DD98-3799-989D-870DF92FE8D5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=19.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=19.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            11.2M       10 
+MALLOC guard page                   16K        3 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             500K       47 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7160K       47 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            658.0M      186 
+
