@@ -1,7 +1,7 @@
 -Wanti-c++-compat:
 Contains:
  * -Wdeclaration-after-statement
- * The warning about C++ style comments from -pedantic (split off)
+ * The warning about C++ style comments from -pedantic (split off; see bug 80529)
  * -Wswitch-default
 variants off of -Wold-style-cast to get the fixits from it for other warnings:
  * -Wuseless-old-style-cast

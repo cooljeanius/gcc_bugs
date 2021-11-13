@@ -6,7 +6,7 @@ README.Portability warnings:
 * Trigraphs: -Wtrigraphs
 * Suffixes on Integer Constants: -Wtraditional gets ALL suffixes, but also drags in other unwanted warnings. Suggest splitting off a separate warning just for 'l'?
 * errno: not sure what exactly the issue with it being declared as a macro is?
-* Implicit int: -Wimplicit-int. However, it only catches the function declarations/definitions; I don't think it catches the "bare unsigned" places.
+* Implicit int: -Wimplicit-int. However, it only catches the function declarations/definitions; I don't think it catches the "bare unsigned" places; will open bug with bare_unsigned.c about that...
 * Char vs unsigned char vs int: -Wconversion and friends
 * Plain char sign/unsigned extending: ???
 * Shifts: One of the "-Wshift-*" flags
@@ -19,21 +19,21 @@ README.Portability warnings:
 Existing warnings to enable when building GCC itself:
 * Rename -W to -Wextra
 * -Wundef, per glibc
-* -Wshadow, as suggested on lists. Bernd is working on this.
-* -Wnarrowing (I keep suggesting it whenever people suggest transitioning to a newer standard, such as C++ 11)
-* -Wc++11-compat? Invalid for libgcc though. Request to make valid for C?
+* -Wshadow, as suggested on lists. Bernd is working on this. (Which Bernd did I mean? Edlinger or Schmidt? In any case, I don't think it was ever completed...)
+* -Wnarrowing (especially now that the codebase has transitioned to C++11)
+* -Wc++11-compat? Invalid for libgcc though. Request to make valid for C? I think I might have made such a request once, but I forget what the outcome of it was...
 
 Warnings for things from GCC manual:
 * (TODO)
 
 Warnings for things from preprocessor manual:
-* Side effects expanded multiple times; see "Underhanded C"
+* Side effects expanded multiple times; see "Underhanded C" contest, specifically the __isleap usage in Karen Pease's 2014 winner: http://www.underhanded-c.org/_page_id_26.html
 
 Warnings for GNU Coding Standards:
 * (TODO)
 
 -Wanti-c++-compat:
-* pedwarn about C++-style comments, split to separate warning
-* -Wold-style-definition
+* pedwarn about C++-style comments, split to separate warning (bug 80529)
+* -Wold-style-definition (maybe split up warning into separate flags to handle the old-style "no arguments means variadic" meaning separately from the c++-style "no arguments means no arguments, i.e. void" meaning)
 * -Wdeclaration-after-statement
 * -Wswitch-default (other stuff about enums)
