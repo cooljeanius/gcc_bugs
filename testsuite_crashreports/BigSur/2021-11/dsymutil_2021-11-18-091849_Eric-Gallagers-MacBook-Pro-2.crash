@@ -1,0 +1,194 @@
+Process:               dsymutil [27311]
+Path:                  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+Identifier:            dsymutil
+Version:               1300.0.29.3
+Code Type:             X86-64 (Native)
+Parent Process:        make [19637]
+Responsible:           Terminal [812]
+User ID:               501
+
+Date/Time:             2021-11-18 09:18:48.622 -0500
+OS Version:            macOS 11.6.1 (20G224)
+Report Version:        12
+Bridge OS Version:     6.0 (19P548)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+
+Time Awake Since Boot: 85000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        2
+
+Exception Type:        EXC_BAD_INSTRUCTION (SIGILL)
+Exception Codes:       0x0000000000000001, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Illegal instruction: 4
+Termination Reason:    Namespace SIGNAL, Code 0x4
+Terminating Process:   exc handler [27311]
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff202ffcde __psynch_cvwait + 10
+1   libsystem_pthread.dylib       	0x00007fff20332e49 _pthread_cond_wait + 1298
+2   libc++.1.dylib                	0x00007fff2029bd72 std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) + 18
+3   dsymutil                      	0x000000010e694b37 llvm::ThreadPool::wait() + 71
+4   dsymutil                      	0x000000010dc0afd9 llvm::DWARFLinker::link() + 2745
+5   dsymutil                      	0x000000010d781c31 llvm::dsymutil::DwarfLinkerForBinary::link(llvm::dsymutil::DebugMap const&) + 3265
+6   dsymutil                      	0x000000010d784718 llvm::dsymutil::linkDwarf(llvm::raw_fd_ostream&, llvm::dsymutil::BinaryHolder&, llvm::dsymutil::DebugMap const&, llvm::dsymutil::LinkOptions) + 712
+7   dsymutil                      	0x000000010d7777d9 main::$_2::operator()(std::__1::shared_ptr<llvm::raw_fd_ostream>, llvm::dsymutil::LinkOptions) const + 393
+8   dsymutil                      	0x000000010d774460 main + 10480
+9   libdyld.dylib                 	0x00007fff2034df3d start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff202ffcde __psynch_cvwait + 10
+1   libsystem_pthread.dylib       	0x00007fff20332e49 _pthread_cond_wait + 1298
+2   libc++.1.dylib                	0x00007fff2029bd72 std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) + 18
+3   dsymutil                      	0x000000010deec1cc void* llvm::thread::ThreadProxy<std::__1::tuple<llvm::ThreadPool::ThreadPool(llvm::ThreadPoolStrategy)::$_0> >(void*) + 124
+4   libsystem_pthread.dylib       	0x00007fff203328fc _pthread_start + 224
+5   libsystem_pthread.dylib       	0x00007fff2032e443 thread_start + 15
+
+Thread 2 Crashed:
+0   dsymutil                      	0x000000010dbf47ef llvm::DWARFFormValue::extractValue(llvm::DWARFDataExtractor const&, unsigned long long*, llvm::dwarf::FormParams, llvm::DWARFContext const*, llvm::DWARFUnit const*) + 703
+1   dsymutil                      	0x000000010dc04d27 llvm::DWARFLinker::DIECloner::cloneDIE(llvm::DWARFDie const&, llvm::DWARFFile const&, llvm::CompileUnit&, llvm::StrongType<llvm::NonRelocatableStringpool, llvm::OffsetsTag>&, long long, unsigned int, unsigned int, bool, llvm::DIE*) + 1511
+2   dsymutil                      	0x000000010dc051d3 llvm::DWARFLinker::DIECloner::cloneDIE(llvm::DWARFDie const&, llvm::DWARFFile const&, llvm::CompileUnit&, llvm::StrongType<llvm::NonRelocatableStringpool, llvm::OffsetsTag>&, long long, unsigned int, unsigned int, bool, llvm::DIE*) + 2707
+3   dsymutil                      	0x000000010dc09afa llvm::DWARFLinker::DIECloner::cloneAllCompileUnits(llvm::DWARFContext&, llvm::DWARFFile const&, llvm::StrongType<llvm::NonRelocatableStringpool, llvm::OffsetsTag>&, bool) + 426
+4   dsymutil                      	0x000000010dc0bf69 llvm::DWARFLinker::link()::$_7::operator()(unsigned long) const + 761
+5   dsymutil                      	0x000000010dc0df1a std::__1::__function::__func<llvm::DWARFLinker::link()::$_10, std::__1::allocator<llvm::DWARFLinker::link()::$_10>, void ()>::operator()() + 170
+6   dsymutil                      	0x000000010e694f04 std::__1::packaged_task<void ()>::operator()() + 68
+7   dsymutil                      	0x000000010deec203 void* llvm::thread::ThreadProxy<std::__1::tuple<llvm::ThreadPool::ThreadPool(llvm::ThreadPoolStrategy)::$_0> >(void*) + 179
+8   libsystem_pthread.dylib       	0x00007fff203328fc _pthread_start + 224
+9   libsystem_pthread.dylib       	0x00007fff2032e443 thread_start + 15
+
+Thread 3:
+0   dsymutil                      	0x000000010dc09124 llvm::analyzeContextInfo(llvm::DWARFDie const&, unsigned int, llvm::CompileUnit&, llvm::DeclContext*, llvm::DeclContextTree&, unsigned long long, std::__1::map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > >*, std::__1::function<void (llvm::Twine const&, llvm::DWARFDie const&)>, bool) + 1588
+1   dsymutil                      	0x000000010dc0bc33 llvm::DWARFLinker::link()::$_6::operator()(unsigned long) const + 803
+2   dsymutil                      	0x000000010dc0dd68 std::__1::__function::__func<llvm::DWARFLinker::link()::$_9, std::__1::allocator<llvm::DWARFLinker::link()::$_9>, void ()>::operator()() + 40
+3   dsymutil                      	0x000000010e694f04 std::__1::packaged_task<void ()>::operator()() + 68
+4   dsymutil                      	0x000000010deec203 void* llvm::thread::ThreadProxy<std::__1::tuple<llvm::ThreadPool::ThreadPool(llvm::ThreadPoolStrategy)::$_0> >(void*) + 179
+5   libsystem_pthread.dylib       	0x00007fff203328fc _pthread_start + 224
+6   libsystem_pthread.dylib       	0x00007fff2032e443 thread_start + 15
+
+Thread 2 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000021  rbx: 0x0000000000000000  rcx: 0x000000010dbf47ef  rdx: 0x00007000050b09f0
+  rdi: 0x00007000050b07d0  rsi: 0x00007000050b0978  rbp: 0x00007000050b0790  rsp: 0x00007000050b0730
+   r8: 0x00007fa356807d90   r9: 0x00007fa35680e550  r10: 0x00007fa35480c600  r11: 0x00006ffef59b4d5c
+  r12: 0x00007000050b0760  r13: 0x000000010dbf47f4  r14: 0x0000000000000008  r15: 0x00007000050b07d0
+  rip: 0x000000010dbf47ef  rfl: 0x0000000000010203  cr2: 0x000000010e6b3f90
+  
+Logical CPU:     13
+Error Code:      0x00000000
+Trap Number:     6
+
+Thread 2 instruction stream:
+  5d c0 48 89 de e8 c7 e1-2d 00 0f b7 d0 eb 35 48  ].H.....-.....5H
+  8d 55 d0 4c 8b 75 c8 4c-89 f7 48 8b 5d c0 48 89  .U.L.u.L..H.].H.
+  de e8 cb e2 2d 00 89 c2-eb 1a 48 8d 55 d0 4c 8b  ....-.....H.U.L.
+  75 c8 4c 89 f7 48 8b 5d-c0 48 89 de e8 20 e0 2d  u.L..H.].H... .-
+  00 0f b6 d0 49 89 57 08-48 8d 4d d0 4c 89 f7 48  ....I.W.H.M.L..H
+  89 de e8 3a e6 2d 00 49-89 47 10 e9 6d fe ff ff  ...:.-.I.G..m...
+ [0f]0b 0f 1f 00 e1 fe ff-ff fb ff ff ff 8e ff ff  ................	<==
+  ff aa ff ff ff 00 fe ff-ff db fd ff ff 4c fe ff  .............L..
+  ff 2e ff ff ff c2 fe ff-ff c5 ff ff ff ea fd ff  ................
+  ff ea fd ff ff 69 ff ff-ff 34 fe ff ff 21 fe ff  .....i...4...!..
+  ff e1 fe ff ff ea fd ff-ff 00 fe ff ff db fd ff  ................
+  ff 4c fe ff ff 21 fe ff-ff b1 fd ff ff 34 fe ff  .L...!.......4..
+  
+Thread 2 last branch register state not available.
+
+
+Binary Images:
+       0x10d76f000 -        0x10eef2fff +dsymutil (1300.0.29.3) <B3987A20-8EFF-35F4-875B-002ABED177EC> /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+       0x115d37000 -        0x115dd2fff  dyld (852.2) <14C5D17F-5032-37A2-9CD8-F437EB4A3992> /usr/lib/dyld
+    0x7fff2006a000 -     0x7fff2006bfff  libsystem_blocks.dylib (79) <4DF6D8F5-D9C2-3A96-8DE4-5E99D6B73DC8> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff2006c000 -     0x7fff200a1fff  libxpc.dylib (2038.120.1) <0397FC9F-BD11-31FC-882E-9EDAA1E5CA65> /usr/lib/system/libxpc.dylib
+    0x7fff200a2000 -     0x7fff200b9fff  libsystem_trace.dylib (1277.120.1) <0A24EB90-5396-36B0-A7E6-E9288702856D> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200ba000 -     0x7fff20157fff  libcorecrypto.dylib (1000.140.4) <57E7471E-3960-3398-8918-20DF446EA99B> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20158000 -     0x7fff20184fff  libsystem_malloc.dylib (317.140.5) <10C22FD0-FC7B-3325-852E-FEC4E88D2BC5> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff20185000 -     0x7fff201c9fff  libdispatch.dylib (1271.120.2) <BA7AD614-F2C2-3E89-9043-43DD548AE5B1> /usr/lib/system/libdispatch.dylib
+    0x7fff201ca000 -     0x7fff20203fff  libobjc.A.dylib (824) <6C842797-3EA9-30B4-A36D-E948DAF0EC89> /usr/lib/libobjc.A.dylib
+    0x7fff20204000 -     0x7fff20206fff  libsystem_featureflags.dylib (28.60.1) <6EB33926-8E22-3000-B2F1-C6182B8CBD8F> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20207000 -     0x7fff2028ffff  libsystem_c.dylib (1439.141.1) <8447A4B8-0751-3EF1-AA9B-042E40EFA07D> /usr/lib/system/libsystem_c.dylib
+    0x7fff20290000 -     0x7fff202e5fff  libc++.1.dylib (905.6) <81674ADB-670F-3B19-AF5D-F3F66CB93D44> /usr/lib/libc++.1.dylib
+    0x7fff202e6000 -     0x7fff202fbfff  libc++abi.dylib (905.6) <78CE7863-E224-3D0B-98F1-E5E3E382322D> /usr/lib/libc++abi.dylib
+    0x7fff202fc000 -     0x7fff2032bfff  libsystem_kernel.dylib (7195.141.8) <8DFE5B9F-B718-3D48-ABB1-238122989218> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff2032c000 -     0x7fff20337fff  libsystem_pthread.dylib (454.120.2) <49670AEC-4D5D-3383-906C-23F568351FCB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20338000 -     0x7fff20373fff  libdyld.dylib (852.2) <5FBD0E1A-ACCE-36DB-B11C-622F26C85132> /usr/lib/system/libdyld.dylib
+    0x7fff20374000 -     0x7fff2037dfff  libsystem_platform.dylib (254.80.2) <A85D12B6-6213-34EE-84D8-8E993C19E330> /usr/lib/system/libsystem_platform.dylib
+    0x7fff2037e000 -     0x7fff203a9fff  libsystem_info.dylib (542.40.3) <36329FC6-9982-306A-87F9-D018E7F49F4B> /usr/lib/system/libsystem_info.dylib
+    0x7fff203aa000 -     0x7fff20847fff  com.apple.CoreFoundation (6.9 - 1778.101) <CE026405-2DAF-39D2-A601-743B3A61366E> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff22519000 -     0x7fff22778fff  libicucore.A.dylib (66112) <251FC896-7EA1-3505-A9AA-80BAE7A6FD2B> /usr/lib/libicucore.A.dylib
+    0x7fff22779000 -     0x7fff22782fff  libsystem_darwin.dylib (1439.141.1) <29F82ABE-E1A0-3BC2-B91E-ADC010CF23FA> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b98000 -     0x7fff22ba3fff  libsystem_notify.dylib (279.40.4) <608B5A07-D31A-3BEC-86BF-C2E498C085AF> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b30000 -     0x7fff24b3efff  libsystem_networkextension.dylib (1295.140.3) <022BE26C-C058-3CC7-8E0B-348B3D3B639C> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b9d000 -     0x7fff24bb3fff  libsystem_asl.dylib (385) <47B99A49-749E-356F-9D81-6D3A0B1544AB> /usr/lib/system/libsystem_asl.dylib
+    0x7fff2627a000 -     0x7fff26281fff  libsystem_symptoms.dylib (1431.140.1) <EA6435E7-8F85-315B-8AED-C20A07DE7F96> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28289000 -     0x7fff28299fff  libsystem_containermanager.dylib (318.100.4) <E0A89571-6D3E-3184-9F39-C6094C87B92B> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f9d000 -     0x7fff28fa0fff  libsystem_configuration.dylib (1109.140.1) <89E70992-616F-3DD3-9430-67025F759A1B> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28fa1000 -     0x7fff28fa5fff  libsystem_sandbox.dylib (1441.141.4) <087B0ADD-EF39-3E80-800F-F111FD65ABBA> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c97000 -     0x7fff29c99fff  libquarantine.dylib (119.40.2) <B1418CB0-CDC7-3EB2-ABC3-8609ADC92BC4> /usr/lib/system/libquarantine.dylib
+    0x7fff2a242000 -     0x7fff2a246fff  libsystem_coreservices.dylib (127.1) <7AE405FC-6A44-34A0-86AD-6BD80B0050BB> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a443000 -     0x7fff2a455fff  libz.1.dylib (76) <73C471D3-07CE-307D-A531-92C5D0E4C0E9> /usr/lib/libz.1.dylib
+    0x7fff2a456000 -     0x7fff2a49dfff  libsystem_m.dylib (3186.100.3) <EA0354A3-8618-3D76-A760-E550AC60CE95> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a49f000 -     0x7fff2a4a4fff  libmacho.dylib (980) <1FCE2BE3-4F6F-3EAA-9BC5-A9892A45CF0D> /usr/lib/system/libmacho.dylib
+    0x7fff2a4c1000 -     0x7fff2a4ccfff  libcommonCrypto.dylib (60178.120.3) <7E242F29-1CB6-30EF-8C9A-C768A90FDBA0> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4cd000 -     0x7fff2a4d7fff  libunwind.dylib (201) <A5B040A8-847F-36EE-B13D-5DD1F5CD5BED> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d8000 -     0x7fff2a4dffff  liboah.dylib (203.58) <26D08622-69F5-32DB-80D2-9B4651A9F0CC> /usr/lib/liboah.dylib
+    0x7fff2a4e0000 -     0x7fff2a4eafff  libcopyfile.dylib (173.40.2) <8C783785-0F5F-3DC5-B815-B29CEBA75737> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4eb000 -     0x7fff2a4f2fff  libcompiler_rt.dylib (102.2) <1FDC92D1-8A17-30AF-8E72-4F0517AEA157> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libsystem_collections.dylib (1439.141.1) <11D5775A-AD4C-35ED-BC05-616AB67ACBBE> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f8fff  libsystem_secinit.dylib (87.60.1) <27982311-637E-3308-9F55-4871762736F4> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f9000 -     0x7fff2a4fbfff  libremovefile.dylib (49.120.1) <5973CED7-797B-3288-9589-C1856752F91A> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4fc000 -     0x7fff2a4fcfff  libkeymgr.dylib (31) <AAA929A0-45E5-3186-8ABD-37EB25B2C939> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4fd000 -     0x7fff2a504fff  libsystem_dnssd.dylib (1310.140.1) <4A85F13B-E3AD-3C44-B327-091F56D35CC1> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a505000 -     0x7fff2a50afff  libcache.dylib (83) <435668CB-666B-3379-AD65-F604A72099F4> /usr/lib/system/libcache.dylib
+    0x7fff2a50b000 -     0x7fff2a50cfff  libSystem.B.dylib (1292.120.1) <2553EE0F-3C42-3ACE-9400-EF055BD5BE8E> /usr/lib/libSystem.B.dylib
+    0x7fff2a50d000 -     0x7fff2a510fff  libfakelink.dylib (3) <C7E36B51-4FD6-3704-975E-AB9B46DF6D30> /usr/lib/libfakelink.dylib
+    0x7fff2a511000 -     0x7fff2a511fff  com.apple.SoftLinking (1.0 - 1) <AF16BDE9-8995-39F5-A0ED-C65232A61095> /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+    0x7fff2d90f000 -     0x7fff2d90ffff  liblaunch.dylib (2038.120.1) <A3F46CC6-BD89-39DB-8732-C885B881A635> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda6000 -     0x7fff2fda6fff  libsystem_product_info_filter.dylib (8.40.1) <6CA8DEA4-5BD4-375F-9AA7-3338135306C5> /usr/lib/system/libsystem_product_info_filter.dylib
+    0x7fff40cc6000 -     0x7fff40cf5fff  libncurses.5.4.dylib (57) <FA01E50C-EF52-31C7-99DA-66855588EADC> /usr/lib/libncurses.5.4.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=541.7M resident=0K(0%) swapped_out_or_unallocated=541.7M(100%)
+Writable regions: Total=199.7M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=199.7M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                           111.3M       34 
+MALLOC guard page                   16K        4 
+STACK GUARD                         16K        4 
+Stack                             88.0M        5 
+VM_ALLOCATE                          8K        2 
+__DATA                            2498K       50 
+__DATA_CONST                      2983K       39 
+__DATA_DIRTY                        95K       24 
+__LINKEDIT                       506.1M        5 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            35.7M       50 
+__UNICODE                          588K        1 
+mapped file                        236K        2 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            820.1M      225 
+

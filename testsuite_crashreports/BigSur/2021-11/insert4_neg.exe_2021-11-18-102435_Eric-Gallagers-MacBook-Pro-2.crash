@@ -1,0 +1,647 @@
+Process:               insert4_neg.exe [51250]
+Path:                  /Users/USER/*/insert4_neg.exe
+Identifier:            insert4_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [27186]
+Responsible:           Terminal [812]
+User ID:               501
+
+Date/Time:             2021-11-18 10:24:34.940 -0500
+OS Version:            macOS 11.6.1 (20G224)
+Report Version:        12
+Bridge OS Version:     6.0 (19P548)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+
+Time Awake Since Boot: 89000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2030392e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203325bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff20287406 abort + 125
+3   libstdc++.6.dylib             	0x000000010c7fa3de __gnu_debug::_Error_formatter::_M_error() const + 1064 (debug.cc:1168)
+4   insert4_neg.exe               	0x000000010c6a04cd void std::__debug::multimap<int, int, std::less<int>, std::allocator<std::pair<int const, int> > >::insert<std::pair<int, int> const*>(std::pair<int, int> const*, std::pair<int, int> const*) + 319 (multimap.h:315)
+5   insert4_neg.exe               	0x000000010c6a089f void __gnu_test::check_insert1<std::__debug::multimap<int, int, std::less<int>, std::allocator<std::pair<int const, int> > > >() + 498 (checks.h:243)
+6   insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+7   insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+8   insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+9   insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+10  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+11  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+12  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+13  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+14  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+15  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+16  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+17  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+18  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+19  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+20  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+21  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+22  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+23  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+24  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+25  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+26  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+27  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+28  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+29  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+30  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+31  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+32  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+33  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+34  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+35  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+36  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+37  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+38  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+39  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+40  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+41  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+42  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+43  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+44  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+45  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+46  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+47  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+48  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+49  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+50  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+51  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+52  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+53  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+54  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+55  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+56  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+57  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+58  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+59  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+60  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+61  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+62  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+63  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+64  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+65  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+66  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+67  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+68  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+69  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+70  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+71  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+72  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+73  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+74  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+75  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+76  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+77  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+78  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+79  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+80  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+81  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+82  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+83  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+84  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+85  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+86  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+87  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+88  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+89  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+90  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+91  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+92  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+93  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+94  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+95  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+96  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+97  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+98  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+99  insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+100 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+101 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+102 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+103 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+104 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+105 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+106 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+107 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+108 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+109 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+110 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+111 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+112 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+113 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+114 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+115 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+116 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+117 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+118 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+119 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+120 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+121 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+122 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+123 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+124 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+125 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+126 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+127 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+128 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+129 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+130 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+131 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+132 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+133 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+134 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+135 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+136 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+137 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+138 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+139 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+140 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+141 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+142 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+143 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+144 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+145 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+146 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+147 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+148 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+149 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+150 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+151 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+152 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+153 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+154 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+155 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+156 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+157 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+158 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+159 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+160 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+161 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+162 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+163 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+164 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+165 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+166 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+167 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+168 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+169 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+170 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+171 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+172 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+173 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+174 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+175 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+176 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+177 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+178 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+179 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+180 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+181 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+182 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+183 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+184 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+185 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+186 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+187 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+188 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+189 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+190 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+191 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+192 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+193 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+194 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+195 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+196 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+197 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+198 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+199 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+200 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+201 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+202 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+203 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+204 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+205 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+206 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+207 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+208 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+209 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+210 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+211 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+212 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+213 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+214 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+215 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+216 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+217 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+218 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+219 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+220 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+221 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+222 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+223 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+224 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+225 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+226 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+227 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+228 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+229 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+230 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+231 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+232 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+233 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+234 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+235 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+236 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+237 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+238 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+239 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+240 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+241 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+242 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+243 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+244 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+245 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+246 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+247 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+248 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+249 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+250 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+251 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+252 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+253 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+254 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+255 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+256 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+257 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+258 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+259 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+260 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+261 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+262 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+263 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+264 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+265 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+266 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+267 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+268 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+269 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+270 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+271 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+272 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+273 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+274 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+275 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+276 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+277 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+278 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+279 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+280 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+281 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+282 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+283 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+284 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+285 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+286 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+287 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+288 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+289 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+290 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+291 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+292 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+293 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+294 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+295 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+296 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+297 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+298 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+299 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+300 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+301 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+302 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+303 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+304 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+305 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+306 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+307 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+308 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+309 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+310 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+311 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+312 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+313 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+314 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+315 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+316 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+317 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+318 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+319 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+320 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+321 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+322 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+323 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+324 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+325 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+326 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+327 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+328 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+329 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+330 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+331 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+332 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+333 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+334 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+335 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+336 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+337 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+338 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+339 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+340 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+341 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+342 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+343 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+344 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+345 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+346 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+347 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+348 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+349 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+350 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+351 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+352 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+353 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+354 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+355 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+356 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+357 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+358 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+359 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+360 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+361 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+362 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+363 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+364 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+365 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+366 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+367 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+368 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+369 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+370 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+371 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+372 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+373 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+374 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+375 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+376 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+377 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+378 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+379 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+380 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+381 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+382 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+383 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+384 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+385 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+386 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+387 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+388 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+389 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+390 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+391 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+392 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+393 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+394 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+395 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+396 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+397 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+398 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+399 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+400 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+401 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+402 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+403 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+404 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+405 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+406 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+407 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+408 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+409 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+410 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+411 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+412 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+413 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+414 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+415 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+416 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+417 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+418 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+419 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+420 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+421 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+422 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+423 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+424 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+425 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+426 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+427 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+428 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+429 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+430 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+431 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+432 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+433 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+434 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+435 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+436 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+437 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+438 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+439 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+440 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+441 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+442 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+443 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+444 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+445 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+446 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+447 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+448 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+449 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+450 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+451 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+452 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+453 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+454 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+455 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+456 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+457 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+458 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+459 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+460 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+461 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+462 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+463 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+464 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+465 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+466 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+467 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+468 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+469 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+470 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+471 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+472 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+473 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+474 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+475 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+476 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+477 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+478 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+479 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+480 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+481 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+482 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+483 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+484 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+485 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+486 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+487 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+488 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+489 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+490 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+491 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+492 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+493 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+494 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+495 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+496 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+497 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+498 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+499 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+500 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+501 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+502 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+503 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+504 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+505 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+506 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+507 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+508 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+509 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+510 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+511 insert4_neg.exe               	0x000000010c6a094e main + 9 (insert4_neg.cc:25)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000011a8a7e00  rcx: 0x00007ffee355c998  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee355c9c0  rsp: 0x00007ffee355c998
+   r8: 0x00007fff8062a0e8   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x000000010c6a50c8  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2030392e  rfl: 0x0000000000000246  cr2: 0x00007fff8065e498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10c69d000 -        0x10c6a0fff +insert4_neg.exe (0) <CE1400B0-2095-35C5-8203-4DC5E5C39B94> /Users/USER/*/insert4_neg.exe
+       0x10c6b0000 -        0x10c7a3fff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x10c7be000 -        0x10c8d1fff +libstdc++.6.dylib (0) <FF9FA7B5-B3C4-3DB2-ACBA-099C028B5DA5> /Users/USER/*/libstdc++.6.dylib
+       0x10cad0000 -        0x10cae7fff +libgcc_s.1.dylib (1) <D3F6F692-89CA-37C7-B4A7-5FCEC3885E96> /Users/USER/*/libgcc_s.1.dylib
+       0x11a7d0000 -        0x11a86bfff  dyld (852.2) <14C5D17F-5032-37A2-9CD8-F437EB4A3992> /usr/lib/dyld
+    0x7fff2006a000 -     0x7fff2006bfff  libsystem_blocks.dylib (79) <4DF6D8F5-D9C2-3A96-8DE4-5E99D6B73DC8> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff2006c000 -     0x7fff200a1fff  libxpc.dylib (2038.120.1) <0397FC9F-BD11-31FC-882E-9EDAA1E5CA65> /usr/lib/system/libxpc.dylib
+    0x7fff200a2000 -     0x7fff200b9fff  libsystem_trace.dylib (1277.120.1) <0A24EB90-5396-36B0-A7E6-E9288702856D> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200ba000 -     0x7fff20157fff  libcorecrypto.dylib (1000.140.4) <57E7471E-3960-3398-8918-20DF446EA99B> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20158000 -     0x7fff20184fff  libsystem_malloc.dylib (317.140.5) <10C22FD0-FC7B-3325-852E-FEC4E88D2BC5> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff20185000 -     0x7fff201c9fff  libdispatch.dylib (1271.120.2) <BA7AD614-F2C2-3E89-9043-43DD548AE5B1> /usr/lib/system/libdispatch.dylib
+    0x7fff201ca000 -     0x7fff20203fff  libobjc.A.dylib (824) <6C842797-3EA9-30B4-A36D-E948DAF0EC89> /usr/lib/libobjc.A.dylib
+    0x7fff20204000 -     0x7fff20206fff  libsystem_featureflags.dylib (28.60.1) <6EB33926-8E22-3000-B2F1-C6182B8CBD8F> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20207000 -     0x7fff2028ffff  libsystem_c.dylib (1439.141.1) <8447A4B8-0751-3EF1-AA9B-042E40EFA07D> /usr/lib/system/libsystem_c.dylib
+    0x7fff20290000 -     0x7fff202e5fff  libc++.1.dylib (905.6) <81674ADB-670F-3B19-AF5D-F3F66CB93D44> /usr/lib/libc++.1.dylib
+    0x7fff202e6000 -     0x7fff202fbfff  libc++abi.dylib (905.6) <78CE7863-E224-3D0B-98F1-E5E3E382322D> /usr/lib/libc++abi.dylib
+    0x7fff202fc000 -     0x7fff2032bfff  libsystem_kernel.dylib (7195.141.8) <8DFE5B9F-B718-3D48-ABB1-238122989218> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff2032c000 -     0x7fff20337fff  libsystem_pthread.dylib (454.120.2) <49670AEC-4D5D-3383-906C-23F568351FCB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20338000 -     0x7fff20373fff  libdyld.dylib (852.2) <5FBD0E1A-ACCE-36DB-B11C-622F26C85132> /usr/lib/system/libdyld.dylib
+    0x7fff20374000 -     0x7fff2037dfff  libsystem_platform.dylib (254.80.2) <A85D12B6-6213-34EE-84D8-8E993C19E330> /usr/lib/system/libsystem_platform.dylib
+    0x7fff2037e000 -     0x7fff203a9fff  libsystem_info.dylib (542.40.3) <36329FC6-9982-306A-87F9-D018E7F49F4B> /usr/lib/system/libsystem_info.dylib
+    0x7fff22779000 -     0x7fff22782fff  libsystem_darwin.dylib (1439.141.1) <29F82ABE-E1A0-3BC2-B91E-ADC010CF23FA> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b98000 -     0x7fff22ba3fff  libsystem_notify.dylib (279.40.4) <608B5A07-D31A-3BEC-86BF-C2E498C085AF> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b30000 -     0x7fff24b3efff  libsystem_networkextension.dylib (1295.140.3) <022BE26C-C058-3CC7-8E0B-348B3D3B639C> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b9d000 -     0x7fff24bb3fff  libsystem_asl.dylib (385) <47B99A49-749E-356F-9D81-6D3A0B1544AB> /usr/lib/system/libsystem_asl.dylib
+    0x7fff2627a000 -     0x7fff26281fff  libsystem_symptoms.dylib (1431.140.1) <EA6435E7-8F85-315B-8AED-C20A07DE7F96> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28289000 -     0x7fff28299fff  libsystem_containermanager.dylib (318.100.4) <E0A89571-6D3E-3184-9F39-C6094C87B92B> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f9d000 -     0x7fff28fa0fff  libsystem_configuration.dylib (1109.140.1) <89E70992-616F-3DD3-9430-67025F759A1B> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28fa1000 -     0x7fff28fa5fff  libsystem_sandbox.dylib (1441.141.4) <087B0ADD-EF39-3E80-800F-F111FD65ABBA> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c97000 -     0x7fff29c99fff  libquarantine.dylib (119.40.2) <B1418CB0-CDC7-3EB2-ABC3-8609ADC92BC4> /usr/lib/system/libquarantine.dylib
+    0x7fff2a242000 -     0x7fff2a246fff  libsystem_coreservices.dylib (127.1) <7AE405FC-6A44-34A0-86AD-6BD80B0050BB> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a456000 -     0x7fff2a49dfff  libsystem_m.dylib (3186.100.3) <EA0354A3-8618-3D76-A760-E550AC60CE95> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a49f000 -     0x7fff2a4a4fff  libmacho.dylib (980) <1FCE2BE3-4F6F-3EAA-9BC5-A9892A45CF0D> /usr/lib/system/libmacho.dylib
+    0x7fff2a4c1000 -     0x7fff2a4ccfff  libcommonCrypto.dylib (60178.120.3) <7E242F29-1CB6-30EF-8C9A-C768A90FDBA0> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4cd000 -     0x7fff2a4d7fff  libunwind.dylib (201) <A5B040A8-847F-36EE-B13D-5DD1F5CD5BED> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d8000 -     0x7fff2a4dffff  liboah.dylib (203.58) <26D08622-69F5-32DB-80D2-9B4651A9F0CC> /usr/lib/liboah.dylib
+    0x7fff2a4e0000 -     0x7fff2a4eafff  libcopyfile.dylib (173.40.2) <8C783785-0F5F-3DC5-B815-B29CEBA75737> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4eb000 -     0x7fff2a4f2fff  libcompiler_rt.dylib (102.2) <1FDC92D1-8A17-30AF-8E72-4F0517AEA157> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libsystem_collections.dylib (1439.141.1) <11D5775A-AD4C-35ED-BC05-616AB67ACBBE> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f8fff  libsystem_secinit.dylib (87.60.1) <27982311-637E-3308-9F55-4871762736F4> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f9000 -     0x7fff2a4fbfff  libremovefile.dylib (49.120.1) <5973CED7-797B-3288-9589-C1856752F91A> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4fc000 -     0x7fff2a4fcfff  libkeymgr.dylib (31) <AAA929A0-45E5-3186-8ABD-37EB25B2C939> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4fd000 -     0x7fff2a504fff  libsystem_dnssd.dylib (1310.140.1) <4A85F13B-E3AD-3C44-B327-091F56D35CC1> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a505000 -     0x7fff2a50afff  libcache.dylib (83) <435668CB-666B-3379-AD65-F604A72099F4> /usr/lib/system/libcache.dylib
+    0x7fff2a50b000 -     0x7fff2a50cfff  libSystem.B.dylib (1292.120.1) <2553EE0F-3C42-3ACE-9400-EF055BD5BE8E> /usr/lib/libSystem.B.dylib
+    0x7fff2d90f000 -     0x7fff2d90ffff  liblaunch.dylib (2038.120.1) <A3F46CC6-BD89-39DB-8732-C885B881A635> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda6000 -     0x7fff2fda6fff  libsystem_product_info_filter.dylib (8.40.1) <6CA8DEA4-5BD4-375F-9AA7-3338135306C5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=76.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=76.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            12.2M       11 
+MALLOC guard page                   16K        3 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             500K       47 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7176K       47 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            659.0M      187 
+

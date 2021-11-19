@@ -1,0 +1,162 @@
+Process:               clang [72271]
+Path:                  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+Identifier:            clang
+Version:               13.0.0 (1300.0.29)
+Code Type:             X86-64 (Native)
+Parent Process:        clang [72266]
+Responsible:           Terminal [812]
+User ID:               501
+
+Date/Time:             2021-11-18 23:03:56.633 -0500
+OS Version:            macOS 11.6.1 (20G224)
+Report Version:        12
+Bridge OS Version:     6.0 (19P548)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+
+Time Awake Since Boot: 130000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_INSTRUCTION (SIGILL)
+Exception Codes:       0x0000000000000001, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Illegal instruction: 4
+Termination Reason:    Namespace SIGNAL, Code 0x4
+Terminating Process:   exc handler [72271]
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   clang                         	0x0000000109d0e719 getFixupKindLog2Size(unsigned int) + 57
+1   clang                         	0x0000000109d0d8af (anonymous namespace)::X86MachObjectWriter::recordRelocation(llvm::MachObjectWriter*, llvm::MCAssembler&, llvm::MCAsmLayout const&, llvm::MCFragment const*, llvm::MCFixup const&, llvm::MCValue, unsigned long long&) + 127
+2   clang                         	0x000000010a63e574 llvm::MachObjectWriter::recordRelocation(llvm::MCAssembler&, llvm::MCAsmLayout const&, llvm::MCFragment const*, llvm::MCFixup const&, llvm::MCValue, unsigned long long&) + 68
+3   clang                         	0x000000010a615378 llvm::MCAssembler::handleFixup(llvm::MCAsmLayout const&, llvm::MCFragment&, llvm::MCFixup const&) + 232
+4   clang                         	0x000000010a61589e llvm::MCAssembler::layout(llvm::MCAsmLayout&) + 1022
+5   clang                         	0x000000010a6159ae llvm::MCAssembler::Finish() + 46
+6   clang                         	0x000000010a6295e8 (anonymous namespace)::MCMachOStreamer::finishImpl() + 664
+7   clang                         	0x000000010a652553 (anonymous namespace)::AsmParser::Run(bool, bool) + 1395
+8   clang                         	0x000000010c024c6c cc1as_main(llvm::ArrayRef<char const*>, char const*, void*) + 12956
+9   clang                         	0x0000000109b55b0f ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) + 735
+10  clang                         	0x0000000109b5581d driver_main(int, char const**) + 4397
+11  clang                         	0x0000000109b546ce main + 126
+12  libdyld.dylib                 	0x00007fff2034df3d start + 1
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x000000000000013f  rbx: 0x00007fdeeef0bc68  rcx: 0x0000000000000086  rdx: 0x0000000000000087
+  rdi: 0x0000000000000007  rsi: 0x0000000000000007  rbp: 0x00007ffee60a45d0  rsp: 0x00007ffee60a45d0
+   r8: 0x00007fdeeef0bbe0   r9: 0x00007fdeeef0bc68  r10: 0x00007fdeeef0bc68  r11: 0x000000010df46420
+  r12: 0x00007fdeeef089c0  r13: 0x00007ffee60a4950  r14: 0x00007ffee60a4838  r15: 0x00007fdeeef0bbe0
+  rip: 0x0000000109d0e719  rfl: 0x0000000000010202  cr2: 0x000000010c54b460
+  
+Logical CPU:     12
+Error Code:      0x00000000
+Trap Number:     6
+
+Thread 0 instruction stream:
+  c9 31 c0 e9 bc f9 ff ff-31 c0 31 c9 e9 85 fd ff  .1......1.1.....
+  ff 31 c0 31 c9 e9 c5 fd-ff ff 66 2e 0f 1f 84 00  .1.1......f.....
+  00 00 00 00 0f 1f 00 55-48 89 e5 8d 4f ff 83 f9  .......UH...O...
+  07 77 20 31 c0 48 8d 15-2f 00 00 00 48 63 0c 8a  .w 1.H../...Hc..
+  48 01 d1 ff e1 b8 02 00-00 00 5d c3 b8 03 00 00  H.........].....
+  00 eb f7 83 c7 80 b8 3f-01 00 00 0f a3 f8 72 e5  .......?......r.
+ [0f]0b b8 01 00 00 00 eb-e1 66 90 df ff ff ff f7  .........f......	<==
+  ff ff ff da ff ff ff e1-ff ff ff f5 ff ff ff df  ................
+  ff ff ff f7 ff ff ff da-ff ff ff 66 2e 0f 1f 84  ...........f....
+  00 00 00 00 00 66 90 55-48 89 e5 41 57 41 56 41  .....f.UH..AWAVA
+  55 41 54 53 48 81 ec b8-00 00 00 45 89 cd 4d 89  UATSH......E..M.
+  c7 48 89 f3 49 89 fc 48-8b 45 30 48 8b 00 48 89  .H..I..H.E0H..H.
+  
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x109b52000 -        0x10de79fff +clang (13.0.0 - 1300.0.29) <26D57DA8-A014-39AD-9FD3-43F07D1C3ECA> /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+       0x11b12e000 -        0x11b1c9fff  dyld (852.2) <14C5D17F-5032-37A2-9CD8-F437EB4A3992> /usr/lib/dyld
+    0x7fff2006a000 -     0x7fff2006bfff  libsystem_blocks.dylib (79) <4DF6D8F5-D9C2-3A96-8DE4-5E99D6B73DC8> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff2006c000 -     0x7fff200a1fff  libxpc.dylib (2038.120.1) <0397FC9F-BD11-31FC-882E-9EDAA1E5CA65> /usr/lib/system/libxpc.dylib
+    0x7fff200a2000 -     0x7fff200b9fff  libsystem_trace.dylib (1277.120.1) <0A24EB90-5396-36B0-A7E6-E9288702856D> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200ba000 -     0x7fff20157fff  libcorecrypto.dylib (1000.140.4) <57E7471E-3960-3398-8918-20DF446EA99B> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20158000 -     0x7fff20184fff  libsystem_malloc.dylib (317.140.5) <10C22FD0-FC7B-3325-852E-FEC4E88D2BC5> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff20185000 -     0x7fff201c9fff  libdispatch.dylib (1271.120.2) <BA7AD614-F2C2-3E89-9043-43DD548AE5B1> /usr/lib/system/libdispatch.dylib
+    0x7fff201ca000 -     0x7fff20203fff  libobjc.A.dylib (824) <6C842797-3EA9-30B4-A36D-E948DAF0EC89> /usr/lib/libobjc.A.dylib
+    0x7fff20204000 -     0x7fff20206fff  libsystem_featureflags.dylib (28.60.1) <6EB33926-8E22-3000-B2F1-C6182B8CBD8F> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20207000 -     0x7fff2028ffff  libsystem_c.dylib (1439.141.1) <8447A4B8-0751-3EF1-AA9B-042E40EFA07D> /usr/lib/system/libsystem_c.dylib
+    0x7fff20290000 -     0x7fff202e5fff  libc++.1.dylib (905.6) <81674ADB-670F-3B19-AF5D-F3F66CB93D44> /usr/lib/libc++.1.dylib
+    0x7fff202e6000 -     0x7fff202fbfff  libc++abi.dylib (905.6) <78CE7863-E224-3D0B-98F1-E5E3E382322D> /usr/lib/libc++abi.dylib
+    0x7fff202fc000 -     0x7fff2032bfff  libsystem_kernel.dylib (7195.141.8) <8DFE5B9F-B718-3D48-ABB1-238122989218> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff2032c000 -     0x7fff20337fff  libsystem_pthread.dylib (454.120.2) <49670AEC-4D5D-3383-906C-23F568351FCB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20338000 -     0x7fff20373fff  libdyld.dylib (852.2) <5FBD0E1A-ACCE-36DB-B11C-622F26C85132> /usr/lib/system/libdyld.dylib
+    0x7fff20374000 -     0x7fff2037dfff  libsystem_platform.dylib (254.80.2) <A85D12B6-6213-34EE-84D8-8E993C19E330> /usr/lib/system/libsystem_platform.dylib
+    0x7fff2037e000 -     0x7fff203a9fff  libsystem_info.dylib (542.40.3) <36329FC6-9982-306A-87F9-D018E7F49F4B> /usr/lib/system/libsystem_info.dylib
+    0x7fff22779000 -     0x7fff22782fff  libsystem_darwin.dylib (1439.141.1) <29F82ABE-E1A0-3BC2-B91E-ADC010CF23FA> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b98000 -     0x7fff22ba3fff  libsystem_notify.dylib (279.40.4) <608B5A07-D31A-3BEC-86BF-C2E498C085AF> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b30000 -     0x7fff24b3efff  libsystem_networkextension.dylib (1295.140.3) <022BE26C-C058-3CC7-8E0B-348B3D3B639C> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b9d000 -     0x7fff24bb3fff  libsystem_asl.dylib (385) <47B99A49-749E-356F-9D81-6D3A0B1544AB> /usr/lib/system/libsystem_asl.dylib
+    0x7fff2627a000 -     0x7fff26281fff  libsystem_symptoms.dylib (1431.140.1) <EA6435E7-8F85-315B-8AED-C20A07DE7F96> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28289000 -     0x7fff28299fff  libsystem_containermanager.dylib (318.100.4) <E0A89571-6D3E-3184-9F39-C6094C87B92B> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f9d000 -     0x7fff28fa0fff  libsystem_configuration.dylib (1109.140.1) <89E70992-616F-3DD3-9430-67025F759A1B> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28fa1000 -     0x7fff28fa5fff  libsystem_sandbox.dylib (1441.141.4) <087B0ADD-EF39-3E80-800F-F111FD65ABBA> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c97000 -     0x7fff29c99fff  libquarantine.dylib (119.40.2) <B1418CB0-CDC7-3EB2-ABC3-8609ADC92BC4> /usr/lib/system/libquarantine.dylib
+    0x7fff2a242000 -     0x7fff2a246fff  libsystem_coreservices.dylib (127.1) <7AE405FC-6A44-34A0-86AD-6BD80B0050BB> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a443000 -     0x7fff2a455fff  libz.1.dylib (76) <73C471D3-07CE-307D-A531-92C5D0E4C0E9> /usr/lib/libz.1.dylib
+    0x7fff2a456000 -     0x7fff2a49dfff  libsystem_m.dylib (3186.100.3) <EA0354A3-8618-3D76-A760-E550AC60CE95> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a49f000 -     0x7fff2a4a4fff  libmacho.dylib (980) <1FCE2BE3-4F6F-3EAA-9BC5-A9892A45CF0D> /usr/lib/system/libmacho.dylib
+    0x7fff2a4c1000 -     0x7fff2a4ccfff  libcommonCrypto.dylib (60178.120.3) <7E242F29-1CB6-30EF-8C9A-C768A90FDBA0> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4cd000 -     0x7fff2a4d7fff  libunwind.dylib (201) <A5B040A8-847F-36EE-B13D-5DD1F5CD5BED> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d8000 -     0x7fff2a4dffff  liboah.dylib (203.58) <26D08622-69F5-32DB-80D2-9B4651A9F0CC> /usr/lib/liboah.dylib
+    0x7fff2a4e0000 -     0x7fff2a4eafff  libcopyfile.dylib (173.40.2) <8C783785-0F5F-3DC5-B815-B29CEBA75737> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4eb000 -     0x7fff2a4f2fff  libcompiler_rt.dylib (102.2) <1FDC92D1-8A17-30AF-8E72-4F0517AEA157> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libsystem_collections.dylib (1439.141.1) <11D5775A-AD4C-35ED-BC05-616AB67ACBBE> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f8fff  libsystem_secinit.dylib (87.60.1) <27982311-637E-3308-9F55-4871762736F4> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f9000 -     0x7fff2a4fbfff  libremovefile.dylib (49.120.1) <5973CED7-797B-3288-9589-C1856752F91A> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4fc000 -     0x7fff2a4fcfff  libkeymgr.dylib (31) <AAA929A0-45E5-3186-8ABD-37EB25B2C939> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4fd000 -     0x7fff2a504fff  libsystem_dnssd.dylib (1310.140.1) <4A85F13B-E3AD-3C44-B327-091F56D35CC1> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a505000 -     0x7fff2a50afff  libcache.dylib (83) <435668CB-666B-3379-AD65-F604A72099F4> /usr/lib/system/libcache.dylib
+    0x7fff2a50b000 -     0x7fff2a50cfff  libSystem.B.dylib (1292.120.1) <2553EE0F-3C42-3ACE-9400-EF055BD5BE8E> /usr/lib/libSystem.B.dylib
+    0x7fff2d90f000 -     0x7fff2d90ffff  liblaunch.dylib (2038.120.1) <A3F46CC6-BD89-39DB-8732-C885B881A635> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda6000 -     0x7fff2fda6fff  libsystem_product_info_filter.dylib (8.40.1) <6CA8DEA4-5BD4-375F-9AA7-3338135306C5> /usr/lib/system/libsystem_product_info_filter.dylib
+    0x7fff40cc6000 -     0x7fff40cf5fff  libncurses.5.4.dylib (57) <FA01E50C-EF52-31C7-99DA-66855588EADC> /usr/lib/libncurses.5.4.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 3
+    thread_create: 3
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=595.6M resident=0K(0%) swapped_out_or_unallocated=595.6M(100%)
+Writable regions: Total=101.8M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=101.8M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            37.3M       16 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                            5060K       46 
+__DATA_CONST                       243K       34 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       523.3M        5 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            72.3M       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            774.9M      183 
+

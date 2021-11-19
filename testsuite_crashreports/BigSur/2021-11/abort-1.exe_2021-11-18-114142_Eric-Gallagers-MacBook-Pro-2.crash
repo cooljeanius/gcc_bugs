@@ -1,0 +1,648 @@
+Process:               abort-1.exe [12539]
+Path:                  /Users/USER/*/abort-1.exe
+Identifier:            abort-1.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [21182]
+Responsible:           Terminal [812]
+User ID:               501
+
+Date/Time:             2021-11-18 11:41:42.599 -0500
+OS Version:            macOS 11.6.1 (20G224)
+Report Version:        12
+Bridge OS Version:     6.0 (19P548)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+
+Time Awake Since Boot: 94000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2030392e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203325bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff20287406 abort + 125
+3   libgfortran.5.dylib           	0x0000000105ce8b7e __gfortrani_sys_abort + 64 (error.c:202)
+4   libgfortran.5.dylib           	0x0000000105e2dbd3 _gfortran_abort + 9 (abort.c:32)
+5   abort-1.exe                   	0x0000000105cd5daa MAIN__._omp_fn.0 + 14
+6   libgomp.1.dylib               	0x0000000105f5650c GOACC_parallel_keyed + 765 (oacc-parallel.c:200)
+7   abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+8   abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+9   abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+10  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+11  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+12  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+13  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+14  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+15  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+16  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+17  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+18  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+19  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+20  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+21  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+22  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+23  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+24  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+25  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+26  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+27  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+28  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+29  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+30  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+31  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+32  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+33  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+34  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+35  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+36  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+37  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+38  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+39  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+40  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+41  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+42  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+43  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+44  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+45  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+46  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+47  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+48  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+49  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+50  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+51  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+52  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+53  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+54  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+55  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+56  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+57  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+58  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+59  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+60  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+61  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+62  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+63  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+64  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+65  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+66  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+67  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+68  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+69  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+70  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+71  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+72  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+73  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+74  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+75  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+76  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+77  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+78  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+79  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+80  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+81  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+82  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+83  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+84  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+85  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+86  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+87  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+88  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+89  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+90  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+91  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+92  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+93  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+94  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+95  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+96  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+97  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+98  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+99  abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+100 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+101 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+102 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+103 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+104 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+105 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+106 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+107 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+108 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+109 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+110 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+111 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+112 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+113 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+114 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+115 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+116 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+117 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+118 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+119 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+120 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+121 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+122 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+123 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+124 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+125 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+126 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+127 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+128 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+129 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+130 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+131 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+132 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+133 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+134 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+135 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+136 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+137 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+138 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+139 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+140 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+141 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+142 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+143 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+144 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+145 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+146 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+147 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+148 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+149 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+150 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+151 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+152 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+153 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+154 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+155 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+156 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+157 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+158 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+159 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+160 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+161 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+162 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+163 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+164 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+165 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+166 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+167 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+168 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+169 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+170 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+171 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+172 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+173 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+174 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+175 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+176 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+177 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+178 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+179 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+180 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+181 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+182 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+183 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+184 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+185 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+186 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+187 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+188 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+189 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+190 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+191 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+192 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+193 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+194 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+195 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+196 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+197 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+198 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+199 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+200 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+201 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+202 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+203 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+204 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+205 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+206 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+207 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+208 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+209 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+210 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+211 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+212 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+213 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+214 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+215 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+216 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+217 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+218 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+219 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+220 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+221 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+222 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+223 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+224 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+225 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+226 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+227 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+228 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+229 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+230 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+231 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+232 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+233 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+234 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+235 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+236 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+237 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+238 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+239 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+240 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+241 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+242 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+243 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+244 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+245 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+246 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+247 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+248 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+249 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+250 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+251 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+252 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+253 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+254 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+255 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+256 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+257 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+258 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+259 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+260 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+261 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+262 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+263 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+264 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+265 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+266 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+267 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+268 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+269 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+270 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+271 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+272 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+273 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+274 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+275 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+276 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+277 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+278 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+279 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+280 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+281 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+282 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+283 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+284 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+285 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+286 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+287 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+288 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+289 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+290 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+291 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+292 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+293 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+294 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+295 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+296 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+297 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+298 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+299 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+300 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+301 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+302 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+303 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+304 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+305 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+306 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+307 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+308 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+309 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+310 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+311 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+312 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+313 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+314 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+315 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+316 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+317 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+318 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+319 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+320 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+321 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+322 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+323 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+324 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+325 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+326 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+327 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+328 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+329 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+330 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+331 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+332 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+333 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+334 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+335 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+336 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+337 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+338 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+339 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+340 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+341 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+342 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+343 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+344 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+345 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+346 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+347 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+348 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+349 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+350 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+351 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+352 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+353 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+354 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+355 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+356 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+357 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+358 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+359 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+360 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+361 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+362 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+363 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+364 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+365 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+366 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+367 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+368 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+369 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+370 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+371 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+372 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+373 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+374 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+375 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+376 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+377 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+378 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+379 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+380 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+381 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+382 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+383 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+384 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+385 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+386 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+387 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+388 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+389 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+390 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+391 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+392 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+393 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+394 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+395 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+396 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+397 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+398 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+399 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+400 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+401 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+402 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+403 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+404 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+405 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+406 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+407 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+408 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+409 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+410 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+411 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+412 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+413 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+414 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+415 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+416 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+417 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+418 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+419 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+420 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+421 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+422 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+423 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+424 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+425 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+426 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+427 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+428 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+429 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+430 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+431 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+432 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+433 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+434 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+435 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+436 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+437 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+438 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+439 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+440 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+441 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+442 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+443 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+444 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+445 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+446 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+447 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+448 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+449 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+450 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+451 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+452 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+453 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+454 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+455 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+456 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+457 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+458 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+459 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+460 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+461 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+462 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+463 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+464 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+465 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+466 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+467 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+468 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+469 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+470 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+471 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+472 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+473 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+474 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+475 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+476 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+477 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+478 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+479 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+480 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+481 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+482 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+483 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+484 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+485 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+486 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+487 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+488 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+489 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+490 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+491 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+492 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+493 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+494 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+495 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+496 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+497 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+498 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+499 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+500 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+501 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+502 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+503 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+504 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+505 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+506 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+507 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+508 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+509 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+510 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+511 abort-1.exe                   	0x0000000105cd5e3f MAIN__ + 149
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000010bf75e00  rcx: 0x00007ffee9f25cd8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee9f25d00  rsp: 0x00007ffee9f25cd8
+   r8: 0x00007ffee9f25d28   r9: 0x00007fff2037327c  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2030392e  rfl: 0x0000000000000246  cr2: 0x00007fff8065e498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x105cd2000 -        0x105cd5fff +abort-1.exe (0) <08DC6C8F-1322-36BF-BB14-87CF260586D2> /Users/USER/*/abort-1.exe
+       0x105ce6000 -        0x105e71fff +libgfortran.5.dylib (0) <F1C2D147-2CF1-3231-97BE-66BD85278628> /Users/USER/*/libgfortran.5.dylib
+       0x105ef2000 -        0x105f25fff +libquadmath.0.dylib (0) <952F25A4-2875-3947-9FB8-B5DBC1DF46B2> /Users/USER/*/libquadmath.0.dylib
+       0x105f3f000 -        0x105f6efff +libgomp.1.dylib (0) <1A2D59C1-1C76-3A72-BA3A-9BFE62ED4124> /Users/USER/*/libgomp.1.dylib
+       0x105f9d000 -        0x105fb4fff +libgcc_s.1.dylib (1) <D3F6F692-89CA-37C7-B4A7-5FCEC3885E96> /Users/USER/*/libgcc_s.1.dylib
+       0x10be9e000 -        0x10bf39fff  dyld (852.2) <14C5D17F-5032-37A2-9CD8-F437EB4A3992> /usr/lib/dyld
+    0x7fff2006a000 -     0x7fff2006bfff  libsystem_blocks.dylib (79) <4DF6D8F5-D9C2-3A96-8DE4-5E99D6B73DC8> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff2006c000 -     0x7fff200a1fff  libxpc.dylib (2038.120.1) <0397FC9F-BD11-31FC-882E-9EDAA1E5CA65> /usr/lib/system/libxpc.dylib
+    0x7fff200a2000 -     0x7fff200b9fff  libsystem_trace.dylib (1277.120.1) <0A24EB90-5396-36B0-A7E6-E9288702856D> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200ba000 -     0x7fff20157fff  libcorecrypto.dylib (1000.140.4) <57E7471E-3960-3398-8918-20DF446EA99B> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20158000 -     0x7fff20184fff  libsystem_malloc.dylib (317.140.5) <10C22FD0-FC7B-3325-852E-FEC4E88D2BC5> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff20185000 -     0x7fff201c9fff  libdispatch.dylib (1271.120.2) <BA7AD614-F2C2-3E89-9043-43DD548AE5B1> /usr/lib/system/libdispatch.dylib
+    0x7fff201ca000 -     0x7fff20203fff  libobjc.A.dylib (824) <6C842797-3EA9-30B4-A36D-E948DAF0EC89> /usr/lib/libobjc.A.dylib
+    0x7fff20204000 -     0x7fff20206fff  libsystem_featureflags.dylib (28.60.1) <6EB33926-8E22-3000-B2F1-C6182B8CBD8F> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20207000 -     0x7fff2028ffff  libsystem_c.dylib (1439.141.1) <8447A4B8-0751-3EF1-AA9B-042E40EFA07D> /usr/lib/system/libsystem_c.dylib
+    0x7fff20290000 -     0x7fff202e5fff  libc++.1.dylib (905.6) <81674ADB-670F-3B19-AF5D-F3F66CB93D44> /usr/lib/libc++.1.dylib
+    0x7fff202e6000 -     0x7fff202fbfff  libc++abi.dylib (905.6) <78CE7863-E224-3D0B-98F1-E5E3E382322D> /usr/lib/libc++abi.dylib
+    0x7fff202fc000 -     0x7fff2032bfff  libsystem_kernel.dylib (7195.141.8) <8DFE5B9F-B718-3D48-ABB1-238122989218> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff2032c000 -     0x7fff20337fff  libsystem_pthread.dylib (454.120.2) <49670AEC-4D5D-3383-906C-23F568351FCB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20338000 -     0x7fff20373fff  libdyld.dylib (852.2) <5FBD0E1A-ACCE-36DB-B11C-622F26C85132> /usr/lib/system/libdyld.dylib
+    0x7fff20374000 -     0x7fff2037dfff  libsystem_platform.dylib (254.80.2) <A85D12B6-6213-34EE-84D8-8E993C19E330> /usr/lib/system/libsystem_platform.dylib
+    0x7fff2037e000 -     0x7fff203a9fff  libsystem_info.dylib (542.40.3) <36329FC6-9982-306A-87F9-D018E7F49F4B> /usr/lib/system/libsystem_info.dylib
+    0x7fff22779000 -     0x7fff22782fff  libsystem_darwin.dylib (1439.141.1) <29F82ABE-E1A0-3BC2-B91E-ADC010CF23FA> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b98000 -     0x7fff22ba3fff  libsystem_notify.dylib (279.40.4) <608B5A07-D31A-3BEC-86BF-C2E498C085AF> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b30000 -     0x7fff24b3efff  libsystem_networkextension.dylib (1295.140.3) <022BE26C-C058-3CC7-8E0B-348B3D3B639C> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b9d000 -     0x7fff24bb3fff  libsystem_asl.dylib (385) <47B99A49-749E-356F-9D81-6D3A0B1544AB> /usr/lib/system/libsystem_asl.dylib
+    0x7fff2627a000 -     0x7fff26281fff  libsystem_symptoms.dylib (1431.140.1) <EA6435E7-8F85-315B-8AED-C20A07DE7F96> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28289000 -     0x7fff28299fff  libsystem_containermanager.dylib (318.100.4) <E0A89571-6D3E-3184-9F39-C6094C87B92B> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f9d000 -     0x7fff28fa0fff  libsystem_configuration.dylib (1109.140.1) <89E70992-616F-3DD3-9430-67025F759A1B> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28fa1000 -     0x7fff28fa5fff  libsystem_sandbox.dylib (1441.141.4) <087B0ADD-EF39-3E80-800F-F111FD65ABBA> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c97000 -     0x7fff29c99fff  libquarantine.dylib (119.40.2) <B1418CB0-CDC7-3EB2-ABC3-8609ADC92BC4> /usr/lib/system/libquarantine.dylib
+    0x7fff2a242000 -     0x7fff2a246fff  libsystem_coreservices.dylib (127.1) <7AE405FC-6A44-34A0-86AD-6BD80B0050BB> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a456000 -     0x7fff2a49dfff  libsystem_m.dylib (3186.100.3) <EA0354A3-8618-3D76-A760-E550AC60CE95> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a49f000 -     0x7fff2a4a4fff  libmacho.dylib (980) <1FCE2BE3-4F6F-3EAA-9BC5-A9892A45CF0D> /usr/lib/system/libmacho.dylib
+    0x7fff2a4c1000 -     0x7fff2a4ccfff  libcommonCrypto.dylib (60178.120.3) <7E242F29-1CB6-30EF-8C9A-C768A90FDBA0> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4cd000 -     0x7fff2a4d7fff  libunwind.dylib (201) <A5B040A8-847F-36EE-B13D-5DD1F5CD5BED> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d8000 -     0x7fff2a4dffff  liboah.dylib (203.58) <26D08622-69F5-32DB-80D2-9B4651A9F0CC> /usr/lib/liboah.dylib
+    0x7fff2a4e0000 -     0x7fff2a4eafff  libcopyfile.dylib (173.40.2) <8C783785-0F5F-3DC5-B815-B29CEBA75737> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4eb000 -     0x7fff2a4f2fff  libcompiler_rt.dylib (102.2) <1FDC92D1-8A17-30AF-8E72-4F0517AEA157> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libsystem_collections.dylib (1439.141.1) <11D5775A-AD4C-35ED-BC05-616AB67ACBBE> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f8fff  libsystem_secinit.dylib (87.60.1) <27982311-637E-3308-9F55-4871762736F4> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f9000 -     0x7fff2a4fbfff  libremovefile.dylib (49.120.1) <5973CED7-797B-3288-9589-C1856752F91A> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4fc000 -     0x7fff2a4fcfff  libkeymgr.dylib (31) <AAA929A0-45E5-3186-8ABD-37EB25B2C939> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4fd000 -     0x7fff2a504fff  libsystem_dnssd.dylib (1310.140.1) <4A85F13B-E3AD-3C44-B327-091F56D35CC1> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a505000 -     0x7fff2a50afff  libcache.dylib (83) <435668CB-666B-3379-AD65-F604A72099F4> /usr/lib/system/libcache.dylib
+    0x7fff2a50b000 -     0x7fff2a50cfff  libSystem.B.dylib (1292.120.1) <2553EE0F-3C42-3ACE-9400-EF055BD5BE8E> /usr/lib/libSystem.B.dylib
+    0x7fff2d90f000 -     0x7fff2d90ffff  liblaunch.dylib (2038.120.1) <A3F46CC6-BD89-39DB-8732-C885B881A635> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda6000 -     0x7fff2fda6fff  libsystem_product_info_filter.dylib (8.40.1) <6CA8DEA4-5BD4-375F-9AA7-3338135306C5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=507.8M resident=0K(0%) swapped_out_or_unallocated=507.8M(100%)
+Writable regions: Total=89.8M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=89.8M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        3 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                       16.5M      148 
+__DATA                             468K       47 
+__DATA_CONST                       306K       37 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.9M       12 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7080K       48 
+mapped file                       3520K       15 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            674.4M      347 
+

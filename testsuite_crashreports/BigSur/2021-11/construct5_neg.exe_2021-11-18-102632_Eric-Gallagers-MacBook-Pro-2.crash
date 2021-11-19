@@ -1,0 +1,647 @@
+Process:               construct5_neg.exe [55177]
+Path:                  /Users/USER/*/construct5_neg.exe
+Identifier:            construct5_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [27186]
+Responsible:           Terminal [812]
+User ID:               501
+
+Date/Time:             2021-11-18 10:26:31.963 -0500
+OS Version:            macOS 11.6.1 (20G224)
+Report Version:        12
+Bridge OS Version:     6.0 (19P548)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+
+Time Awake Since Boot: 89000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2030392e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff203325bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff20287406 abort + 125
+3   libstdc++.6.dylib             	0x00000001022db3de __gnu_debug::_Error_formatter::_M_error() const + 1064 (debug.cc:1168)
+4   construct5_neg.exe            	0x0000000102181a56 test01() + 722 (safe_iterator.h:304)
+5   construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+6   construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+7   construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+8   construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+9   construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+10  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+11  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+12  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+13  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+14  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+15  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+16  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+17  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+18  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+19  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+20  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+21  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+22  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+23  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+24  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+25  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+26  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+27  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+28  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+29  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+30  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+31  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+32  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+33  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+34  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+35  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+36  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+37  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+38  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+39  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+40  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+41  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+42  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+43  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+44  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+45  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+46  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+47  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+48  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+49  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+50  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+51  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+52  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+53  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+54  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+55  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+56  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+57  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+58  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+59  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+60  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+61  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+62  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+63  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+64  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+65  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+66  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+67  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+68  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+69  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+70  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+71  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+72  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+73  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+74  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+75  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+76  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+77  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+78  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+79  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+80  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+81  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+82  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+83  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+84  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+85  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+86  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+87  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+88  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+89  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+90  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+91  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+92  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+93  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+94  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+95  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+96  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+97  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+98  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+99  construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+100 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+101 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+102 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+103 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+104 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+105 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+106 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+107 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+108 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+109 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+110 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+111 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+112 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+113 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+114 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+115 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+116 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+117 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+118 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+119 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+120 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+121 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+122 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+123 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+124 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+125 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+126 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+127 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+128 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+129 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+130 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+131 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+132 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+133 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+134 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+135 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+136 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+137 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+138 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+139 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+140 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+141 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+142 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+143 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+144 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+145 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+146 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+147 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+148 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+149 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+150 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+151 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+152 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+153 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+154 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+155 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+156 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+157 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+158 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+159 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+160 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+161 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+162 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+163 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+164 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+165 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+166 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+167 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+168 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+169 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+170 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+171 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+172 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+173 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+174 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+175 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+176 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+177 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+178 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+179 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+180 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+181 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+182 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+183 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+184 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+185 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+186 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+187 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+188 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+189 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+190 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+191 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+192 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+193 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+194 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+195 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+196 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+197 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+198 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+199 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+200 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+201 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+202 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+203 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+204 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+205 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+206 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+207 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+208 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+209 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+210 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+211 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+212 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+213 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+214 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+215 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+216 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+217 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+218 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+219 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+220 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+221 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+222 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+223 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+224 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+225 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+226 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+227 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+228 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+229 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+230 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+231 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+232 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+233 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+234 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+235 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+236 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+237 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+238 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+239 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+240 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+241 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+242 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+243 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+244 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+245 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+246 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+247 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+248 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+249 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+250 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+251 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+252 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+253 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+254 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+255 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+256 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+257 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+258 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+259 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+260 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+261 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+262 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+263 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+264 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+265 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+266 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+267 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+268 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+269 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+270 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+271 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+272 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+273 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+274 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+275 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+276 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+277 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+278 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+279 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+280 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+281 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+282 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+283 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+284 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+285 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+286 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+287 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+288 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+289 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+290 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+291 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+292 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+293 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+294 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+295 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+296 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+297 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+298 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+299 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+300 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+301 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+302 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+303 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+304 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+305 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+306 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+307 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+308 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+309 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+310 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+311 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+312 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+313 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+314 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+315 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+316 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+317 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+318 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+319 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+320 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+321 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+322 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+323 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+324 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+325 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+326 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+327 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+328 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+329 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+330 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+331 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+332 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+333 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+334 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+335 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+336 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+337 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+338 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+339 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+340 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+341 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+342 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+343 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+344 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+345 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+346 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+347 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+348 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+349 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+350 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+351 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+352 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+353 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+354 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+355 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+356 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+357 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+358 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+359 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+360 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+361 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+362 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+363 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+364 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+365 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+366 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+367 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+368 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+369 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+370 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+371 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+372 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+373 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+374 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+375 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+376 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+377 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+378 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+379 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+380 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+381 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+382 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+383 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+384 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+385 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+386 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+387 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+388 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+389 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+390 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+391 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+392 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+393 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+394 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+395 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+396 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+397 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+398 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+399 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+400 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+401 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+402 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+403 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+404 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+405 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+406 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+407 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+408 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+409 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+410 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+411 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+412 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+413 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+414 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+415 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+416 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+417 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+418 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+419 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+420 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+421 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+422 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+423 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+424 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+425 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+426 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+427 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+428 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+429 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+430 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+431 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+432 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+433 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+434 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+435 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+436 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+437 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+438 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+439 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+440 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+441 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+442 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+443 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+444 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+445 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+446 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+447 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+448 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+449 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+450 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+451 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+452 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+453 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+454 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+455 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+456 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+457 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+458 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+459 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+460 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+461 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+462 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+463 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+464 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+465 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+466 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+467 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+468 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+469 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+470 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+471 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+472 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+473 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+474 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+475 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+476 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+477 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+478 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+479 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+480 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+481 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+482 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+483 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+484 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+485 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+486 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+487 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+488 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+489 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+490 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+491 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+492 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+493 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+494 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+495 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+496 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+497 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+498 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+499 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+500 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+501 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+502 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+503 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+504 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+505 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+506 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+507 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+508 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+509 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+510 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+511 construct5_neg.exe            	0x0000000102181f6b main + 9 (construct5_neg.cc:40)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000102b60e00  rcx: 0x00007ffeeda7a9f8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeeda7aa20  rsp: 0x00007ffeeda7a9f8
+   r8: 0x00007fff8062a0e8   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000102187238  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2030392e  rfl: 0x0000000000000246  cr2: 0x00007fff8065e498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10217f000 -        0x102182fff +construct5_neg.exe (0) <3EDBA359-B8A2-32CA-BF15-AF84184A60E2> /Users/USER/*/construct5_neg.exe
+       0x102196000 -        0x102289fff +libiconv.2.dylib (0) <0293ADE4-B449-39DD-AF02-625BB86FC438> /opt/local/lib/libiconv.2.dylib
+       0x10229f000 -        0x1023b2fff +libstdc++.6.dylib (0) <FF9FA7B5-B3C4-3DB2-ACBA-099C028B5DA5> /Users/USER/*/libstdc++.6.dylib
+       0x1025b3000 -        0x1025cafff +libgcc_s.1.dylib (1) <D3F6F692-89CA-37C7-B4A7-5FCEC3885E96> /Users/USER/*/libgcc_s.1.dylib
+       0x102a89000 -        0x102b24fff  dyld (852.2) <14C5D17F-5032-37A2-9CD8-F437EB4A3992> /usr/lib/dyld
+    0x7fff2006a000 -     0x7fff2006bfff  libsystem_blocks.dylib (79) <4DF6D8F5-D9C2-3A96-8DE4-5E99D6B73DC8> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff2006c000 -     0x7fff200a1fff  libxpc.dylib (2038.120.1) <0397FC9F-BD11-31FC-882E-9EDAA1E5CA65> /usr/lib/system/libxpc.dylib
+    0x7fff200a2000 -     0x7fff200b9fff  libsystem_trace.dylib (1277.120.1) <0A24EB90-5396-36B0-A7E6-E9288702856D> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200ba000 -     0x7fff20157fff  libcorecrypto.dylib (1000.140.4) <57E7471E-3960-3398-8918-20DF446EA99B> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20158000 -     0x7fff20184fff  libsystem_malloc.dylib (317.140.5) <10C22FD0-FC7B-3325-852E-FEC4E88D2BC5> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff20185000 -     0x7fff201c9fff  libdispatch.dylib (1271.120.2) <BA7AD614-F2C2-3E89-9043-43DD548AE5B1> /usr/lib/system/libdispatch.dylib
+    0x7fff201ca000 -     0x7fff20203fff  libobjc.A.dylib (824) <6C842797-3EA9-30B4-A36D-E948DAF0EC89> /usr/lib/libobjc.A.dylib
+    0x7fff20204000 -     0x7fff20206fff  libsystem_featureflags.dylib (28.60.1) <6EB33926-8E22-3000-B2F1-C6182B8CBD8F> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20207000 -     0x7fff2028ffff  libsystem_c.dylib (1439.141.1) <8447A4B8-0751-3EF1-AA9B-042E40EFA07D> /usr/lib/system/libsystem_c.dylib
+    0x7fff20290000 -     0x7fff202e5fff  libc++.1.dylib (905.6) <81674ADB-670F-3B19-AF5D-F3F66CB93D44> /usr/lib/libc++.1.dylib
+    0x7fff202e6000 -     0x7fff202fbfff  libc++abi.dylib (905.6) <78CE7863-E224-3D0B-98F1-E5E3E382322D> /usr/lib/libc++abi.dylib
+    0x7fff202fc000 -     0x7fff2032bfff  libsystem_kernel.dylib (7195.141.8) <8DFE5B9F-B718-3D48-ABB1-238122989218> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff2032c000 -     0x7fff20337fff  libsystem_pthread.dylib (454.120.2) <49670AEC-4D5D-3383-906C-23F568351FCB> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20338000 -     0x7fff20373fff  libdyld.dylib (852.2) <5FBD0E1A-ACCE-36DB-B11C-622F26C85132> /usr/lib/system/libdyld.dylib
+    0x7fff20374000 -     0x7fff2037dfff  libsystem_platform.dylib (254.80.2) <A85D12B6-6213-34EE-84D8-8E993C19E330> /usr/lib/system/libsystem_platform.dylib
+    0x7fff2037e000 -     0x7fff203a9fff  libsystem_info.dylib (542.40.3) <36329FC6-9982-306A-87F9-D018E7F49F4B> /usr/lib/system/libsystem_info.dylib
+    0x7fff22779000 -     0x7fff22782fff  libsystem_darwin.dylib (1439.141.1) <29F82ABE-E1A0-3BC2-B91E-ADC010CF23FA> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b98000 -     0x7fff22ba3fff  libsystem_notify.dylib (279.40.4) <608B5A07-D31A-3BEC-86BF-C2E498C085AF> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b30000 -     0x7fff24b3efff  libsystem_networkextension.dylib (1295.140.3) <022BE26C-C058-3CC7-8E0B-348B3D3B639C> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b9d000 -     0x7fff24bb3fff  libsystem_asl.dylib (385) <47B99A49-749E-356F-9D81-6D3A0B1544AB> /usr/lib/system/libsystem_asl.dylib
+    0x7fff2627a000 -     0x7fff26281fff  libsystem_symptoms.dylib (1431.140.1) <EA6435E7-8F85-315B-8AED-C20A07DE7F96> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28289000 -     0x7fff28299fff  libsystem_containermanager.dylib (318.100.4) <E0A89571-6D3E-3184-9F39-C6094C87B92B> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f9d000 -     0x7fff28fa0fff  libsystem_configuration.dylib (1109.140.1) <89E70992-616F-3DD3-9430-67025F759A1B> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28fa1000 -     0x7fff28fa5fff  libsystem_sandbox.dylib (1441.141.4) <087B0ADD-EF39-3E80-800F-F111FD65ABBA> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c97000 -     0x7fff29c99fff  libquarantine.dylib (119.40.2) <B1418CB0-CDC7-3EB2-ABC3-8609ADC92BC4> /usr/lib/system/libquarantine.dylib
+    0x7fff2a242000 -     0x7fff2a246fff  libsystem_coreservices.dylib (127.1) <7AE405FC-6A44-34A0-86AD-6BD80B0050BB> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a456000 -     0x7fff2a49dfff  libsystem_m.dylib (3186.100.3) <EA0354A3-8618-3D76-A760-E550AC60CE95> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a49f000 -     0x7fff2a4a4fff  libmacho.dylib (980) <1FCE2BE3-4F6F-3EAA-9BC5-A9892A45CF0D> /usr/lib/system/libmacho.dylib
+    0x7fff2a4c1000 -     0x7fff2a4ccfff  libcommonCrypto.dylib (60178.120.3) <7E242F29-1CB6-30EF-8C9A-C768A90FDBA0> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4cd000 -     0x7fff2a4d7fff  libunwind.dylib (201) <A5B040A8-847F-36EE-B13D-5DD1F5CD5BED> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d8000 -     0x7fff2a4dffff  liboah.dylib (203.58) <26D08622-69F5-32DB-80D2-9B4651A9F0CC> /usr/lib/liboah.dylib
+    0x7fff2a4e0000 -     0x7fff2a4eafff  libcopyfile.dylib (173.40.2) <8C783785-0F5F-3DC5-B815-B29CEBA75737> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4eb000 -     0x7fff2a4f2fff  libcompiler_rt.dylib (102.2) <1FDC92D1-8A17-30AF-8E72-4F0517AEA157> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libsystem_collections.dylib (1439.141.1) <11D5775A-AD4C-35ED-BC05-616AB67ACBBE> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f8fff  libsystem_secinit.dylib (87.60.1) <27982311-637E-3308-9F55-4871762736F4> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f9000 -     0x7fff2a4fbfff  libremovefile.dylib (49.120.1) <5973CED7-797B-3288-9589-C1856752F91A> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4fc000 -     0x7fff2a4fcfff  libkeymgr.dylib (31) <AAA929A0-45E5-3186-8ABD-37EB25B2C939> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4fd000 -     0x7fff2a504fff  libsystem_dnssd.dylib (1310.140.1) <4A85F13B-E3AD-3C44-B327-091F56D35CC1> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a505000 -     0x7fff2a50afff  libcache.dylib (83) <435668CB-666B-3379-AD65-F604A72099F4> /usr/lib/system/libcache.dylib
+    0x7fff2a50b000 -     0x7fff2a50cfff  libSystem.B.dylib (1292.120.1) <2553EE0F-3C42-3ACE-9400-EF055BD5BE8E> /usr/lib/libSystem.B.dylib
+    0x7fff2d90f000 -     0x7fff2d90ffff  liblaunch.dylib (2038.120.1) <A3F46CC6-BD89-39DB-8732-C885B881A635> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda6000 -     0x7fff2fda6fff  libsystem_product_info_filter.dylib (8.40.1) <6CA8DEA4-5BD4-375F-9AA7-3338135306C5> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=75.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=75.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            11.2M       10 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             500K       47 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M       11 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7176K       47 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            658.0M      187 
+
