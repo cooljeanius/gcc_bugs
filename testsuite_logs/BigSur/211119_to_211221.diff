@@ -1,0 +1,392 @@
+--- /Users/ericgallager/gcc_bugs/testsuite_logs/BigSur/mail-report_20211119.log	2021-11-19 08:17:59.000000000 -0500
++++ /Users/ericgallager/gcc_bugs/testsuite_logs/BigSur/mail-report_20211221.log	2021-12-21 12:45:03.000000000 -0500
+@@ -1,5 +1,5 @@
+ cat <<'EOF' |
+-LAST_UPDATED: Wed Nov 17 23:43:08 UTC 2021 (revision -g32221357007)
++LAST_UPDATED: Sun Dec 19 01:59:01 UTC 2021 (revision -gca8c0408bef)
+ 
+ 		=== acats tests ===
+ FAIL:	c250002
+@@ -291,11 +291,11 @@
+ FAIL: g++.dg/gcov/ternary.C  -std=gnu++98 (test for excess errors)
+ UNRESOLVED: g++.dg/gcov/ternary.C  -std=gnu++98 compilation failed to produce executable
+ FAIL: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o link, -flto -O0 -std=c++11
+-FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++17 (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++17 (internal compiler error: tree check: expected var_decl or function_decl or field_decl or type_decl or concept_decl or template_decl, have namespace_decl in get_merge_kind, at cp/module.cc:10074)
+ FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++17 (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++2a (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++2a (internal compiler error: tree check: expected var_decl or function_decl or field_decl or type_decl or concept_decl or template_decl, have namespace_decl in get_merge_kind, at cp/module.cc:10074)
+ FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++2a (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++2b (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++2b (internal compiler error: tree check: expected var_decl or function_decl or field_decl or type_decl or concept_decl or template_decl, have namespace_decl in get_merge_kind, at cp/module.cc:10074)
+ FAIL: g++.dg/modules/xtreme-header-3_a.H -std=c++2b (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header-3_a.H module-cmi  (gcm.cache/\$srcdir/g++.dg/modules/xtreme-header-3_a.H.gcm)
+ FAIL: g++.dg/modules/xtreme-header-3_a.H module-cmi  (gcm.cache/\$srcdir/g++.dg/modules/xtreme-header-3_a.H.gcm)
+@@ -306,11 +306,11 @@
+ FAIL: g++.dg/modules/xtreme-header-3_c.C -std=c++17 (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header-3_c.C -std=c++2a (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header-3_c.C -std=c++2b (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++17 (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++17 (internal compiler error: tree check: expected none of template_decl, have template_decl in add_specializations, at cp/module.cc:12968)
+ FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++17 (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++2a (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++2a (internal compiler error: tree check: expected none of template_decl, have template_decl in add_specializations, at cp/module.cc:12968)
+ FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++2a (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++2b (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++2b (internal compiler error: tree check: expected none of template_decl, have template_decl in add_specializations, at cp/module.cc:12968)
+ FAIL: g++.dg/modules/xtreme-header-5_a.H -std=c++2b (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header-5_a.H module-cmi  (gcm.cache/\$srcdir/g++.dg/modules/xtreme-header-5_a.H.gcm)
+ FAIL: g++.dg/modules/xtreme-header-5_a.H module-cmi  (gcm.cache/\$srcdir/g++.dg/modules/xtreme-header-5_a.H.gcm)
+@@ -321,11 +321,11 @@
+ FAIL: g++.dg/modules/xtreme-header-5_c.C -std=c++17 (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header-5_c.C -std=c++2a (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header-5_c.C -std=c++2b (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header_a.H -std=c++17 (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header_a.H -std=c++17 (internal compiler error: tree check: expected none of template_decl, have template_decl in add_specializations, at cp/module.cc:12968)
+ FAIL: g++.dg/modules/xtreme-header_a.H -std=c++17 (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header_a.H -std=c++2a (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header_a.H -std=c++2a (internal compiler error: tree check: expected none of template_decl, have template_decl in add_specializations, at cp/module.cc:12968)
+ FAIL: g++.dg/modules/xtreme-header_a.H -std=c++2a (test for excess errors)
+-FAIL: g++.dg/modules/xtreme-header_a.H -std=c++2b (internal compiler error)
++FAIL: g++.dg/modules/xtreme-header_a.H -std=c++2b (internal compiler error: tree check: expected none of template_decl, have template_decl in add_specializations, at cp/module.cc:12968)
+ FAIL: g++.dg/modules/xtreme-header_a.H -std=c++2b (test for excess errors)
+ FAIL: g++.dg/modules/xtreme-header_a.H module-cmi  (gcm.cache/\$srcdir/g++.dg/modules/xtreme-header_a.H.gcm)
+ FAIL: g++.dg/modules/xtreme-header_a.H module-cmi  (gcm.cache/\$srcdir/g++.dg/modules/xtreme-header_a.H.gcm)
+@@ -353,44 +353,27 @@
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		211688
++# of expected passes		213999
+ # of unexpected failures	235
+-# of expected failures		1408
++# of expected failures		1421
+ # of unresolved testcases	102
+-# of unsupported tests		9831
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++# of unsupported tests		9953
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+ 
+ Running target unix
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O0 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O1 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O2 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O2 -flto 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O2 -flto -flto-partition=none 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -O3 -g 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -Og -g 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkf.c execution,  -Os 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O0 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O1 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O2 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O2 -flto 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O2 -flto -flto-partition=none 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -O3 -g 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -Og -g 
+-FAIL: gcc.c-torture/execute/ieee/cdivchkld.c execution,  -Os 
+ FAIL: gcc.dg/analyzer/asm-x86-lp64-1.c (test for excess errors)
+-FAIL: gcc.dg/analyzer/data-model-1.c  (test for warnings, line 527)
+ FAIL: gcc.dg/analyzer/data-model-1.c  (test for warnings, line 528)
+-FAIL: gcc.dg/analyzer/data-model-1.c  (test for warnings, line 530)
++FAIL: gcc.dg/analyzer/data-model-1.c  (test for warnings, line 529)
+ FAIL: gcc.dg/analyzer/data-model-1.c  (test for warnings, line 531)
++FAIL: gcc.dg/analyzer/data-model-1.c  (test for warnings, line 532)
+ FAIL: gcc.dg/analyzer/data-model-1.c (test for excess errors)
+-FAIL: gcc.dg/analyzer/taint-size-1.c event: following true branch (test for warnings, line 21)
+-FAIL: gcc.dg/analyzer/taint-size-1.c event: to here (test for warnings, line 23)
+-FAIL: gcc.dg/analyzer/taint-size-1.c final event (test for warnings, line 26)
++FAIL: gcc.dg/analyzer/pr103526.c  (test for bogus messages, line 31)
++FAIL: gcc.dg/analyzer/taint-size-1.c event: following true branch at line 22 (test for warnings, line 21)
++FAIL: gcc.dg/analyzer/taint-size-1.c event: to here at line 24 (test for warnings, line 23)
++FAIL: gcc.dg/analyzer/taint-size-1.c final event at line 28 (test for warnings, line 26)
+ FAIL: gcc.dg/analyzer/taint-size-1.c warning (test for warnings, line 26)
+ FAIL: gcc.dg/analyzer/write-to-string-literal-1.c  (test for warnings, line 15)
+ FAIL: gcc.dg/analyzer/torture/asm-x86-linux-cpuid-paravirt-1.c   -O1  (test for excess errors)
+@@ -439,91 +422,6 @@
+ FAIL: gcc-dg-lto-modref-4-01.exe scan-wpa-ipa-dump modref "parm 1 flags: no_direct_clobber no_direct_escape"
+ FAIL: gcc.dg/lto/modref-3 c_lto_modref-3_0.o-c_lto_modref-3_1.o execute -O2 -flto-partition=max -fdump-ipa-modref -fno-ipa-sra -fno-ipa-cp -flto
+ FAIL: gcc.dg/lto/modref-4 c_lto_modref-4_0.o-c_lto_modref-4_1.o execute -O2 -flto-partition=max -fdump-ipa-modref -fno-ipa-sra -flto
+-FAIL: gcc.dg/torture/float16-basic.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-basic.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-basic.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-basic.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-basic.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-basic.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-basic.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-builtin.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-complex.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-floath.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-nan-floath.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-nan.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-tg-2.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-tg-3.c   -Os  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -O0  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -O1  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -O2  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/float16-tg.c   -Os  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O0  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O1  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O2  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/floatn-convert.c   -Os  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -O0  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -O1  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -O2  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16-timode.c   -Os  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -O0  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -O1  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -O2  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -O2 -flto  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -O2 -flto -flto-partition=none  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -O3 -g  execution test
+-FAIL: gcc.dg/torture/fp-int-convert-float16.c   -Os  execution test
+ FAIL: gcc.dg/tree-ssa/pr43491.c (test for excess errors)
+ XPASS: gcc.dg/tree-ssa/pr91091-2.c scan-tree-dump-times fre1 " = [^;]*x;" 1
+ XPASS: gcc.dg/tree-ssa/pr91091-2.c scan-tree-dump-times fre1 "x = " 1
+@@ -626,9 +524,6 @@
+ FAIL: outputs-25 exe savetmp named2-4: std out
+ FAIL: gcc.target/i386/auto-init-5.c scan-assembler-times \\\\.long\\t0 14
+ FAIL: gcc.target/i386/auto-init-6.c scan-assembler-times long\\t0 8
+-FAIL: gcc.target/i386/avx256-unaligned-load-2.c scan-assembler (sse2_loaddqu|(vmovdqu|vmovups)[^\\n\\r]*movv16qi_internal)
+-FAIL: gcc.target/i386/avx256-unaligned-load-2.c scan-assembler vinsert.128
+-FAIL: gcc.target/i386/avx256-unaligned-load-4.c scan-assembler-not (sse_loadups|vmovups[^\\n\\r]*movv4sf_internal)
+ FAIL: gcc.target/i386/cond_op_maxmin__Float16-1.c (test for excess errors)
+ UNRESOLVED: gcc.target/i386/cond_op_maxmin__Float16-1.c scan-assembler-times vmaxph 1
+ UNRESOLVED: gcc.target/i386/cond_op_maxmin__Float16-1.c scan-assembler-times vminph 1
+@@ -720,13 +615,13 @@
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		158356
+-# of unexpected failures	267
++# of expected passes		159298
++# of unexpected failures	162
+ # of unexpected successes	3
+-# of expected failures		1165
++# of expected failures		1249
+ # of unresolved testcases	83
+-# of unsupported tests		2927
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++# of unsupported tests		2935
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ 
+ 		=== gdc tests ===
+ 
+@@ -735,17 +630,15 @@
+ 
+ 		=== gdc Summary ===
+ 
+-# of expected passes		10892
++# of expected passes		11621
+ # of unsupported tests		2
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ 
+ 		=== gfortran tests ===
+ 
+ 
+ Running target unix
+-FAIL: gfortran.dg/reshape_shape_2.f90   -O   (test for errors, line 6)
+-FAIL: gfortran.dg/reshape_shape_2.f90   -O  (internal compiler error)
+-FAIL: gfortran.dg/reshape_shape_2.f90   -O  (test for excess errors)
++FAIL: gfortran.dg/unlimited_polymorphic_3.f03   -Os  execution test
+ FAIL: gfortran.dg/vector_subscript_1.f90   -O1  execution test
+ FAIL: gfortran.dg/vector_subscript_1.f90   -O2  execution test
+ FAIL: gfortran.dg/vector_subscript_1.f90   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
+@@ -754,11 +647,11 @@
+ 
+ 		=== gfortran Summary ===
+ 
+-# of expected passes		64458
+-# of unexpected failures	8
++# of expected passes		64702
++# of unexpected failures	6
+ # of expected failures		231
+ # of unsupported tests		78
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ 
+ 		=== gnat tests ===
+ 
+@@ -777,16 +670,22 @@
+ # of expected failures		23
+ # of unresolved testcases	1
+ # of unsupported tests		14
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 12.0.0 20211117 (experimental) [master -g32221357007]
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef]
+ 
+ 		=== jit tests ===
+ 
+ 
+ Running target unix
++WARNING: Timed out executing testcase (timeout = 100)
++FAIL: output-of-test-link-section-assembler.c.s output pattern test, is 	.text
++FAIL: test-combination.c.exe killed: 94098 exp15 0 0 CHILDKILLED SIGSEGV {segmentation violation}
++FAIL: test-threads.c.exe killed: 1631 exp15 0 0 CHILDKILLED SIGSEGV {segmentation violation}
++FAIL: test-tls.c.exe killed: 7927 exp15 0 0 CHILDKILLED SIGSEGV {segmentation violation}
+ 
+ 		=== jit Summary ===
+ 
+-# of expected passes		12069
++# of expected passes		8709
++# of unexpected failures	4
+ # of unsupported tests		4
+ 		=== obj-c++ tests ===
+ 
+@@ -798,7 +697,7 @@
+ # of expected passes		3197
+ # of expected failures		22
+ # of unsupported tests		71
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ 
+ 		=== objc tests ===
+ 
+@@ -812,7 +711,7 @@
+ # of unexpected failures	1
+ # of expected failures		12
+ # of unsupported tests		89
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ 
+ 		=== libatomic tests ===
+ 
+@@ -933,18 +832,16 @@
+ 
+ Running target unix
+ WARNING: program timed out.
+-FAIL: libgomp.c++/task-reduction-10.C execution test
+-WARNING: program timed out.
+ FAIL: libgomp.c++/task-reduction-8.C execution test
+ FAIL: libgomp.oacc-c/../libgomp.oacc-c-c++-common/host_data-7.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2  (test for excess errors)
+ FAIL: libgomp.oacc-c++/../libgomp.oacc-c-c++-common/host_data-7.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2  (test for excess errors)
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		11824
+-# of unexpected failures	4
++# of expected passes		11877
++# of unexpected failures	3
+ # of expected failures		102
+-# of unsupported tests		544
++# of unsupported tests		547
+ 		=== libitm tests ===
+ 
+ 
+@@ -959,46 +856,37 @@
+ 
+ 
+ Running target unix
+-FAIL: libphobos.druntime/rt/monitor_.d execution test
+-WARNING: program timed out.
+-FAIL: libphobos.phobos/std/concurrency.d execution test
++FAIL: libphobos.allocations/tls_gc_integration.d execution test
++FAIL: libphobos.druntime/core/thread/fiber.d execution test
++FAIL: libphobos.druntime/core/thread/osthread.d execution test
++WARNING: libphobos.gc/forkgc2.d execution test program timed out.
++FAIL: libphobos.gc/forkgc2.d execution test
++FAIL: libphobos.phobos/std/experimental/allocator/building_blocks/bitmapped_block.d execution test
++FAIL: libphobos.phobos/std/parallelism.d execution test
+ 
+ 		=== libphobos Summary ===
+ 
+-# of expected passes		371
+-# of unexpected failures	2
++# of expected passes		649
++# of unexpected failures	6
+ # of unsupported tests		1
+-		=== libphobos tests ===
+-
+-
+-Running target unix
+-WARNING: program timed out.
+-
+-		=== libphobos Summary ===
+-
+-# of expected passes		33
+ 		=== libstdc++ tests ===
+ 
+ 
+ Running target unix
+ WARNING: 29_atomics/atomic_integral/wait_notify.cc execution test program timed out.
+ FAIL: 29_atomics/atomic_integral/wait_notify.cc execution test
+-WARNING: 29_atomics/atomic_ref/wait_notify.cc execution test program timed out.
+-FAIL: 29_atomics/atomic_ref/wait_notify.cc execution test
+-WARNING: 30_threads/barrier/completion.cc execution test program timed out.
+-FAIL: 30_threads/barrier/completion.cc execution test
+ 
+ 		=== libstdc++ Summary ===
+ 
+-# of expected passes		14020
+-# of unexpected failures	3
++# of expected passes		14059
++# of unexpected failures	1
+ # of expected failures		96
+-# of unsupported tests		787
++# of unsupported tests		788
+ 
+-Compiler version: 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) 
++Compiler version: 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) 
+ Platform: x86_64-apple-darwin20
+ configure flags: --disable-werror --disable-werror-always --enable-languages=all,ada,c,c++,d,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --enable-frame-pointer --enable-debug --without-isl --disable-maintainer-mode --disable-default-pie --with-ld64 --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --disable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer --build=x86_64-apple-darwin20 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --disable-gcov --enable-host-shared --enable-libphobos --with-cpu=skylake CC=x86_64-apple-darwin19-gcc CXX=x86_64-apple-darwin19-g++ OBJC=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gcc OBJCXX=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/g++ GNATMAKE=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatmake GNATBIND=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatbind
+ BOOT_CFLAGS=-g -O2
+ EOF
+-Mail -s "Results for 12.0.0 20211117 (experimental) [master -g32221357007] (GCC) testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 12.0.0 20211219 (experimental) [remotes/origin/HEAD -gca8c0408bef] (GCC) testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
+ true
