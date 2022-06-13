@@ -14,5 +14,5 @@ int xxxx(struct { int a; int b; } x) {
     for (struct { int a; int b; } ; ; ) {
         printf("this doesn't have a warning flag either, fwiw\n");
     }
-    return 0;
+    return (x.a + x.b);
 }
