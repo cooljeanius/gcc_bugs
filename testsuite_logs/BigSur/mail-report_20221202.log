@@ -1,0 +1,166 @@
+cat <<'EOF' |
+LAST_UPDATED: Fri Dec  2 06:08:07 UTC 2022 (revision -g0b737090a69)
+
+		=== acats tests ===
+FAIL:	c250002
+
+		=== acats Summary ===
+# of expected passes		2327
+# of unexpected failures	1
+Native configuration is x86_64-apple-darwin20
+
+		=== g++ tests ===
+
+
+Running target unix
+FAIL: g++.dg/pr71488.C   (test for excess errors)
+WARNING: program timed out
+FAIL: g++.dg/cpp0x/nullptr13.C  -std=c++20 (test for excess errors)
+		=== g++ tests ===
+
+
+Running target unix
+WARNING: program timed out
+FAIL: g++.dg/coroutines/torture/func-params-02.C   -O2 -flto  (test for excess errors)
+UNRESOLVED: g++.dg/coroutines/torture/func-params-02.C   -O2 -flto  compilation failed to produce executable
+WARNING: program timed out
+FAIL: g++.dg/cpp0x/nullptr20.C  -std=c++14 (test for excess errors)
+		=== g++ tests ===
+
+
+Running target unix
+FAIL: g++.dg/debug/dwarf2/utf-1.C  -std=gnu++20  scan-assembler-times DW_AT_encoding \\\\(0x10\\\\) 3
+		=== g++ tests ===
+
+
+Running target unix
+		=== g++ tests ===
+
+
+Running target unix
+		=== gcc tests ===
+
+
+Running target unix
+		=== gcc tests ===
+
+
+Running target unix
+		=== gcc tests ===
+
+
+Running target unix
+		=== gdc tests ===
+
+
+Running target unix
+		=== gdc tests ===
+
+
+Running target unix
+		=== gdc tests ===
+
+
+Running target unix
+		=== gdc tests ===
+
+
+Running target unix
+		=== gfortran tests ===
+
+
+Running target unix
+WARNING: program timed out
+FAIL: gfortran.dg/ISO_Fortran_binding_8.f90   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  (test for excess errors)
+UNRESOLVED: gfortran.dg/ISO_Fortran_binding_8.f90   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  compilation failed to produce executable
+		=== gfortran tests ===
+
+
+Running target unix
+		=== gfortran tests ===
+
+
+Running target unix
+		=== gnat tests ===
+
+
+Running target unix
+FAIL: gnat.dg/bias1.adb scan-assembler DW_AT_GNU_bias
+FAIL: gnat.dg/debug18.adb scan-assembler-not DW_AT_lower_bound
+
+		=== gnat Summary ===
+
+# of expected passes		3388
+# of unexpected failures	2
+# of expected failures		23
+# of unsupported tests		15
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 13.0.0 20221201 (experimental) [remotes/origin/HEAD -g0b737090a69]
+
+		=== libatomic tests ===
+
+
+Running target unix
+
+		=== libatomic Summary ===
+
+# of expected passes		54
+		=== libgomp tests ===
+
+
+Running target unix
+		=== libitm tests ===
+
+
+Running target unix
+
+		=== libitm Summary ===
+
+# of expected passes		42
+# of expected failures		3
+# of unsupported tests		2
+		=== libphobos tests ===
+
+
+Running target unix
+FAIL: libphobos.phobos/std/math/hardware.d execution test
+
+		=== libphobos Summary ===
+
+# of expected passes		651
+# of unexpected failures	1
+# of unsupported tests		1
+		=== libstdc++ tests ===
+
+
+Running target unix
+WARNING: 23_containers/list/allocator/move_assign.cc (test for excess errors) program timed out.
+FAIL: 23_containers/list/allocator/move_assign.cc (test for excess errors)
+WARNING: 23_containers/list/cons/2.cc (test for excess errors) program timed out.
+FAIL: 23_containers/list/cons/2.cc (test for excess errors)
+WARNING: 23_containers/list/debug/insert4_neg.cc (test for excess errors) program timed out.
+FAIL: 23_containers/list/debug/insert4_neg.cc (test for excess errors)
+UNRESOLVED: 23_containers/list/debug/insert4_neg.cc compilation failed to produce executable
+WARNING: 23_containers/list/debug/invalidation/3.cc (test for excess errors) program timed out.
+FAIL: 23_containers/list/debug/invalidation/3.cc (test for excess errors)
+FAIL: 27_io/filesystem/iterators/91067.cc (test for excess errors)
+FAIL: 27_io/filesystem/iterators/directory_iterator.cc (test for excess errors)
+UNRESOLVED: 27_io/filesystem/iterators/directory_iterator.cc compilation failed to produce executable
+ERROR: could not compile testsuite_allocator.cc
+WARNING: tcl error sourcing /Users/ericgallager/gcc_newgit/libstdc++-v3/testsuite/libstdc++-xmethods/xmethods.exp. program timed out.
+ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libstdc++-v3/testsuite/libstdc++-xmethods/xmethods.exp.
+
+		=== libstdc++ Summary ===
+
+# of expected passes		14417
+# of unexpected failures	6
+# of expected failures		98
+# of unresolved testcases	2
+# of unsupported tests		798
+
+Compiler version: 13.0.0 20221201 (experimental) [remotes/origin/HEAD -g0b737090a69] 
+Platform: x86_64-apple-darwin20
+configure flags: --disable-werror --disable-werror-always --enable-languages=all,ada,c,c++,d,objc,obj-c++,lto --enable-stage1-checking=release,rtl -C --enable-frame-pointer --enable-debug --without-isl --disable-maintainer-mode --disable-default-pie --with-ld64 --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --disable-objc-gc --enable-libada --enable-libssp --disable-libsanitizer --build=x86_64-apple-darwin20 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --disable-gcov --enable-host-shared --enable-libphobos --with-cpu=skylake --disable-libstdcxx-pch CC=x86_64-apple-darwin19-gcc CXX=x86_64-apple-darwin19-g++ OBJC=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gcc OBJCXX=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/g++ GNATMAKE=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatmake GNATBIND=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatbind
+BOOT_CFLAGS=-g -O2
+EOF
+Mail -s "Results for 13.0.0 20221201 (experimental) [remotes/origin/HEAD -g0b737090a69] testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
+true
