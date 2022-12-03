@@ -1,0 +1,667 @@
+Process:               dwarf5 [62785]
+Path:                  /Users/USER/*/dwarf5
+Identifier:            dwarf5
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        ??? [62784]
+Responsible:           Terminal [55930]
+User ID:               501
+
+Date/Time:             2022-12-02 23:03:55.506 -0500
+OS Version:            macOS 11.7.1 (20G918)
+Report Version:        12
+Bridge OS Version:     7.0 (20P420)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       12AAACA1-90D0-4877-8820-33F1E64DB81A
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       8600 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGBUS)
+Exception Codes:       KERN_MEMORY_ERROR at 0x000000010fbd3000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Bus error: 10
+Termination Reason:    Namespace SIGNAL, Code 0xa
+Terminating Process:   exc handler [62785]
+
+VM Regions Near 0x10fbd3000:
+    VM_ALLOCATE                 10fbd1000-10fbd3000    [    8K] rw-/rwx SM=PRV  
+--> mapped file                 10fbd3000-10fbd4000    [    4K] r--/rwx SM=COW  Object_id=b0656f61
+    mapped file                 10fbd7000-10fbd9000    [    8K] r--/rwx SM=COW  Object_id=b23d3a61
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   dwarf5                        	0x000000010fb9da65 macho_add + 165 (macho.c:1010)
+1   dwarf5                        	0x000000010fb9e73c macho_add + 3452 (macho.c:948)
+2   dwarf5                        	0x000000010fb9ebe4 backtrace_initialize + 196 (macho.c:1269)
+3   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+4   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+5   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+6   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+7   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+8   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+9   dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+10  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+11  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+12  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+13  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+14  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+15  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+16  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+17  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+18  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+19  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+20  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+21  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+22  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+23  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+24  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+25  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+26  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+27  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+28  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+29  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+30  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+31  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+32  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+33  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+34  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+35  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+36  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+37  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+38  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+39  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+40  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+41  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+42  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+43  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+44  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+45  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+46  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+47  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+48  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+49  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+50  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+51  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+52  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+53  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+54  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+55  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+56  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+57  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+58  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+59  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+60  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+61  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+62  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+63  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+64  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+65  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+66  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+67  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+68  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+69  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+70  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+71  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+72  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+73  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+74  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+75  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+76  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+77  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+78  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+79  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+80  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+81  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+82  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+83  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+84  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+85  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+86  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+87  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+88  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+89  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+90  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+91  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+92  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+93  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+94  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+95  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+96  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+97  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+98  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+99  dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+100 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+101 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+102 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+103 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+104 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+105 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+106 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+107 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+108 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+109 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+110 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+111 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+112 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+113 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+114 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+115 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+116 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+117 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+118 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+119 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+120 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+121 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+122 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+123 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+124 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+125 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+126 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+127 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+128 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+129 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+130 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+131 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+132 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+133 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+134 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+135 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+136 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+137 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+138 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+139 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+140 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+141 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+142 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+143 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+144 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+145 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+146 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+147 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+148 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+149 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+150 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+151 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+152 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+153 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+154 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+155 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+156 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+157 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+158 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+159 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+160 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+161 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+162 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+163 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+164 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+165 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+166 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+167 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+168 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+169 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+170 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+171 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+172 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+173 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+174 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+175 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+176 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+177 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+178 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+179 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+180 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+181 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+182 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+183 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+184 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+185 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+186 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+187 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+188 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+189 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+190 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+191 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+192 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+193 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+194 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+195 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+196 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+197 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+198 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+199 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+200 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+201 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+202 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+203 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+204 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+205 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+206 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+207 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+208 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+209 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+210 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+211 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+212 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+213 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+214 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+215 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+216 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+217 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+218 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+219 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+220 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+221 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+222 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+223 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+224 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+225 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+226 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+227 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+228 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+229 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+230 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+231 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+232 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+233 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+234 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+235 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+236 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+237 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+238 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+239 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+240 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+241 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+242 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+243 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+244 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+245 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+246 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+247 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+248 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+249 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+250 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+251 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+252 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+253 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+254 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+255 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+256 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+257 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+258 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+259 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+260 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+261 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+262 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+263 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+264 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+265 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+266 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+267 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+268 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+269 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+270 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+271 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+272 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+273 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+274 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+275 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+276 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+277 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+278 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+279 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+280 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+281 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+282 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+283 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+284 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+285 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+286 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+287 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+288 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+289 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+290 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+291 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+292 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+293 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+294 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+295 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+296 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+297 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+298 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+299 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+300 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+301 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+302 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+303 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+304 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+305 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+306 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+307 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+308 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+309 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+310 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+311 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+312 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+313 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+314 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+315 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+316 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+317 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+318 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+319 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+320 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+321 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+322 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+323 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+324 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+325 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+326 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+327 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+328 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+329 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+330 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+331 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+332 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+333 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+334 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+335 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+336 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+337 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+338 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+339 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+340 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+341 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+342 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+343 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+344 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+345 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+346 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+347 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+348 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+349 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+350 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+351 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+352 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+353 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+354 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+355 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+356 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+357 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+358 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+359 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+360 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+361 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+362 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+363 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+364 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+365 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+366 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+367 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+368 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+369 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+370 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+371 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+372 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+373 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+374 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+375 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+376 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+377 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+378 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+379 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+380 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+381 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+382 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+383 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+384 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+385 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+386 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+387 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+388 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+389 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+390 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+391 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+392 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+393 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+394 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+395 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+396 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+397 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+398 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+399 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+400 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+401 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+402 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+403 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+404 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+405 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+406 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+407 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+408 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+409 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+410 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+411 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+412 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+413 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+414 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+415 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+416 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+417 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+418 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+419 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+420 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+421 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+422 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+423 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+424 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+425 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+426 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+427 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+428 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+429 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+430 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+431 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+432 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+433 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+434 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+435 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+436 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+437 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+438 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+439 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+440 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+441 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+442 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+443 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+444 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+445 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+446 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+447 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+448 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+449 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+450 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+451 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+452 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+453 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+454 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+455 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+456 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+457 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+458 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+459 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+460 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+461 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+462 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+463 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+464 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+465 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+466 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+467 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+468 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+469 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+470 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+471 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+472 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+473 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+474 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+475 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+476 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+477 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+478 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+479 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+480 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+481 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+482 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+483 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+484 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+485 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+486 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+487 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+488 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+489 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+490 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+491 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+492 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+493 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+494 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+495 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+496 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+497 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+498 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+499 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+500 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+501 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+502 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+503 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+504 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+505 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+506 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+507 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+508 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+509 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+510 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+511 dwarf5                        	0x000000010fb9d039 fileline_initialize + 441 (fileline.c:261)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x000000010fbd3000  rbx: 0x00007ffee0065490  rcx: 0x00007ffee00666a0  rdx: 0x000000010fb96940
+  rdi: 0x000000010fbd1000  rsi: 0x00007ffee0065490  rbp: 0x00007ffee0065670  rsp: 0x00007ffee00653d0
+   r8: 0x0000000000000004   r9: 0x0000000000000000  r10: 0x00007ffee0065490  r11: 0x0000000000000000
+  r12: 0x000000010fbd24b9  r13: 0x0000000000000004  r14: 0x000000010fbd1000  r15: 0x0000000000000006
+  rip: 0x000000010fb9da65  rfl: 0x0000000000010202  cr2: 0x000000010fbd3000
+  
+Logical CPU:     2
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  4c 8b 45 18 4c 89 8d e0-fd ff ff c7 00 00 00 00  L.E.L...........
+  00 53 4c 8b 4d 20 e8 50-13 00 00 41 5a 41 5b 85  .SL.M .P...AZA[.
+  c0 75 28 41 83 fd ff 75-0a 31 c0 e9 ee 00 00 00  .u(A...u.1......
+  0f 1f 00 48 8b 55 20 48-8b 75 18 44 89 ef e8 e8  ...H.U H.u.D....
+  f8 ff ff 31 c0 e9 d4 00-00 00 90 48 8b 85 20 fe  ...1.......H.. .
+  ff ff 48 8b 4d 20 48 89-de 4c 89 f7 48 8b 55 18  ..H.M H..L..H.U.
+ [f3]0f 6f 10 f3 0f 6f 58-0c 0f 29 95 80 fe ff ff  ..o...oX..).....	<==
+  0f 11 9d 8c fe ff ff e8-af 13 00 00 8b 85 80 fe  ................
+  ff ff 3d ce fa ed fe 0f-84 ce 02 00 00 0f 87 a0  ..=.............
+  00 00 00 3d bf ba fe ca-77 1b 3d bd ba fe ca 77  ...=....w.=....w
+  2a 89 c2 81 e2 ff ff ff-fe 81 fa ca fe ba be 0f  *...............
+  84 5e 02 00 00 48 8b 7d-20 31 d2 48 8d 35 f9 2a  .^...H.} 1.H.5.*
+  
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10fb92000 -        0x10fba1fff +dwarf5 (0) <6CE44D17-EB6A-3977-9D39-ADD8419D44C0> /Users/USER/*/dwarf5
+       0x11c15d000 -        0x11c1f8fff  dyld (852.2) <FE71A484-0A66-3DF2-98B8-9D72ADD7D523> /usr/lib/dyld
+    0x7fff20062000 -     0x7fff20063fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff20064000 -     0x7fff20099fff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2009a000 -     0x7fff200b1fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200b2000 -     0x7fff2014ffff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20150000 -     0x7fff2017cfff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff2017d000 -     0x7fff201c1fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff201c2000 -     0x7fff201fbfff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff201fc000 -     0x7fff201fefff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff201ff000 -     0x7fff20287fff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff20288000 -     0x7fff202ddfff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff202de000 -     0x7fff202f3fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff202f4000 -     0x7fff20323fff  libsystem_kernel.dylib (7195.141.42) <5D49E9BA-54B9-350F-B4DF-8B79D2A09876> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20324000 -     0x7fff2032ffff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20330000 -     0x7fff2036bfff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff2036c000 -     0x7fff20375fff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff20376000 -     0x7fff203a1fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22772000 -     0x7fff2277bfff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b91000 -     0x7fff22b9cfff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b29000 -     0x7fff24b37fff  libsystem_networkextension.dylib (1295.140.3) <3AA133EC-F0C0-38F3-8E80-007DFAA5D9D1> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b96000 -     0x7fff24bacfff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff26274000 -     0x7fff2627bfff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28283000 -     0x7fff28293fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f97000 -     0x7fff28f9afff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28f9b000 -     0x7fff28f9ffff  libsystem_sandbox.dylib (1441.141.10) <3D1999E2-8C66-3849-B355-1DE5785F2807> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c91000 -     0x7fff29c93fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a23c000 -     0x7fff2a240fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a450000 -     0x7fff2a497fff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a499000 -     0x7fff2a49efff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2a4bb000 -     0x7fff2a4c6fff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4c7000 -     0x7fff2a4d1fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d2000 -     0x7fff2a4d9fff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2a4da000 -     0x7fff2a4e4fff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4e5000 -     0x7fff2a4ecfff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4ed000 -     0x7fff2a4effff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f0000 -     0x7fff2a4f2fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f6fff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4f7000 -     0x7fff2a4fefff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a4ff000 -     0x7fff2a504fff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2a505000 -     0x7fff2a506fff  libSystem.B.dylib (1292.120.1) <47869A5B-8B4B-3F7C-94D7-09F3E2A5B2EE> /usr/lib/libSystem.B.dylib
+    0x7fff2d90c000 -     0x7fff2d90cfff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda3000 -     0x7fff2fda3fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=505.1M resident=0K(0%) swapped_out_or_unallocated=505.1M(100%)
+Writable regions: Total=73.3M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=73.3M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                         16K        3 
+__DATA                             404K       43 
+__DATA_CONST                       262K       34 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.2M        4 
+__OBJC_RO                         70.2M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            5048K       44 
+mapped file                         12K        2 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            651.7M      171 
+

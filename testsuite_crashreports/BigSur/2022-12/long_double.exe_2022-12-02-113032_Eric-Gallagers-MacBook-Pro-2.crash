@@ -1,0 +1,649 @@
+Process:               long_double.exe [55264]
+Path:                  /Users/USER/*/long_double.exe
+Identifier:            long_double.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [70021]
+Responsible:           Terminal [865]
+User ID:               501
+
+Date/Time:             2022-12-02 11:30:31.472 -0500
+OS Version:            macOS 11.7.1 (20G918)
+Report Version:        12
+Bridge OS Version:     7.0 (20P420)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       DB857333-976D-45D7-992B-D458009C580D
+
+Time Awake Since Boot: 1200000 seconds
+Time Since Wake:       4200 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff202fb91e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2032a5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff2027f406 abort + 125
+3   long_double.exe               	0x0000000102f46ff8 operator() + 55 (long_double.cc:100) [inlined]
+4   long_double.exe               	0x0000000102f46ff8 test01()::'lambda'(char*, long double, std::optional<int>)::operator()(char*, long double, std::optional<int>) const (.constprop.0) + 186
+5   long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+6   long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+7   long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+8   long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+9   long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+10  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+11  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+12  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+13  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+14  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+15  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+16  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+17  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+18  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+19  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+20  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+21  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+22  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+23  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+24  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+25  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+26  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+27  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+28  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+29  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+30  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+31  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+32  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+33  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+34  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+35  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+36  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+37  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+38  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+39  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+40  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+41  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+42  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+43  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+44  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+45  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+46  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+47  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+48  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+49  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+50  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+51  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+52  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+53  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+54  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+55  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+56  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+57  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+58  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+59  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+60  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+61  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+62  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+63  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+64  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+65  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+66  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+67  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+68  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+69  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+70  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+71  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+72  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+73  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+74  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+75  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+76  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+77  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+78  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+79  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+80  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+81  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+82  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+83  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+84  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+85  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+86  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+87  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+88  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+89  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+90  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+91  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+92  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+93  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+94  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+95  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+96  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+97  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+98  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+99  long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+100 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+101 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+102 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+103 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+104 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+105 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+106 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+107 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+108 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+109 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+110 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+111 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+112 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+113 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+114 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+115 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+116 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+117 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+118 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+119 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+120 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+121 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+122 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+123 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+124 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+125 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+126 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+127 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+128 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+129 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+130 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+131 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+132 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+133 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+134 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+135 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+136 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+137 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+138 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+139 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+140 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+141 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+142 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+143 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+144 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+145 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+146 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+147 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+148 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+149 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+150 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+151 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+152 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+153 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+154 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+155 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+156 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+157 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+158 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+159 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+160 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+161 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+162 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+163 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+164 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+165 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+166 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+167 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+168 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+169 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+170 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+171 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+172 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+173 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+174 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+175 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+176 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+177 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+178 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+179 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+180 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+181 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+182 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+183 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+184 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+185 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+186 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+187 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+188 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+189 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+190 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+191 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+192 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+193 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+194 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+195 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+196 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+197 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+198 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+199 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+200 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+201 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+202 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+203 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+204 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+205 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+206 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+207 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+208 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+209 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+210 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+211 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+212 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+213 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+214 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+215 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+216 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+217 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+218 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+219 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+220 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+221 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+222 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+223 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+224 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+225 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+226 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+227 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+228 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+229 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+230 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+231 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+232 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+233 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+234 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+235 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+236 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+237 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+238 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+239 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+240 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+241 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+242 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+243 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+244 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+245 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+246 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+247 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+248 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+249 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+250 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+251 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+252 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+253 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+254 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+255 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+256 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+257 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+258 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+259 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+260 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+261 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+262 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+263 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+264 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+265 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+266 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+267 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+268 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+269 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+270 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+271 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+272 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+273 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+274 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+275 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+276 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+277 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+278 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+279 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+280 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+281 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+282 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+283 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+284 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+285 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+286 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+287 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+288 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+289 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+290 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+291 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+292 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+293 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+294 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+295 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+296 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+297 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+298 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+299 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+300 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+301 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+302 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+303 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+304 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+305 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+306 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+307 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+308 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+309 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+310 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+311 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+312 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+313 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+314 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+315 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+316 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+317 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+318 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+319 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+320 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+321 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+322 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+323 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+324 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+325 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+326 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+327 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+328 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+329 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+330 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+331 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+332 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+333 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+334 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+335 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+336 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+337 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+338 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+339 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+340 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+341 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+342 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+343 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+344 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+345 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+346 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+347 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+348 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+349 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+350 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+351 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+352 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+353 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+354 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+355 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+356 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+357 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+358 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+359 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+360 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+361 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+362 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+363 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+364 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+365 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+366 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+367 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+368 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+369 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+370 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+371 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+372 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+373 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+374 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+375 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+376 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+377 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+378 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+379 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+380 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+381 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+382 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+383 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+384 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+385 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+386 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+387 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+388 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+389 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+390 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+391 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+392 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+393 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+394 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+395 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+396 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+397 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+398 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+399 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+400 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+401 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+402 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+403 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+404 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+405 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+406 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+407 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+408 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+409 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+410 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+411 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+412 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+413 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+414 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+415 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+416 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+417 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+418 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+419 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+420 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+421 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+422 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+423 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+424 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+425 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+426 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+427 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+428 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+429 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+430 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+431 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+432 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+433 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+434 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+435 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+436 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+437 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+438 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+439 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+440 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+441 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+442 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+443 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+444 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+445 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+446 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+447 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+448 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+449 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+450 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+451 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+452 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+453 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+454 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+455 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+456 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+457 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+458 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+459 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+460 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+461 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+462 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+463 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+464 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+465 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+466 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+467 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+468 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+469 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+470 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+471 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+472 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+473 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+474 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+475 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+476 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+477 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+478 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+479 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+480 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+481 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+482 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+483 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+484 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+485 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+486 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+487 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+488 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+489 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+490 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+491 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+492 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+493 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+494 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+495 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+496 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+497 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+498 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+499 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+500 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+501 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+502 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+503 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+504 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+505 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+506 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+507 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+508 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+509 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+510 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+511 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+512 long_double.exe               	0x0000000102f47566 test01() + 1155 (long_double.cc:174)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00000001106abe00  rcx: 0x00007ffeeccb4f88  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeeccb4fb0  rsp: 0x00007ffeeccb4f88
+   r8: 0x00007fff80622028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000002  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff202fb91e  rfl: 0x0000000000000246  cr2: 0x00007fff80656498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x102f44000 -        0x102f47fff +long_double.exe (0) <E1ADD419-2BE8-3F92-BC31-6034B71DCA89> /Users/USER/*/long_double.exe
+       0x102f5a000 -        0x10305dfff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x10307d000 -        0x103198fff +libstdc++.6.dylib (0) <7CD6DFD1-AACF-323D-9766-BB2DCDF79D16> /Users/USER/*/libstdc++.6.dylib
+       0x1105d4000 -        0x11066ffff  dyld (852.2) <FE71A484-0A66-3DF2-98B8-9D72ADD7D523> /usr/lib/dyld
+    0x7fff20062000 -     0x7fff20063fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff20064000 -     0x7fff20099fff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2009a000 -     0x7fff200b1fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200b2000 -     0x7fff2014ffff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20150000 -     0x7fff2017cfff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff2017d000 -     0x7fff201c1fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff201c2000 -     0x7fff201fbfff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff201fc000 -     0x7fff201fefff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff201ff000 -     0x7fff20287fff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff20288000 -     0x7fff202ddfff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff202de000 -     0x7fff202f3fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff202f4000 -     0x7fff20323fff  libsystem_kernel.dylib (7195.141.42) <5D49E9BA-54B9-350F-B4DF-8B79D2A09876> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20324000 -     0x7fff2032ffff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20330000 -     0x7fff2036bfff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff2036c000 -     0x7fff20375fff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff20376000 -     0x7fff203a1fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22772000 -     0x7fff2277bfff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b91000 -     0x7fff22b9cfff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b29000 -     0x7fff24b37fff  libsystem_networkextension.dylib (1295.140.3) <3AA133EC-F0C0-38F3-8E80-007DFAA5D9D1> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b96000 -     0x7fff24bacfff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff26274000 -     0x7fff2627bfff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28283000 -     0x7fff28293fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f97000 -     0x7fff28f9afff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28f9b000 -     0x7fff28f9ffff  libsystem_sandbox.dylib (1441.141.10) <3D1999E2-8C66-3849-B355-1DE5785F2807> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c91000 -     0x7fff29c93fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a23c000 -     0x7fff2a240fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a450000 -     0x7fff2a497fff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a499000 -     0x7fff2a49efff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2a4bb000 -     0x7fff2a4c6fff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4c7000 -     0x7fff2a4d1fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d2000 -     0x7fff2a4d9fff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2a4da000 -     0x7fff2a4e4fff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4e5000 -     0x7fff2a4ecfff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4ed000 -     0x7fff2a4effff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f0000 -     0x7fff2a4f2fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f6fff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4f7000 -     0x7fff2a4fefff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a4ff000 -     0x7fff2a504fff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2a505000 -     0x7fff2a506fff  libSystem.B.dylib (1292.120.1) <47869A5B-8B4B-3F7C-94D7-09F3E2A5B2EE> /usr/lib/libSystem.B.dylib
+    0x7fff2d90c000 -     0x7fff2d90cfff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda3000 -     0x7fff2fda3fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=98.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=98.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            34.2M       12 
+MALLOC guard page                   16K        3 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       326K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M        9 
+__OBJC_RO                         70.2M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7176K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            681.0M      184 
+

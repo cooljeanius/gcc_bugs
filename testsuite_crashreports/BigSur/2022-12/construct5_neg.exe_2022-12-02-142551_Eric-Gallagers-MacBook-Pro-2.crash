@@ -1,0 +1,649 @@
+Process:               construct5_neg.exe [73899]
+Path:                  /Users/USER/*/construct5_neg.exe
+Identifier:            construct5_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [83157]
+Responsible:           Terminal [865]
+User ID:               501
+
+Date/Time:             2022-12-02 14:25:50.640 -0500
+OS Version:            macOS 11.7.1 (20G918)
+Report Version:        12
+Bridge OS Version:     7.0 (20P420)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       9F288579-C571-418C-AB37-62F3CC4D7A2F
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       1200 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff202fb91e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2032a5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff2027f406 abort + 125
+3   libstdc++.6.dylib             	0x0000000106e222bb __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1234)
+4   construct5_neg.exe            	0x0000000106cac8c1 __gnu_debug::operator==(__gnu_debug::_Safe_iterator<std::__detail::_Node_iterator<int, true, false>, std::__debug::unordered_set<int, std::hash<int>, std::equal_to<int>, __gnu_test::uneq_allocator<int, std::allocator<int> > >, std::forward_iterator_tag> const&, __gnu_debug::_Safe_iterator<std::__detail::_Node_iterator<int, true, false>, std::__debug::unordered_set<int, std::hash<int>, std::equal_to<int>, __gnu_test::uneq_allocator<int, std::allocator<int> > >, std::forward_iterator_tag> const&) + 81 (safe_iterator.h:477) [inlined]
+5   construct5_neg.exe            	0x0000000106cac8c1 __gnu_debug::operator==(__gnu_debug::_Safe_iterator<std::__detail::_Node_iterator<int, true, false>, std::__debug::unordered_set<int, std::hash<int>, std::equal_to<int>, __gnu_test::uneq_allocator<int, std::allocator<int> > >, std::forward_iterator_tag> const&, __gnu_debug::_Safe_iterator<std::__detail::_Node_iterator<int, true, false>, std::__debug::unordered_set<int, std::hash<int>, std::equal_to<int>, __gnu_test::uneq_allocator<int, std::allocator<int> > >, std::forward_iterator_tag> const&) + 155
+6   construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+7   construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+8   construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+9   construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+10  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+11  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+12  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+13  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+14  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+15  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+16  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+17  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+18  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+19  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+20  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+21  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+22  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+23  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+24  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+25  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+26  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+27  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+28  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+29  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+30  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+31  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+32  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+33  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+34  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+35  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+36  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+37  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+38  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+39  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+40  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+41  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+42  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+43  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+44  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+45  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+46  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+47  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+48  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+49  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+50  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+51  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+52  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+53  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+54  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+55  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+56  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+57  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+58  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+59  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+60  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+61  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+62  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+63  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+64  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+65  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+66  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+67  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+68  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+69  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+70  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+71  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+72  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+73  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+74  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+75  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+76  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+77  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+78  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+79  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+80  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+81  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+82  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+83  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+84  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+85  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+86  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+87  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+88  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+89  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+90  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+91  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+92  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+93  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+94  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+95  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+96  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+97  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+98  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+99  construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+100 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+101 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+102 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+103 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+104 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+105 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+106 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+107 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+108 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+109 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+110 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+111 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+112 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+113 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+114 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+115 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+116 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+117 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+118 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+119 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+120 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+121 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+122 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+123 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+124 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+125 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+126 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+127 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+128 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+129 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+130 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+131 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+132 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+133 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+134 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+135 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+136 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+137 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+138 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+139 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+140 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+141 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+142 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+143 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+144 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+145 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+146 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+147 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+148 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+149 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+150 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+151 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+152 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+153 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+154 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+155 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+156 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+157 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+158 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+159 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+160 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+161 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+162 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+163 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+164 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+165 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+166 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+167 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+168 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+169 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+170 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+171 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+172 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+173 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+174 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+175 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+176 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+177 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+178 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+179 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+180 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+181 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+182 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+183 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+184 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+185 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+186 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+187 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+188 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+189 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+190 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+191 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+192 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+193 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+194 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+195 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+196 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+197 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+198 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+199 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+200 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+201 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+202 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+203 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+204 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+205 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+206 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+207 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+208 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+209 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+210 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+211 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+212 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+213 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+214 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+215 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+216 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+217 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+218 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+219 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+220 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+221 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+222 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+223 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+224 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+225 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+226 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+227 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+228 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+229 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+230 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+231 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+232 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+233 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+234 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+235 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+236 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+237 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+238 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+239 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+240 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+241 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+242 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+243 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+244 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+245 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+246 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+247 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+248 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+249 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+250 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+251 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+252 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+253 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+254 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+255 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+256 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+257 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+258 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+259 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+260 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+261 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+262 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+263 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+264 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+265 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+266 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+267 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+268 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+269 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+270 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+271 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+272 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+273 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+274 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+275 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+276 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+277 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+278 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+279 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+280 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+281 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+282 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+283 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+284 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+285 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+286 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+287 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+288 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+289 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+290 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+291 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+292 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+293 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+294 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+295 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+296 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+297 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+298 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+299 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+300 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+301 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+302 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+303 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+304 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+305 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+306 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+307 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+308 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+309 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+310 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+311 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+312 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+313 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+314 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+315 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+316 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+317 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+318 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+319 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+320 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+321 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+322 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+323 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+324 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+325 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+326 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+327 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+328 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+329 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+330 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+331 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+332 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+333 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+334 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+335 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+336 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+337 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+338 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+339 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+340 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+341 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+342 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+343 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+344 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+345 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+346 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+347 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+348 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+349 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+350 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+351 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+352 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+353 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+354 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+355 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+356 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+357 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+358 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+359 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+360 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+361 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+362 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+363 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+364 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+365 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+366 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+367 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+368 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+369 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+370 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+371 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+372 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+373 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+374 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+375 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+376 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+377 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+378 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+379 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+380 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+381 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+382 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+383 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+384 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+385 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+386 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+387 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+388 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+389 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+390 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+391 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+392 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+393 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+394 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+395 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+396 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+397 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+398 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+399 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+400 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+401 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+402 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+403 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+404 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+405 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+406 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+407 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+408 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+409 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+410 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+411 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+412 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+413 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+414 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+415 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+416 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+417 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+418 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+419 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+420 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+421 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+422 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+423 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+424 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+425 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+426 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+427 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+428 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+429 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+430 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+431 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+432 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+433 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+434 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+435 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+436 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+437 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+438 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+439 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+440 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+441 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+442 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+443 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+444 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+445 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+446 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+447 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+448 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+449 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+450 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+451 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+452 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+453 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+454 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+455 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+456 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+457 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+458 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+459 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+460 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+461 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+462 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+463 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+464 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+465 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+466 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+467 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+468 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+469 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+470 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+471 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+472 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+473 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+474 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+475 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+476 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+477 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+478 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+479 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+480 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+481 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+482 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+483 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+484 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+485 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+486 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+487 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+488 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+489 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+490 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+491 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+492 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+493 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+494 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+495 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+496 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+497 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+498 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+499 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+500 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+501 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+502 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+503 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+504 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+505 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+506 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+507 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+508 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+509 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+510 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+511 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+512 construct5_neg.exe            	0x0000000106cad716 test01() + 1028 (construct5_neg.cc:35)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000107b09e00  rcx: 0x00007ffee8f4eca8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee8f4ecd0  rsp: 0x00007ffee8f4eca8
+   r8: 0x00007fff80622028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000106cb3328  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff202fb91e  rfl: 0x0000000000000246  cr2: 0x00007fff80656498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x106cab000 -        0x106caefff +construct5_neg.exe (0) <6AE1F1F7-0B3D-32EA-B113-2481D6DB5E74> /Users/USER/*/construct5_neg.exe
+       0x106cc5000 -        0x106dc8fff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x106de7000 -        0x106f02fff +libstdc++.6.dylib (0) <7CD6DFD1-AACF-323D-9766-BB2DCDF79D16> /Users/USER/*/libstdc++.6.dylib
+       0x107a32000 -        0x107acdfff  dyld (852.2) <FE71A484-0A66-3DF2-98B8-9D72ADD7D523> /usr/lib/dyld
+    0x7fff20062000 -     0x7fff20063fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff20064000 -     0x7fff20099fff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2009a000 -     0x7fff200b1fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200b2000 -     0x7fff2014ffff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20150000 -     0x7fff2017cfff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff2017d000 -     0x7fff201c1fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff201c2000 -     0x7fff201fbfff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff201fc000 -     0x7fff201fefff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff201ff000 -     0x7fff20287fff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff20288000 -     0x7fff202ddfff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff202de000 -     0x7fff202f3fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff202f4000 -     0x7fff20323fff  libsystem_kernel.dylib (7195.141.42) <5D49E9BA-54B9-350F-B4DF-8B79D2A09876> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20324000 -     0x7fff2032ffff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20330000 -     0x7fff2036bfff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff2036c000 -     0x7fff20375fff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff20376000 -     0x7fff203a1fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22772000 -     0x7fff2277bfff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b91000 -     0x7fff22b9cfff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b29000 -     0x7fff24b37fff  libsystem_networkextension.dylib (1295.140.3) <3AA133EC-F0C0-38F3-8E80-007DFAA5D9D1> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b96000 -     0x7fff24bacfff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff26274000 -     0x7fff2627bfff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28283000 -     0x7fff28293fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f97000 -     0x7fff28f9afff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28f9b000 -     0x7fff28f9ffff  libsystem_sandbox.dylib (1441.141.10) <3D1999E2-8C66-3849-B355-1DE5785F2807> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c91000 -     0x7fff29c93fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a23c000 -     0x7fff2a240fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a450000 -     0x7fff2a497fff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a499000 -     0x7fff2a49efff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2a4bb000 -     0x7fff2a4c6fff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4c7000 -     0x7fff2a4d1fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d2000 -     0x7fff2a4d9fff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2a4da000 -     0x7fff2a4e4fff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4e5000 -     0x7fff2a4ecfff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4ed000 -     0x7fff2a4effff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f0000 -     0x7fff2a4f2fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f6fff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4f7000 -     0x7fff2a4fefff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a4ff000 -     0x7fff2a504fff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2a505000 -     0x7fff2a506fff  libSystem.B.dylib (1292.120.1) <47869A5B-8B4B-3F7C-94D7-09F3E2A5B2EE> /usr/lib/libSystem.B.dylib
+    0x7fff2d90c000 -     0x7fff2d90cfff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda3000 -     0x7fff2fda3fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=74.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=74.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            10.2M        9 
+MALLOC guard page                   16K        3 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       326K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M        9 
+__OBJC_RO                         70.2M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7176K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            657.0M      181 
+

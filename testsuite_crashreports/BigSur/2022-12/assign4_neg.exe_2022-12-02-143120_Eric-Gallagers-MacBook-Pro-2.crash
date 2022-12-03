@@ -1,0 +1,648 @@
+Process:               assign4_neg.exe [83331]
+Path:                  /Users/USER/*/assign4_neg.exe
+Identifier:            assign4_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [70021]
+Responsible:           Terminal [865]
+User ID:               501
+
+Date/Time:             2022-12-02 14:31:20.007 -0500
+OS Version:            macOS 11.7.1 (20G918)
+Report Version:        12
+Bridge OS Version:     7.0 (20P420)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       9F288579-C571-418C-AB37-62F3CC4D7A2F
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       1500 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff202fb91e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2032a5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff2027f406 abort + 125
+3   libstdc++.6.dylib             	0x0000000109db92bb __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1234)
+4   assign4_neg.exe               	0x0000000109c537a2 void std::__debug::vector<int, std::allocator<int> >::assign<int const*, void>(int const*, int const*) + 244 (vector:264)
+5   assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+6   assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+7   assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+8   assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+9   assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+10  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+11  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+12  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+13  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+14  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+15  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+16  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+17  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+18  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+19  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+20  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+21  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+22  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+23  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+24  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+25  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+26  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+27  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+28  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+29  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+30  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+31  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+32  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+33  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+34  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+35  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+36  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+37  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+38  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+39  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+40  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+41  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+42  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+43  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+44  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+45  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+46  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+47  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+48  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+49  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+50  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+51  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+52  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+53  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+54  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+55  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+56  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+57  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+58  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+59  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+60  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+61  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+62  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+63  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+64  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+65  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+66  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+67  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+68  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+69  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+70  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+71  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+72  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+73  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+74  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+75  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+76  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+77  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+78  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+79  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+80  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+81  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+82  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+83  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+84  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+85  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+86  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+87  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+88  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+89  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+90  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+91  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+92  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+93  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+94  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+95  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+96  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+97  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+98  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+99  assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+100 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+101 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+102 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+103 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+104 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+105 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+106 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+107 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+108 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+109 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+110 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+111 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+112 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+113 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+114 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+115 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+116 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+117 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+118 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+119 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+120 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+121 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+122 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+123 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+124 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+125 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+126 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+127 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+128 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+129 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+130 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+131 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+132 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+133 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+134 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+135 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+136 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+137 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+138 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+139 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+140 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+141 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+142 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+143 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+144 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+145 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+146 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+147 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+148 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+149 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+150 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+151 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+152 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+153 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+154 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+155 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+156 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+157 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+158 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+159 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+160 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+161 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+162 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+163 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+164 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+165 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+166 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+167 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+168 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+169 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+170 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+171 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+172 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+173 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+174 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+175 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+176 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+177 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+178 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+179 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+180 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+181 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+182 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+183 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+184 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+185 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+186 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+187 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+188 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+189 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+190 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+191 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+192 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+193 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+194 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+195 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+196 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+197 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+198 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+199 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+200 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+201 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+202 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+203 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+204 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+205 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+206 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+207 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+208 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+209 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+210 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+211 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+212 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+213 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+214 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+215 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+216 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+217 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+218 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+219 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+220 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+221 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+222 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+223 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+224 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+225 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+226 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+227 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+228 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+229 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+230 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+231 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+232 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+233 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+234 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+235 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+236 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+237 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+238 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+239 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+240 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+241 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+242 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+243 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+244 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+245 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+246 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+247 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+248 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+249 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+250 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+251 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+252 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+253 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+254 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+255 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+256 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+257 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+258 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+259 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+260 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+261 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+262 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+263 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+264 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+265 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+266 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+267 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+268 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+269 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+270 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+271 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+272 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+273 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+274 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+275 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+276 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+277 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+278 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+279 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+280 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+281 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+282 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+283 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+284 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+285 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+286 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+287 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+288 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+289 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+290 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+291 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+292 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+293 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+294 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+295 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+296 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+297 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+298 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+299 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+300 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+301 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+302 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+303 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+304 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+305 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+306 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+307 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+308 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+309 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+310 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+311 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+312 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+313 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+314 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+315 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+316 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+317 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+318 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+319 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+320 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+321 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+322 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+323 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+324 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+325 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+326 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+327 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+328 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+329 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+330 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+331 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+332 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+333 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+334 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+335 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+336 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+337 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+338 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+339 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+340 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+341 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+342 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+343 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+344 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+345 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+346 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+347 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+348 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+349 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+350 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+351 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+352 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+353 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+354 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+355 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+356 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+357 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+358 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+359 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+360 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+361 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+362 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+363 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+364 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+365 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+366 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+367 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+368 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+369 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+370 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+371 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+372 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+373 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+374 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+375 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+376 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+377 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+378 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+379 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+380 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+381 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+382 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+383 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+384 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+385 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+386 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+387 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+388 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+389 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+390 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+391 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+392 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+393 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+394 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+395 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+396 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+397 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+398 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+399 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+400 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+401 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+402 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+403 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+404 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+405 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+406 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+407 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+408 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+409 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+410 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+411 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+412 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+413 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+414 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+415 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+416 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+417 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+418 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+419 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+420 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+421 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+422 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+423 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+424 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+425 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+426 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+427 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+428 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+429 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+430 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+431 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+432 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+433 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+434 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+435 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+436 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+437 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+438 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+439 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+440 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+441 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+442 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+443 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+444 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+445 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+446 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+447 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+448 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+449 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+450 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+451 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+452 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+453 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+454 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+455 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+456 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+457 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+458 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+459 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+460 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+461 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+462 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+463 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+464 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+465 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+466 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+467 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+468 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+469 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+470 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+471 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+472 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+473 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+474 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+475 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+476 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+477 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+478 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+479 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+480 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+481 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+482 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+483 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+484 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+485 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+486 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+487 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+488 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+489 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+490 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+491 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+492 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+493 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+494 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+495 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+496 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+497 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+498 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+499 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+500 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+501 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+502 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+503 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+504 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+505 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+506 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+507 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+508 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+509 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+510 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+511 assign4_neg.exe               	0x0000000109c53969 void __gnu_test::check_assign1<std::__debug::vector<int, std::allocator<int> > >() + 405 (checks.h:111)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000112db4e00  rcx: 0x00007ffee5fa9d68  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee5fa9d90  rsp: 0x00007ffee5fa9d68
+   r8: 0x00007fff80622028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000109c580d8  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff202fb91e  rfl: 0x0000000000000246  cr2: 0x00007fff80656498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x109c50000 -        0x109c53fff +assign4_neg.exe (0) <5319FC62-D5C9-3B45-A1D0-05274B9D4EE4> /Users/USER/*/assign4_neg.exe
+       0x109c61000 -        0x109d64fff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x109d7e000 -        0x109e99fff +libstdc++.6.dylib (0) <7CD6DFD1-AACF-323D-9766-BB2DCDF79D16> /Users/USER/*/libstdc++.6.dylib
+       0x112cdd000 -        0x112d78fff  dyld (852.2) <FE71A484-0A66-3DF2-98B8-9D72ADD7D523> /usr/lib/dyld
+    0x7fff20062000 -     0x7fff20063fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff20064000 -     0x7fff20099fff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2009a000 -     0x7fff200b1fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200b2000 -     0x7fff2014ffff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20150000 -     0x7fff2017cfff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff2017d000 -     0x7fff201c1fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff201c2000 -     0x7fff201fbfff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff201fc000 -     0x7fff201fefff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff201ff000 -     0x7fff20287fff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff20288000 -     0x7fff202ddfff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff202de000 -     0x7fff202f3fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff202f4000 -     0x7fff20323fff  libsystem_kernel.dylib (7195.141.42) <5D49E9BA-54B9-350F-B4DF-8B79D2A09876> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20324000 -     0x7fff2032ffff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20330000 -     0x7fff2036bfff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff2036c000 -     0x7fff20375fff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff20376000 -     0x7fff203a1fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22772000 -     0x7fff2277bfff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b91000 -     0x7fff22b9cfff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b29000 -     0x7fff24b37fff  libsystem_networkextension.dylib (1295.140.3) <3AA133EC-F0C0-38F3-8E80-007DFAA5D9D1> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b96000 -     0x7fff24bacfff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff26274000 -     0x7fff2627bfff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28283000 -     0x7fff28293fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f97000 -     0x7fff28f9afff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28f9b000 -     0x7fff28f9ffff  libsystem_sandbox.dylib (1441.141.10) <3D1999E2-8C66-3849-B355-1DE5785F2807> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c91000 -     0x7fff29c93fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a23c000 -     0x7fff2a240fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a450000 -     0x7fff2a497fff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a499000 -     0x7fff2a49efff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2a4bb000 -     0x7fff2a4c6fff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4c7000 -     0x7fff2a4d1fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d2000 -     0x7fff2a4d9fff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2a4da000 -     0x7fff2a4e4fff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4e5000 -     0x7fff2a4ecfff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4ed000 -     0x7fff2a4effff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f0000 -     0x7fff2a4f2fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f6fff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4f7000 -     0x7fff2a4fefff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a4ff000 -     0x7fff2a504fff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2a505000 -     0x7fff2a506fff  libSystem.B.dylib (1292.120.1) <47869A5B-8B4B-3F7C-94D7-09F3E2A5B2EE> /usr/lib/libSystem.B.dylib
+    0x7fff2d90c000 -     0x7fff2d90cfff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda3000 -     0x7fff2fda3fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=74.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=74.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            10.2M        9 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       326K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M        9 
+__OBJC_RO                         70.2M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7176K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            657.0M      182 
+

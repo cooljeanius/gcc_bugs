@@ -1,0 +1,648 @@
+Process:               shrink_to_fit.exe [93093]
+Path:                  /Users/USER/*/shrink_to_fit.exe
+Identifier:            shrink_to_fit.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [83157]
+Responsible:           Terminal [865]
+User ID:               501
+
+Date/Time:             2022-12-02 11:52:42.321 -0500
+OS Version:            macOS 11.7.1 (20G918)
+Report Version:        12
+Bridge OS Version:     7.0 (20P420)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       DB857333-976D-45D7-992B-D458009C580D
+
+Time Awake Since Boot: 1200000 seconds
+Time Since Wake:       5500 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff202fb91e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2032a5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff2027f406 abort + 125
+3   libstdc++.6.dylib             	0x000000010c5332bb __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1234)
+4   shrink_to_fit.exe             	0x000000010c3c8858 test01() + 361 (safe_iterator.h:304)
+5   shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+6   shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+7   shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+8   shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+9   shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+10  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+11  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+12  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+13  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+14  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+15  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+16  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+17  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+18  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+19  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+20  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+21  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+22  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+23  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+24  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+25  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+26  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+27  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+28  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+29  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+30  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+31  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+32  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+33  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+34  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+35  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+36  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+37  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+38  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+39  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+40  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+41  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+42  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+43  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+44  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+45  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+46  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+47  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+48  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+49  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+50  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+51  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+52  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+53  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+54  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+55  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+56  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+57  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+58  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+59  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+60  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+61  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+62  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+63  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+64  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+65  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+66  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+67  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+68  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+69  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+70  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+71  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+72  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+73  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+74  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+75  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+76  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+77  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+78  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+79  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+80  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+81  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+82  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+83  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+84  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+85  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+86  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+87  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+88  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+89  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+90  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+91  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+92  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+93  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+94  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+95  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+96  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+97  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+98  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+99  shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+100 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+101 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+102 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+103 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+104 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+105 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+106 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+107 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+108 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+109 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+110 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+111 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+112 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+113 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+114 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+115 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+116 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+117 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+118 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+119 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+120 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+121 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+122 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+123 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+124 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+125 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+126 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+127 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+128 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+129 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+130 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+131 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+132 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+133 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+134 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+135 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+136 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+137 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+138 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+139 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+140 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+141 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+142 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+143 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+144 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+145 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+146 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+147 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+148 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+149 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+150 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+151 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+152 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+153 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+154 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+155 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+156 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+157 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+158 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+159 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+160 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+161 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+162 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+163 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+164 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+165 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+166 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+167 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+168 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+169 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+170 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+171 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+172 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+173 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+174 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+175 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+176 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+177 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+178 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+179 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+180 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+181 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+182 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+183 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+184 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+185 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+186 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+187 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+188 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+189 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+190 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+191 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+192 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+193 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+194 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+195 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+196 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+197 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+198 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+199 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+200 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+201 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+202 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+203 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+204 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+205 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+206 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+207 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+208 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+209 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+210 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+211 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+212 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+213 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+214 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+215 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+216 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+217 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+218 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+219 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+220 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+221 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+222 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+223 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+224 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+225 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+226 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+227 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+228 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+229 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+230 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+231 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+232 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+233 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+234 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+235 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+236 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+237 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+238 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+239 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+240 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+241 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+242 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+243 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+244 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+245 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+246 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+247 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+248 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+249 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+250 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+251 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+252 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+253 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+254 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+255 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+256 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+257 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+258 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+259 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+260 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+261 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+262 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+263 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+264 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+265 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+266 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+267 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+268 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+269 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+270 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+271 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+272 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+273 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+274 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+275 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+276 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+277 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+278 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+279 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+280 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+281 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+282 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+283 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+284 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+285 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+286 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+287 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+288 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+289 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+290 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+291 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+292 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+293 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+294 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+295 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+296 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+297 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+298 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+299 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+300 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+301 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+302 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+303 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+304 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+305 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+306 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+307 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+308 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+309 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+310 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+311 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+312 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+313 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+314 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+315 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+316 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+317 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+318 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+319 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+320 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+321 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+322 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+323 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+324 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+325 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+326 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+327 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+328 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+329 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+330 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+331 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+332 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+333 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+334 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+335 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+336 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+337 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+338 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+339 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+340 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+341 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+342 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+343 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+344 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+345 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+346 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+347 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+348 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+349 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+350 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+351 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+352 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+353 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+354 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+355 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+356 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+357 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+358 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+359 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+360 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+361 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+362 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+363 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+364 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+365 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+366 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+367 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+368 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+369 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+370 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+371 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+372 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+373 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+374 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+375 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+376 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+377 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+378 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+379 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+380 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+381 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+382 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+383 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+384 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+385 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+386 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+387 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+388 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+389 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+390 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+391 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+392 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+393 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+394 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+395 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+396 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+397 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+398 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+399 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+400 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+401 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+402 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+403 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+404 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+405 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+406 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+407 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+408 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+409 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+410 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+411 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+412 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+413 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+414 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+415 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+416 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+417 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+418 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+419 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+420 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+421 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+422 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+423 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+424 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+425 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+426 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+427 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+428 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+429 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+430 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+431 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+432 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+433 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+434 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+435 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+436 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+437 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+438 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+439 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+440 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+441 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+442 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+443 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+444 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+445 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+446 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+447 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+448 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+449 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+450 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+451 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+452 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+453 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+454 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+455 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+456 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+457 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+458 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+459 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+460 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+461 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+462 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+463 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+464 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+465 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+466 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+467 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+468 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+469 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+470 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+471 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+472 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+473 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+474 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+475 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+476 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+477 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+478 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+479 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+480 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+481 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+482 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+483 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+484 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+485 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+486 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+487 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+488 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+489 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+490 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+491 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+492 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+493 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+494 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+495 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+496 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+497 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+498 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+499 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+500 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+501 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+502 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+503 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+504 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+505 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+506 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+507 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+508 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+509 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+510 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+511 shrink_to_fit.exe             	0x000000010c3c88d0 main + 9 (shrink_to_fit.cc:36)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000119b04e00  rcx: 0x00007ffee3834db8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee3834de0  rsp: 0x00007ffee3834db8
+   r8: 0x00007fff80622028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x000000010c3cd0b0  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff202fb91e  rfl: 0x0000000000000246  cr2: 0x00007fff80656498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10c3c5000 -        0x10c3c8fff +shrink_to_fit.exe (0) <9C86B2AC-A02D-3FA8-8D26-C05732CD8F2B> /Users/USER/*/shrink_to_fit.exe
+       0x10c3d9000 -        0x10c4dcfff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x10c4f8000 -        0x10c613fff +libstdc++.6.dylib (0) <7CD6DFD1-AACF-323D-9766-BB2DCDF79D16> /Users/USER/*/libstdc++.6.dylib
+       0x119a2d000 -        0x119ac8fff  dyld (852.2) <FE71A484-0A66-3DF2-98B8-9D72ADD7D523> /usr/lib/dyld
+    0x7fff20062000 -     0x7fff20063fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff20064000 -     0x7fff20099fff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2009a000 -     0x7fff200b1fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200b2000 -     0x7fff2014ffff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20150000 -     0x7fff2017cfff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff2017d000 -     0x7fff201c1fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff201c2000 -     0x7fff201fbfff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff201fc000 -     0x7fff201fefff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff201ff000 -     0x7fff20287fff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff20288000 -     0x7fff202ddfff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff202de000 -     0x7fff202f3fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff202f4000 -     0x7fff20323fff  libsystem_kernel.dylib (7195.141.42) <5D49E9BA-54B9-350F-B4DF-8B79D2A09876> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20324000 -     0x7fff2032ffff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20330000 -     0x7fff2036bfff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff2036c000 -     0x7fff20375fff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff20376000 -     0x7fff203a1fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22772000 -     0x7fff2277bfff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b91000 -     0x7fff22b9cfff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b29000 -     0x7fff24b37fff  libsystem_networkextension.dylib (1295.140.3) <3AA133EC-F0C0-38F3-8E80-007DFAA5D9D1> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b96000 -     0x7fff24bacfff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff26274000 -     0x7fff2627bfff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28283000 -     0x7fff28293fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f97000 -     0x7fff28f9afff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28f9b000 -     0x7fff28f9ffff  libsystem_sandbox.dylib (1441.141.10) <3D1999E2-8C66-3849-B355-1DE5785F2807> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c91000 -     0x7fff29c93fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a23c000 -     0x7fff2a240fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a450000 -     0x7fff2a497fff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a499000 -     0x7fff2a49efff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2a4bb000 -     0x7fff2a4c6fff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4c7000 -     0x7fff2a4d1fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d2000 -     0x7fff2a4d9fff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2a4da000 -     0x7fff2a4e4fff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4e5000 -     0x7fff2a4ecfff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4ed000 -     0x7fff2a4effff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f0000 -     0x7fff2a4f2fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f6fff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4f7000 -     0x7fff2a4fefff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a4ff000 -     0x7fff2a504fff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2a505000 -     0x7fff2a506fff  libSystem.B.dylib (1292.120.1) <47869A5B-8B4B-3F7C-94D7-09F3E2A5B2EE> /usr/lib/libSystem.B.dylib
+    0x7fff2d90c000 -     0x7fff2d90cfff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda3000 -     0x7fff2fda3fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.2M resident=0K(0%) swapped_out_or_unallocated=509.2M(100%)
+Writable regions: Total=73.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=73.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9404K        8 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       326K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.2M        9 
+__OBJC_RO                         70.2M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7176K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            656.0M      181 
+

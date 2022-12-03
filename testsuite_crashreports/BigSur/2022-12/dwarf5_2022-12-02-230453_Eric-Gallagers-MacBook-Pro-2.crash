@@ -1,0 +1,668 @@
+Process:               dwarf5 [64076]
+Path:                  /Users/USER/*/dwarf5
+Identifier:            dwarf5
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        bash [64075]
+Responsible:           Terminal [55930]
+User ID:               501
+
+Date/Time:             2022-12-02 23:04:53.208 -0500
+OS Version:            macOS 11.7.1 (20G918)
+Report Version:        12
+Bridge OS Version:     7.0 (20P420)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       12AAACA1-90D0-4877-8820-33F1E64DB81A
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       8700 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGBUS)
+Exception Codes:       KERN_MEMORY_ERROR at 0x000000010c283000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Bus error: 10
+Termination Reason:    Namespace SIGNAL, Code 0xa
+Terminating Process:   exc handler [64076]
+
+VM Regions Near 0x10c283000:
+    VM_ALLOCATE                 10c281000-10c283000    [    8K] rw-/rwx SM=PRV  
+--> mapped file                 10c283000-10c284000    [    4K] r--/rwx SM=COW  Object_id=a9b14b61
+    mapped file                 10c287000-10c289000    [    8K] r--/rwx SM=COW  Object_id=b31b3561
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   dwarf5                        	0x000000010c24e4ce macho_add + 139 (macho.c:1010)
+1   dwarf5                        	0x000000010c24ef1d macho_add_dsym + 463 (macho.c:948) [inlined]
+2   dwarf5                        	0x000000010c24ef1d macho_add + 2778
+3   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+4   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+5   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+6   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+7   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+8   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+9   dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+10  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+11  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+12  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+13  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+14  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+15  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+16  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+17  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+18  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+19  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+20  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+21  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+22  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+23  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+24  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+25  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+26  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+27  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+28  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+29  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+30  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+31  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+32  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+33  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+34  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+35  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+36  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+37  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+38  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+39  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+40  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+41  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+42  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+43  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+44  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+45  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+46  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+47  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+48  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+49  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+50  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+51  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+52  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+53  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+54  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+55  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+56  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+57  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+58  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+59  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+60  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+61  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+62  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+63  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+64  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+65  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+66  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+67  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+68  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+69  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+70  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+71  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+72  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+73  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+74  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+75  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+76  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+77  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+78  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+79  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+80  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+81  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+82  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+83  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+84  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+85  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+86  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+87  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+88  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+89  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+90  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+91  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+92  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+93  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+94  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+95  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+96  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+97  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+98  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+99  dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+100 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+101 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+102 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+103 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+104 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+105 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+106 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+107 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+108 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+109 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+110 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+111 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+112 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+113 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+114 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+115 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+116 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+117 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+118 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+119 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+120 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+121 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+122 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+123 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+124 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+125 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+126 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+127 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+128 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+129 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+130 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+131 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+132 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+133 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+134 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+135 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+136 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+137 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+138 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+139 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+140 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+141 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+142 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+143 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+144 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+145 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+146 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+147 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+148 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+149 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+150 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+151 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+152 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+153 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+154 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+155 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+156 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+157 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+158 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+159 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+160 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+161 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+162 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+163 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+164 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+165 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+166 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+167 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+168 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+169 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+170 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+171 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+172 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+173 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+174 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+175 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+176 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+177 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+178 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+179 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+180 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+181 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+182 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+183 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+184 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+185 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+186 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+187 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+188 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+189 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+190 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+191 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+192 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+193 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+194 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+195 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+196 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+197 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+198 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+199 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+200 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+201 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+202 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+203 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+204 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+205 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+206 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+207 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+208 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+209 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+210 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+211 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+212 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+213 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+214 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+215 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+216 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+217 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+218 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+219 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+220 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+221 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+222 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+223 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+224 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+225 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+226 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+227 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+228 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+229 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+230 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+231 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+232 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+233 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+234 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+235 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+236 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+237 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+238 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+239 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+240 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+241 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+242 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+243 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+244 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+245 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+246 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+247 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+248 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+249 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+250 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+251 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+252 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+253 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+254 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+255 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+256 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+257 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+258 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+259 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+260 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+261 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+262 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+263 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+264 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+265 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+266 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+267 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+268 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+269 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+270 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+271 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+272 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+273 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+274 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+275 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+276 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+277 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+278 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+279 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+280 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+281 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+282 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+283 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+284 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+285 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+286 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+287 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+288 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+289 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+290 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+291 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+292 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+293 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+294 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+295 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+296 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+297 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+298 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+299 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+300 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+301 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+302 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+303 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+304 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+305 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+306 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+307 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+308 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+309 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+310 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+311 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+312 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+313 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+314 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+315 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+316 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+317 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+318 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+319 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+320 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+321 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+322 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+323 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+324 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+325 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+326 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+327 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+328 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+329 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+330 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+331 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+332 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+333 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+334 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+335 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+336 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+337 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+338 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+339 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+340 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+341 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+342 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+343 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+344 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+345 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+346 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+347 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+348 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+349 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+350 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+351 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+352 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+353 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+354 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+355 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+356 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+357 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+358 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+359 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+360 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+361 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+362 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+363 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+364 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+365 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+366 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+367 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+368 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+369 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+370 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+371 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+372 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+373 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+374 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+375 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+376 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+377 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+378 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+379 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+380 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+381 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+382 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+383 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+384 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+385 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+386 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+387 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+388 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+389 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+390 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+391 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+392 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+393 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+394 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+395 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+396 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+397 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+398 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+399 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+400 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+401 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+402 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+403 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+404 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+405 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+406 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+407 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+408 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+409 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+410 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+411 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+412 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+413 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+414 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+415 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+416 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+417 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+418 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+419 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+420 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+421 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+422 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+423 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+424 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+425 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+426 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+427 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+428 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+429 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+430 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+431 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+432 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+433 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+434 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+435 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+436 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+437 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+438 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+439 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+440 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+441 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+442 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+443 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+444 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+445 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+446 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+447 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+448 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+449 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+450 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+451 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+452 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+453 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+454 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+455 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+456 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+457 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+458 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+459 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+460 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+461 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+462 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+463 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+464 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+465 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+466 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+467 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+468 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+469 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+470 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+471 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+472 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+473 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+474 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+475 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+476 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+477 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+478 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+479 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+480 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+481 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+482 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+483 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+484 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+485 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+486 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+487 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+488 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+489 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+490 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+491 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+492 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+493 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+494 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+495 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+496 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+497 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+498 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+499 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+500 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+501 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+502 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+503 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+504 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+505 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+506 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+507 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+508 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+509 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+510 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+511 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+512 dwarf5                        	0x000000010c24f204 backtrace_initialize + 213 (macho.c:1269)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x000000010c283000  rbx: 0x0000000000000000  rcx: 0x00007ffee39b3530  rdx: 0x000000010c2498e1
+  rdi: 0x000000010c281000  rsi: 0x00007ffee39b23b0  rbp: 0x00007ffee39b2570  rsp: 0x00007ffee39b2320
+   r8: 0x0000000000000004   r9: 0x0000000000000000  r10: 0x0000000000040002  r11: 0x0000000000000202
+  r12: 0x00007ffee39b23b0  r13: 0x0000000000000006  r14: 0x0000000000000000  r15: 0x00007ffee39b23b0
+  rip: 0x000000010c24e4ce  rfl: 0x0000000000010202  cr2: 0x000000010c283000
+  
+Logical CPU:     2
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  ff 48 89 da 48 8b 45 30-48 89 b5 08 fe ff ff 4c  .H..H.E0H......L
+  89 85 d8 fd ff ff 4c 8b-45 18 4c 89 8d f8 fd ff  ......L.E.L.....
+  ff 8b b5 10 fe ff ff 48-89 bd 18 fe ff ff 44 89  .......H......D.
+  30 41 54 4c 8b 4d 20 e8-28 0e 00 00 41 5f 5a 85  0ATL.M .(...A_Z.
+  c0 0f 84 ab 0a 00 00 48-8b 85 40 fe ff ff 48 8b  .......H..@...H.
+  4d 20 4c 89 e6 48 8b 55-18 48 8b bd 18 fe ff ff  M L..H.U.H......
+ [0f]10 08 0f 10 50 0c 0f-11 8d 8c fe ff ff 0f 11  .....P..........	<==
+  95 98 fe ff ff e8 92 0e-00 00 8b 85 8c fe ff ff  ................
+  3d ce fa ed fe 74 7c 77-63 3d bf ba fe ca 0f 87  =....t|wc=......
+  d7 00 00 00 3d bd ba fe-ca 77 78 89 c2 81 e2 ff  ....=....wx.....
+  ff ff fe 81 fa ca fe ba-be 0f 85 bc 00 00 00 8b  ................
+  95 90 fe ff ff ff 75 30-3d ca fe ba bf 4c 8d 43  ......u0=....L.C
+  
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10c246000 -        0x10c251fff +dwarf5 (0) <FF41434B-11E7-3B71-945D-4EFC0EC8C8FE> /Users/USER/*/dwarf5
+       0x11537c000 -        0x115417fff  dyld (852.2) <FE71A484-0A66-3DF2-98B8-9D72ADD7D523> /usr/lib/dyld
+    0x7fff20062000 -     0x7fff20063fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff20064000 -     0x7fff20099fff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2009a000 -     0x7fff200b1fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff200b2000 -     0x7fff2014ffff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff20150000 -     0x7fff2017cfff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff2017d000 -     0x7fff201c1fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff201c2000 -     0x7fff201fbfff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff201fc000 -     0x7fff201fefff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff201ff000 -     0x7fff20287fff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff20288000 -     0x7fff202ddfff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff202de000 -     0x7fff202f3fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff202f4000 -     0x7fff20323fff  libsystem_kernel.dylib (7195.141.42) <5D49E9BA-54B9-350F-B4DF-8B79D2A09876> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20324000 -     0x7fff2032ffff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff20330000 -     0x7fff2036bfff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff2036c000 -     0x7fff20375fff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff20376000 -     0x7fff203a1fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22772000 -     0x7fff2277bfff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff22b91000 -     0x7fff22b9cfff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff24b29000 -     0x7fff24b37fff  libsystem_networkextension.dylib (1295.140.3) <3AA133EC-F0C0-38F3-8E80-007DFAA5D9D1> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff24b96000 -     0x7fff24bacfff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff26274000 -     0x7fff2627bfff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff28283000 -     0x7fff28293fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff28f97000 -     0x7fff28f9afff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff28f9b000 -     0x7fff28f9ffff  libsystem_sandbox.dylib (1441.141.10) <3D1999E2-8C66-3849-B355-1DE5785F2807> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff29c91000 -     0x7fff29c93fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a23c000 -     0x7fff2a240fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a450000 -     0x7fff2a497fff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2a499000 -     0x7fff2a49efff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2a4bb000 -     0x7fff2a4c6fff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2a4c7000 -     0x7fff2a4d1fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2a4d2000 -     0x7fff2a4d9fff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2a4da000 -     0x7fff2a4e4fff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2a4e5000 -     0x7fff2a4ecfff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2a4ed000 -     0x7fff2a4effff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2a4f0000 -     0x7fff2a4f2fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2a4f3000 -     0x7fff2a4f5fff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2a4f6000 -     0x7fff2a4f6fff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2a4f7000 -     0x7fff2a4fefff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2a4ff000 -     0x7fff2a504fff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2a505000 -     0x7fff2a506fff  libSystem.B.dylib (1292.120.1) <47869A5B-8B4B-3F7C-94D7-09F3E2A5B2EE> /usr/lib/libSystem.B.dylib
+    0x7fff2d90c000 -     0x7fff2d90cfff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff2fda3000 -     0x7fff2fda3fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 2
+    thread_create: 2
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=505.1M resident=0K(0%) swapped_out_or_unallocated=505.1M(100%)
+Writable regions: Total=73.3M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=73.3M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9328K        7 
+MALLOC guard page                   16K        4 
+STACK GUARD                          4K        1 
+Stack                             64.0M        2 
+VM_ALLOCATE                         16K        3 
+__DATA                             404K       43 
+__DATA_CONST                       262K       34 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.2M        4 
+__OBJC_RO                         70.2M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            5032K       44 
+mapped file                         12K        2 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            651.7M      171 
+
