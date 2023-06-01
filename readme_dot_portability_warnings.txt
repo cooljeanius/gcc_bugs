@@ -6,7 +6,7 @@ README.Portability warnings:
 * Trigraphs: -Wtrigraphs
 * Suffixes on Integer Constants: -Wtraditional gets ALL suffixes, but also drags in other unwanted warnings. Suggest splitting off a separate warning just for 'l'?
 * errno: not sure what exactly the issue with it being declared as a macro is?
-* Implicit int: -Wimplicit-int. However, it only catches the function declarations/definitions; I don't think it catches the "bare unsigned" places; will open bug with bare_unsigned.c about that...
+* Implicit int: -Wimplicit-int. However, it only catches the function declarations/definitions; I don't think it catches the "bare unsigned" places; I've opened bug 110047 with bare_unsigned.c about that: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=110047
 * Char vs unsigned char vs int: -Wconversion and friends
 * Plain char sign/unsigned extending: ???
 * Shifts: One of the "-Wshift-*" flags
