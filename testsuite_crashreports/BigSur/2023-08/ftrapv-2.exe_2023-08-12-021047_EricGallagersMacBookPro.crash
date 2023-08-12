@@ -1,0 +1,646 @@
+Process:               ftrapv-2.exe [53389]
+Path:                  /Users/USER/*/ftrapv-2.exe
+Identifier:            ftrapv-2.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        ??? [53376]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-12 02:10:46.929 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       FF032626-D899-4906-B810-42A8EF556036
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       300 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+crashed on child side of fork pre-exec
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2087091e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2089f5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff207f4406 abort + 125
+3   ftrapv-2.exe                  	0x000000010fa15e7b __addvsi3 + 15 (libgcc2.c:92)
+4   ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+5   ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+6   ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+7   ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+8   ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+9   ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+10  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+11  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+12  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+13  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+14  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+15  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+16  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+17  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+18  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+19  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+20  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+21  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+22  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+23  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+24  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+25  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+26  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+27  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+28  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+29  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+30  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+31  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+32  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+33  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+34  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+35  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+36  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+37  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+38  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+39  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+40  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+41  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+42  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+43  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+44  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+45  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+46  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+47  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+48  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+49  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+50  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+51  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+52  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+53  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+54  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+55  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+56  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+57  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+58  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+59  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+60  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+61  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+62  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+63  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+64  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+65  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+66  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+67  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+68  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+69  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+70  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+71  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+72  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+73  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+74  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+75  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+76  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+77  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+78  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+79  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+80  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+81  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+82  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+83  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+84  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+85  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+86  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+87  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+88  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+89  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+90  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+91  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+92  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+93  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+94  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+95  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+96  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+97  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+98  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+99  ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+100 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+101 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+102 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+103 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+104 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+105 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+106 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+107 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+108 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+109 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+110 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+111 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+112 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+113 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+114 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+115 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+116 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+117 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+118 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+119 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+120 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+121 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+122 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+123 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+124 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+125 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+126 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+127 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+128 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+129 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+130 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+131 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+132 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+133 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+134 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+135 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+136 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+137 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+138 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+139 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+140 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+141 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+142 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+143 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+144 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+145 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+146 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+147 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+148 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+149 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+150 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+151 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+152 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+153 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+154 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+155 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+156 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+157 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+158 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+159 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+160 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+161 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+162 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+163 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+164 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+165 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+166 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+167 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+168 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+169 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+170 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+171 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+172 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+173 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+174 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+175 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+176 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+177 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+178 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+179 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+180 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+181 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+182 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+183 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+184 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+185 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+186 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+187 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+188 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+189 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+190 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+191 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+192 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+193 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+194 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+195 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+196 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+197 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+198 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+199 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+200 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+201 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+202 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+203 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+204 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+205 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+206 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+207 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+208 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+209 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+210 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+211 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+212 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+213 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+214 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+215 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+216 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+217 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+218 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+219 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+220 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+221 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+222 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+223 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+224 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+225 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+226 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+227 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+228 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+229 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+230 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+231 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+232 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+233 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+234 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+235 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+236 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+237 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+238 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+239 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+240 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+241 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+242 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+243 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+244 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+245 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+246 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+247 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+248 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+249 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+250 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+251 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+252 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+253 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+254 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+255 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+256 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+257 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+258 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+259 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+260 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+261 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+262 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+263 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+264 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+265 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+266 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+267 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+268 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+269 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+270 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+271 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+272 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+273 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+274 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+275 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+276 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+277 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+278 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+279 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+280 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+281 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+282 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+283 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+284 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+285 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+286 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+287 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+288 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+289 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+290 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+291 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+292 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+293 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+294 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+295 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+296 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+297 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+298 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+299 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+300 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+301 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+302 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+303 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+304 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+305 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+306 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+307 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+308 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+309 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+310 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+311 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+312 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+313 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+314 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+315 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+316 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+317 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+318 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+319 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+320 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+321 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+322 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+323 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+324 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+325 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+326 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+327 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+328 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+329 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+330 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+331 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+332 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+333 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+334 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+335 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+336 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+337 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+338 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+339 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+340 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+341 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+342 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+343 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+344 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+345 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+346 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+347 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+348 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+349 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+350 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+351 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+352 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+353 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+354 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+355 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+356 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+357 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+358 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+359 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+360 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+361 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+362 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+363 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+364 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+365 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+366 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+367 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+368 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+369 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+370 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+371 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+372 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+373 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+374 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+375 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+376 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+377 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+378 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+379 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+380 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+381 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+382 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+383 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+384 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+385 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+386 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+387 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+388 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+389 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+390 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+391 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+392 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+393 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+394 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+395 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+396 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+397 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+398 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+399 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+400 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+401 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+402 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+403 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+404 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+405 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+406 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+407 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+408 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+409 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+410 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+411 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+412 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+413 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+414 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+415 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+416 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+417 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+418 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+419 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+420 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+421 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+422 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+423 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+424 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+425 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+426 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+427 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+428 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+429 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+430 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+431 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+432 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+433 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+434 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+435 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+436 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+437 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+438 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+439 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+440 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+441 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+442 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+443 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+444 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+445 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+446 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+447 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+448 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+449 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+450 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+451 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+452 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+453 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+454 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+455 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+456 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+457 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+458 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+459 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+460 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+461 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+462 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+463 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+464 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+465 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+466 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+467 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+468 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+469 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+470 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+471 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+472 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+473 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+474 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+475 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+476 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+477 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+478 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+479 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+480 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+481 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+482 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+483 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+484 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+485 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+486 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+487 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+488 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+489 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+490 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+491 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+492 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+493 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+494 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+495 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+496 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+497 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+498 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+499 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+500 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+501 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+502 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+503 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+504 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+505 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+506 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+507 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+508 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+509 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+510 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+511 ftrapv-2.exe                  	0x000000010fa15ea3 main + 39
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000115a10e00  rcx: 0x00007ffee01e6c88  rdx: 0x0000000000000000
+  rdi: 0x0000000000000303  rsi: 0x0000000000000006  rbp: 0x00007ffee01e6cb0  rsp: 0x00007ffee01e6c88
+   r8: 0x0000000000000403   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000303  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2087091e  rfl: 0x0000000000000246  cr2: 0x000000010fa1a000
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10fa12000 -        0x10fa15fff +ftrapv-2.exe (0) <5F32B49C-9F8A-3C51-99F7-1ACCB7308631> /Users/USER/*/ftrapv-2.exe
+       0x115939000 -        0x1159d4fff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 9
+    thread_create: 8
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=505.1M resident=0K(0%) swapped_out_or_unallocated=505.1M(100%)
+Writable regions: Total=28.3M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=28.3M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            20.1M       11 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             404K       43 
+__DATA_CONST                       258K       34 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       500.2M        5 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            5000K       44 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            662.6M      173 
+

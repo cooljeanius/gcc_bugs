@@ -1,0 +1,667 @@
+Process:               pr101373.exe [60887]
+Path:                  /Users/USER/*/pr101373.exe
+Identifier:            pr101373.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [7745]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-12 04:56:54.492 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       FF032626-D899-4906-B810-42A8EF556036
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       10000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Segmentation fault: 11
+Termination Reason:    Namespace SIGNAL, Code 0xb
+Terminating Process:   exc handler [60887]
+
+VM Regions Near 0:
+--> 
+    __TEXT                      10df35000-10df39000    [   16K] r-x/r-x SM=COW  /Users/*/*.exe
+
+Application Specific Information:
+dyld2 mode
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   pr101373.exe                  	0x000000010df38e20 bar(int*, int) + 0
+1   pr101373.exe                  	0x000000010df38e80 main + 16
+2   libdyld.dylib                 	0x00007fff208baf3d start + 1
+3   libdyld.dylib                 	0x00007fff208baf3d start + 1
+4   libdyld.dylib                 	0x00007fff208baf3d start + 1
+5   libdyld.dylib                 	0x00007fff208baf3d start + 1
+6   libdyld.dylib                 	0x00007fff208baf3d start + 1
+7   libdyld.dylib                 	0x00007fff208baf3d start + 1
+8   libdyld.dylib                 	0x00007fff208baf3d start + 1
+9   libdyld.dylib                 	0x00007fff208baf3d start + 1
+10  libdyld.dylib                 	0x00007fff208baf3d start + 1
+11  libdyld.dylib                 	0x00007fff208baf3d start + 1
+12  libdyld.dylib                 	0x00007fff208baf3d start + 1
+13  libdyld.dylib                 	0x00007fff208baf3d start + 1
+14  libdyld.dylib                 	0x00007fff208baf3d start + 1
+15  libdyld.dylib                 	0x00007fff208baf3d start + 1
+16  libdyld.dylib                 	0x00007fff208baf3d start + 1
+17  libdyld.dylib                 	0x00007fff208baf3d start + 1
+18  libdyld.dylib                 	0x00007fff208baf3d start + 1
+19  libdyld.dylib                 	0x00007fff208baf3d start + 1
+20  libdyld.dylib                 	0x00007fff208baf3d start + 1
+21  libdyld.dylib                 	0x00007fff208baf3d start + 1
+22  libdyld.dylib                 	0x00007fff208baf3d start + 1
+23  libdyld.dylib                 	0x00007fff208baf3d start + 1
+24  libdyld.dylib                 	0x00007fff208baf3d start + 1
+25  libdyld.dylib                 	0x00007fff208baf3d start + 1
+26  libdyld.dylib                 	0x00007fff208baf3d start + 1
+27  libdyld.dylib                 	0x00007fff208baf3d start + 1
+28  libdyld.dylib                 	0x00007fff208baf3d start + 1
+29  libdyld.dylib                 	0x00007fff208baf3d start + 1
+30  libdyld.dylib                 	0x00007fff208baf3d start + 1
+31  libdyld.dylib                 	0x00007fff208baf3d start + 1
+32  libdyld.dylib                 	0x00007fff208baf3d start + 1
+33  libdyld.dylib                 	0x00007fff208baf3d start + 1
+34  libdyld.dylib                 	0x00007fff208baf3d start + 1
+35  libdyld.dylib                 	0x00007fff208baf3d start + 1
+36  libdyld.dylib                 	0x00007fff208baf3d start + 1
+37  libdyld.dylib                 	0x00007fff208baf3d start + 1
+38  libdyld.dylib                 	0x00007fff208baf3d start + 1
+39  libdyld.dylib                 	0x00007fff208baf3d start + 1
+40  libdyld.dylib                 	0x00007fff208baf3d start + 1
+41  libdyld.dylib                 	0x00007fff208baf3d start + 1
+42  libdyld.dylib                 	0x00007fff208baf3d start + 1
+43  libdyld.dylib                 	0x00007fff208baf3d start + 1
+44  libdyld.dylib                 	0x00007fff208baf3d start + 1
+45  libdyld.dylib                 	0x00007fff208baf3d start + 1
+46  libdyld.dylib                 	0x00007fff208baf3d start + 1
+47  libdyld.dylib                 	0x00007fff208baf3d start + 1
+48  libdyld.dylib                 	0x00007fff208baf3d start + 1
+49  libdyld.dylib                 	0x00007fff208baf3d start + 1
+50  libdyld.dylib                 	0x00007fff208baf3d start + 1
+51  libdyld.dylib                 	0x00007fff208baf3d start + 1
+52  libdyld.dylib                 	0x00007fff208baf3d start + 1
+53  libdyld.dylib                 	0x00007fff208baf3d start + 1
+54  libdyld.dylib                 	0x00007fff208baf3d start + 1
+55  libdyld.dylib                 	0x00007fff208baf3d start + 1
+56  libdyld.dylib                 	0x00007fff208baf3d start + 1
+57  libdyld.dylib                 	0x00007fff208baf3d start + 1
+58  libdyld.dylib                 	0x00007fff208baf3d start + 1
+59  libdyld.dylib                 	0x00007fff208baf3d start + 1
+60  libdyld.dylib                 	0x00007fff208baf3d start + 1
+61  libdyld.dylib                 	0x00007fff208baf3d start + 1
+62  libdyld.dylib                 	0x00007fff208baf3d start + 1
+63  libdyld.dylib                 	0x00007fff208baf3d start + 1
+64  libdyld.dylib                 	0x00007fff208baf3d start + 1
+65  libdyld.dylib                 	0x00007fff208baf3d start + 1
+66  libdyld.dylib                 	0x00007fff208baf3d start + 1
+67  libdyld.dylib                 	0x00007fff208baf3d start + 1
+68  libdyld.dylib                 	0x00007fff208baf3d start + 1
+69  libdyld.dylib                 	0x00007fff208baf3d start + 1
+70  libdyld.dylib                 	0x00007fff208baf3d start + 1
+71  libdyld.dylib                 	0x00007fff208baf3d start + 1
+72  libdyld.dylib                 	0x00007fff208baf3d start + 1
+73  libdyld.dylib                 	0x00007fff208baf3d start + 1
+74  libdyld.dylib                 	0x00007fff208baf3d start + 1
+75  libdyld.dylib                 	0x00007fff208baf3d start + 1
+76  libdyld.dylib                 	0x00007fff208baf3d start + 1
+77  libdyld.dylib                 	0x00007fff208baf3d start + 1
+78  libdyld.dylib                 	0x00007fff208baf3d start + 1
+79  libdyld.dylib                 	0x00007fff208baf3d start + 1
+80  libdyld.dylib                 	0x00007fff208baf3d start + 1
+81  libdyld.dylib                 	0x00007fff208baf3d start + 1
+82  libdyld.dylib                 	0x00007fff208baf3d start + 1
+83  libdyld.dylib                 	0x00007fff208baf3d start + 1
+84  libdyld.dylib                 	0x00007fff208baf3d start + 1
+85  libdyld.dylib                 	0x00007fff208baf3d start + 1
+86  libdyld.dylib                 	0x00007fff208baf3d start + 1
+87  libdyld.dylib                 	0x00007fff208baf3d start + 1
+88  libdyld.dylib                 	0x00007fff208baf3d start + 1
+89  libdyld.dylib                 	0x00007fff208baf3d start + 1
+90  libdyld.dylib                 	0x00007fff208baf3d start + 1
+91  libdyld.dylib                 	0x00007fff208baf3d start + 1
+92  libdyld.dylib                 	0x00007fff208baf3d start + 1
+93  libdyld.dylib                 	0x00007fff208baf3d start + 1
+94  libdyld.dylib                 	0x00007fff208baf3d start + 1
+95  libdyld.dylib                 	0x00007fff208baf3d start + 1
+96  libdyld.dylib                 	0x00007fff208baf3d start + 1
+97  libdyld.dylib                 	0x00007fff208baf3d start + 1
+98  libdyld.dylib                 	0x00007fff208baf3d start + 1
+99  libdyld.dylib                 	0x00007fff208baf3d start + 1
+100 libdyld.dylib                 	0x00007fff208baf3d start + 1
+101 libdyld.dylib                 	0x00007fff208baf3d start + 1
+102 libdyld.dylib                 	0x00007fff208baf3d start + 1
+103 libdyld.dylib                 	0x00007fff208baf3d start + 1
+104 libdyld.dylib                 	0x00007fff208baf3d start + 1
+105 libdyld.dylib                 	0x00007fff208baf3d start + 1
+106 libdyld.dylib                 	0x00007fff208baf3d start + 1
+107 libdyld.dylib                 	0x00007fff208baf3d start + 1
+108 libdyld.dylib                 	0x00007fff208baf3d start + 1
+109 libdyld.dylib                 	0x00007fff208baf3d start + 1
+110 libdyld.dylib                 	0x00007fff208baf3d start + 1
+111 libdyld.dylib                 	0x00007fff208baf3d start + 1
+112 libdyld.dylib                 	0x00007fff208baf3d start + 1
+113 libdyld.dylib                 	0x00007fff208baf3d start + 1
+114 libdyld.dylib                 	0x00007fff208baf3d start + 1
+115 libdyld.dylib                 	0x00007fff208baf3d start + 1
+116 libdyld.dylib                 	0x00007fff208baf3d start + 1
+117 libdyld.dylib                 	0x00007fff208baf3d start + 1
+118 libdyld.dylib                 	0x00007fff208baf3d start + 1
+119 libdyld.dylib                 	0x00007fff208baf3d start + 1
+120 libdyld.dylib                 	0x00007fff208baf3d start + 1
+121 libdyld.dylib                 	0x00007fff208baf3d start + 1
+122 libdyld.dylib                 	0x00007fff208baf3d start + 1
+123 libdyld.dylib                 	0x00007fff208baf3d start + 1
+124 libdyld.dylib                 	0x00007fff208baf3d start + 1
+125 libdyld.dylib                 	0x00007fff208baf3d start + 1
+126 libdyld.dylib                 	0x00007fff208baf3d start + 1
+127 libdyld.dylib                 	0x00007fff208baf3d start + 1
+128 libdyld.dylib                 	0x00007fff208baf3d start + 1
+129 libdyld.dylib                 	0x00007fff208baf3d start + 1
+130 libdyld.dylib                 	0x00007fff208baf3d start + 1
+131 libdyld.dylib                 	0x00007fff208baf3d start + 1
+132 libdyld.dylib                 	0x00007fff208baf3d start + 1
+133 libdyld.dylib                 	0x00007fff208baf3d start + 1
+134 libdyld.dylib                 	0x00007fff208baf3d start + 1
+135 libdyld.dylib                 	0x00007fff208baf3d start + 1
+136 libdyld.dylib                 	0x00007fff208baf3d start + 1
+137 libdyld.dylib                 	0x00007fff208baf3d start + 1
+138 libdyld.dylib                 	0x00007fff208baf3d start + 1
+139 libdyld.dylib                 	0x00007fff208baf3d start + 1
+140 libdyld.dylib                 	0x00007fff208baf3d start + 1
+141 libdyld.dylib                 	0x00007fff208baf3d start + 1
+142 libdyld.dylib                 	0x00007fff208baf3d start + 1
+143 libdyld.dylib                 	0x00007fff208baf3d start + 1
+144 libdyld.dylib                 	0x00007fff208baf3d start + 1
+145 libdyld.dylib                 	0x00007fff208baf3d start + 1
+146 libdyld.dylib                 	0x00007fff208baf3d start + 1
+147 libdyld.dylib                 	0x00007fff208baf3d start + 1
+148 libdyld.dylib                 	0x00007fff208baf3d start + 1
+149 libdyld.dylib                 	0x00007fff208baf3d start + 1
+150 libdyld.dylib                 	0x00007fff208baf3d start + 1
+151 libdyld.dylib                 	0x00007fff208baf3d start + 1
+152 libdyld.dylib                 	0x00007fff208baf3d start + 1
+153 libdyld.dylib                 	0x00007fff208baf3d start + 1
+154 libdyld.dylib                 	0x00007fff208baf3d start + 1
+155 libdyld.dylib                 	0x00007fff208baf3d start + 1
+156 libdyld.dylib                 	0x00007fff208baf3d start + 1
+157 libdyld.dylib                 	0x00007fff208baf3d start + 1
+158 libdyld.dylib                 	0x00007fff208baf3d start + 1
+159 libdyld.dylib                 	0x00007fff208baf3d start + 1
+160 libdyld.dylib                 	0x00007fff208baf3d start + 1
+161 libdyld.dylib                 	0x00007fff208baf3d start + 1
+162 libdyld.dylib                 	0x00007fff208baf3d start + 1
+163 libdyld.dylib                 	0x00007fff208baf3d start + 1
+164 libdyld.dylib                 	0x00007fff208baf3d start + 1
+165 libdyld.dylib                 	0x00007fff208baf3d start + 1
+166 libdyld.dylib                 	0x00007fff208baf3d start + 1
+167 libdyld.dylib                 	0x00007fff208baf3d start + 1
+168 libdyld.dylib                 	0x00007fff208baf3d start + 1
+169 libdyld.dylib                 	0x00007fff208baf3d start + 1
+170 libdyld.dylib                 	0x00007fff208baf3d start + 1
+171 libdyld.dylib                 	0x00007fff208baf3d start + 1
+172 libdyld.dylib                 	0x00007fff208baf3d start + 1
+173 libdyld.dylib                 	0x00007fff208baf3d start + 1
+174 libdyld.dylib                 	0x00007fff208baf3d start + 1
+175 libdyld.dylib                 	0x00007fff208baf3d start + 1
+176 libdyld.dylib                 	0x00007fff208baf3d start + 1
+177 libdyld.dylib                 	0x00007fff208baf3d start + 1
+178 libdyld.dylib                 	0x00007fff208baf3d start + 1
+179 libdyld.dylib                 	0x00007fff208baf3d start + 1
+180 libdyld.dylib                 	0x00007fff208baf3d start + 1
+181 libdyld.dylib                 	0x00007fff208baf3d start + 1
+182 libdyld.dylib                 	0x00007fff208baf3d start + 1
+183 libdyld.dylib                 	0x00007fff208baf3d start + 1
+184 libdyld.dylib                 	0x00007fff208baf3d start + 1
+185 libdyld.dylib                 	0x00007fff208baf3d start + 1
+186 libdyld.dylib                 	0x00007fff208baf3d start + 1
+187 libdyld.dylib                 	0x00007fff208baf3d start + 1
+188 libdyld.dylib                 	0x00007fff208baf3d start + 1
+189 libdyld.dylib                 	0x00007fff208baf3d start + 1
+190 libdyld.dylib                 	0x00007fff208baf3d start + 1
+191 libdyld.dylib                 	0x00007fff208baf3d start + 1
+192 libdyld.dylib                 	0x00007fff208baf3d start + 1
+193 libdyld.dylib                 	0x00007fff208baf3d start + 1
+194 libdyld.dylib                 	0x00007fff208baf3d start + 1
+195 libdyld.dylib                 	0x00007fff208baf3d start + 1
+196 libdyld.dylib                 	0x00007fff208baf3d start + 1
+197 libdyld.dylib                 	0x00007fff208baf3d start + 1
+198 libdyld.dylib                 	0x00007fff208baf3d start + 1
+199 libdyld.dylib                 	0x00007fff208baf3d start + 1
+200 libdyld.dylib                 	0x00007fff208baf3d start + 1
+201 libdyld.dylib                 	0x00007fff208baf3d start + 1
+202 libdyld.dylib                 	0x00007fff208baf3d start + 1
+203 libdyld.dylib                 	0x00007fff208baf3d start + 1
+204 libdyld.dylib                 	0x00007fff208baf3d start + 1
+205 libdyld.dylib                 	0x00007fff208baf3d start + 1
+206 libdyld.dylib                 	0x00007fff208baf3d start + 1
+207 libdyld.dylib                 	0x00007fff208baf3d start + 1
+208 libdyld.dylib                 	0x00007fff208baf3d start + 1
+209 libdyld.dylib                 	0x00007fff208baf3d start + 1
+210 libdyld.dylib                 	0x00007fff208baf3d start + 1
+211 libdyld.dylib                 	0x00007fff208baf3d start + 1
+212 libdyld.dylib                 	0x00007fff208baf3d start + 1
+213 libdyld.dylib                 	0x00007fff208baf3d start + 1
+214 libdyld.dylib                 	0x00007fff208baf3d start + 1
+215 libdyld.dylib                 	0x00007fff208baf3d start + 1
+216 libdyld.dylib                 	0x00007fff208baf3d start + 1
+217 libdyld.dylib                 	0x00007fff208baf3d start + 1
+218 libdyld.dylib                 	0x00007fff208baf3d start + 1
+219 libdyld.dylib                 	0x00007fff208baf3d start + 1
+220 libdyld.dylib                 	0x00007fff208baf3d start + 1
+221 libdyld.dylib                 	0x00007fff208baf3d start + 1
+222 libdyld.dylib                 	0x00007fff208baf3d start + 1
+223 libdyld.dylib                 	0x00007fff208baf3d start + 1
+224 libdyld.dylib                 	0x00007fff208baf3d start + 1
+225 libdyld.dylib                 	0x00007fff208baf3d start + 1
+226 libdyld.dylib                 	0x00007fff208baf3d start + 1
+227 libdyld.dylib                 	0x00007fff208baf3d start + 1
+228 libdyld.dylib                 	0x00007fff208baf3d start + 1
+229 libdyld.dylib                 	0x00007fff208baf3d start + 1
+230 libdyld.dylib                 	0x00007fff208baf3d start + 1
+231 libdyld.dylib                 	0x00007fff208baf3d start + 1
+232 libdyld.dylib                 	0x00007fff208baf3d start + 1
+233 libdyld.dylib                 	0x00007fff208baf3d start + 1
+234 libdyld.dylib                 	0x00007fff208baf3d start + 1
+235 libdyld.dylib                 	0x00007fff208baf3d start + 1
+236 libdyld.dylib                 	0x00007fff208baf3d start + 1
+237 libdyld.dylib                 	0x00007fff208baf3d start + 1
+238 libdyld.dylib                 	0x00007fff208baf3d start + 1
+239 libdyld.dylib                 	0x00007fff208baf3d start + 1
+240 libdyld.dylib                 	0x00007fff208baf3d start + 1
+241 libdyld.dylib                 	0x00007fff208baf3d start + 1
+242 libdyld.dylib                 	0x00007fff208baf3d start + 1
+243 libdyld.dylib                 	0x00007fff208baf3d start + 1
+244 libdyld.dylib                 	0x00007fff208baf3d start + 1
+245 libdyld.dylib                 	0x00007fff208baf3d start + 1
+246 libdyld.dylib                 	0x00007fff208baf3d start + 1
+247 libdyld.dylib                 	0x00007fff208baf3d start + 1
+248 libdyld.dylib                 	0x00007fff208baf3d start + 1
+249 libdyld.dylib                 	0x00007fff208baf3d start + 1
+250 libdyld.dylib                 	0x00007fff208baf3d start + 1
+251 libdyld.dylib                 	0x00007fff208baf3d start + 1
+252 libdyld.dylib                 	0x00007fff208baf3d start + 1
+253 libdyld.dylib                 	0x00007fff208baf3d start + 1
+254 libdyld.dylib                 	0x00007fff208baf3d start + 1
+255 libdyld.dylib                 	0x00007fff208baf3d start + 1
+256 libdyld.dylib                 	0x00007fff208baf3d start + 1
+257 libdyld.dylib                 	0x00007fff208baf3d start + 1
+258 libdyld.dylib                 	0x00007fff208baf3d start + 1
+259 libdyld.dylib                 	0x00007fff208baf3d start + 1
+260 libdyld.dylib                 	0x00007fff208baf3d start + 1
+261 libdyld.dylib                 	0x00007fff208baf3d start + 1
+262 libdyld.dylib                 	0x00007fff208baf3d start + 1
+263 libdyld.dylib                 	0x00007fff208baf3d start + 1
+264 libdyld.dylib                 	0x00007fff208baf3d start + 1
+265 libdyld.dylib                 	0x00007fff208baf3d start + 1
+266 libdyld.dylib                 	0x00007fff208baf3d start + 1
+267 libdyld.dylib                 	0x00007fff208baf3d start + 1
+268 libdyld.dylib                 	0x00007fff208baf3d start + 1
+269 libdyld.dylib                 	0x00007fff208baf3d start + 1
+270 libdyld.dylib                 	0x00007fff208baf3d start + 1
+271 libdyld.dylib                 	0x00007fff208baf3d start + 1
+272 libdyld.dylib                 	0x00007fff208baf3d start + 1
+273 libdyld.dylib                 	0x00007fff208baf3d start + 1
+274 libdyld.dylib                 	0x00007fff208baf3d start + 1
+275 libdyld.dylib                 	0x00007fff208baf3d start + 1
+276 libdyld.dylib                 	0x00007fff208baf3d start + 1
+277 libdyld.dylib                 	0x00007fff208baf3d start + 1
+278 libdyld.dylib                 	0x00007fff208baf3d start + 1
+279 libdyld.dylib                 	0x00007fff208baf3d start + 1
+280 libdyld.dylib                 	0x00007fff208baf3d start + 1
+281 libdyld.dylib                 	0x00007fff208baf3d start + 1
+282 libdyld.dylib                 	0x00007fff208baf3d start + 1
+283 libdyld.dylib                 	0x00007fff208baf3d start + 1
+284 libdyld.dylib                 	0x00007fff208baf3d start + 1
+285 libdyld.dylib                 	0x00007fff208baf3d start + 1
+286 libdyld.dylib                 	0x00007fff208baf3d start + 1
+287 libdyld.dylib                 	0x00007fff208baf3d start + 1
+288 libdyld.dylib                 	0x00007fff208baf3d start + 1
+289 libdyld.dylib                 	0x00007fff208baf3d start + 1
+290 libdyld.dylib                 	0x00007fff208baf3d start + 1
+291 libdyld.dylib                 	0x00007fff208baf3d start + 1
+292 libdyld.dylib                 	0x00007fff208baf3d start + 1
+293 libdyld.dylib                 	0x00007fff208baf3d start + 1
+294 libdyld.dylib                 	0x00007fff208baf3d start + 1
+295 libdyld.dylib                 	0x00007fff208baf3d start + 1
+296 libdyld.dylib                 	0x00007fff208baf3d start + 1
+297 libdyld.dylib                 	0x00007fff208baf3d start + 1
+298 libdyld.dylib                 	0x00007fff208baf3d start + 1
+299 libdyld.dylib                 	0x00007fff208baf3d start + 1
+300 libdyld.dylib                 	0x00007fff208baf3d start + 1
+301 libdyld.dylib                 	0x00007fff208baf3d start + 1
+302 libdyld.dylib                 	0x00007fff208baf3d start + 1
+303 libdyld.dylib                 	0x00007fff208baf3d start + 1
+304 libdyld.dylib                 	0x00007fff208baf3d start + 1
+305 libdyld.dylib                 	0x00007fff208baf3d start + 1
+306 libdyld.dylib                 	0x00007fff208baf3d start + 1
+307 libdyld.dylib                 	0x00007fff208baf3d start + 1
+308 libdyld.dylib                 	0x00007fff208baf3d start + 1
+309 libdyld.dylib                 	0x00007fff208baf3d start + 1
+310 libdyld.dylib                 	0x00007fff208baf3d start + 1
+311 libdyld.dylib                 	0x00007fff208baf3d start + 1
+312 libdyld.dylib                 	0x00007fff208baf3d start + 1
+313 libdyld.dylib                 	0x00007fff208baf3d start + 1
+314 libdyld.dylib                 	0x00007fff208baf3d start + 1
+315 libdyld.dylib                 	0x00007fff208baf3d start + 1
+316 libdyld.dylib                 	0x00007fff208baf3d start + 1
+317 libdyld.dylib                 	0x00007fff208baf3d start + 1
+318 libdyld.dylib                 	0x00007fff208baf3d start + 1
+319 libdyld.dylib                 	0x00007fff208baf3d start + 1
+320 libdyld.dylib                 	0x00007fff208baf3d start + 1
+321 libdyld.dylib                 	0x00007fff208baf3d start + 1
+322 libdyld.dylib                 	0x00007fff208baf3d start + 1
+323 libdyld.dylib                 	0x00007fff208baf3d start + 1
+324 libdyld.dylib                 	0x00007fff208baf3d start + 1
+325 libdyld.dylib                 	0x00007fff208baf3d start + 1
+326 libdyld.dylib                 	0x00007fff208baf3d start + 1
+327 libdyld.dylib                 	0x00007fff208baf3d start + 1
+328 libdyld.dylib                 	0x00007fff208baf3d start + 1
+329 libdyld.dylib                 	0x00007fff208baf3d start + 1
+330 libdyld.dylib                 	0x00007fff208baf3d start + 1
+331 libdyld.dylib                 	0x00007fff208baf3d start + 1
+332 libdyld.dylib                 	0x00007fff208baf3d start + 1
+333 libdyld.dylib                 	0x00007fff208baf3d start + 1
+334 libdyld.dylib                 	0x00007fff208baf3d start + 1
+335 libdyld.dylib                 	0x00007fff208baf3d start + 1
+336 libdyld.dylib                 	0x00007fff208baf3d start + 1
+337 libdyld.dylib                 	0x00007fff208baf3d start + 1
+338 libdyld.dylib                 	0x00007fff208baf3d start + 1
+339 libdyld.dylib                 	0x00007fff208baf3d start + 1
+340 libdyld.dylib                 	0x00007fff208baf3d start + 1
+341 libdyld.dylib                 	0x00007fff208baf3d start + 1
+342 libdyld.dylib                 	0x00007fff208baf3d start + 1
+343 libdyld.dylib                 	0x00007fff208baf3d start + 1
+344 libdyld.dylib                 	0x00007fff208baf3d start + 1
+345 libdyld.dylib                 	0x00007fff208baf3d start + 1
+346 libdyld.dylib                 	0x00007fff208baf3d start + 1
+347 libdyld.dylib                 	0x00007fff208baf3d start + 1
+348 libdyld.dylib                 	0x00007fff208baf3d start + 1
+349 libdyld.dylib                 	0x00007fff208baf3d start + 1
+350 libdyld.dylib                 	0x00007fff208baf3d start + 1
+351 libdyld.dylib                 	0x00007fff208baf3d start + 1
+352 libdyld.dylib                 	0x00007fff208baf3d start + 1
+353 libdyld.dylib                 	0x00007fff208baf3d start + 1
+354 libdyld.dylib                 	0x00007fff208baf3d start + 1
+355 libdyld.dylib                 	0x00007fff208baf3d start + 1
+356 libdyld.dylib                 	0x00007fff208baf3d start + 1
+357 libdyld.dylib                 	0x00007fff208baf3d start + 1
+358 libdyld.dylib                 	0x00007fff208baf3d start + 1
+359 libdyld.dylib                 	0x00007fff208baf3d start + 1
+360 libdyld.dylib                 	0x00007fff208baf3d start + 1
+361 libdyld.dylib                 	0x00007fff208baf3d start + 1
+362 libdyld.dylib                 	0x00007fff208baf3d start + 1
+363 libdyld.dylib                 	0x00007fff208baf3d start + 1
+364 libdyld.dylib                 	0x00007fff208baf3d start + 1
+365 libdyld.dylib                 	0x00007fff208baf3d start + 1
+366 libdyld.dylib                 	0x00007fff208baf3d start + 1
+367 libdyld.dylib                 	0x00007fff208baf3d start + 1
+368 libdyld.dylib                 	0x00007fff208baf3d start + 1
+369 libdyld.dylib                 	0x00007fff208baf3d start + 1
+370 libdyld.dylib                 	0x00007fff208baf3d start + 1
+371 libdyld.dylib                 	0x00007fff208baf3d start + 1
+372 libdyld.dylib                 	0x00007fff208baf3d start + 1
+373 libdyld.dylib                 	0x00007fff208baf3d start + 1
+374 libdyld.dylib                 	0x00007fff208baf3d start + 1
+375 libdyld.dylib                 	0x00007fff208baf3d start + 1
+376 libdyld.dylib                 	0x00007fff208baf3d start + 1
+377 libdyld.dylib                 	0x00007fff208baf3d start + 1
+378 libdyld.dylib                 	0x00007fff208baf3d start + 1
+379 libdyld.dylib                 	0x00007fff208baf3d start + 1
+380 libdyld.dylib                 	0x00007fff208baf3d start + 1
+381 libdyld.dylib                 	0x00007fff208baf3d start + 1
+382 libdyld.dylib                 	0x00007fff208baf3d start + 1
+383 libdyld.dylib                 	0x00007fff208baf3d start + 1
+384 libdyld.dylib                 	0x00007fff208baf3d start + 1
+385 libdyld.dylib                 	0x00007fff208baf3d start + 1
+386 libdyld.dylib                 	0x00007fff208baf3d start + 1
+387 libdyld.dylib                 	0x00007fff208baf3d start + 1
+388 libdyld.dylib                 	0x00007fff208baf3d start + 1
+389 libdyld.dylib                 	0x00007fff208baf3d start + 1
+390 libdyld.dylib                 	0x00007fff208baf3d start + 1
+391 libdyld.dylib                 	0x00007fff208baf3d start + 1
+392 libdyld.dylib                 	0x00007fff208baf3d start + 1
+393 libdyld.dylib                 	0x00007fff208baf3d start + 1
+394 libdyld.dylib                 	0x00007fff208baf3d start + 1
+395 libdyld.dylib                 	0x00007fff208baf3d start + 1
+396 libdyld.dylib                 	0x00007fff208baf3d start + 1
+397 libdyld.dylib                 	0x00007fff208baf3d start + 1
+398 libdyld.dylib                 	0x00007fff208baf3d start + 1
+399 libdyld.dylib                 	0x00007fff208baf3d start + 1
+400 libdyld.dylib                 	0x00007fff208baf3d start + 1
+401 libdyld.dylib                 	0x00007fff208baf3d start + 1
+402 libdyld.dylib                 	0x00007fff208baf3d start + 1
+403 libdyld.dylib                 	0x00007fff208baf3d start + 1
+404 libdyld.dylib                 	0x00007fff208baf3d start + 1
+405 libdyld.dylib                 	0x00007fff208baf3d start + 1
+406 libdyld.dylib                 	0x00007fff208baf3d start + 1
+407 libdyld.dylib                 	0x00007fff208baf3d start + 1
+408 libdyld.dylib                 	0x00007fff208baf3d start + 1
+409 libdyld.dylib                 	0x00007fff208baf3d start + 1
+410 libdyld.dylib                 	0x00007fff208baf3d start + 1
+411 libdyld.dylib                 	0x00007fff208baf3d start + 1
+412 libdyld.dylib                 	0x00007fff208baf3d start + 1
+413 libdyld.dylib                 	0x00007fff208baf3d start + 1
+414 libdyld.dylib                 	0x00007fff208baf3d start + 1
+415 libdyld.dylib                 	0x00007fff208baf3d start + 1
+416 libdyld.dylib                 	0x00007fff208baf3d start + 1
+417 libdyld.dylib                 	0x00007fff208baf3d start + 1
+418 libdyld.dylib                 	0x00007fff208baf3d start + 1
+419 libdyld.dylib                 	0x00007fff208baf3d start + 1
+420 libdyld.dylib                 	0x00007fff208baf3d start + 1
+421 libdyld.dylib                 	0x00007fff208baf3d start + 1
+422 libdyld.dylib                 	0x00007fff208baf3d start + 1
+423 libdyld.dylib                 	0x00007fff208baf3d start + 1
+424 libdyld.dylib                 	0x00007fff208baf3d start + 1
+425 libdyld.dylib                 	0x00007fff208baf3d start + 1
+426 libdyld.dylib                 	0x00007fff208baf3d start + 1
+427 libdyld.dylib                 	0x00007fff208baf3d start + 1
+428 libdyld.dylib                 	0x00007fff208baf3d start + 1
+429 libdyld.dylib                 	0x00007fff208baf3d start + 1
+430 libdyld.dylib                 	0x00007fff208baf3d start + 1
+431 libdyld.dylib                 	0x00007fff208baf3d start + 1
+432 libdyld.dylib                 	0x00007fff208baf3d start + 1
+433 libdyld.dylib                 	0x00007fff208baf3d start + 1
+434 libdyld.dylib                 	0x00007fff208baf3d start + 1
+435 libdyld.dylib                 	0x00007fff208baf3d start + 1
+436 libdyld.dylib                 	0x00007fff208baf3d start + 1
+437 libdyld.dylib                 	0x00007fff208baf3d start + 1
+438 libdyld.dylib                 	0x00007fff208baf3d start + 1
+439 libdyld.dylib                 	0x00007fff208baf3d start + 1
+440 libdyld.dylib                 	0x00007fff208baf3d start + 1
+441 libdyld.dylib                 	0x00007fff208baf3d start + 1
+442 libdyld.dylib                 	0x00007fff208baf3d start + 1
+443 libdyld.dylib                 	0x00007fff208baf3d start + 1
+444 libdyld.dylib                 	0x00007fff208baf3d start + 1
+445 libdyld.dylib                 	0x00007fff208baf3d start + 1
+446 libdyld.dylib                 	0x00007fff208baf3d start + 1
+447 libdyld.dylib                 	0x00007fff208baf3d start + 1
+448 libdyld.dylib                 	0x00007fff208baf3d start + 1
+449 libdyld.dylib                 	0x00007fff208baf3d start + 1
+450 libdyld.dylib                 	0x00007fff208baf3d start + 1
+451 libdyld.dylib                 	0x00007fff208baf3d start + 1
+452 libdyld.dylib                 	0x00007fff208baf3d start + 1
+453 libdyld.dylib                 	0x00007fff208baf3d start + 1
+454 libdyld.dylib                 	0x00007fff208baf3d start + 1
+455 libdyld.dylib                 	0x00007fff208baf3d start + 1
+456 libdyld.dylib                 	0x00007fff208baf3d start + 1
+457 libdyld.dylib                 	0x00007fff208baf3d start + 1
+458 libdyld.dylib                 	0x00007fff208baf3d start + 1
+459 libdyld.dylib                 	0x00007fff208baf3d start + 1
+460 libdyld.dylib                 	0x00007fff208baf3d start + 1
+461 libdyld.dylib                 	0x00007fff208baf3d start + 1
+462 libdyld.dylib                 	0x00007fff208baf3d start + 1
+463 libdyld.dylib                 	0x00007fff208baf3d start + 1
+464 libdyld.dylib                 	0x00007fff208baf3d start + 1
+465 libdyld.dylib                 	0x00007fff208baf3d start + 1
+466 libdyld.dylib                 	0x00007fff208baf3d start + 1
+467 libdyld.dylib                 	0x00007fff208baf3d start + 1
+468 libdyld.dylib                 	0x00007fff208baf3d start + 1
+469 libdyld.dylib                 	0x00007fff208baf3d start + 1
+470 libdyld.dylib                 	0x00007fff208baf3d start + 1
+471 libdyld.dylib                 	0x00007fff208baf3d start + 1
+472 libdyld.dylib                 	0x00007fff208baf3d start + 1
+473 libdyld.dylib                 	0x00007fff208baf3d start + 1
+474 libdyld.dylib                 	0x00007fff208baf3d start + 1
+475 libdyld.dylib                 	0x00007fff208baf3d start + 1
+476 libdyld.dylib                 	0x00007fff208baf3d start + 1
+477 libdyld.dylib                 	0x00007fff208baf3d start + 1
+478 libdyld.dylib                 	0x00007fff208baf3d start + 1
+479 libdyld.dylib                 	0x00007fff208baf3d start + 1
+480 libdyld.dylib                 	0x00007fff208baf3d start + 1
+481 libdyld.dylib                 	0x00007fff208baf3d start + 1
+482 libdyld.dylib                 	0x00007fff208baf3d start + 1
+483 libdyld.dylib                 	0x00007fff208baf3d start + 1
+484 libdyld.dylib                 	0x00007fff208baf3d start + 1
+485 libdyld.dylib                 	0x00007fff208baf3d start + 1
+486 libdyld.dylib                 	0x00007fff208baf3d start + 1
+487 libdyld.dylib                 	0x00007fff208baf3d start + 1
+488 libdyld.dylib                 	0x00007fff208baf3d start + 1
+489 libdyld.dylib                 	0x00007fff208baf3d start + 1
+490 libdyld.dylib                 	0x00007fff208baf3d start + 1
+491 libdyld.dylib                 	0x00007fff208baf3d start + 1
+492 libdyld.dylib                 	0x00007fff208baf3d start + 1
+493 libdyld.dylib                 	0x00007fff208baf3d start + 1
+494 libdyld.dylib                 	0x00007fff208baf3d start + 1
+495 libdyld.dylib                 	0x00007fff208baf3d start + 1
+496 libdyld.dylib                 	0x00007fff208baf3d start + 1
+497 libdyld.dylib                 	0x00007fff208baf3d start + 1
+498 libdyld.dylib                 	0x00007fff208baf3d start + 1
+499 libdyld.dylib                 	0x00007fff208baf3d start + 1
+500 libdyld.dylib                 	0x00007fff208baf3d start + 1
+501 libdyld.dylib                 	0x00007fff208baf3d start + 1
+502 libdyld.dylib                 	0x00007fff208baf3d start + 1
+503 libdyld.dylib                 	0x00007fff208baf3d start + 1
+504 libdyld.dylib                 	0x00007fff208baf3d start + 1
+505 libdyld.dylib                 	0x00007fff208baf3d start + 1
+506 libdyld.dylib                 	0x00007fff208baf3d start + 1
+507 libdyld.dylib                 	0x00007fff208baf3d start + 1
+508 libdyld.dylib                 	0x00007fff208baf3d start + 1
+509 libdyld.dylib                 	0x00007fff208baf3d start + 1
+510 libdyld.dylib                 	0x00007fff208baf3d start + 1
+511 libdyld.dylib                 	0x00007fff208baf3d start + 1
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x000000010df38e70  rbx: 0x0000000000000000  rcx: 0x00007ffee1cc3af0  rdx: 0x00007ffee1cc3188
+  rdi: 0x0000000000000000  rsi: 0x0000000000000001  rbp: 0x00007ffee1cc3150  rsp: 0x00007ffee1cc3148
+   r8: 0x0000000000000000   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000000
+  r12: 0x0000000000000000  r13: 0x0000000000000000  r14: 0x0000000000000000  r15: 0x0000000000000000
+  rip: 0x000000010df38e20  rfl: 0x0000000000010246  cr2: 0x0000000000000000
+  
+Logical CPU:     13
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+  85 ff 0f 85 13 00 00 00-31 c0 c3 0f 1f 44 00 00  ........1....D..
+ [8b]07 85 f6 8d 14 00 0f-45 c2 c3 55 bf 04 00 00  ........E..U....	<==
+  00 48 89 e5 e8 51 00 00-00 48 8b 35 c0 01 00 00  .H...Q...H.5....
+  31 d2 c7 00 01 00 00 00-48 89 c7 e8 4c 00 00 00  1.......H...L...
+  e8 3b 00 00 00 e8 3c 00-00 00 31 c0 e9 1f 00 00  .;....<...1.....
+  00 90 90 90 90 90 90 90-90 90 90 90 90 90 90 90  ................
+  55 be 01 00 00 00 31 ff-48 89 e5 e8 a0 ff ff ff  U.....1.H.......
+  
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10df35000 -        0x10df38fff +pr101373.exe (0) <24B7FB1B-4076-345C-B95C-B16A85BF6293> /Users/USER/*/pr101373.exe
+       0x10df45000 -        0x10e08cfff +libstdc++.6.dylib (0) <DD57F739-D992-3E56-9D8B-C42AE64A034B> /Users/USER/*/libstdc++.6.dylib
+       0x10e2a6000 -        0x10e3a9fff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x119889000 -        0x119924fff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 9
+    thread_create: 8
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.4M resident=0K(0%) swapped_out_or_unallocated=509.4M(100%)
+Writable regions: Total=17.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=17.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            9404K        8 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.3M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7352K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            656.2M      180 
+

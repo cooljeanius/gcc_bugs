@@ -1,0 +1,677 @@
+Process:               move_neg.exe [35904]
+Path:                  /Users/USER/*/move_neg.exe
+Identifier:            move_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [89109]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-10 22:29:22.707 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       1A3ACCBA-AF82-4631-ADB3-077D3BFE6350
+
+Time Awake Since Boot: 1200000 seconds
+Time Since Wake:       95000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2087091e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2089f5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff207f4406 abort + 125
+3   libstdc++.6.dylib             	0x0000000101d01b95 __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1304)
+4   move_neg.exe                  	0x0000000101b8c052 test01() + 915 (safe_iterator.h:298)
+5   move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+6   move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+7   move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+8   move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+9   move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+10  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+11  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+12  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+13  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+14  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+15  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+16  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+17  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+18  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+19  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+20  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+21  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+22  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+23  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+24  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+25  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+26  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+27  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+28  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+29  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+30  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+31  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+32  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+33  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+34  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+35  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+36  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+37  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+38  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+39  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+40  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+41  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+42  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+43  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+44  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+45  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+46  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+47  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+48  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+49  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+50  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+51  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+52  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+53  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+54  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+55  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+56  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+57  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+58  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+59  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+60  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+61  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+62  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+63  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+64  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+65  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+66  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+67  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+68  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+69  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+70  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+71  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+72  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+73  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+74  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+75  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+76  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+77  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+78  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+79  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+80  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+81  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+82  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+83  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+84  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+85  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+86  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+87  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+88  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+89  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+90  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+91  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+92  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+93  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+94  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+95  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+96  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+97  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+98  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+99  move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+100 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+101 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+102 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+103 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+104 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+105 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+106 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+107 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+108 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+109 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+110 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+111 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+112 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+113 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+114 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+115 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+116 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+117 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+118 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+119 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+120 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+121 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+122 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+123 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+124 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+125 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+126 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+127 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+128 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+129 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+130 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+131 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+132 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+133 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+134 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+135 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+136 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+137 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+138 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+139 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+140 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+141 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+142 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+143 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+144 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+145 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+146 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+147 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+148 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+149 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+150 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+151 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+152 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+153 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+154 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+155 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+156 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+157 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+158 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+159 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+160 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+161 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+162 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+163 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+164 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+165 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+166 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+167 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+168 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+169 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+170 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+171 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+172 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+173 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+174 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+175 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+176 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+177 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+178 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+179 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+180 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+181 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+182 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+183 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+184 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+185 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+186 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+187 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+188 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+189 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+190 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+191 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+192 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+193 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+194 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+195 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+196 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+197 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+198 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+199 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+200 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+201 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+202 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+203 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+204 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+205 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+206 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+207 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+208 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+209 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+210 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+211 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+212 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+213 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+214 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+215 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+216 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+217 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+218 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+219 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+220 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+221 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+222 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+223 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+224 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+225 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+226 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+227 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+228 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+229 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+230 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+231 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+232 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+233 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+234 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+235 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+236 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+237 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+238 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+239 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+240 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+241 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+242 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+243 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+244 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+245 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+246 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+247 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+248 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+249 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+250 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+251 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+252 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+253 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+254 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+255 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+256 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+257 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+258 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+259 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+260 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+261 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+262 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+263 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+264 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+265 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+266 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+267 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+268 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+269 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+270 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+271 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+272 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+273 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+274 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+275 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+276 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+277 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+278 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+279 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+280 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+281 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+282 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+283 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+284 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+285 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+286 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+287 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+288 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+289 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+290 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+291 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+292 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+293 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+294 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+295 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+296 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+297 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+298 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+299 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+300 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+301 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+302 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+303 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+304 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+305 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+306 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+307 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+308 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+309 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+310 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+311 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+312 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+313 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+314 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+315 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+316 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+317 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+318 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+319 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+320 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+321 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+322 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+323 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+324 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+325 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+326 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+327 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+328 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+329 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+330 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+331 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+332 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+333 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+334 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+335 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+336 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+337 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+338 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+339 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+340 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+341 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+342 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+343 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+344 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+345 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+346 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+347 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+348 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+349 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+350 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+351 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+352 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+353 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+354 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+355 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+356 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+357 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+358 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+359 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+360 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+361 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+362 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+363 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+364 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+365 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+366 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+367 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+368 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+369 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+370 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+371 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+372 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+373 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+374 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+375 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+376 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+377 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+378 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+379 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+380 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+381 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+382 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+383 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+384 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+385 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+386 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+387 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+388 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+389 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+390 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+391 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+392 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+393 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+394 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+395 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+396 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+397 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+398 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+399 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+400 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+401 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+402 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+403 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+404 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+405 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+406 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+407 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+408 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+409 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+410 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+411 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+412 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+413 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+414 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+415 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+416 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+417 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+418 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+419 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+420 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+421 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+422 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+423 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+424 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+425 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+426 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+427 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+428 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+429 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+430 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+431 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+432 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+433 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+434 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+435 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+436 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+437 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+438 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+439 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+440 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+441 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+442 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+443 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+444 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+445 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+446 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+447 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+448 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+449 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+450 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+451 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+452 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+453 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+454 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+455 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+456 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+457 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+458 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+459 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+460 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+461 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+462 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+463 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+464 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+465 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+466 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+467 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+468 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+469 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+470 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+471 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+472 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+473 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+474 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+475 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+476 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+477 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+478 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+479 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+480 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+481 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+482 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+483 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+484 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+485 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+486 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+487 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+488 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+489 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+490 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+491 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+492 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+493 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+494 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+495 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+496 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+497 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+498 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+499 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+500 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+501 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+502 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+503 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+504 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+505 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+506 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+507 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+508 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+509 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+510 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+511 move_neg.exe                  	0x0000000101b8c0ea main + 9 (move_neg.cc:43)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00000001067fde00  rcx: 0x00007ffeee070658  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeee070680  rsp: 0x00007ffeee070658
+   r8: 0x00007fff80b97028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000101b91268  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2087091e  rfl: 0x0000000000000246  cr2: 0x00007fff80bcb498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x101b89000 -        0x101b8cfff +move_neg.exe (0) <238A7E83-5998-3FC2-9C5C-8098555279DF> /Users/USER/*/move_neg.exe
+       0x101ba3000 -        0x101ca6fff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x101cc3000 -        0x101e0afff +libstdc++.6.dylib (0) <DD57F739-D992-3E56-9D8B-C42AE64A034B> /Users/USER/*/libstdc++.6.dylib
+       0x106726000 -        0x1067c1fff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 6
+    thread_create: 6
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.4M resident=0K(0%) swapped_out_or_unallocated=509.4M(100%)
+Writable regions: Total=19.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=19.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            11.2M       10 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.3M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7352K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            658.2M      182 
+
+
+System Profile:
+Network Service: Wi-Fi, AirPort, en0
+Boot Volume File System Type: apfs
+Memory Module: BANK 0/ChannelA-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+Memory Module: BANK 2/ChannelB-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+USB Device: Belkin USB-C LAN
+USB Device: USB 3.1 Bus
+USB Device: USB2.0 Hub
+USB Device: USB Optical Mouse
+USB Device: iPod
+USB Device: MT1887
+USB Device: Portable
+USB Device: Apple T2 Bus
+USB Device: Composite Device
+USB Device: Touch Bar Backlight
+USB Device: Touch Bar Display
+USB Device: Apple Internal Keyboard / Trackpad
+USB Device: Headset
+USB Device: Ambient Light Sensor
+USB Device: FaceTime HD Camera (Built-in)
+USB Device: Apple T2 Controller
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Model: MacBookPro16,1, BootROM 1916.80.2.0.0 (iBridge: 20.16.3045.0.0,0), 8 processors, 8-Core Intel Core i9, 2.3 GHz, 16 GB, SMC 
+Graphics: kHW_IntelUHDGraphics630Item, Intel UHD Graphics 630, spdisplays_builtin
+Graphics: kHW_AMDRadeonPro5500MItem, AMD Radeon Pro 5500M, spdisplays_pcie_device, 4 GB
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x7BF), wl0: Aug 10 2021 20:10:47 version 9.30.444.18.32.5.71 FWID 01-30b2601e
+Bluetooth: Version 8.0.5d7, 3 services, 27 devices, 1 incoming serial ports

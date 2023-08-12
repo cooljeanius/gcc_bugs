@@ -1,0 +1,648 @@
+Process:               thread_local14.exe [12183]
+Path:                  /Users/USER/*/thread_local14.exe
+Identifier:            thread_local14.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [7745]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-12 04:17:25.154 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       FF032626-D899-4906-B810-42A8EF556036
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       7900 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2087091e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2089f5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff207f4406 abort + 125
+3   thread_local14.exe            	0x0000000105289cd9 bar(int) (.cold) + 9
+4   thread_local14.exe            	0x0000000105289a97 baz() + 39
+5   thread_local14.exe            	0x0000000105289ce9 main + 9
+6   thread_local14.exe            	0x0000000105289ce9 main + 9
+7   thread_local14.exe            	0x0000000105289ce9 main + 9
+8   thread_local14.exe            	0x0000000105289ce9 main + 9
+9   thread_local14.exe            	0x0000000105289ce9 main + 9
+10  thread_local14.exe            	0x0000000105289ce9 main + 9
+11  thread_local14.exe            	0x0000000105289ce9 main + 9
+12  thread_local14.exe            	0x0000000105289ce9 main + 9
+13  thread_local14.exe            	0x0000000105289ce9 main + 9
+14  thread_local14.exe            	0x0000000105289ce9 main + 9
+15  thread_local14.exe            	0x0000000105289ce9 main + 9
+16  thread_local14.exe            	0x0000000105289ce9 main + 9
+17  thread_local14.exe            	0x0000000105289ce9 main + 9
+18  thread_local14.exe            	0x0000000105289ce9 main + 9
+19  thread_local14.exe            	0x0000000105289ce9 main + 9
+20  thread_local14.exe            	0x0000000105289ce9 main + 9
+21  thread_local14.exe            	0x0000000105289ce9 main + 9
+22  thread_local14.exe            	0x0000000105289ce9 main + 9
+23  thread_local14.exe            	0x0000000105289ce9 main + 9
+24  thread_local14.exe            	0x0000000105289ce9 main + 9
+25  thread_local14.exe            	0x0000000105289ce9 main + 9
+26  thread_local14.exe            	0x0000000105289ce9 main + 9
+27  thread_local14.exe            	0x0000000105289ce9 main + 9
+28  thread_local14.exe            	0x0000000105289ce9 main + 9
+29  thread_local14.exe            	0x0000000105289ce9 main + 9
+30  thread_local14.exe            	0x0000000105289ce9 main + 9
+31  thread_local14.exe            	0x0000000105289ce9 main + 9
+32  thread_local14.exe            	0x0000000105289ce9 main + 9
+33  thread_local14.exe            	0x0000000105289ce9 main + 9
+34  thread_local14.exe            	0x0000000105289ce9 main + 9
+35  thread_local14.exe            	0x0000000105289ce9 main + 9
+36  thread_local14.exe            	0x0000000105289ce9 main + 9
+37  thread_local14.exe            	0x0000000105289ce9 main + 9
+38  thread_local14.exe            	0x0000000105289ce9 main + 9
+39  thread_local14.exe            	0x0000000105289ce9 main + 9
+40  thread_local14.exe            	0x0000000105289ce9 main + 9
+41  thread_local14.exe            	0x0000000105289ce9 main + 9
+42  thread_local14.exe            	0x0000000105289ce9 main + 9
+43  thread_local14.exe            	0x0000000105289ce9 main + 9
+44  thread_local14.exe            	0x0000000105289ce9 main + 9
+45  thread_local14.exe            	0x0000000105289ce9 main + 9
+46  thread_local14.exe            	0x0000000105289ce9 main + 9
+47  thread_local14.exe            	0x0000000105289ce9 main + 9
+48  thread_local14.exe            	0x0000000105289ce9 main + 9
+49  thread_local14.exe            	0x0000000105289ce9 main + 9
+50  thread_local14.exe            	0x0000000105289ce9 main + 9
+51  thread_local14.exe            	0x0000000105289ce9 main + 9
+52  thread_local14.exe            	0x0000000105289ce9 main + 9
+53  thread_local14.exe            	0x0000000105289ce9 main + 9
+54  thread_local14.exe            	0x0000000105289ce9 main + 9
+55  thread_local14.exe            	0x0000000105289ce9 main + 9
+56  thread_local14.exe            	0x0000000105289ce9 main + 9
+57  thread_local14.exe            	0x0000000105289ce9 main + 9
+58  thread_local14.exe            	0x0000000105289ce9 main + 9
+59  thread_local14.exe            	0x0000000105289ce9 main + 9
+60  thread_local14.exe            	0x0000000105289ce9 main + 9
+61  thread_local14.exe            	0x0000000105289ce9 main + 9
+62  thread_local14.exe            	0x0000000105289ce9 main + 9
+63  thread_local14.exe            	0x0000000105289ce9 main + 9
+64  thread_local14.exe            	0x0000000105289ce9 main + 9
+65  thread_local14.exe            	0x0000000105289ce9 main + 9
+66  thread_local14.exe            	0x0000000105289ce9 main + 9
+67  thread_local14.exe            	0x0000000105289ce9 main + 9
+68  thread_local14.exe            	0x0000000105289ce9 main + 9
+69  thread_local14.exe            	0x0000000105289ce9 main + 9
+70  thread_local14.exe            	0x0000000105289ce9 main + 9
+71  thread_local14.exe            	0x0000000105289ce9 main + 9
+72  thread_local14.exe            	0x0000000105289ce9 main + 9
+73  thread_local14.exe            	0x0000000105289ce9 main + 9
+74  thread_local14.exe            	0x0000000105289ce9 main + 9
+75  thread_local14.exe            	0x0000000105289ce9 main + 9
+76  thread_local14.exe            	0x0000000105289ce9 main + 9
+77  thread_local14.exe            	0x0000000105289ce9 main + 9
+78  thread_local14.exe            	0x0000000105289ce9 main + 9
+79  thread_local14.exe            	0x0000000105289ce9 main + 9
+80  thread_local14.exe            	0x0000000105289ce9 main + 9
+81  thread_local14.exe            	0x0000000105289ce9 main + 9
+82  thread_local14.exe            	0x0000000105289ce9 main + 9
+83  thread_local14.exe            	0x0000000105289ce9 main + 9
+84  thread_local14.exe            	0x0000000105289ce9 main + 9
+85  thread_local14.exe            	0x0000000105289ce9 main + 9
+86  thread_local14.exe            	0x0000000105289ce9 main + 9
+87  thread_local14.exe            	0x0000000105289ce9 main + 9
+88  thread_local14.exe            	0x0000000105289ce9 main + 9
+89  thread_local14.exe            	0x0000000105289ce9 main + 9
+90  thread_local14.exe            	0x0000000105289ce9 main + 9
+91  thread_local14.exe            	0x0000000105289ce9 main + 9
+92  thread_local14.exe            	0x0000000105289ce9 main + 9
+93  thread_local14.exe            	0x0000000105289ce9 main + 9
+94  thread_local14.exe            	0x0000000105289ce9 main + 9
+95  thread_local14.exe            	0x0000000105289ce9 main + 9
+96  thread_local14.exe            	0x0000000105289ce9 main + 9
+97  thread_local14.exe            	0x0000000105289ce9 main + 9
+98  thread_local14.exe            	0x0000000105289ce9 main + 9
+99  thread_local14.exe            	0x0000000105289ce9 main + 9
+100 thread_local14.exe            	0x0000000105289ce9 main + 9
+101 thread_local14.exe            	0x0000000105289ce9 main + 9
+102 thread_local14.exe            	0x0000000105289ce9 main + 9
+103 thread_local14.exe            	0x0000000105289ce9 main + 9
+104 thread_local14.exe            	0x0000000105289ce9 main + 9
+105 thread_local14.exe            	0x0000000105289ce9 main + 9
+106 thread_local14.exe            	0x0000000105289ce9 main + 9
+107 thread_local14.exe            	0x0000000105289ce9 main + 9
+108 thread_local14.exe            	0x0000000105289ce9 main + 9
+109 thread_local14.exe            	0x0000000105289ce9 main + 9
+110 thread_local14.exe            	0x0000000105289ce9 main + 9
+111 thread_local14.exe            	0x0000000105289ce9 main + 9
+112 thread_local14.exe            	0x0000000105289ce9 main + 9
+113 thread_local14.exe            	0x0000000105289ce9 main + 9
+114 thread_local14.exe            	0x0000000105289ce9 main + 9
+115 thread_local14.exe            	0x0000000105289ce9 main + 9
+116 thread_local14.exe            	0x0000000105289ce9 main + 9
+117 thread_local14.exe            	0x0000000105289ce9 main + 9
+118 thread_local14.exe            	0x0000000105289ce9 main + 9
+119 thread_local14.exe            	0x0000000105289ce9 main + 9
+120 thread_local14.exe            	0x0000000105289ce9 main + 9
+121 thread_local14.exe            	0x0000000105289ce9 main + 9
+122 thread_local14.exe            	0x0000000105289ce9 main + 9
+123 thread_local14.exe            	0x0000000105289ce9 main + 9
+124 thread_local14.exe            	0x0000000105289ce9 main + 9
+125 thread_local14.exe            	0x0000000105289ce9 main + 9
+126 thread_local14.exe            	0x0000000105289ce9 main + 9
+127 thread_local14.exe            	0x0000000105289ce9 main + 9
+128 thread_local14.exe            	0x0000000105289ce9 main + 9
+129 thread_local14.exe            	0x0000000105289ce9 main + 9
+130 thread_local14.exe            	0x0000000105289ce9 main + 9
+131 thread_local14.exe            	0x0000000105289ce9 main + 9
+132 thread_local14.exe            	0x0000000105289ce9 main + 9
+133 thread_local14.exe            	0x0000000105289ce9 main + 9
+134 thread_local14.exe            	0x0000000105289ce9 main + 9
+135 thread_local14.exe            	0x0000000105289ce9 main + 9
+136 thread_local14.exe            	0x0000000105289ce9 main + 9
+137 thread_local14.exe            	0x0000000105289ce9 main + 9
+138 thread_local14.exe            	0x0000000105289ce9 main + 9
+139 thread_local14.exe            	0x0000000105289ce9 main + 9
+140 thread_local14.exe            	0x0000000105289ce9 main + 9
+141 thread_local14.exe            	0x0000000105289ce9 main + 9
+142 thread_local14.exe            	0x0000000105289ce9 main + 9
+143 thread_local14.exe            	0x0000000105289ce9 main + 9
+144 thread_local14.exe            	0x0000000105289ce9 main + 9
+145 thread_local14.exe            	0x0000000105289ce9 main + 9
+146 thread_local14.exe            	0x0000000105289ce9 main + 9
+147 thread_local14.exe            	0x0000000105289ce9 main + 9
+148 thread_local14.exe            	0x0000000105289ce9 main + 9
+149 thread_local14.exe            	0x0000000105289ce9 main + 9
+150 thread_local14.exe            	0x0000000105289ce9 main + 9
+151 thread_local14.exe            	0x0000000105289ce9 main + 9
+152 thread_local14.exe            	0x0000000105289ce9 main + 9
+153 thread_local14.exe            	0x0000000105289ce9 main + 9
+154 thread_local14.exe            	0x0000000105289ce9 main + 9
+155 thread_local14.exe            	0x0000000105289ce9 main + 9
+156 thread_local14.exe            	0x0000000105289ce9 main + 9
+157 thread_local14.exe            	0x0000000105289ce9 main + 9
+158 thread_local14.exe            	0x0000000105289ce9 main + 9
+159 thread_local14.exe            	0x0000000105289ce9 main + 9
+160 thread_local14.exe            	0x0000000105289ce9 main + 9
+161 thread_local14.exe            	0x0000000105289ce9 main + 9
+162 thread_local14.exe            	0x0000000105289ce9 main + 9
+163 thread_local14.exe            	0x0000000105289ce9 main + 9
+164 thread_local14.exe            	0x0000000105289ce9 main + 9
+165 thread_local14.exe            	0x0000000105289ce9 main + 9
+166 thread_local14.exe            	0x0000000105289ce9 main + 9
+167 thread_local14.exe            	0x0000000105289ce9 main + 9
+168 thread_local14.exe            	0x0000000105289ce9 main + 9
+169 thread_local14.exe            	0x0000000105289ce9 main + 9
+170 thread_local14.exe            	0x0000000105289ce9 main + 9
+171 thread_local14.exe            	0x0000000105289ce9 main + 9
+172 thread_local14.exe            	0x0000000105289ce9 main + 9
+173 thread_local14.exe            	0x0000000105289ce9 main + 9
+174 thread_local14.exe            	0x0000000105289ce9 main + 9
+175 thread_local14.exe            	0x0000000105289ce9 main + 9
+176 thread_local14.exe            	0x0000000105289ce9 main + 9
+177 thread_local14.exe            	0x0000000105289ce9 main + 9
+178 thread_local14.exe            	0x0000000105289ce9 main + 9
+179 thread_local14.exe            	0x0000000105289ce9 main + 9
+180 thread_local14.exe            	0x0000000105289ce9 main + 9
+181 thread_local14.exe            	0x0000000105289ce9 main + 9
+182 thread_local14.exe            	0x0000000105289ce9 main + 9
+183 thread_local14.exe            	0x0000000105289ce9 main + 9
+184 thread_local14.exe            	0x0000000105289ce9 main + 9
+185 thread_local14.exe            	0x0000000105289ce9 main + 9
+186 thread_local14.exe            	0x0000000105289ce9 main + 9
+187 thread_local14.exe            	0x0000000105289ce9 main + 9
+188 thread_local14.exe            	0x0000000105289ce9 main + 9
+189 thread_local14.exe            	0x0000000105289ce9 main + 9
+190 thread_local14.exe            	0x0000000105289ce9 main + 9
+191 thread_local14.exe            	0x0000000105289ce9 main + 9
+192 thread_local14.exe            	0x0000000105289ce9 main + 9
+193 thread_local14.exe            	0x0000000105289ce9 main + 9
+194 thread_local14.exe            	0x0000000105289ce9 main + 9
+195 thread_local14.exe            	0x0000000105289ce9 main + 9
+196 thread_local14.exe            	0x0000000105289ce9 main + 9
+197 thread_local14.exe            	0x0000000105289ce9 main + 9
+198 thread_local14.exe            	0x0000000105289ce9 main + 9
+199 thread_local14.exe            	0x0000000105289ce9 main + 9
+200 thread_local14.exe            	0x0000000105289ce9 main + 9
+201 thread_local14.exe            	0x0000000105289ce9 main + 9
+202 thread_local14.exe            	0x0000000105289ce9 main + 9
+203 thread_local14.exe            	0x0000000105289ce9 main + 9
+204 thread_local14.exe            	0x0000000105289ce9 main + 9
+205 thread_local14.exe            	0x0000000105289ce9 main + 9
+206 thread_local14.exe            	0x0000000105289ce9 main + 9
+207 thread_local14.exe            	0x0000000105289ce9 main + 9
+208 thread_local14.exe            	0x0000000105289ce9 main + 9
+209 thread_local14.exe            	0x0000000105289ce9 main + 9
+210 thread_local14.exe            	0x0000000105289ce9 main + 9
+211 thread_local14.exe            	0x0000000105289ce9 main + 9
+212 thread_local14.exe            	0x0000000105289ce9 main + 9
+213 thread_local14.exe            	0x0000000105289ce9 main + 9
+214 thread_local14.exe            	0x0000000105289ce9 main + 9
+215 thread_local14.exe            	0x0000000105289ce9 main + 9
+216 thread_local14.exe            	0x0000000105289ce9 main + 9
+217 thread_local14.exe            	0x0000000105289ce9 main + 9
+218 thread_local14.exe            	0x0000000105289ce9 main + 9
+219 thread_local14.exe            	0x0000000105289ce9 main + 9
+220 thread_local14.exe            	0x0000000105289ce9 main + 9
+221 thread_local14.exe            	0x0000000105289ce9 main + 9
+222 thread_local14.exe            	0x0000000105289ce9 main + 9
+223 thread_local14.exe            	0x0000000105289ce9 main + 9
+224 thread_local14.exe            	0x0000000105289ce9 main + 9
+225 thread_local14.exe            	0x0000000105289ce9 main + 9
+226 thread_local14.exe            	0x0000000105289ce9 main + 9
+227 thread_local14.exe            	0x0000000105289ce9 main + 9
+228 thread_local14.exe            	0x0000000105289ce9 main + 9
+229 thread_local14.exe            	0x0000000105289ce9 main + 9
+230 thread_local14.exe            	0x0000000105289ce9 main + 9
+231 thread_local14.exe            	0x0000000105289ce9 main + 9
+232 thread_local14.exe            	0x0000000105289ce9 main + 9
+233 thread_local14.exe            	0x0000000105289ce9 main + 9
+234 thread_local14.exe            	0x0000000105289ce9 main + 9
+235 thread_local14.exe            	0x0000000105289ce9 main + 9
+236 thread_local14.exe            	0x0000000105289ce9 main + 9
+237 thread_local14.exe            	0x0000000105289ce9 main + 9
+238 thread_local14.exe            	0x0000000105289ce9 main + 9
+239 thread_local14.exe            	0x0000000105289ce9 main + 9
+240 thread_local14.exe            	0x0000000105289ce9 main + 9
+241 thread_local14.exe            	0x0000000105289ce9 main + 9
+242 thread_local14.exe            	0x0000000105289ce9 main + 9
+243 thread_local14.exe            	0x0000000105289ce9 main + 9
+244 thread_local14.exe            	0x0000000105289ce9 main + 9
+245 thread_local14.exe            	0x0000000105289ce9 main + 9
+246 thread_local14.exe            	0x0000000105289ce9 main + 9
+247 thread_local14.exe            	0x0000000105289ce9 main + 9
+248 thread_local14.exe            	0x0000000105289ce9 main + 9
+249 thread_local14.exe            	0x0000000105289ce9 main + 9
+250 thread_local14.exe            	0x0000000105289ce9 main + 9
+251 thread_local14.exe            	0x0000000105289ce9 main + 9
+252 thread_local14.exe            	0x0000000105289ce9 main + 9
+253 thread_local14.exe            	0x0000000105289ce9 main + 9
+254 thread_local14.exe            	0x0000000105289ce9 main + 9
+255 thread_local14.exe            	0x0000000105289ce9 main + 9
+256 thread_local14.exe            	0x0000000105289ce9 main + 9
+257 thread_local14.exe            	0x0000000105289ce9 main + 9
+258 thread_local14.exe            	0x0000000105289ce9 main + 9
+259 thread_local14.exe            	0x0000000105289ce9 main + 9
+260 thread_local14.exe            	0x0000000105289ce9 main + 9
+261 thread_local14.exe            	0x0000000105289ce9 main + 9
+262 thread_local14.exe            	0x0000000105289ce9 main + 9
+263 thread_local14.exe            	0x0000000105289ce9 main + 9
+264 thread_local14.exe            	0x0000000105289ce9 main + 9
+265 thread_local14.exe            	0x0000000105289ce9 main + 9
+266 thread_local14.exe            	0x0000000105289ce9 main + 9
+267 thread_local14.exe            	0x0000000105289ce9 main + 9
+268 thread_local14.exe            	0x0000000105289ce9 main + 9
+269 thread_local14.exe            	0x0000000105289ce9 main + 9
+270 thread_local14.exe            	0x0000000105289ce9 main + 9
+271 thread_local14.exe            	0x0000000105289ce9 main + 9
+272 thread_local14.exe            	0x0000000105289ce9 main + 9
+273 thread_local14.exe            	0x0000000105289ce9 main + 9
+274 thread_local14.exe            	0x0000000105289ce9 main + 9
+275 thread_local14.exe            	0x0000000105289ce9 main + 9
+276 thread_local14.exe            	0x0000000105289ce9 main + 9
+277 thread_local14.exe            	0x0000000105289ce9 main + 9
+278 thread_local14.exe            	0x0000000105289ce9 main + 9
+279 thread_local14.exe            	0x0000000105289ce9 main + 9
+280 thread_local14.exe            	0x0000000105289ce9 main + 9
+281 thread_local14.exe            	0x0000000105289ce9 main + 9
+282 thread_local14.exe            	0x0000000105289ce9 main + 9
+283 thread_local14.exe            	0x0000000105289ce9 main + 9
+284 thread_local14.exe            	0x0000000105289ce9 main + 9
+285 thread_local14.exe            	0x0000000105289ce9 main + 9
+286 thread_local14.exe            	0x0000000105289ce9 main + 9
+287 thread_local14.exe            	0x0000000105289ce9 main + 9
+288 thread_local14.exe            	0x0000000105289ce9 main + 9
+289 thread_local14.exe            	0x0000000105289ce9 main + 9
+290 thread_local14.exe            	0x0000000105289ce9 main + 9
+291 thread_local14.exe            	0x0000000105289ce9 main + 9
+292 thread_local14.exe            	0x0000000105289ce9 main + 9
+293 thread_local14.exe            	0x0000000105289ce9 main + 9
+294 thread_local14.exe            	0x0000000105289ce9 main + 9
+295 thread_local14.exe            	0x0000000105289ce9 main + 9
+296 thread_local14.exe            	0x0000000105289ce9 main + 9
+297 thread_local14.exe            	0x0000000105289ce9 main + 9
+298 thread_local14.exe            	0x0000000105289ce9 main + 9
+299 thread_local14.exe            	0x0000000105289ce9 main + 9
+300 thread_local14.exe            	0x0000000105289ce9 main + 9
+301 thread_local14.exe            	0x0000000105289ce9 main + 9
+302 thread_local14.exe            	0x0000000105289ce9 main + 9
+303 thread_local14.exe            	0x0000000105289ce9 main + 9
+304 thread_local14.exe            	0x0000000105289ce9 main + 9
+305 thread_local14.exe            	0x0000000105289ce9 main + 9
+306 thread_local14.exe            	0x0000000105289ce9 main + 9
+307 thread_local14.exe            	0x0000000105289ce9 main + 9
+308 thread_local14.exe            	0x0000000105289ce9 main + 9
+309 thread_local14.exe            	0x0000000105289ce9 main + 9
+310 thread_local14.exe            	0x0000000105289ce9 main + 9
+311 thread_local14.exe            	0x0000000105289ce9 main + 9
+312 thread_local14.exe            	0x0000000105289ce9 main + 9
+313 thread_local14.exe            	0x0000000105289ce9 main + 9
+314 thread_local14.exe            	0x0000000105289ce9 main + 9
+315 thread_local14.exe            	0x0000000105289ce9 main + 9
+316 thread_local14.exe            	0x0000000105289ce9 main + 9
+317 thread_local14.exe            	0x0000000105289ce9 main + 9
+318 thread_local14.exe            	0x0000000105289ce9 main + 9
+319 thread_local14.exe            	0x0000000105289ce9 main + 9
+320 thread_local14.exe            	0x0000000105289ce9 main + 9
+321 thread_local14.exe            	0x0000000105289ce9 main + 9
+322 thread_local14.exe            	0x0000000105289ce9 main + 9
+323 thread_local14.exe            	0x0000000105289ce9 main + 9
+324 thread_local14.exe            	0x0000000105289ce9 main + 9
+325 thread_local14.exe            	0x0000000105289ce9 main + 9
+326 thread_local14.exe            	0x0000000105289ce9 main + 9
+327 thread_local14.exe            	0x0000000105289ce9 main + 9
+328 thread_local14.exe            	0x0000000105289ce9 main + 9
+329 thread_local14.exe            	0x0000000105289ce9 main + 9
+330 thread_local14.exe            	0x0000000105289ce9 main + 9
+331 thread_local14.exe            	0x0000000105289ce9 main + 9
+332 thread_local14.exe            	0x0000000105289ce9 main + 9
+333 thread_local14.exe            	0x0000000105289ce9 main + 9
+334 thread_local14.exe            	0x0000000105289ce9 main + 9
+335 thread_local14.exe            	0x0000000105289ce9 main + 9
+336 thread_local14.exe            	0x0000000105289ce9 main + 9
+337 thread_local14.exe            	0x0000000105289ce9 main + 9
+338 thread_local14.exe            	0x0000000105289ce9 main + 9
+339 thread_local14.exe            	0x0000000105289ce9 main + 9
+340 thread_local14.exe            	0x0000000105289ce9 main + 9
+341 thread_local14.exe            	0x0000000105289ce9 main + 9
+342 thread_local14.exe            	0x0000000105289ce9 main + 9
+343 thread_local14.exe            	0x0000000105289ce9 main + 9
+344 thread_local14.exe            	0x0000000105289ce9 main + 9
+345 thread_local14.exe            	0x0000000105289ce9 main + 9
+346 thread_local14.exe            	0x0000000105289ce9 main + 9
+347 thread_local14.exe            	0x0000000105289ce9 main + 9
+348 thread_local14.exe            	0x0000000105289ce9 main + 9
+349 thread_local14.exe            	0x0000000105289ce9 main + 9
+350 thread_local14.exe            	0x0000000105289ce9 main + 9
+351 thread_local14.exe            	0x0000000105289ce9 main + 9
+352 thread_local14.exe            	0x0000000105289ce9 main + 9
+353 thread_local14.exe            	0x0000000105289ce9 main + 9
+354 thread_local14.exe            	0x0000000105289ce9 main + 9
+355 thread_local14.exe            	0x0000000105289ce9 main + 9
+356 thread_local14.exe            	0x0000000105289ce9 main + 9
+357 thread_local14.exe            	0x0000000105289ce9 main + 9
+358 thread_local14.exe            	0x0000000105289ce9 main + 9
+359 thread_local14.exe            	0x0000000105289ce9 main + 9
+360 thread_local14.exe            	0x0000000105289ce9 main + 9
+361 thread_local14.exe            	0x0000000105289ce9 main + 9
+362 thread_local14.exe            	0x0000000105289ce9 main + 9
+363 thread_local14.exe            	0x0000000105289ce9 main + 9
+364 thread_local14.exe            	0x0000000105289ce9 main + 9
+365 thread_local14.exe            	0x0000000105289ce9 main + 9
+366 thread_local14.exe            	0x0000000105289ce9 main + 9
+367 thread_local14.exe            	0x0000000105289ce9 main + 9
+368 thread_local14.exe            	0x0000000105289ce9 main + 9
+369 thread_local14.exe            	0x0000000105289ce9 main + 9
+370 thread_local14.exe            	0x0000000105289ce9 main + 9
+371 thread_local14.exe            	0x0000000105289ce9 main + 9
+372 thread_local14.exe            	0x0000000105289ce9 main + 9
+373 thread_local14.exe            	0x0000000105289ce9 main + 9
+374 thread_local14.exe            	0x0000000105289ce9 main + 9
+375 thread_local14.exe            	0x0000000105289ce9 main + 9
+376 thread_local14.exe            	0x0000000105289ce9 main + 9
+377 thread_local14.exe            	0x0000000105289ce9 main + 9
+378 thread_local14.exe            	0x0000000105289ce9 main + 9
+379 thread_local14.exe            	0x0000000105289ce9 main + 9
+380 thread_local14.exe            	0x0000000105289ce9 main + 9
+381 thread_local14.exe            	0x0000000105289ce9 main + 9
+382 thread_local14.exe            	0x0000000105289ce9 main + 9
+383 thread_local14.exe            	0x0000000105289ce9 main + 9
+384 thread_local14.exe            	0x0000000105289ce9 main + 9
+385 thread_local14.exe            	0x0000000105289ce9 main + 9
+386 thread_local14.exe            	0x0000000105289ce9 main + 9
+387 thread_local14.exe            	0x0000000105289ce9 main + 9
+388 thread_local14.exe            	0x0000000105289ce9 main + 9
+389 thread_local14.exe            	0x0000000105289ce9 main + 9
+390 thread_local14.exe            	0x0000000105289ce9 main + 9
+391 thread_local14.exe            	0x0000000105289ce9 main + 9
+392 thread_local14.exe            	0x0000000105289ce9 main + 9
+393 thread_local14.exe            	0x0000000105289ce9 main + 9
+394 thread_local14.exe            	0x0000000105289ce9 main + 9
+395 thread_local14.exe            	0x0000000105289ce9 main + 9
+396 thread_local14.exe            	0x0000000105289ce9 main + 9
+397 thread_local14.exe            	0x0000000105289ce9 main + 9
+398 thread_local14.exe            	0x0000000105289ce9 main + 9
+399 thread_local14.exe            	0x0000000105289ce9 main + 9
+400 thread_local14.exe            	0x0000000105289ce9 main + 9
+401 thread_local14.exe            	0x0000000105289ce9 main + 9
+402 thread_local14.exe            	0x0000000105289ce9 main + 9
+403 thread_local14.exe            	0x0000000105289ce9 main + 9
+404 thread_local14.exe            	0x0000000105289ce9 main + 9
+405 thread_local14.exe            	0x0000000105289ce9 main + 9
+406 thread_local14.exe            	0x0000000105289ce9 main + 9
+407 thread_local14.exe            	0x0000000105289ce9 main + 9
+408 thread_local14.exe            	0x0000000105289ce9 main + 9
+409 thread_local14.exe            	0x0000000105289ce9 main + 9
+410 thread_local14.exe            	0x0000000105289ce9 main + 9
+411 thread_local14.exe            	0x0000000105289ce9 main + 9
+412 thread_local14.exe            	0x0000000105289ce9 main + 9
+413 thread_local14.exe            	0x0000000105289ce9 main + 9
+414 thread_local14.exe            	0x0000000105289ce9 main + 9
+415 thread_local14.exe            	0x0000000105289ce9 main + 9
+416 thread_local14.exe            	0x0000000105289ce9 main + 9
+417 thread_local14.exe            	0x0000000105289ce9 main + 9
+418 thread_local14.exe            	0x0000000105289ce9 main + 9
+419 thread_local14.exe            	0x0000000105289ce9 main + 9
+420 thread_local14.exe            	0x0000000105289ce9 main + 9
+421 thread_local14.exe            	0x0000000105289ce9 main + 9
+422 thread_local14.exe            	0x0000000105289ce9 main + 9
+423 thread_local14.exe            	0x0000000105289ce9 main + 9
+424 thread_local14.exe            	0x0000000105289ce9 main + 9
+425 thread_local14.exe            	0x0000000105289ce9 main + 9
+426 thread_local14.exe            	0x0000000105289ce9 main + 9
+427 thread_local14.exe            	0x0000000105289ce9 main + 9
+428 thread_local14.exe            	0x0000000105289ce9 main + 9
+429 thread_local14.exe            	0x0000000105289ce9 main + 9
+430 thread_local14.exe            	0x0000000105289ce9 main + 9
+431 thread_local14.exe            	0x0000000105289ce9 main + 9
+432 thread_local14.exe            	0x0000000105289ce9 main + 9
+433 thread_local14.exe            	0x0000000105289ce9 main + 9
+434 thread_local14.exe            	0x0000000105289ce9 main + 9
+435 thread_local14.exe            	0x0000000105289ce9 main + 9
+436 thread_local14.exe            	0x0000000105289ce9 main + 9
+437 thread_local14.exe            	0x0000000105289ce9 main + 9
+438 thread_local14.exe            	0x0000000105289ce9 main + 9
+439 thread_local14.exe            	0x0000000105289ce9 main + 9
+440 thread_local14.exe            	0x0000000105289ce9 main + 9
+441 thread_local14.exe            	0x0000000105289ce9 main + 9
+442 thread_local14.exe            	0x0000000105289ce9 main + 9
+443 thread_local14.exe            	0x0000000105289ce9 main + 9
+444 thread_local14.exe            	0x0000000105289ce9 main + 9
+445 thread_local14.exe            	0x0000000105289ce9 main + 9
+446 thread_local14.exe            	0x0000000105289ce9 main + 9
+447 thread_local14.exe            	0x0000000105289ce9 main + 9
+448 thread_local14.exe            	0x0000000105289ce9 main + 9
+449 thread_local14.exe            	0x0000000105289ce9 main + 9
+450 thread_local14.exe            	0x0000000105289ce9 main + 9
+451 thread_local14.exe            	0x0000000105289ce9 main + 9
+452 thread_local14.exe            	0x0000000105289ce9 main + 9
+453 thread_local14.exe            	0x0000000105289ce9 main + 9
+454 thread_local14.exe            	0x0000000105289ce9 main + 9
+455 thread_local14.exe            	0x0000000105289ce9 main + 9
+456 thread_local14.exe            	0x0000000105289ce9 main + 9
+457 thread_local14.exe            	0x0000000105289ce9 main + 9
+458 thread_local14.exe            	0x0000000105289ce9 main + 9
+459 thread_local14.exe            	0x0000000105289ce9 main + 9
+460 thread_local14.exe            	0x0000000105289ce9 main + 9
+461 thread_local14.exe            	0x0000000105289ce9 main + 9
+462 thread_local14.exe            	0x0000000105289ce9 main + 9
+463 thread_local14.exe            	0x0000000105289ce9 main + 9
+464 thread_local14.exe            	0x0000000105289ce9 main + 9
+465 thread_local14.exe            	0x0000000105289ce9 main + 9
+466 thread_local14.exe            	0x0000000105289ce9 main + 9
+467 thread_local14.exe            	0x0000000105289ce9 main + 9
+468 thread_local14.exe            	0x0000000105289ce9 main + 9
+469 thread_local14.exe            	0x0000000105289ce9 main + 9
+470 thread_local14.exe            	0x0000000105289ce9 main + 9
+471 thread_local14.exe            	0x0000000105289ce9 main + 9
+472 thread_local14.exe            	0x0000000105289ce9 main + 9
+473 thread_local14.exe            	0x0000000105289ce9 main + 9
+474 thread_local14.exe            	0x0000000105289ce9 main + 9
+475 thread_local14.exe            	0x0000000105289ce9 main + 9
+476 thread_local14.exe            	0x0000000105289ce9 main + 9
+477 thread_local14.exe            	0x0000000105289ce9 main + 9
+478 thread_local14.exe            	0x0000000105289ce9 main + 9
+479 thread_local14.exe            	0x0000000105289ce9 main + 9
+480 thread_local14.exe            	0x0000000105289ce9 main + 9
+481 thread_local14.exe            	0x0000000105289ce9 main + 9
+482 thread_local14.exe            	0x0000000105289ce9 main + 9
+483 thread_local14.exe            	0x0000000105289ce9 main + 9
+484 thread_local14.exe            	0x0000000105289ce9 main + 9
+485 thread_local14.exe            	0x0000000105289ce9 main + 9
+486 thread_local14.exe            	0x0000000105289ce9 main + 9
+487 thread_local14.exe            	0x0000000105289ce9 main + 9
+488 thread_local14.exe            	0x0000000105289ce9 main + 9
+489 thread_local14.exe            	0x0000000105289ce9 main + 9
+490 thread_local14.exe            	0x0000000105289ce9 main + 9
+491 thread_local14.exe            	0x0000000105289ce9 main + 9
+492 thread_local14.exe            	0x0000000105289ce9 main + 9
+493 thread_local14.exe            	0x0000000105289ce9 main + 9
+494 thread_local14.exe            	0x0000000105289ce9 main + 9
+495 thread_local14.exe            	0x0000000105289ce9 main + 9
+496 thread_local14.exe            	0x0000000105289ce9 main + 9
+497 thread_local14.exe            	0x0000000105289ce9 main + 9
+498 thread_local14.exe            	0x0000000105289ce9 main + 9
+499 thread_local14.exe            	0x0000000105289ce9 main + 9
+500 thread_local14.exe            	0x0000000105289ce9 main + 9
+501 thread_local14.exe            	0x0000000105289ce9 main + 9
+502 thread_local14.exe            	0x0000000105289ce9 main + 9
+503 thread_local14.exe            	0x0000000105289ce9 main + 9
+504 thread_local14.exe            	0x0000000105289ce9 main + 9
+505 thread_local14.exe            	0x0000000105289ce9 main + 9
+506 thread_local14.exe            	0x0000000105289ce9 main + 9
+507 thread_local14.exe            	0x0000000105289ce9 main + 9
+508 thread_local14.exe            	0x0000000105289ce9 main + 9
+509 thread_local14.exe            	0x0000000105289ce9 main + 9
+510 thread_local14.exe            	0x0000000105289ce9 main + 9
+511 thread_local14.exe            	0x0000000105289ce9 main + 9
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000106110e00  rcx: 0x00007ffeea9720a8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffeea9720d0  rsp: 0x00007ffeea9720a8
+   r8: 0x000000000000bef9   r9: 0x00000000000000ac  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2087091e  rfl: 0x0000000000000246  cr2: 0x00007fff80bcb498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x105286000 -        0x105289fff +thread_local14.exe (0) <5FDADAC8-D2AD-37B0-A5FC-BEEE39A10BAE> /Users/USER/*/thread_local14.exe
+       0x10529c000 -        0x1053e3fff +libstdc++.6.dylib (0) <DD57F739-D992-3E56-9D8B-C42AE64A034B> /Users/USER/*/libstdc++.6.dylib
+       0x1055fa000 -        0x1056fdfff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x106039000 -        0x1060d4fff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 9
+    thread_create: 8
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.4M resident=0K(0%) swapped_out_or_unallocated=509.4M(100%)
+Writable regions: Total=27.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=27.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            19.2M       11 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.3M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7352K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            666.2M      183 
+

@@ -1,0 +1,678 @@
+Process:               move_assign_neg.exe [28273]
+Path:                  /Users/USER/*/move_assign_neg.exe
+Identifier:            move_assign_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [41076]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-10 22:23:27.302 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       1A3ACCBA-AF82-4631-ADB3-077D3BFE6350
+
+Time Awake Since Boot: 1200000 seconds
+Time Since Wake:       94000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2087091e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2089f5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff207f4406 abort + 125
+3   libstdc++.6.dylib             	0x0000000106af2b95 __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1304)
+4   move_assign_neg.exe           	0x0000000106980ea2 __gnu_debug::operator==(__gnu_debug::_Safe_iterator<std::_Rb_tree_iterator<std::pair<int const, int> >, std::__debug::map<int, int, std::less<int>, __gnu_test::propagating_allocator<std::pair<int const, int>, false, std::allocator<std::pair<int const, int> > > >, std::bidirectional_iterator_tag> const&, __gnu_debug::_Safe_iterator<std::_Rb_tree_iterator<std::pair<int const, int> >, std::__debug::map<int, int, std::less<int>, __gnu_test::propagating_allocator<std::pair<int const, int>, false, std::allocator<std::pair<int const, int> > > >, std::bidirectional_iterator_tag> const&) + 81 (safe_iterator.h:472) [inlined]
+5   move_assign_neg.exe           	0x0000000106980ea2 __gnu_debug::operator==(__gnu_debug::_Safe_iterator<std::_Rb_tree_iterator<std::pair<int const, int> >, std::__debug::map<int, int, std::less<int>, __gnu_test::propagating_allocator<std::pair<int const, int>, false, std::allocator<std::pair<int const, int> > > >, std::bidirectional_iterator_tag> const&, __gnu_debug::_Safe_iterator<std::_Rb_tree_iterator<std::pair<int const, int> >, std::__debug::map<int, int, std::less<int>, __gnu_test::propagating_allocator<std::pair<int const, int>, false, std::allocator<std::pair<int const, int> > > >, std::bidirectional_iterator_tag> const&) + 155
+6   move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+7   move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+8   move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+9   move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+10  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+11  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+12  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+13  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+14  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+15  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+16  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+17  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+18  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+19  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+20  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+21  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+22  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+23  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+24  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+25  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+26  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+27  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+28  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+29  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+30  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+31  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+32  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+33  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+34  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+35  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+36  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+37  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+38  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+39  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+40  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+41  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+42  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+43  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+44  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+45  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+46  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+47  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+48  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+49  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+50  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+51  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+52  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+53  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+54  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+55  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+56  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+57  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+58  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+59  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+60  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+61  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+62  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+63  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+64  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+65  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+66  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+67  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+68  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+69  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+70  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+71  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+72  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+73  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+74  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+75  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+76  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+77  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+78  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+79  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+80  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+81  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+82  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+83  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+84  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+85  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+86  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+87  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+88  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+89  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+90  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+91  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+92  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+93  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+94  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+95  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+96  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+97  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+98  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+99  move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+100 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+101 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+102 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+103 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+104 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+105 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+106 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+107 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+108 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+109 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+110 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+111 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+112 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+113 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+114 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+115 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+116 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+117 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+118 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+119 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+120 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+121 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+122 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+123 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+124 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+125 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+126 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+127 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+128 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+129 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+130 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+131 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+132 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+133 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+134 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+135 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+136 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+137 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+138 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+139 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+140 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+141 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+142 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+143 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+144 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+145 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+146 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+147 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+148 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+149 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+150 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+151 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+152 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+153 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+154 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+155 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+156 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+157 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+158 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+159 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+160 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+161 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+162 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+163 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+164 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+165 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+166 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+167 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+168 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+169 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+170 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+171 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+172 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+173 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+174 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+175 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+176 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+177 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+178 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+179 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+180 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+181 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+182 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+183 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+184 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+185 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+186 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+187 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+188 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+189 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+190 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+191 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+192 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+193 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+194 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+195 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+196 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+197 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+198 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+199 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+200 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+201 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+202 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+203 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+204 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+205 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+206 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+207 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+208 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+209 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+210 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+211 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+212 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+213 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+214 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+215 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+216 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+217 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+218 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+219 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+220 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+221 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+222 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+223 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+224 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+225 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+226 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+227 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+228 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+229 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+230 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+231 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+232 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+233 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+234 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+235 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+236 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+237 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+238 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+239 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+240 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+241 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+242 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+243 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+244 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+245 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+246 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+247 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+248 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+249 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+250 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+251 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+252 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+253 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+254 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+255 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+256 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+257 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+258 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+259 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+260 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+261 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+262 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+263 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+264 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+265 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+266 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+267 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+268 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+269 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+270 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+271 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+272 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+273 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+274 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+275 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+276 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+277 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+278 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+279 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+280 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+281 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+282 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+283 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+284 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+285 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+286 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+287 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+288 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+289 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+290 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+291 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+292 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+293 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+294 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+295 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+296 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+297 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+298 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+299 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+300 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+301 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+302 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+303 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+304 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+305 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+306 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+307 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+308 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+309 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+310 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+311 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+312 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+313 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+314 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+315 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+316 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+317 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+318 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+319 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+320 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+321 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+322 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+323 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+324 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+325 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+326 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+327 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+328 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+329 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+330 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+331 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+332 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+333 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+334 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+335 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+336 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+337 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+338 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+339 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+340 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+341 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+342 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+343 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+344 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+345 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+346 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+347 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+348 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+349 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+350 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+351 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+352 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+353 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+354 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+355 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+356 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+357 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+358 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+359 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+360 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+361 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+362 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+363 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+364 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+365 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+366 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+367 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+368 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+369 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+370 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+371 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+372 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+373 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+374 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+375 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+376 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+377 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+378 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+379 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+380 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+381 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+382 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+383 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+384 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+385 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+386 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+387 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+388 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+389 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+390 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+391 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+392 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+393 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+394 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+395 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+396 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+397 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+398 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+399 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+400 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+401 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+402 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+403 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+404 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+405 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+406 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+407 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+408 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+409 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+410 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+411 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+412 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+413 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+414 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+415 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+416 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+417 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+418 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+419 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+420 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+421 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+422 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+423 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+424 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+425 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+426 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+427 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+428 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+429 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+430 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+431 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+432 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+433 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+434 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+435 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+436 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+437 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+438 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+439 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+440 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+441 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+442 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+443 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+444 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+445 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+446 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+447 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+448 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+449 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+450 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+451 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+452 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+453 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+454 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+455 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+456 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+457 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+458 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+459 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+460 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+461 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+462 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+463 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+464 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+465 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+466 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+467 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+468 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+469 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+470 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+471 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+472 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+473 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+474 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+475 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+476 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+477 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+478 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+479 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+480 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+481 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+482 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+483 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+484 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+485 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+486 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+487 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+488 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+489 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+490 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+491 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+492 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+493 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+494 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+495 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+496 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+497 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+498 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+499 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+500 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+501 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+502 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+503 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+504 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+505 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+506 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+507 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+508 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+509 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+510 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+511 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+512 move_assign_neg.exe           	0x0000000106981b59 test01() + 763 (move_assign_neg.cc:38)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00000001130a8e00  rcx: 0x00007ffee927a5d8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee927a600  rsp: 0x00007ffee927a5d8
+   r8: 0x00007fff80b97028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x00000001069872a8  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2087091e  rfl: 0x0000000000000246  cr2: 0x00007fff80bcb498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10697f000 -        0x106982fff +move_assign_neg.exe (0) <69F83C58-8DC1-33C1-B78E-009E255D8A83> /Users/USER/*/move_assign_neg.exe
+       0x106998000 -        0x106a9bfff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x106ab4000 -        0x106bfbfff +libstdc++.6.dylib (0) <DD57F739-D992-3E56-9D8B-C42AE64A034B> /Users/USER/*/libstdc++.6.dylib
+       0x112fd1000 -        0x11306cfff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 6
+    thread_create: 6
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.4M resident=0K(0%) swapped_out_or_unallocated=509.4M(100%)
+Writable regions: Total=18.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=18.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            10.2M        9 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.3M        7 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7352K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            657.2M      180 
+
+
+System Profile:
+Network Service: Wi-Fi, AirPort, en0
+Boot Volume File System Type: apfs
+Memory Module: BANK 0/ChannelA-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+Memory Module: BANK 2/ChannelB-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+USB Device: Belkin USB-C LAN
+USB Device: USB 3.1 Bus
+USB Device: USB2.0 Hub
+USB Device: USB Optical Mouse
+USB Device: iPod
+USB Device: MT1887
+USB Device: Portable
+USB Device: Apple T2 Bus
+USB Device: Composite Device
+USB Device: Touch Bar Backlight
+USB Device: Touch Bar Display
+USB Device: Apple Internal Keyboard / Trackpad
+USB Device: Headset
+USB Device: Ambient Light Sensor
+USB Device: FaceTime HD Camera (Built-in)
+USB Device: Apple T2 Controller
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Model: MacBookPro16,1, BootROM 1916.80.2.0.0 (iBridge: 20.16.3045.0.0,0), 8 processors, 8-Core Intel Core i9, 2.3 GHz, 16 GB, SMC 
+Graphics: kHW_IntelUHDGraphics630Item, Intel UHD Graphics 630, spdisplays_builtin
+Graphics: kHW_AMDRadeonPro5500MItem, AMD Radeon Pro 5500M, spdisplays_pcie_device, 4 GB
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x7BF), wl0: Aug 10 2021 20:10:47 version 9.30.444.18.32.5.71 FWID 01-30b2601e
+Bluetooth: Version 8.0.5d7, 3 services, 27 devices, 1 incoming serial ports

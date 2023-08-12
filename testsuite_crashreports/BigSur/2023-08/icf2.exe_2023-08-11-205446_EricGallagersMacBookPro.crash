@@ -1,0 +1,677 @@
+Process:               icf2.exe [76814]
+Path:                  /Users/USER/*/icf2.exe
+Identifier:            icf2.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [7745]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-11 20:54:45.885 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       16DD5B50-3B6D-40F1-90D1-CCD1EC4C06B6
+
+Time Awake Since Boot: 1300000 seconds
+Time Since Wake:       14000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2087091e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2089f5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff207f4406 abort + 125
+3   icf2.exe                      	0x000000010f4fbe73 f(void const*, void const*) + 31
+4   icf2.exe                      	0x000000010f4fbeeb main + 117
+5   icf2.exe                      	0x000000010f4fbeeb main + 117
+6   icf2.exe                      	0x000000010f4fbeeb main + 117
+7   icf2.exe                      	0x000000010f4fbeeb main + 117
+8   icf2.exe                      	0x000000010f4fbeeb main + 117
+9   icf2.exe                      	0x000000010f4fbeeb main + 117
+10  icf2.exe                      	0x000000010f4fbeeb main + 117
+11  icf2.exe                      	0x000000010f4fbeeb main + 117
+12  icf2.exe                      	0x000000010f4fbeeb main + 117
+13  icf2.exe                      	0x000000010f4fbeeb main + 117
+14  icf2.exe                      	0x000000010f4fbeeb main + 117
+15  icf2.exe                      	0x000000010f4fbeeb main + 117
+16  icf2.exe                      	0x000000010f4fbeeb main + 117
+17  icf2.exe                      	0x000000010f4fbeeb main + 117
+18  icf2.exe                      	0x000000010f4fbeeb main + 117
+19  icf2.exe                      	0x000000010f4fbeeb main + 117
+20  icf2.exe                      	0x000000010f4fbeeb main + 117
+21  icf2.exe                      	0x000000010f4fbeeb main + 117
+22  icf2.exe                      	0x000000010f4fbeeb main + 117
+23  icf2.exe                      	0x000000010f4fbeeb main + 117
+24  icf2.exe                      	0x000000010f4fbeeb main + 117
+25  icf2.exe                      	0x000000010f4fbeeb main + 117
+26  icf2.exe                      	0x000000010f4fbeeb main + 117
+27  icf2.exe                      	0x000000010f4fbeeb main + 117
+28  icf2.exe                      	0x000000010f4fbeeb main + 117
+29  icf2.exe                      	0x000000010f4fbeeb main + 117
+30  icf2.exe                      	0x000000010f4fbeeb main + 117
+31  icf2.exe                      	0x000000010f4fbeeb main + 117
+32  icf2.exe                      	0x000000010f4fbeeb main + 117
+33  icf2.exe                      	0x000000010f4fbeeb main + 117
+34  icf2.exe                      	0x000000010f4fbeeb main + 117
+35  icf2.exe                      	0x000000010f4fbeeb main + 117
+36  icf2.exe                      	0x000000010f4fbeeb main + 117
+37  icf2.exe                      	0x000000010f4fbeeb main + 117
+38  icf2.exe                      	0x000000010f4fbeeb main + 117
+39  icf2.exe                      	0x000000010f4fbeeb main + 117
+40  icf2.exe                      	0x000000010f4fbeeb main + 117
+41  icf2.exe                      	0x000000010f4fbeeb main + 117
+42  icf2.exe                      	0x000000010f4fbeeb main + 117
+43  icf2.exe                      	0x000000010f4fbeeb main + 117
+44  icf2.exe                      	0x000000010f4fbeeb main + 117
+45  icf2.exe                      	0x000000010f4fbeeb main + 117
+46  icf2.exe                      	0x000000010f4fbeeb main + 117
+47  icf2.exe                      	0x000000010f4fbeeb main + 117
+48  icf2.exe                      	0x000000010f4fbeeb main + 117
+49  icf2.exe                      	0x000000010f4fbeeb main + 117
+50  icf2.exe                      	0x000000010f4fbeeb main + 117
+51  icf2.exe                      	0x000000010f4fbeeb main + 117
+52  icf2.exe                      	0x000000010f4fbeeb main + 117
+53  icf2.exe                      	0x000000010f4fbeeb main + 117
+54  icf2.exe                      	0x000000010f4fbeeb main + 117
+55  icf2.exe                      	0x000000010f4fbeeb main + 117
+56  icf2.exe                      	0x000000010f4fbeeb main + 117
+57  icf2.exe                      	0x000000010f4fbeeb main + 117
+58  icf2.exe                      	0x000000010f4fbeeb main + 117
+59  icf2.exe                      	0x000000010f4fbeeb main + 117
+60  icf2.exe                      	0x000000010f4fbeeb main + 117
+61  icf2.exe                      	0x000000010f4fbeeb main + 117
+62  icf2.exe                      	0x000000010f4fbeeb main + 117
+63  icf2.exe                      	0x000000010f4fbeeb main + 117
+64  icf2.exe                      	0x000000010f4fbeeb main + 117
+65  icf2.exe                      	0x000000010f4fbeeb main + 117
+66  icf2.exe                      	0x000000010f4fbeeb main + 117
+67  icf2.exe                      	0x000000010f4fbeeb main + 117
+68  icf2.exe                      	0x000000010f4fbeeb main + 117
+69  icf2.exe                      	0x000000010f4fbeeb main + 117
+70  icf2.exe                      	0x000000010f4fbeeb main + 117
+71  icf2.exe                      	0x000000010f4fbeeb main + 117
+72  icf2.exe                      	0x000000010f4fbeeb main + 117
+73  icf2.exe                      	0x000000010f4fbeeb main + 117
+74  icf2.exe                      	0x000000010f4fbeeb main + 117
+75  icf2.exe                      	0x000000010f4fbeeb main + 117
+76  icf2.exe                      	0x000000010f4fbeeb main + 117
+77  icf2.exe                      	0x000000010f4fbeeb main + 117
+78  icf2.exe                      	0x000000010f4fbeeb main + 117
+79  icf2.exe                      	0x000000010f4fbeeb main + 117
+80  icf2.exe                      	0x000000010f4fbeeb main + 117
+81  icf2.exe                      	0x000000010f4fbeeb main + 117
+82  icf2.exe                      	0x000000010f4fbeeb main + 117
+83  icf2.exe                      	0x000000010f4fbeeb main + 117
+84  icf2.exe                      	0x000000010f4fbeeb main + 117
+85  icf2.exe                      	0x000000010f4fbeeb main + 117
+86  icf2.exe                      	0x000000010f4fbeeb main + 117
+87  icf2.exe                      	0x000000010f4fbeeb main + 117
+88  icf2.exe                      	0x000000010f4fbeeb main + 117
+89  icf2.exe                      	0x000000010f4fbeeb main + 117
+90  icf2.exe                      	0x000000010f4fbeeb main + 117
+91  icf2.exe                      	0x000000010f4fbeeb main + 117
+92  icf2.exe                      	0x000000010f4fbeeb main + 117
+93  icf2.exe                      	0x000000010f4fbeeb main + 117
+94  icf2.exe                      	0x000000010f4fbeeb main + 117
+95  icf2.exe                      	0x000000010f4fbeeb main + 117
+96  icf2.exe                      	0x000000010f4fbeeb main + 117
+97  icf2.exe                      	0x000000010f4fbeeb main + 117
+98  icf2.exe                      	0x000000010f4fbeeb main + 117
+99  icf2.exe                      	0x000000010f4fbeeb main + 117
+100 icf2.exe                      	0x000000010f4fbeeb main + 117
+101 icf2.exe                      	0x000000010f4fbeeb main + 117
+102 icf2.exe                      	0x000000010f4fbeeb main + 117
+103 icf2.exe                      	0x000000010f4fbeeb main + 117
+104 icf2.exe                      	0x000000010f4fbeeb main + 117
+105 icf2.exe                      	0x000000010f4fbeeb main + 117
+106 icf2.exe                      	0x000000010f4fbeeb main + 117
+107 icf2.exe                      	0x000000010f4fbeeb main + 117
+108 icf2.exe                      	0x000000010f4fbeeb main + 117
+109 icf2.exe                      	0x000000010f4fbeeb main + 117
+110 icf2.exe                      	0x000000010f4fbeeb main + 117
+111 icf2.exe                      	0x000000010f4fbeeb main + 117
+112 icf2.exe                      	0x000000010f4fbeeb main + 117
+113 icf2.exe                      	0x000000010f4fbeeb main + 117
+114 icf2.exe                      	0x000000010f4fbeeb main + 117
+115 icf2.exe                      	0x000000010f4fbeeb main + 117
+116 icf2.exe                      	0x000000010f4fbeeb main + 117
+117 icf2.exe                      	0x000000010f4fbeeb main + 117
+118 icf2.exe                      	0x000000010f4fbeeb main + 117
+119 icf2.exe                      	0x000000010f4fbeeb main + 117
+120 icf2.exe                      	0x000000010f4fbeeb main + 117
+121 icf2.exe                      	0x000000010f4fbeeb main + 117
+122 icf2.exe                      	0x000000010f4fbeeb main + 117
+123 icf2.exe                      	0x000000010f4fbeeb main + 117
+124 icf2.exe                      	0x000000010f4fbeeb main + 117
+125 icf2.exe                      	0x000000010f4fbeeb main + 117
+126 icf2.exe                      	0x000000010f4fbeeb main + 117
+127 icf2.exe                      	0x000000010f4fbeeb main + 117
+128 icf2.exe                      	0x000000010f4fbeeb main + 117
+129 icf2.exe                      	0x000000010f4fbeeb main + 117
+130 icf2.exe                      	0x000000010f4fbeeb main + 117
+131 icf2.exe                      	0x000000010f4fbeeb main + 117
+132 icf2.exe                      	0x000000010f4fbeeb main + 117
+133 icf2.exe                      	0x000000010f4fbeeb main + 117
+134 icf2.exe                      	0x000000010f4fbeeb main + 117
+135 icf2.exe                      	0x000000010f4fbeeb main + 117
+136 icf2.exe                      	0x000000010f4fbeeb main + 117
+137 icf2.exe                      	0x000000010f4fbeeb main + 117
+138 icf2.exe                      	0x000000010f4fbeeb main + 117
+139 icf2.exe                      	0x000000010f4fbeeb main + 117
+140 icf2.exe                      	0x000000010f4fbeeb main + 117
+141 icf2.exe                      	0x000000010f4fbeeb main + 117
+142 icf2.exe                      	0x000000010f4fbeeb main + 117
+143 icf2.exe                      	0x000000010f4fbeeb main + 117
+144 icf2.exe                      	0x000000010f4fbeeb main + 117
+145 icf2.exe                      	0x000000010f4fbeeb main + 117
+146 icf2.exe                      	0x000000010f4fbeeb main + 117
+147 icf2.exe                      	0x000000010f4fbeeb main + 117
+148 icf2.exe                      	0x000000010f4fbeeb main + 117
+149 icf2.exe                      	0x000000010f4fbeeb main + 117
+150 icf2.exe                      	0x000000010f4fbeeb main + 117
+151 icf2.exe                      	0x000000010f4fbeeb main + 117
+152 icf2.exe                      	0x000000010f4fbeeb main + 117
+153 icf2.exe                      	0x000000010f4fbeeb main + 117
+154 icf2.exe                      	0x000000010f4fbeeb main + 117
+155 icf2.exe                      	0x000000010f4fbeeb main + 117
+156 icf2.exe                      	0x000000010f4fbeeb main + 117
+157 icf2.exe                      	0x000000010f4fbeeb main + 117
+158 icf2.exe                      	0x000000010f4fbeeb main + 117
+159 icf2.exe                      	0x000000010f4fbeeb main + 117
+160 icf2.exe                      	0x000000010f4fbeeb main + 117
+161 icf2.exe                      	0x000000010f4fbeeb main + 117
+162 icf2.exe                      	0x000000010f4fbeeb main + 117
+163 icf2.exe                      	0x000000010f4fbeeb main + 117
+164 icf2.exe                      	0x000000010f4fbeeb main + 117
+165 icf2.exe                      	0x000000010f4fbeeb main + 117
+166 icf2.exe                      	0x000000010f4fbeeb main + 117
+167 icf2.exe                      	0x000000010f4fbeeb main + 117
+168 icf2.exe                      	0x000000010f4fbeeb main + 117
+169 icf2.exe                      	0x000000010f4fbeeb main + 117
+170 icf2.exe                      	0x000000010f4fbeeb main + 117
+171 icf2.exe                      	0x000000010f4fbeeb main + 117
+172 icf2.exe                      	0x000000010f4fbeeb main + 117
+173 icf2.exe                      	0x000000010f4fbeeb main + 117
+174 icf2.exe                      	0x000000010f4fbeeb main + 117
+175 icf2.exe                      	0x000000010f4fbeeb main + 117
+176 icf2.exe                      	0x000000010f4fbeeb main + 117
+177 icf2.exe                      	0x000000010f4fbeeb main + 117
+178 icf2.exe                      	0x000000010f4fbeeb main + 117
+179 icf2.exe                      	0x000000010f4fbeeb main + 117
+180 icf2.exe                      	0x000000010f4fbeeb main + 117
+181 icf2.exe                      	0x000000010f4fbeeb main + 117
+182 icf2.exe                      	0x000000010f4fbeeb main + 117
+183 icf2.exe                      	0x000000010f4fbeeb main + 117
+184 icf2.exe                      	0x000000010f4fbeeb main + 117
+185 icf2.exe                      	0x000000010f4fbeeb main + 117
+186 icf2.exe                      	0x000000010f4fbeeb main + 117
+187 icf2.exe                      	0x000000010f4fbeeb main + 117
+188 icf2.exe                      	0x000000010f4fbeeb main + 117
+189 icf2.exe                      	0x000000010f4fbeeb main + 117
+190 icf2.exe                      	0x000000010f4fbeeb main + 117
+191 icf2.exe                      	0x000000010f4fbeeb main + 117
+192 icf2.exe                      	0x000000010f4fbeeb main + 117
+193 icf2.exe                      	0x000000010f4fbeeb main + 117
+194 icf2.exe                      	0x000000010f4fbeeb main + 117
+195 icf2.exe                      	0x000000010f4fbeeb main + 117
+196 icf2.exe                      	0x000000010f4fbeeb main + 117
+197 icf2.exe                      	0x000000010f4fbeeb main + 117
+198 icf2.exe                      	0x000000010f4fbeeb main + 117
+199 icf2.exe                      	0x000000010f4fbeeb main + 117
+200 icf2.exe                      	0x000000010f4fbeeb main + 117
+201 icf2.exe                      	0x000000010f4fbeeb main + 117
+202 icf2.exe                      	0x000000010f4fbeeb main + 117
+203 icf2.exe                      	0x000000010f4fbeeb main + 117
+204 icf2.exe                      	0x000000010f4fbeeb main + 117
+205 icf2.exe                      	0x000000010f4fbeeb main + 117
+206 icf2.exe                      	0x000000010f4fbeeb main + 117
+207 icf2.exe                      	0x000000010f4fbeeb main + 117
+208 icf2.exe                      	0x000000010f4fbeeb main + 117
+209 icf2.exe                      	0x000000010f4fbeeb main + 117
+210 icf2.exe                      	0x000000010f4fbeeb main + 117
+211 icf2.exe                      	0x000000010f4fbeeb main + 117
+212 icf2.exe                      	0x000000010f4fbeeb main + 117
+213 icf2.exe                      	0x000000010f4fbeeb main + 117
+214 icf2.exe                      	0x000000010f4fbeeb main + 117
+215 icf2.exe                      	0x000000010f4fbeeb main + 117
+216 icf2.exe                      	0x000000010f4fbeeb main + 117
+217 icf2.exe                      	0x000000010f4fbeeb main + 117
+218 icf2.exe                      	0x000000010f4fbeeb main + 117
+219 icf2.exe                      	0x000000010f4fbeeb main + 117
+220 icf2.exe                      	0x000000010f4fbeeb main + 117
+221 icf2.exe                      	0x000000010f4fbeeb main + 117
+222 icf2.exe                      	0x000000010f4fbeeb main + 117
+223 icf2.exe                      	0x000000010f4fbeeb main + 117
+224 icf2.exe                      	0x000000010f4fbeeb main + 117
+225 icf2.exe                      	0x000000010f4fbeeb main + 117
+226 icf2.exe                      	0x000000010f4fbeeb main + 117
+227 icf2.exe                      	0x000000010f4fbeeb main + 117
+228 icf2.exe                      	0x000000010f4fbeeb main + 117
+229 icf2.exe                      	0x000000010f4fbeeb main + 117
+230 icf2.exe                      	0x000000010f4fbeeb main + 117
+231 icf2.exe                      	0x000000010f4fbeeb main + 117
+232 icf2.exe                      	0x000000010f4fbeeb main + 117
+233 icf2.exe                      	0x000000010f4fbeeb main + 117
+234 icf2.exe                      	0x000000010f4fbeeb main + 117
+235 icf2.exe                      	0x000000010f4fbeeb main + 117
+236 icf2.exe                      	0x000000010f4fbeeb main + 117
+237 icf2.exe                      	0x000000010f4fbeeb main + 117
+238 icf2.exe                      	0x000000010f4fbeeb main + 117
+239 icf2.exe                      	0x000000010f4fbeeb main + 117
+240 icf2.exe                      	0x000000010f4fbeeb main + 117
+241 icf2.exe                      	0x000000010f4fbeeb main + 117
+242 icf2.exe                      	0x000000010f4fbeeb main + 117
+243 icf2.exe                      	0x000000010f4fbeeb main + 117
+244 icf2.exe                      	0x000000010f4fbeeb main + 117
+245 icf2.exe                      	0x000000010f4fbeeb main + 117
+246 icf2.exe                      	0x000000010f4fbeeb main + 117
+247 icf2.exe                      	0x000000010f4fbeeb main + 117
+248 icf2.exe                      	0x000000010f4fbeeb main + 117
+249 icf2.exe                      	0x000000010f4fbeeb main + 117
+250 icf2.exe                      	0x000000010f4fbeeb main + 117
+251 icf2.exe                      	0x000000010f4fbeeb main + 117
+252 icf2.exe                      	0x000000010f4fbeeb main + 117
+253 icf2.exe                      	0x000000010f4fbeeb main + 117
+254 icf2.exe                      	0x000000010f4fbeeb main + 117
+255 icf2.exe                      	0x000000010f4fbeeb main + 117
+256 icf2.exe                      	0x000000010f4fbeeb main + 117
+257 icf2.exe                      	0x000000010f4fbeeb main + 117
+258 icf2.exe                      	0x000000010f4fbeeb main + 117
+259 icf2.exe                      	0x000000010f4fbeeb main + 117
+260 icf2.exe                      	0x000000010f4fbeeb main + 117
+261 icf2.exe                      	0x000000010f4fbeeb main + 117
+262 icf2.exe                      	0x000000010f4fbeeb main + 117
+263 icf2.exe                      	0x000000010f4fbeeb main + 117
+264 icf2.exe                      	0x000000010f4fbeeb main + 117
+265 icf2.exe                      	0x000000010f4fbeeb main + 117
+266 icf2.exe                      	0x000000010f4fbeeb main + 117
+267 icf2.exe                      	0x000000010f4fbeeb main + 117
+268 icf2.exe                      	0x000000010f4fbeeb main + 117
+269 icf2.exe                      	0x000000010f4fbeeb main + 117
+270 icf2.exe                      	0x000000010f4fbeeb main + 117
+271 icf2.exe                      	0x000000010f4fbeeb main + 117
+272 icf2.exe                      	0x000000010f4fbeeb main + 117
+273 icf2.exe                      	0x000000010f4fbeeb main + 117
+274 icf2.exe                      	0x000000010f4fbeeb main + 117
+275 icf2.exe                      	0x000000010f4fbeeb main + 117
+276 icf2.exe                      	0x000000010f4fbeeb main + 117
+277 icf2.exe                      	0x000000010f4fbeeb main + 117
+278 icf2.exe                      	0x000000010f4fbeeb main + 117
+279 icf2.exe                      	0x000000010f4fbeeb main + 117
+280 icf2.exe                      	0x000000010f4fbeeb main + 117
+281 icf2.exe                      	0x000000010f4fbeeb main + 117
+282 icf2.exe                      	0x000000010f4fbeeb main + 117
+283 icf2.exe                      	0x000000010f4fbeeb main + 117
+284 icf2.exe                      	0x000000010f4fbeeb main + 117
+285 icf2.exe                      	0x000000010f4fbeeb main + 117
+286 icf2.exe                      	0x000000010f4fbeeb main + 117
+287 icf2.exe                      	0x000000010f4fbeeb main + 117
+288 icf2.exe                      	0x000000010f4fbeeb main + 117
+289 icf2.exe                      	0x000000010f4fbeeb main + 117
+290 icf2.exe                      	0x000000010f4fbeeb main + 117
+291 icf2.exe                      	0x000000010f4fbeeb main + 117
+292 icf2.exe                      	0x000000010f4fbeeb main + 117
+293 icf2.exe                      	0x000000010f4fbeeb main + 117
+294 icf2.exe                      	0x000000010f4fbeeb main + 117
+295 icf2.exe                      	0x000000010f4fbeeb main + 117
+296 icf2.exe                      	0x000000010f4fbeeb main + 117
+297 icf2.exe                      	0x000000010f4fbeeb main + 117
+298 icf2.exe                      	0x000000010f4fbeeb main + 117
+299 icf2.exe                      	0x000000010f4fbeeb main + 117
+300 icf2.exe                      	0x000000010f4fbeeb main + 117
+301 icf2.exe                      	0x000000010f4fbeeb main + 117
+302 icf2.exe                      	0x000000010f4fbeeb main + 117
+303 icf2.exe                      	0x000000010f4fbeeb main + 117
+304 icf2.exe                      	0x000000010f4fbeeb main + 117
+305 icf2.exe                      	0x000000010f4fbeeb main + 117
+306 icf2.exe                      	0x000000010f4fbeeb main + 117
+307 icf2.exe                      	0x000000010f4fbeeb main + 117
+308 icf2.exe                      	0x000000010f4fbeeb main + 117
+309 icf2.exe                      	0x000000010f4fbeeb main + 117
+310 icf2.exe                      	0x000000010f4fbeeb main + 117
+311 icf2.exe                      	0x000000010f4fbeeb main + 117
+312 icf2.exe                      	0x000000010f4fbeeb main + 117
+313 icf2.exe                      	0x000000010f4fbeeb main + 117
+314 icf2.exe                      	0x000000010f4fbeeb main + 117
+315 icf2.exe                      	0x000000010f4fbeeb main + 117
+316 icf2.exe                      	0x000000010f4fbeeb main + 117
+317 icf2.exe                      	0x000000010f4fbeeb main + 117
+318 icf2.exe                      	0x000000010f4fbeeb main + 117
+319 icf2.exe                      	0x000000010f4fbeeb main + 117
+320 icf2.exe                      	0x000000010f4fbeeb main + 117
+321 icf2.exe                      	0x000000010f4fbeeb main + 117
+322 icf2.exe                      	0x000000010f4fbeeb main + 117
+323 icf2.exe                      	0x000000010f4fbeeb main + 117
+324 icf2.exe                      	0x000000010f4fbeeb main + 117
+325 icf2.exe                      	0x000000010f4fbeeb main + 117
+326 icf2.exe                      	0x000000010f4fbeeb main + 117
+327 icf2.exe                      	0x000000010f4fbeeb main + 117
+328 icf2.exe                      	0x000000010f4fbeeb main + 117
+329 icf2.exe                      	0x000000010f4fbeeb main + 117
+330 icf2.exe                      	0x000000010f4fbeeb main + 117
+331 icf2.exe                      	0x000000010f4fbeeb main + 117
+332 icf2.exe                      	0x000000010f4fbeeb main + 117
+333 icf2.exe                      	0x000000010f4fbeeb main + 117
+334 icf2.exe                      	0x000000010f4fbeeb main + 117
+335 icf2.exe                      	0x000000010f4fbeeb main + 117
+336 icf2.exe                      	0x000000010f4fbeeb main + 117
+337 icf2.exe                      	0x000000010f4fbeeb main + 117
+338 icf2.exe                      	0x000000010f4fbeeb main + 117
+339 icf2.exe                      	0x000000010f4fbeeb main + 117
+340 icf2.exe                      	0x000000010f4fbeeb main + 117
+341 icf2.exe                      	0x000000010f4fbeeb main + 117
+342 icf2.exe                      	0x000000010f4fbeeb main + 117
+343 icf2.exe                      	0x000000010f4fbeeb main + 117
+344 icf2.exe                      	0x000000010f4fbeeb main + 117
+345 icf2.exe                      	0x000000010f4fbeeb main + 117
+346 icf2.exe                      	0x000000010f4fbeeb main + 117
+347 icf2.exe                      	0x000000010f4fbeeb main + 117
+348 icf2.exe                      	0x000000010f4fbeeb main + 117
+349 icf2.exe                      	0x000000010f4fbeeb main + 117
+350 icf2.exe                      	0x000000010f4fbeeb main + 117
+351 icf2.exe                      	0x000000010f4fbeeb main + 117
+352 icf2.exe                      	0x000000010f4fbeeb main + 117
+353 icf2.exe                      	0x000000010f4fbeeb main + 117
+354 icf2.exe                      	0x000000010f4fbeeb main + 117
+355 icf2.exe                      	0x000000010f4fbeeb main + 117
+356 icf2.exe                      	0x000000010f4fbeeb main + 117
+357 icf2.exe                      	0x000000010f4fbeeb main + 117
+358 icf2.exe                      	0x000000010f4fbeeb main + 117
+359 icf2.exe                      	0x000000010f4fbeeb main + 117
+360 icf2.exe                      	0x000000010f4fbeeb main + 117
+361 icf2.exe                      	0x000000010f4fbeeb main + 117
+362 icf2.exe                      	0x000000010f4fbeeb main + 117
+363 icf2.exe                      	0x000000010f4fbeeb main + 117
+364 icf2.exe                      	0x000000010f4fbeeb main + 117
+365 icf2.exe                      	0x000000010f4fbeeb main + 117
+366 icf2.exe                      	0x000000010f4fbeeb main + 117
+367 icf2.exe                      	0x000000010f4fbeeb main + 117
+368 icf2.exe                      	0x000000010f4fbeeb main + 117
+369 icf2.exe                      	0x000000010f4fbeeb main + 117
+370 icf2.exe                      	0x000000010f4fbeeb main + 117
+371 icf2.exe                      	0x000000010f4fbeeb main + 117
+372 icf2.exe                      	0x000000010f4fbeeb main + 117
+373 icf2.exe                      	0x000000010f4fbeeb main + 117
+374 icf2.exe                      	0x000000010f4fbeeb main + 117
+375 icf2.exe                      	0x000000010f4fbeeb main + 117
+376 icf2.exe                      	0x000000010f4fbeeb main + 117
+377 icf2.exe                      	0x000000010f4fbeeb main + 117
+378 icf2.exe                      	0x000000010f4fbeeb main + 117
+379 icf2.exe                      	0x000000010f4fbeeb main + 117
+380 icf2.exe                      	0x000000010f4fbeeb main + 117
+381 icf2.exe                      	0x000000010f4fbeeb main + 117
+382 icf2.exe                      	0x000000010f4fbeeb main + 117
+383 icf2.exe                      	0x000000010f4fbeeb main + 117
+384 icf2.exe                      	0x000000010f4fbeeb main + 117
+385 icf2.exe                      	0x000000010f4fbeeb main + 117
+386 icf2.exe                      	0x000000010f4fbeeb main + 117
+387 icf2.exe                      	0x000000010f4fbeeb main + 117
+388 icf2.exe                      	0x000000010f4fbeeb main + 117
+389 icf2.exe                      	0x000000010f4fbeeb main + 117
+390 icf2.exe                      	0x000000010f4fbeeb main + 117
+391 icf2.exe                      	0x000000010f4fbeeb main + 117
+392 icf2.exe                      	0x000000010f4fbeeb main + 117
+393 icf2.exe                      	0x000000010f4fbeeb main + 117
+394 icf2.exe                      	0x000000010f4fbeeb main + 117
+395 icf2.exe                      	0x000000010f4fbeeb main + 117
+396 icf2.exe                      	0x000000010f4fbeeb main + 117
+397 icf2.exe                      	0x000000010f4fbeeb main + 117
+398 icf2.exe                      	0x000000010f4fbeeb main + 117
+399 icf2.exe                      	0x000000010f4fbeeb main + 117
+400 icf2.exe                      	0x000000010f4fbeeb main + 117
+401 icf2.exe                      	0x000000010f4fbeeb main + 117
+402 icf2.exe                      	0x000000010f4fbeeb main + 117
+403 icf2.exe                      	0x000000010f4fbeeb main + 117
+404 icf2.exe                      	0x000000010f4fbeeb main + 117
+405 icf2.exe                      	0x000000010f4fbeeb main + 117
+406 icf2.exe                      	0x000000010f4fbeeb main + 117
+407 icf2.exe                      	0x000000010f4fbeeb main + 117
+408 icf2.exe                      	0x000000010f4fbeeb main + 117
+409 icf2.exe                      	0x000000010f4fbeeb main + 117
+410 icf2.exe                      	0x000000010f4fbeeb main + 117
+411 icf2.exe                      	0x000000010f4fbeeb main + 117
+412 icf2.exe                      	0x000000010f4fbeeb main + 117
+413 icf2.exe                      	0x000000010f4fbeeb main + 117
+414 icf2.exe                      	0x000000010f4fbeeb main + 117
+415 icf2.exe                      	0x000000010f4fbeeb main + 117
+416 icf2.exe                      	0x000000010f4fbeeb main + 117
+417 icf2.exe                      	0x000000010f4fbeeb main + 117
+418 icf2.exe                      	0x000000010f4fbeeb main + 117
+419 icf2.exe                      	0x000000010f4fbeeb main + 117
+420 icf2.exe                      	0x000000010f4fbeeb main + 117
+421 icf2.exe                      	0x000000010f4fbeeb main + 117
+422 icf2.exe                      	0x000000010f4fbeeb main + 117
+423 icf2.exe                      	0x000000010f4fbeeb main + 117
+424 icf2.exe                      	0x000000010f4fbeeb main + 117
+425 icf2.exe                      	0x000000010f4fbeeb main + 117
+426 icf2.exe                      	0x000000010f4fbeeb main + 117
+427 icf2.exe                      	0x000000010f4fbeeb main + 117
+428 icf2.exe                      	0x000000010f4fbeeb main + 117
+429 icf2.exe                      	0x000000010f4fbeeb main + 117
+430 icf2.exe                      	0x000000010f4fbeeb main + 117
+431 icf2.exe                      	0x000000010f4fbeeb main + 117
+432 icf2.exe                      	0x000000010f4fbeeb main + 117
+433 icf2.exe                      	0x000000010f4fbeeb main + 117
+434 icf2.exe                      	0x000000010f4fbeeb main + 117
+435 icf2.exe                      	0x000000010f4fbeeb main + 117
+436 icf2.exe                      	0x000000010f4fbeeb main + 117
+437 icf2.exe                      	0x000000010f4fbeeb main + 117
+438 icf2.exe                      	0x000000010f4fbeeb main + 117
+439 icf2.exe                      	0x000000010f4fbeeb main + 117
+440 icf2.exe                      	0x000000010f4fbeeb main + 117
+441 icf2.exe                      	0x000000010f4fbeeb main + 117
+442 icf2.exe                      	0x000000010f4fbeeb main + 117
+443 icf2.exe                      	0x000000010f4fbeeb main + 117
+444 icf2.exe                      	0x000000010f4fbeeb main + 117
+445 icf2.exe                      	0x000000010f4fbeeb main + 117
+446 icf2.exe                      	0x000000010f4fbeeb main + 117
+447 icf2.exe                      	0x000000010f4fbeeb main + 117
+448 icf2.exe                      	0x000000010f4fbeeb main + 117
+449 icf2.exe                      	0x000000010f4fbeeb main + 117
+450 icf2.exe                      	0x000000010f4fbeeb main + 117
+451 icf2.exe                      	0x000000010f4fbeeb main + 117
+452 icf2.exe                      	0x000000010f4fbeeb main + 117
+453 icf2.exe                      	0x000000010f4fbeeb main + 117
+454 icf2.exe                      	0x000000010f4fbeeb main + 117
+455 icf2.exe                      	0x000000010f4fbeeb main + 117
+456 icf2.exe                      	0x000000010f4fbeeb main + 117
+457 icf2.exe                      	0x000000010f4fbeeb main + 117
+458 icf2.exe                      	0x000000010f4fbeeb main + 117
+459 icf2.exe                      	0x000000010f4fbeeb main + 117
+460 icf2.exe                      	0x000000010f4fbeeb main + 117
+461 icf2.exe                      	0x000000010f4fbeeb main + 117
+462 icf2.exe                      	0x000000010f4fbeeb main + 117
+463 icf2.exe                      	0x000000010f4fbeeb main + 117
+464 icf2.exe                      	0x000000010f4fbeeb main + 117
+465 icf2.exe                      	0x000000010f4fbeeb main + 117
+466 icf2.exe                      	0x000000010f4fbeeb main + 117
+467 icf2.exe                      	0x000000010f4fbeeb main + 117
+468 icf2.exe                      	0x000000010f4fbeeb main + 117
+469 icf2.exe                      	0x000000010f4fbeeb main + 117
+470 icf2.exe                      	0x000000010f4fbeeb main + 117
+471 icf2.exe                      	0x000000010f4fbeeb main + 117
+472 icf2.exe                      	0x000000010f4fbeeb main + 117
+473 icf2.exe                      	0x000000010f4fbeeb main + 117
+474 icf2.exe                      	0x000000010f4fbeeb main + 117
+475 icf2.exe                      	0x000000010f4fbeeb main + 117
+476 icf2.exe                      	0x000000010f4fbeeb main + 117
+477 icf2.exe                      	0x000000010f4fbeeb main + 117
+478 icf2.exe                      	0x000000010f4fbeeb main + 117
+479 icf2.exe                      	0x000000010f4fbeeb main + 117
+480 icf2.exe                      	0x000000010f4fbeeb main + 117
+481 icf2.exe                      	0x000000010f4fbeeb main + 117
+482 icf2.exe                      	0x000000010f4fbeeb main + 117
+483 icf2.exe                      	0x000000010f4fbeeb main + 117
+484 icf2.exe                      	0x000000010f4fbeeb main + 117
+485 icf2.exe                      	0x000000010f4fbeeb main + 117
+486 icf2.exe                      	0x000000010f4fbeeb main + 117
+487 icf2.exe                      	0x000000010f4fbeeb main + 117
+488 icf2.exe                      	0x000000010f4fbeeb main + 117
+489 icf2.exe                      	0x000000010f4fbeeb main + 117
+490 icf2.exe                      	0x000000010f4fbeeb main + 117
+491 icf2.exe                      	0x000000010f4fbeeb main + 117
+492 icf2.exe                      	0x000000010f4fbeeb main + 117
+493 icf2.exe                      	0x000000010f4fbeeb main + 117
+494 icf2.exe                      	0x000000010f4fbeeb main + 117
+495 icf2.exe                      	0x000000010f4fbeeb main + 117
+496 icf2.exe                      	0x000000010f4fbeeb main + 117
+497 icf2.exe                      	0x000000010f4fbeeb main + 117
+498 icf2.exe                      	0x000000010f4fbeeb main + 117
+499 icf2.exe                      	0x000000010f4fbeeb main + 117
+500 icf2.exe                      	0x000000010f4fbeeb main + 117
+501 icf2.exe                      	0x000000010f4fbeeb main + 117
+502 icf2.exe                      	0x000000010f4fbeeb main + 117
+503 icf2.exe                      	0x000000010f4fbeeb main + 117
+504 icf2.exe                      	0x000000010f4fbeeb main + 117
+505 icf2.exe                      	0x000000010f4fbeeb main + 117
+506 icf2.exe                      	0x000000010f4fbeeb main + 117
+507 icf2.exe                      	0x000000010f4fbeeb main + 117
+508 icf2.exe                      	0x000000010f4fbeeb main + 117
+509 icf2.exe                      	0x000000010f4fbeeb main + 117
+510 icf2.exe                      	0x000000010f4fbeeb main + 117
+511 icf2.exe                      	0x000000010f4fbeeb main + 117
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x000000011ef7ae00  rcx: 0x00007ffee07000b8  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee07000e0  rsp: 0x00007ffee07000b8
+   r8: 0x0000000000000000   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x0000000000000000  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2087091e  rfl: 0x0000000000000246  cr2: 0x00007fff80bcb498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10f4f8000 -        0x10f4fbfff +icf2.exe (0) <5F66C0E0-3D83-37A9-8891-D6C59B8F5BC5> /Users/USER/*/icf2.exe
+       0x10f50f000 -        0x10f656fff +libstdc++.6.dylib (0) <DD57F739-D992-3E56-9D8B-C42AE64A034B> /Users/USER/*/libstdc++.6.dylib
+       0x10f86c000 -        0x10f96ffff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x11eea3000 -        0x11ef3efff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 9
+    thread_create: 8
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.4M resident=0K(0%) swapped_out_or_unallocated=509.4M(100%)
+Writable regions: Total=27.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=27.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            19.2M       11 
+MALLOC guard page                   16K        4 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.3M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7352K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            666.2M      183 
+
+
+System Profile:
+Network Service: Wi-Fi, AirPort, en0
+Boot Volume File System Type: apfs
+Memory Module: BANK 0/ChannelA-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+Memory Module: BANK 2/ChannelB-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+USB Device: Belkin USB-C LAN
+USB Device: USB 3.1 Bus
+USB Device: USB2.0 Hub
+USB Device: USB Optical Mouse
+USB Device: iPod
+USB Device: MT1887
+USB Device: Portable
+USB Device: Apple T2 Bus
+USB Device: Composite Device
+USB Device: Touch Bar Backlight
+USB Device: Touch Bar Display
+USB Device: Apple Internal Keyboard / Trackpad
+USB Device: Headset
+USB Device: Ambient Light Sensor
+USB Device: FaceTime HD Camera (Built-in)
+USB Device: Apple T2 Controller
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Model: MacBookPro16,1, BootROM 1916.80.2.0.0 (iBridge: 20.16.3045.0.0,0), 8 processors, 8-Core Intel Core i9, 2.3 GHz, 16 GB, SMC 
+Graphics: kHW_IntelUHDGraphics630Item, Intel UHD Graphics 630, spdisplays_builtin
+Graphics: kHW_AMDRadeonPro5500MItem, AMD Radeon Pro 5500M, spdisplays_pcie_device, 4 GB
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x7BF), wl0: Aug 10 2021 20:10:47 version 9.30.444.18.32.5.71 FWID 01-30b2601e
+Bluetooth: Version 8.0.5d7, 3 services, 27 devices, 1 incoming serial ports

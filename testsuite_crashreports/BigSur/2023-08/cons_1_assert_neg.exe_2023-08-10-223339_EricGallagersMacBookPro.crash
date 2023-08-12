@@ -1,0 +1,677 @@
+Process:               cons_1_assert_neg.exe [41322]
+Path:                  /Users/USER/*/cons_1_assert_neg.exe
+Identifier:            cons_1_assert_neg.exe
+Version:               0
+Code Type:             X86-64 (Native)
+Parent Process:        expect [40325]
+Responsible:           Terminal [2034]
+User ID:               501
+
+Date/Time:             2023-08-10 22:33:38.818 -0400
+OS Version:            macOS 11.7.4 (20G1120)
+Report Version:        12
+Bridge OS Version:     7.2 (20P3045)
+Anonymous UUID:        A7143733-8070-E8D2-B66C-145BAD0F3DA5
+
+Sleep/Wake UUID:       1A3ACCBA-AF82-4631-ADB3-077D3BFE6350
+
+Time Awake Since Boot: 1200000 seconds
+Time Since Wake:       95000 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+dyld2 mode
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff2087091e __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff2089f5bd pthread_kill + 263
+2   libsystem_c.dylib             	0x00007fff207f4406 abort + 125
+3   libstdc++.6.dylib             	0x0000000108711b95 __gnu_debug::_Error_formatter::_M_error() const + 1063 (debug.cc:1304)
+4   cons_1_assert_neg.exe         	0x00000001085a24bb __gnu_debug::operator+(__gnu_debug::_Safe_iterator<__gnu_cxx::__normal_iterator<int*, std::__cxx1998::vector<int, std::allocator<int> > >, std::__debug::vector<int, std::allocator<int> >, std::random_access_iterator_tag> const&, long) + 287 (safe_iterator.h:934)
+5   cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+6   cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+7   cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+8   cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+9   cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+10  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+11  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+12  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+13  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+14  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+15  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+16  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+17  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+18  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+19  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+20  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+21  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+22  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+23  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+24  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+25  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+26  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+27  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+28  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+29  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+30  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+31  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+32  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+33  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+34  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+35  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+36  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+37  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+38  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+39  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+40  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+41  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+42  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+43  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+44  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+45  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+46  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+47  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+48  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+49  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+50  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+51  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+52  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+53  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+54  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+55  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+56  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+57  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+58  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+59  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+60  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+61  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+62  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+63  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+64  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+65  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+66  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+67  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+68  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+69  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+70  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+71  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+72  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+73  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+74  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+75  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+76  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+77  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+78  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+79  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+80  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+81  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+82  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+83  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+84  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+85  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+86  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+87  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+88  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+89  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+90  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+91  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+92  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+93  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+94  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+95  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+96  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+97  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+98  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+99  cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+100 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+101 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+102 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+103 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+104 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+105 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+106 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+107 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+108 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+109 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+110 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+111 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+112 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+113 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+114 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+115 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+116 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+117 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+118 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+119 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+120 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+121 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+122 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+123 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+124 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+125 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+126 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+127 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+128 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+129 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+130 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+131 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+132 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+133 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+134 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+135 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+136 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+137 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+138 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+139 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+140 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+141 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+142 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+143 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+144 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+145 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+146 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+147 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+148 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+149 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+150 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+151 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+152 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+153 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+154 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+155 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+156 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+157 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+158 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+159 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+160 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+161 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+162 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+163 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+164 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+165 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+166 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+167 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+168 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+169 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+170 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+171 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+172 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+173 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+174 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+175 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+176 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+177 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+178 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+179 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+180 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+181 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+182 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+183 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+184 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+185 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+186 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+187 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+188 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+189 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+190 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+191 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+192 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+193 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+194 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+195 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+196 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+197 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+198 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+199 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+200 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+201 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+202 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+203 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+204 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+205 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+206 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+207 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+208 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+209 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+210 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+211 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+212 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+213 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+214 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+215 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+216 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+217 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+218 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+219 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+220 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+221 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+222 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+223 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+224 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+225 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+226 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+227 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+228 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+229 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+230 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+231 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+232 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+233 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+234 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+235 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+236 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+237 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+238 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+239 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+240 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+241 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+242 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+243 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+244 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+245 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+246 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+247 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+248 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+249 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+250 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+251 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+252 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+253 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+254 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+255 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+256 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+257 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+258 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+259 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+260 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+261 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+262 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+263 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+264 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+265 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+266 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+267 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+268 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+269 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+270 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+271 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+272 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+273 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+274 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+275 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+276 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+277 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+278 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+279 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+280 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+281 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+282 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+283 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+284 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+285 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+286 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+287 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+288 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+289 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+290 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+291 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+292 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+293 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+294 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+295 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+296 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+297 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+298 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+299 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+300 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+301 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+302 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+303 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+304 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+305 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+306 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+307 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+308 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+309 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+310 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+311 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+312 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+313 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+314 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+315 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+316 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+317 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+318 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+319 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+320 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+321 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+322 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+323 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+324 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+325 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+326 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+327 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+328 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+329 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+330 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+331 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+332 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+333 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+334 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+335 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+336 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+337 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+338 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+339 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+340 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+341 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+342 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+343 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+344 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+345 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+346 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+347 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+348 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+349 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+350 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+351 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+352 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+353 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+354 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+355 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+356 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+357 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+358 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+359 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+360 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+361 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+362 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+363 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+364 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+365 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+366 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+367 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+368 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+369 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+370 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+371 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+372 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+373 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+374 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+375 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+376 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+377 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+378 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+379 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+380 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+381 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+382 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+383 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+384 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+385 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+386 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+387 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+388 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+389 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+390 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+391 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+392 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+393 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+394 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+395 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+396 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+397 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+398 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+399 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+400 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+401 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+402 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+403 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+404 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+405 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+406 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+407 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+408 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+409 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+410 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+411 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+412 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+413 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+414 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+415 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+416 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+417 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+418 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+419 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+420 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+421 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+422 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+423 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+424 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+425 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+426 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+427 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+428 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+429 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+430 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+431 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+432 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+433 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+434 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+435 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+436 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+437 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+438 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+439 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+440 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+441 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+442 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+443 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+444 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+445 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+446 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+447 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+448 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+449 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+450 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+451 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+452 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+453 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+454 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+455 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+456 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+457 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+458 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+459 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+460 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+461 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+462 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+463 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+464 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+465 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+466 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+467 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+468 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+469 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+470 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+471 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+472 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+473 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+474 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+475 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+476 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+477 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+478 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+479 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+480 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+481 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+482 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+483 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+484 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+485 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+486 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+487 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+488 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+489 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+490 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+491 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+492 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+493 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+494 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+495 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+496 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+497 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+498 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+499 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+500 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+501 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+502 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+503 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+504 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+505 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+506 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+507 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+508 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+509 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+510 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+511 cons_1_assert_neg.exe         	0x00000001085a2579 main + 156 (span:167)
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00000001104dce00  rcx: 0x00007ffee765a608  rdx: 0x0000000000000000
+  rdi: 0x0000000000000103  rsi: 0x0000000000000006  rbp: 0x00007ffee765a630  rsp: 0x00007ffee765a608
+   r8: 0x00007fff80b97028   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000246
+  r12: 0x0000000000000103  r13: 0x00000001085a70a8  r14: 0x0000000000000006  r15: 0x0000000000000016
+  rip: 0x00007fff2087091e  rfl: 0x0000000000000246  cr2: 0x00007fff80bcb498
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+Thread 0 instruction stream not available.
+
+Thread 0 last branch register state not available.
+
+
+Binary Images:
+       0x10859f000 -        0x1085a2fff +cons_1_assert_neg.exe (0) <495779CF-EE10-385F-8CCF-875D4FE7C47F> /Users/USER/*/cons_1_assert_neg.exe
+       0x1085b0000 -        0x1086b3fff +libiconv.2.dylib (0) <7E238B33-3F38-35B1-888D-B4F1CEE68FD8> /opt/local/lib/libiconv.2.dylib
+       0x1086d3000 -        0x10881afff +libstdc++.6.dylib (0) <DD57F739-D992-3E56-9D8B-C42AE64A034B> /Users/USER/*/libstdc++.6.dylib
+       0x110405000 -        0x1104a0fff  dyld (852.2) <56433369-BAD9-3900-B7FC-268D24FD1DD5> /usr/lib/dyld
+    0x7fff205d7000 -     0x7fff205d8fff  libsystem_blocks.dylib (79) <F5B25F38-FC21-3BF5-A147-3B913DA098BE> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff205d9000 -     0x7fff2060efff  libxpc.dylib (2038.120.1) <AB7BBDA1-3AC6-3832-8AB1-F3BFB7A0E5EC> /usr/lib/system/libxpc.dylib
+    0x7fff2060f000 -     0x7fff20626fff  libsystem_trace.dylib (1277.120.1) <1F20357C-395F-3095-B525-AD9403290A92> /usr/lib/system/libsystem_trace.dylib
+    0x7fff20627000 -     0x7fff206c4fff  libcorecrypto.dylib (1000.140.4) <BDD3FF5E-34F8-3AC0-A05C-F9AC17C88BBF> /usr/lib/system/libcorecrypto.dylib
+    0x7fff206c5000 -     0x7fff206f1fff  libsystem_malloc.dylib (317.140.5) <3AB4C7E9-C49C-3EB7-9370-370F3F655024> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff206f2000 -     0x7fff20736fff  libdispatch.dylib (1271.120.2) <5D824C33-C5E2-38A8-BD00-D934443DBDAB> /usr/lib/system/libdispatch.dylib
+    0x7fff20737000 -     0x7fff20770fff  libobjc.A.dylib (824.1) <A0961DED-3477-3856-A6BC-CFE2475CB2F4> /usr/lib/libobjc.A.dylib
+    0x7fff20771000 -     0x7fff20773fff  libsystem_featureflags.dylib (28.60.1) <2BAC8770-AFC8-3FE2-B6C6-27CE44B2B2BA> /usr/lib/system/libsystem_featureflags.dylib
+    0x7fff20774000 -     0x7fff207fcfff  libsystem_c.dylib (1439.141.1) <BC8BCEEA-CA52-32C7-9FF5-E444CF9EF66A> /usr/lib/system/libsystem_c.dylib
+    0x7fff207fd000 -     0x7fff20852fff  libc++.1.dylib (905.6) <5BA6B5ED-7842-3B13-86B0-00EB511CE2FE> /usr/lib/libc++.1.dylib
+    0x7fff20853000 -     0x7fff20868fff  libc++abi.dylib (905.6) <B96FC1DD-0056-3E11-862A-C0BB8239FEA0> /usr/lib/libc++abi.dylib
+    0x7fff20869000 -     0x7fff20898fff  libsystem_kernel.dylib (7195.141.49) <D4905B18-899C-37E9-A3CD-1A5E90FDD9BB> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff20899000 -     0x7fff208a4fff  libsystem_pthread.dylib (454.120.2) <5447E76D-BE49-3C58-AD72-EDD77DF27830> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff208a5000 -     0x7fff208e0fff  libdyld.dylib (852.2) <FD8DB5BC-F199-3524-9DC4-DAEC0E94712F> /usr/lib/system/libdyld.dylib
+    0x7fff208e1000 -     0x7fff208eafff  libsystem_platform.dylib (254.80.2) <52A77346-8AA5-3BB7-906D-C7503B491CF9> /usr/lib/system/libsystem_platform.dylib
+    0x7fff208eb000 -     0x7fff20916fff  libsystem_info.dylib (542.40.4) <406353B2-E48A-3D20-B08F-0AB26ED8A0B3> /usr/lib/system/libsystem_info.dylib
+    0x7fff22ce7000 -     0x7fff22cf0fff  libsystem_darwin.dylib (1439.141.1) <75592BEC-777B-381F-8C07-15B8A4C712A7> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff23106000 -     0x7fff23111fff  libsystem_notify.dylib (279.40.4) <02E22D9D-01E2-361C-BB9A-B5BE18D28280> /usr/lib/system/libsystem_notify.dylib
+    0x7fff2509e000 -     0x7fff250acfff  libsystem_networkextension.dylib (1295.140.4) <525230DF-5A77-3284-9135-06E16BF6B86D> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff2510b000 -     0x7fff25121fff  libsystem_asl.dylib (385.0.2) <88F4051D-1CF5-314E-A952-247C38996E16> /usr/lib/system/libsystem_asl.dylib
+    0x7fff267e9000 -     0x7fff267f0fff  libsystem_symptoms.dylib (1431.140.1) <E9CB193F-260B-3835-B76E-A2209343FA1E> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff287f8000 -     0x7fff28808fff  libsystem_containermanager.dylib (318.100.4) <A249AED7-16C8-3DDF-8DF9-BAB8BB4AEA2D> /usr/lib/system/libsystem_containermanager.dylib
+    0x7fff2950d000 -     0x7fff29510fff  libsystem_configuration.dylib (1109.140.1) <53B71513-3009-3A8C-A5AA-9C15DD0AB54E> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff29511000 -     0x7fff29515fff  libsystem_sandbox.dylib (1441.141.13) <E92B1352-F762-3648-A182-D060EA3F3547> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff2a207000 -     0x7fff2a209fff  libquarantine.dylib (119.40.4) <21C63859-6DFB-3463-9ADF-BB44FB28067C> /usr/lib/system/libquarantine.dylib
+    0x7fff2a7b2000 -     0x7fff2a7b6fff  libsystem_coreservices.dylib (127.1) <6D84FA08-CB2B-34E1-9AB4-A54E82CB9161> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff2a9c6000 -     0x7fff2aa0dfff  libsystem_m.dylib (3186.100.3) <1836B380-C579-3195-BC3F-77404D432186> /usr/lib/system/libsystem_m.dylib
+    0x7fff2aa0f000 -     0x7fff2aa14fff  libmacho.dylib (980) <F7BDAFE5-4E49-39DD-8F94-CD5E49C91A90> /usr/lib/system/libmacho.dylib
+    0x7fff2aa31000 -     0x7fff2aa3cfff  libcommonCrypto.dylib (60178.120.3) <B057F752-3057-394D-A3F6-AA11A04A6392> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff2aa3d000 -     0x7fff2aa47fff  libunwind.dylib (201) <9D6A6228-8DC3-3521-B458-4EDE4A9F5E65> /usr/lib/system/libunwind.dylib
+    0x7fff2aa48000 -     0x7fff2aa4ffff  liboah.dylib (203.58) <AC9E8A76-FCAA-3F97-802A-D22EF770463B> /usr/lib/liboah.dylib
+    0x7fff2aa50000 -     0x7fff2aa5afff  libcopyfile.dylib (173.40.2) <BD7EAE7B-28C1-36DF-96B8-F506D50DFF28> /usr/lib/system/libcopyfile.dylib
+    0x7fff2aa5b000 -     0x7fff2aa62fff  libcompiler_rt.dylib (102.2) <BA910DC2-C697-3DAD-9A70-7C8CD5217AC3> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff2aa63000 -     0x7fff2aa65fff  libsystem_collections.dylib (1439.141.1) <21F2EF42-56ED-3E0F-9C29-94E0888DC52C> /usr/lib/system/libsystem_collections.dylib
+    0x7fff2aa66000 -     0x7fff2aa68fff  libsystem_secinit.dylib (87.60.1) <E976428F-F9E2-334B-AA91-9AAD40234718> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff2aa69000 -     0x7fff2aa6bfff  libremovefile.dylib (49.120.1) <5AC9F8EC-F0E8-3D8A-ADB5-96B5FB581896> /usr/lib/system/libremovefile.dylib
+    0x7fff2aa6c000 -     0x7fff2aa6cfff  libkeymgr.dylib (31) <9FBE08F6-0679-3976-AFDC-1EAF40C3958F> /usr/lib/system/libkeymgr.dylib
+    0x7fff2aa6d000 -     0x7fff2aa74fff  libsystem_dnssd.dylib (1310.140.1) <8C4D6C93-285F-3587-A986-5BB96A1C664F> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff2aa75000 -     0x7fff2aa7afff  libcache.dylib (83) <56DCEFF5-111E-32FD-B4E9-E148507C4FEC> /usr/lib/system/libcache.dylib
+    0x7fff2aa7b000 -     0x7fff2aa7cfff  libSystem.B.dylib (1292.120.1) <24A7628F-37C3-3EAA-AB1F-D79941F2C241> /usr/lib/libSystem.B.dylib
+    0x7fff2de82000 -     0x7fff2de82fff  liblaunch.dylib (2038.120.1) <20368763-EA5B-345A-A5AE-0AD19CF98CE3> /usr/lib/system/liblaunch.dylib
+    0x7fff30319000 -     0x7fff30319fff  libsystem_product_info_filter.dylib (8.40.1) <BB06C92C-6BD7-310C-A176-DC0DCE8D9F2B> /usr/lib/system/libsystem_product_info_filter.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 6
+    thread_create: 6
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=509.4M resident=0K(0%) swapped_out_or_unallocated=509.4M(100%)
+Writable regions: Total=18.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=18.4M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Kernel Alloc Once                    8K        1 
+MALLOC                            10.2M        9 
+MALLOC guard page                   16K        3 
+STACK GUARD                       56.0M        1 
+Stack                             8192K        2 
+VM_ALLOCATE                          8K        2 
+__DATA                             484K       46 
+__DATA_CONST                       322K       36 
+__DATA_DIRTY                        58K       22 
+__LINKEDIT                       502.3M        8 
+__OBJC_RO                         70.3M        1 
+__OBJC_RW                         2496K        2 
+__TEXT                            7352K       46 
+shared memory                        4K        1 
+===========                     =======  ======= 
+TOTAL                            657.2M      180 
+
+
+System Profile:
+Network Service: Wi-Fi, AirPort, en0
+Boot Volume File System Type: apfs
+Memory Module: BANK 0/ChannelA-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+Memory Module: BANK 2/ChannelB-DIMM0, 8 GB, DDR4, 2667 MHz, Micron, 8ATF1G64HZ-2G6E1
+USB Device: Belkin USB-C LAN
+USB Device: USB 3.1 Bus
+USB Device: USB2.0 Hub
+USB Device: USB Optical Mouse
+USB Device: iPod
+USB Device: MT1887
+USB Device: Portable
+USB Device: Apple T2 Bus
+USB Device: Composite Device
+USB Device: Touch Bar Backlight
+USB Device: Touch Bar Display
+USB Device: Apple Internal Keyboard / Trackpad
+USB Device: Headset
+USB Device: Ambient Light Sensor
+USB Device: FaceTime HD Camera (Built-in)
+USB Device: Apple T2 Controller
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Thunderbolt Bus: MacBook Pro, Apple Inc., 63.5
+Model: MacBookPro16,1, BootROM 1916.80.2.0.0 (iBridge: 20.16.3045.0.0,0), 8 processors, 8-Core Intel Core i9, 2.3 GHz, 16 GB, SMC 
+Graphics: kHW_IntelUHDGraphics630Item, Intel UHD Graphics 630, spdisplays_builtin
+Graphics: kHW_AMDRadeonPro5500MItem, AMD Radeon Pro 5500M, spdisplays_pcie_device, 4 GB
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x7BF), wl0: Aug 10 2021 20:10:47 version 9.30.444.18.32.5.71 FWID 01-30b2601e
+Bluetooth: Version 8.0.5d7, 3 services, 27 devices, 1 incoming serial ports
