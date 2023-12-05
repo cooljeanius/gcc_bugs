@@ -1,0 +1,355 @@
+--- mail-report_20231102.log	2023-11-02 20:56:48.000000000 -0400
++++ mail-report_20231205.log	2023-12-05 03:01:13.000000000 -0500
+@@ -1,5 +1,5 @@
+ cat <<'EOF' |
+-LAST_UPDATED: Wed Nov  1 23:53:57 UTC 2023 (revision 4968e4844a3)
++LAST_UPDATED: Wed Nov  8 22:02:43 UTC 2023 (revision 2fde54ad7be)
+ 
+ 		=== acats tests ===
+ FAIL:	c250002
+@@ -13,6 +13,9 @@
+ 
+ 
+ Running target unix
++FAIL: g++.dg/abi/anon6.C  -std=c++20  scan-assembler _Z5dummyIXtl8wrapper1IdEtlNS1_Ut_Edi9RightNametlNS2_Ut_Edi9RightNameLd405ec00000000000EEEEEEvv
++FAIL: g++.dg/cpp2a/concepts-explicit-inst1.C  -std=c++20  scan-assembler _Z1gI1XEvT_
++FAIL: g++.dg/cpp2a/concepts-explicit-inst1.C  -std=c++20  scan-assembler _Z1gI1YEvT_
+ FAIL: g++.dg/ipa/pr67056.C   scan-ipa-dump cp "Speculative outer type:struct CompositeClass"
+ FAIL: g++.dg/opt/icf1.C  -std=gnu++14 execution test
+ FAIL: g++.dg/opt/icf1.C  -std=gnu++17 execution test
+@@ -302,6 +305,22 @@
+ UNRESOLVED: g++.dg/gcov/ternary.C  -std=gnu++98 compilation failed to produce executable
+ FAIL: g++.dg/lto/pr65276 cp_lto_pr65276_0.o-cp_lto_pr65276_1.o link, -flto -O0 -std=c++11
+ FAIL: g++.dg/lto/pr87295 cp_lto_pr87295_0.o assemble,  -flto -ffat-lto-objects -fdebug-types-section -g -std=gnu++17 
++WARNING: g++.dg/modules/bad-mapper-1.C -std=c++17  at line 3 (test for errors, line ) program timed out.
++FAIL: g++.dg/modules/bad-mapper-1.C -std=c++17  at line 3 (test for errors, line )
++FAIL: g++.dg/modules/bad-mapper-1.C -std=c++17 (test for excess errors)
++WARNING: g++.dg/modules/bad-mapper-1.C -std=c++2a  at line 3 (test for errors, line ) program timed out.
++FAIL: g++.dg/modules/bad-mapper-1.C -std=c++2a  at line 3 (test for errors, line )
++FAIL: g++.dg/modules/bad-mapper-1.C -std=c++2a (test for excess errors)
++WARNING: g++.dg/modules/bad-mapper-1.C -std=c++2b  at line 3 (test for errors, line ) program timed out.
++FAIL: g++.dg/modules/bad-mapper-1.C -std=c++2b  at line 3 (test for errors, line )
++FAIL: g++.dg/modules/bad-mapper-1.C -std=c++2b (test for excess errors)
++FAIL: g++.dg/modules/xtreme-header-2_b.C -std=c++2b (test for excess errors)
++FAIL: g++.dg/modules/xtreme-header-4_b.C -std=c++2b (internal compiler error: tree check: expected class 'type', have 'declaration' (template_decl) in get_originating_module_decl, at cp/module.cc:18659)
++FAIL: g++.dg/modules/xtreme-header-4_b.C -std=c++2b (test for excess errors)
++FAIL: g++.dg/modules/xtreme-header-5_b.C -std=c++2b (internal compiler error: tree check: expected class 'type', have 'declaration' (template_decl) in get_originating_module_decl, at cp/module.cc:18659)
++FAIL: g++.dg/modules/xtreme-header-5_b.C -std=c++2b (test for excess errors)
++FAIL: g++.dg/modules/xtreme-header_b.C -std=c++2b (internal compiler error: tree check: expected class 'type', have 'declaration' (template_decl) in get_originating_module_decl, at cp/module.cc:18659)
++FAIL: g++.dg/modules/xtreme-header_b.C -std=c++2b (test for excess errors)
+ FAIL: g++.dg/tls/thread_local13.C  -std=gnu++14 execution test
+ FAIL: g++.dg/tls/thread_local13.C  -std=gnu++17 execution test
+ FAIL: g++.dg/tls/thread_local13.C  -std=gnu++20 execution test
+@@ -319,13 +338,13 @@
+ UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++20 compilation failed to produce executable
+ FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++98 (test for excess errors)
+ UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++98 compilation failed to produce executable
+-FAIL: g++.target/i386/pr105980.C  -std=gnu++14 (internal compiler error: in insn_default_length, at config/i386/i386.md:22594)
++FAIL: g++.target/i386/pr105980.C  -std=gnu++14 (internal compiler error: in insn_default_length, at config/i386/i386.md:23021)
+ FAIL: g++.target/i386/pr105980.C  -std=gnu++14 (test for excess errors)
+-FAIL: g++.target/i386/pr105980.C  -std=gnu++17 (internal compiler error: in insn_default_length, at config/i386/i386.md:22594)
++FAIL: g++.target/i386/pr105980.C  -std=gnu++17 (internal compiler error: in insn_default_length, at config/i386/i386.md:23021)
+ FAIL: g++.target/i386/pr105980.C  -std=gnu++17 (test for excess errors)
+-FAIL: g++.target/i386/pr105980.C  -std=gnu++20 (internal compiler error: in insn_default_length, at config/i386/i386.md:22594)
++FAIL: g++.target/i386/pr105980.C  -std=gnu++20 (internal compiler error: in insn_default_length, at config/i386/i386.md:23021)
+ FAIL: g++.target/i386/pr105980.C  -std=gnu++20 (test for excess errors)
+-FAIL: g++.target/i386/pr105980.C  -std=gnu++98 (internal compiler error: in insn_default_length, at config/i386/i386.md:22594)
++FAIL: g++.target/i386/pr105980.C  -std=gnu++98 (internal compiler error: in insn_default_length, at config/i386/i386.md:23021)
+ FAIL: g++.target/i386/pr105980.C  -std=gnu++98 (test for excess errors)
+ FAIL: g++.target/i386/pr97054.C  -std=gnu++14 (test for excess errors)
+ UNRESOLVED: g++.target/i386/pr97054.C  -std=gnu++14 compilation failed to produce executable
+@@ -338,12 +357,12 @@
+ 
+ 		=== g++ Summary ===
+ 
+-# of expected passes		238416
+-# of unexpected failures	219
+-# of expected failures		2586
++# of expected passes		240575
++# of unexpected failures	235
++# of expected failures		2589
+ # of unresolved testcases	103
+-# of unsupported tests		11041
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++# of unsupported tests		11172
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ 
+ 		=== gcc tests ===
+ 
+@@ -352,6 +371,9 @@
+ FAIL: gcc.dg/20020201-1.c (test for excess errors)
+ UNRESOLVED: gcc.dg/20020201-1.c compilation failed to produce executable
+ FAIL: gcc.dg/ira-loop-pressure.c scan-rtl-dump loop2_invariant "Decided to move invariant"
++FAIL: gcc.dg/pr110279-1.c scan-tree-dump-times widening_mul "Generated FMA" 3
++FAIL: gcc.dg/scantest-lto.c scan-assembler-not ascii
++FAIL: gcc.dg/scantest-lto.c scan-assembler-times ascii 0
+ FAIL: gcc.dg/stack-check-10.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 2
+ FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
+ FAIL: gcc.dg/stack-check-6.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
+@@ -361,10 +383,14 @@
+ FAIL: gcc-dg-lto-modref-4-01.exe scan-wpa-ipa-dump modref "parm 1 flags: no_direct_clobber no_direct_escape"
+ FAIL: gcc.dg/lto/modref-3 c_lto_modref-3_0.o-c_lto_modref-3_1.o execute -O2 -flto-partition=max -fdump-ipa-modref -fno-ipa-sra -fno-ipa-cp -flto
+ FAIL: gcc.dg/lto/modref-4 c_lto_modref-4_0.o-c_lto_modref-4_1.o execute -O2 -flto-partition=max -fdump-ipa-modref -fno-ipa-sra -flto
++FAIL: gcc.dg/plugin/taint-CVE-2011-0521-4.c -fplugin=./analyzer_kernel_plugin.so  (test for warnings, line 37)
+ FAIL: gcc.dg/tree-ssa/pr43491.c (test for excess errors)
+ XPASS: gcc.dg/tree-ssa/pr91091-2.c scan-tree-dump-times fre1 "x = " 1
+ XPASS: gcc.dg/tree-ssa/ssa-fre-100.c scan-tree-dump-not fre1 "baz"
+ XPASS: gcc.dg/tree-ssa/ssa-fre-77.c scan-tree-dump fre1 "return 1;"
++FAIL: gcc.dg/tree-ssa/ssa-sink-16.c (internal compiler error: verify_gimple failed)
++FAIL: gcc.dg/tree-ssa/ssa-sink-16.c (test for excess errors)
++UNRESOLVED: gcc.dg/tree-ssa/ssa-sink-16.c scan-tree-dump optimized "return 2;"
+ FAIL: gcc.misc-tests/gcov-1.c (test for excess errors)
+ UNRESOLVED: gcc.misc-tests/gcov-1.c compilation failed to produce executable
+ FAIL: gcc.misc-tests/gcov-1.c gcov failed: spawn failed
+@@ -464,10 +490,12 @@
+ FAIL: gcc.target/i386/auto-init-5.c scan-assembler-times \\\\.long\\t0 14
+ FAIL: gcc.target/i386/auto-init-6.c scan-assembler-times long\\t0 8
+ FAIL: gcc.target/i386/harden-sls-4.c scan-assembler jmp[ \\t]+\\\\*_?fptr
++XPASS: gcc.target/i386/libcall-1.c (test for excess errors)
++FAIL: gcc.target/i386/libcall-1.c scan-assembler globl\\t__divti3
+ FAIL: gcc.target/i386/pr100704-3.c scan-assembler push[lq]\\tfoooo+
+ FAIL: gcc.target/i386/pr100936.c (test for excess errors)
+ FAIL: gcc.target/i386/pr110792.c (test for excess errors)
+-FAIL: gcc.target/i386/pr111753.c (test for excess errors)
++FAIL: gcc.target/i386/pr112445.c (test for excess errors)
+ FAIL: gcc.target/i386/pr11877-2.c scan-assembler-not \\\\\$0,
+ FAIL: gcc.target/i386/pr11877.c scan-assembler-not \\\\\$0,
+ FAIL: gcc.target/i386/pr34256.c scan-assembler-times mov 5
+@@ -500,27 +528,24 @@
+ 
+ 		=== gcc Summary ===
+ 
+-# of expected passes		177776
+-# of unexpected failures	107
+-# of unexpected successes	3
+-# of expected failures		1446
+-# of unresolved testcases	38
+-# of unsupported tests		3429
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++# of expected passes		180899
++# of unexpected failures	114
++# of unexpected successes	4
++# of expected failures		1445
++# of unresolved testcases	39
++# of unsupported tests		3468
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ 
+ 		=== gdc tests ===
+ 
+ 
+ Running target unix
+-FAIL: gdc.test/runnable/staticaa.d   execution test
+-FAIL: gdc.test/runnable/staticaa.d -shared-libphobos   execution test
+ 
+ 		=== gdc Summary ===
+ 
+-# of expected passes		13655
+-# of unexpected failures	2
++# of expected passes		13687
+ # of unsupported tests		3
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ 
+ 		=== gfortran tests ===
+ 
+@@ -529,10 +554,10 @@
+ 
+ 		=== gfortran Summary ===
+ 
+-# of expected passes		68806
++# of expected passes		68909
+ # of expected failures		263
+-# of unsupported tests		89
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++# of unsupported tests		90
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ 
+ 		=== gm2 tests ===
+ 
+@@ -663,36 +688,27 @@
+ 
+ 		=== gnat Summary ===
+ 
+-# of expected passes		3401
++# of expected passes		3405
+ # of unexpected failures	3
+-# of expected failures		23
++# of expected failures		24
+ # of unresolved testcases	1
+ # of unsupported tests		15
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3]
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 14.0.0 20231204 (experimental) [master 2fde54ad7be]
+ 
+ 		=== jit tests ===
+ 
+ 
+ Running target unix
+-FAIL: ../jit/docs/examples/tut01-hello-world.cc, initial compilation
+-FAIL: ../jit/docs/examples/tut02-square.cc, initial compilation
+-FAIL: ../jit/docs/examples/tut03-sum-of-squares.cc, initial compilation
+-FAIL: ../jit/docs/examples/tut04-toyvm/toyvm.cc, initial compilation
+-FAIL: jit.dg/test-alignment.cc, initial compilation
+-FAIL: jit.dg/test-asm.cc, initial compilation
+-FAIL: jit.dg/test-operator-overloading.cc, initial compilation
+-FAIL: jit.dg/test-quadratic.cc, initial compilation
+-FAIL: jit.dg/test-switch.cc, initial compilation
+ FAIL: output-of-test-link-section-assembler.c.s output pattern test, is 	.build_version macos,  11, 0
+ FAIL: output-of-test-setting-alignment.c.s output pattern test, is 	.build_version macos,  11, 0
+-FAIL: test-combination.c.exe killed: 24904 exp8 0 0 CHILDKILLED SIGSEGV {segmentation violation}
+-FAIL: test-threads.c.exe killed: 92453 exp8 0 0 CHILDKILLED SIGSEGV {segmentation violation}
+-FAIL: test-tls.c.exe killed: 94647 exp8 0 0 CHILDKILLED SIGSEGV {segmentation violation}
++FAIL: test-combination.c.exe killed: 74332 exp13 0 0 CHILDKILLED SIGSEGV {segmentation violation}
++FAIL: test-threads.c.exe killed: 31639 exp13 0 0 CHILDKILLED SIGSEGV {segmentation violation}
++FAIL: test-tls.c.exe killed: 38391 exp13 0 0 CHILDKILLED SIGSEGV {segmentation violation}
+ 
+ 		=== jit Summary ===
+ 
+-# of expected passes		8123
+-# of unexpected failures	14
++# of expected passes		9177
++# of unexpected failures	5
+ # of unsupported tests		4
+ 		=== obj-c++ tests ===
+ 
+@@ -701,10 +717,10 @@
+ 
+ 		=== obj-c++ Summary ===
+ 
+-# of expected passes		3197
++# of expected passes		3199
+ # of expected failures		22
+ # of unsupported tests		71
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ 
+ 		=== objc tests ===
+ 
+@@ -714,11 +730,11 @@
+ 
+ 		=== objc Summary ===
+ 
+-# of expected passes		5747
++# of expected passes		5749
+ # of unexpected failures	1
+ # of expected failures		12
+ # of unsupported tests		87
+-/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ 
+ 		=== rust tests ===
+ 
+@@ -744,58 +760,82 @@
+ Running target unix
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
++ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
++ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c++/c++.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c++/c++.exp.
++ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c++/c++.exp.
++UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c++/c++.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c++/c++.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c++/c++.exp' aborted due to Tcl error
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
++ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
++ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp.
++ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp.
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp' aborted due to Tcl error
++UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp' aborted due to Tcl error
++ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
++ERROR: tcl error code NONE
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.fortran/fortran.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.fortran/fortran.exp.
++ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.fortran/fortran.exp.
++UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.fortran/fortran.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.fortran/fortran.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.fortran/fortran.exp' aborted due to Tcl error
+ ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
++ERROR: tcl error code NONE
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c++/c++.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c++/c++.exp.
++ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c++/c++.exp.
++UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c++/c++.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c++/c++.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c++/c++.exp' aborted due to Tcl error
+ ERROR: torture-init: torture_without_loops is not empty as expected = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
+ ERROR: torture-init: torture_without_loops is not empty as expected = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
++ERROR: torture-init: torture_without_loops is not empty as expected = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
+ ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
++ERROR: tcl error code NONE
++ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c/c.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c/c.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c/c.exp.
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c/c.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c/c.exp' aborted due to Tcl error
++UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-c/c.exp' aborted due to Tcl error
+ ERROR: torture-init: torture_without_loops is not empty as expected = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
+ ERROR: torture-init: torture_without_loops is not empty as expected = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
++ERROR: torture-init: torture_without_loops is not empty as expected = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
++ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+ ERROR: tcl error code NONE
+ ERROR: tcl error code NONE
++ERROR: tcl error code NONE
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-fortran/fortran.exp.
+ ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-fortran/fortran.exp.
++ERROR: tcl error sourcing /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-fortran/fortran.exp.
++UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-fortran/fortran.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-fortran/fortran.exp' aborted due to Tcl error
+ UNRESOLVED: testcase '/Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.oacc-fortran/fortran.exp' aborted due to Tcl error
+ 
+ 		=== libgomp Summary ===
+ 
+-# of expected passes		8
+-# of unresolved testcases	12
+-# of unsupported tests		4
++# of expected passes		12
++# of unresolved testcases	18
++# of unsupported tests		6
+ ERROR: -------------------------------------------
+ ERROR: in testcase /Users/ericgallager/gcc_newgit/libgomp/testsuite/libgomp.c/c.exp
+ ERROR:  couldn't execute "../../../libgomp/testsuite/flock": no such file or directory
+@@ -843,7 +883,7 @@
+ 
+ 		=== libphobos Summary ===
+ 
+-# of expected passes		668
++# of expected passes		670
+ # of unsupported tests		2
+ 		=== libstdc++ tests ===
+ 
+@@ -852,14 +892,15 @@
+ 
+ 		=== libstdc++ Summary ===
+ 
+-# of expected passes		16637
++# of expected passes		16812
+ # of expected failures		126
+-# of unsupported tests		867
++# of unsupported tests		862
+ 
+-Compiler version: 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) 
++Note: Compiler version may be wrong due to: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=111368
++Compiler version: 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) 
+ Platform: x86_64-apple-darwin20
+ configure flags: --disable-werror --disable-werror-always --enable-stage1-checking=release,rtl -C --enable-frame-pointer --enable-debug --without-isl --disable-maintainer-mode --disable-default-pie --with-ld64 --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --disable-objc-gc --enable-year2038 --enable-libada --enable-libgm2 --enable-libssp --disable-libsanitizer --build=x86_64-apple-darwin20 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --disable-gcov --enable-host-shared --enable-libphobos --with-cpu=skylake --disable-libstdcxx-pch CC=x86_64-apple-darwin19-gcc CXX=x86_64-apple-darwin19-g++ OBJC=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gcc OBJCXX=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/g++ GNATMAKE=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatmake GNATBIND=/opt/iains/x86_64-apple-darwin19/gcc-7-5-toolchain/bin/gnatbind build_alias=x86_64-apple-darwin20 --enable-languages=c,ada,c++,d,fortran,jit,lto,m2,objc,obj-c++,rust
+ BOOT_CFLAGS=-g -O2
+ EOF
+-Mail -s "Results for 14.0.0 20231101 (experimental) [remotes/origin/master 4968e4844a3] (GCC) testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
++Mail -s "Results for 14.0.0 20231204 (experimental) [master 2fde54ad7be] (GCC) testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
+ true
