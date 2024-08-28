@@ -1,0 +1,783 @@
+cat <<'EOF' |
+LAST_UPDATED: Mon Jul  8 21:46:31 UTC 2024 (revision c4b476d76a2)
+
+		=== acats tests ===
+FAIL:	c250002
+
+		=== acats Summary ===
+# of expected passes		2327
+# of unexpected failures	1
+Native configuration is x86_64-apple-darwin20
+
+		=== g++ tests ===
+
+
+Running target unix
+FAIL: g++.dg/cpp2a/consteval-prop6.C  -std=c++20  at line 58 (test for warnings, line 57)
+FAIL: g++.dg/ipa/pr67056.C   scan-ipa-dump cp "Speculative outer type:struct CompositeClass"
+FAIL: g++.dg/opt/icf1.C  -std=gnu++14 execution test
+FAIL: g++.dg/opt/icf1.C  -std=gnu++17 execution test
+FAIL: g++.dg/opt/icf1.C  -std=gnu++20 execution test
+FAIL: g++.dg/opt/icf2.C  -std=gnu++14 execution test
+FAIL: g++.dg/opt/icf2.C  -std=gnu++17 execution test
+FAIL: g++.dg/opt/icf2.C  -std=gnu++20 execution test
+FAIL: g++.dg/opt/icf3.C  -std=gnu++14 execution test
+FAIL: g++.dg/opt/icf3.C  -std=gnu++17 execution test
+FAIL: g++.dg/opt/icf3.C  -std=gnu++20 execution test
+FAIL: g++.dg/tree-ssa/initlist-opt5.C  -std=c++14  scan-tree-dump-times gimple ">::basic_string" 2
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-1.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-1.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-1.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-1.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-1.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-10.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-10.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-10.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-10.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-10.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-11.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-11.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-11.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-11.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-11.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-12.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-12.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-12.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-12.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-12.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-13.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-13.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-13.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-13.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-13.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-14.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-14.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-14.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-14.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-14.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-15.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-15.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-15.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-15.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-15.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-16.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-16.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-16.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-16.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-16.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-17.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-17.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-18.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-18.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-18.C   gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-2.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-2.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-2.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-2.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-2.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-3.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-3.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-3.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-3.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-3.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-4.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-4.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-4.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-4.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-4.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-5.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-5.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-5.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-5.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-5.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-7.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-7.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-7.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-7.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-7.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-8.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-8.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-8.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-8.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-8.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-1.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-1.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-1.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-1.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-1.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-2.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-2.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-2.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-dump-2.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-dump-2.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-threads-1.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-threads-1.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-threads-1.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/gcov-threads-1.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/gcov-threads-1.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/loop.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/loop.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/loop.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/loop.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/loop.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/loop.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/loop.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/loop.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/loop.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/loop.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/loop.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/loop.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr16855.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr16855.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr16855.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr16855.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr16855.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr16855.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr16855.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr16855.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr84548.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr84548.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr84548.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr84548.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr84548.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr86109.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr86109.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/pr86109.C   gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr88045.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr88045.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/pr88045.C   gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr88263-2.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr88263-2.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/pr88263-2.C   gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr88263.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr88263.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/pr88263.C   gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr97069.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr97069.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr97069.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/pr97069.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr97069.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/gcov/pr98273.C   (test for excess errors)
+UNRESOLVED: g++.dg/gcov/pr98273.C   compilation failed to produce executable
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++14  gcov failed: spawn failed
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/ternary.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++17  gcov failed: spawn failed
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/ternary.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++20  gcov failed: spawn failed
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/ternary.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++98  gcov failed: spawn failed
+FAIL: g++.dg/gcov/ternary.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/gcov/ternary.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/lto/pr108772 cp_lto_pr108772_0.o-cp_lto_pr108772_0.o link, -flto -fPIC -shared -O1 -fimplicit-constexpr -g1
+FAIL: g++.dg/lto/pr85405 cp_lto_pr85405_0.o-cp_lto_pr85405_1.o link, -fPIC -shared -flto
+FAIL: g++.dg/lto/pr85405b cp_lto_pr85405b_0.o-cp_lto_pr85405b_1.o link, -fPIC -shared -flto
+FAIL: g++.dg/lto/pr85655 cp_lto_pr85655_0.o-cp_lto_pr85655_0.o link, -O2 -fPIC -shared -flto
+FAIL: g++.dg/lto/pr86523-3 cp_lto_pr86523-3_0.o-cp_lto_pr86523-3_0.o link,  -fPIC -flto -g -shared 
+FAIL: g++.dg/lto/pr86585 cp_lto_pr86585_0.o-cp_lto_pr86585_1.o link,  -flto -g -nostdlib -shared -fPIC 
+FAIL: g++.dg/lto/pr87295 cp_lto_pr87295_0.o assemble,  -flto -ffat-lto-objects -fdebug-types-section -g -std=gnu++17 
+FAIL: g++.dg/lto/pr87906 cp_lto_pr87906_0.o-cp_lto_pr87906_1.o link,  -O -fPIC -flto 
+FAIL: g++.dg/lto/pr88046 cp_lto_pr88046_0.o-cp_lto_pr88046_0.o link,  -O2 -fPIC -flto 
+FAIL: g++.dg/lto/pr88758 cp_lto_pr88758_0.o-cp_lto_pr88758_1.o link,  -O3 -fPIC -flto -shared 
+FAIL: g++.dg/lto/pr89330 cp_lto_pr89330_0.o-cp_lto_pr89330_1.o link,  -O3 -g -flto -shared -fPIC -Wno-odr 
+FAIL: g++.dg/lto/pr91574 cp_lto_pr91574_0.o-cp_lto_pr91574_0.o link,  -fPIC -flto -O2 
+FAIL: g++.dg/lto/pr92609  (test for LTO warnings, pr92609_0.C line 75)
+FAIL: g++.dg/lto/pr92609 cp_lto_pr92609_0.o-cp_lto_pr92609_1.o link,  -fPIC -flto 
+FAIL: g++.dg/lto/pr93166 cp_lto_pr93166_0.o-cp_lto_pr93166_0.o link,  -fPIC -O2 -flto -fvisibility=hidden 
+FAIL: g++.dg/modules/pr99425-2_b.X -std=c++2a (test for excess errors)
+FAIL: g++.dg/modules/pr99425-2_b.X -std=c++2b (test for excess errors)
+FAIL: g++.dg/tls/thread_local13.C  -std=gnu++14 execution test
+FAIL: g++.dg/tls/thread_local13.C  -std=gnu++17 execution test
+FAIL: g++.dg/tls/thread_local13.C  -std=gnu++20 execution test
+FAIL: g++.dg/tls/thread_local14.C  -std=gnu++14 execution test
+FAIL: g++.dg/tls/thread_local14.C  -std=gnu++17 execution test
+FAIL: g++.dg/tls/thread_local14.C  -std=gnu++20 execution test
+FAIL: g++.dg/torture/tail-padding1.C   -Os  (internal compiler error: in cxx_eval_call_expression, at cp/constexpr.cc:3036)
+FAIL: g++.dg/torture/tail-padding1.C   -Os  (test for excess errors)
+UNRESOLVED: g++.dg/torture/tail-padding1.C   -Os  compilation failed to produce executable
+FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++20 (test for excess errors)
+UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++20 compilation failed to produce executable
+FAIL: g++.old-deja/g++.robertl/eb83.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.old-deja/g++.robertl/eb83.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.target/i386/pr105980.C  -std=gnu++14 (internal compiler error: in insn_default_length, at config/i386/i386.md:24609)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++14 (test for excess errors)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++17 (internal compiler error: in insn_default_length, at config/i386/i386.md:24609)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++17 (test for excess errors)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++20 (internal compiler error: in insn_default_length, at config/i386/i386.md:24609)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++20 (test for excess errors)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++98 (internal compiler error: in insn_default_length, at config/i386/i386.md:24609)
+FAIL: g++.target/i386/pr105980.C  -std=gnu++98 (test for excess errors)
+FAIL: g++.target/i386/pr107563-a.C   scan-assembler-times por 1
+FAIL: g++.target/i386/pr107563-b.C   scan-assembler-times por 1
+
+		=== g++ Summary ===
+
+# of expected passes		256219
+# of unexpected failures	235
+# of expected failures		2777
+# of unresolved testcases	100
+# of unsupported tests		11717
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+
+		=== gcc tests ===
+
+
+Running target unix
+FAIL: gcc.dg/20020201-1.c (test for excess errors)
+UNRESOLVED: gcc.dg/20020201-1.c compilation failed to produce executable
+FAIL: gcc.dg/ira-loop-pressure.c scan-rtl-dump loop2_invariant "Decided to move invariant"
+XPASS: gcc.dg/ira-shrinkwrap-prep-1.c scan-rtl-dump ira "Split live-range of register"
+XPASS: gcc.dg/ira-shrinkwrap-prep-2.c scan-rtl-dump ira "Split live-range of register"
+FAIL: gcc.dg/pr86058.c actual at line 15 (test for warnings, line 14)
+FAIL: gcc.dg/pr97172-2.c (test for excess errors)
+FAIL: gcc.dg/pubtypes-2.c scan-assembler long+[ \\\\t]+0x14d+[ \\\\t]+[#;]+[ \\\\t]+Pub Info Length
+FAIL: gcc.dg/pubtypes-3.c scan-assembler long+[ \\\\t]+0x14d+[ \\\\t]+[#;]+[ \\\\t]+Pub Info Length
+FAIL: gcc.dg/pubtypes-4.c scan-assembler long+[ \\\\t]+0x184+[ \\\\t]+[#;]+[ \\\\t]+Pub Info Length
+FAIL: gcc.dg/scantest-lto.c scan-assembler-not ascii
+FAIL: gcc.dg/scantest-lto.c scan-assembler-times ascii 0
+FAIL: gcc.dg/stack-check-10.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 2
+FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
+FAIL: gcc.dg/stack-check-6.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
+FAIL: gcc.dg/stack-check-6a.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 4
+FAIL: gcc.dg/stack-check-9.c scan-rtl-dump-times pro_and_epilogue "Stack clash no frame pointer needed" 1
+FAIL: gcc.dg/lto/pr61526 c_lto_pr61526_0.o-c_lto_pr61526_1.o link,  -fPIC -flto -flto-partition=1to1 
+FAIL: gcc.dg/lto/pr99849 c_lto_pr99849_0.o-c_lto_pr99849_0.o link,  -flto -flto-partition=1to1 -O2 -Wno-incompatible-pointer-types -Wno-discarded-qualifiers -fPIC 
+FAIL: gcc.dg/tree-ssa/pr43491.c (test for excess errors)
+XPASS: gcc.dg/tree-ssa/pr91091-2.c scan-tree-dump-times fre1 "x = " 1
+XPASS: gcc.dg/tree-ssa/ssa-fre-100.c scan-tree-dump-not fre1 "baz"
+XPASS: gcc.dg/tree-ssa/ssa-fre-77.c scan-tree-dump fre1 "return 1;"
+FAIL: gcc.misc-tests/gcov-1.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-1.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-1.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-10.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-10.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-10.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-10b.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-10b.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-10b.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-11.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-11.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-11.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-12.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-12.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-12.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-13.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-13.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-13.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-14.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-14.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-14.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-15.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-15.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-15.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-16.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-16.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-16.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-17.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-17.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-17.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-18.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-18.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-18.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-19.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-19.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-19.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-1a.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-1a.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-1a.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-2.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-2.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-2.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-20.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-20.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-20.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-22.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-22.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-22.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-24.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-24.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-24.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-3.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-3.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-3.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-4.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-4.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-4.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-4b.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-4b.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-4b.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-5b.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-5b.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-5b.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-6.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-6.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-6.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-7.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-7.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-7.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-8.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-8.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-8.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-9.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-9.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-9.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr83813.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr83813.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr83813.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr84758.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr84758.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr84758.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr85217.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr85217.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr85217.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr85332.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr85332.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr85332.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr85338.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr85338.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr85338.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr85350.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr85350.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr85350.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr85372.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr85372.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr85372.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr86536.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr86536.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr86536.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr90574-1.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr90574-1.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr90574-1.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr90574-2.c (test for excess errors)
+UNRESOLVED: gcc.misc-tests/gcov-pr90574-2.c compilation failed to produce executable
+FAIL: gcc.misc-tests/gcov-pr90574-2.c gcov failed: spawn failed
+FAIL: gcc.misc-tests/gcov-pr94029.c gcov failed: spawn failed
+FAIL: outputs-25 exe savetmp named2-4: outputs.args.3
+FAIL: outputs-25 exe savetmp named2-4: std out
+FAIL: check-MAINTAINERS.py
+FAIL: gcc.target/i386/apx-ndd-no-seg-global-1.c scan-assembler-not mov
+FAIL: gcc.target/i386/apx-push2pop2-2.c scan-assembler-not pop2(|p)[\\\\t ]*%r
+FAIL: gcc.target/i386/apx-push2pop2-2.c scan-assembler-not push2(|p)[\\\\t ]*%r
+FAIL: gcc.target/i386/harden-sls-4.c scan-assembler jmp[ \\t]+\\\\*_?fptr
+FAIL: gcc.target/i386/pr100704-3.c scan-assembler push[lq]\\tfoooo+
+FAIL: gcc.target/i386/pr101716.c scan-assembler leal[\\\\t ][^\\\\n]*eax
+FAIL: gcc.target/i386/pr101716.c scan-assembler-not movl[\\\\t ][^\\\\n]*eax
+FAIL: gcc.target/i386/pr101950-2.c scan-assembler-times \\txor[ql]\\t 2
+FAIL: gcc.target/i386/pr110792.c (test for excess errors)
+FAIL: gcc.target/i386/pr115462.c scan-assembler-times (?n)movl[ \\\\t]+.*, p1\\\\.0\\\\+[0-9]*\\\\(, 3
+FAIL: gcc.target/i386/pr11877-2.c scan-assembler-not \\\\\$0,
+FAIL: gcc.target/i386/pr11877.c scan-assembler-not \\\\\$0,
+FAIL: gcc.target/i386/pr34256.c scan-assembler-times mov 5
+FAIL: gcc.target/i386/pr78035.c scan-assembler-times cmp 2
+FAIL: gcc.target/i386/pr85667-10.c scan-assembler-times addsd[ \\t]*40\\\\(%rsp\\\\), .* 1
+FAIL: gcc.target/i386/pr85667-8.c scan-assembler-times addss[ \\t]*40\\\\(%rsp\\\\), .* 1
+FAIL: gcc.target/i386/pr90773-1.c scan-assembler-times movq[\\\\t ]+\\\\(%[^,]+\\\\), 1
+FAIL: gcc.target/i386/pr91384.c scan-assembler-not testl
+FAIL: gcc.target/i386/pr92651.c scan-assembler-times sub 2
+FAIL: gcc.target/i386/pr98060.c scan-assembler-not set
+FAIL: gcc.target/i386/sse2-v1ti-logic-2.c scan-assembler-times por 2
+FAIL: gcc.target/i386/stack-check-17.c scan-assembler-not pop
+FAIL: gcc.target/x86_64/abi/callabi/leaf-2.c scan-assembler-not %rsp
+FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p0" (test for excess errors)
+UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p0" compilation failed to produce executable
+FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p1" (test for excess errors)
+UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p1" compilation failed to produce executable
+FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p5" (test for excess errors)
+UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c  -O2 "-DGEN_ARGS=-p5" compilation failed to produce executable
+FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p0" (test for excess errors)
+UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p0" compilation failed to produce executable
+FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p1" (test for excess errors)
+UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p1" compilation failed to produce executable
+FAIL: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p5" (test for excess errors)
+UNRESOLVED: gcc.target/x86_64/abi/ms-sysv/ms-sysv.c -mcall-ms2sysv-xlogues -O2 "-DGEN_ARGS=-p5" compilation failed to produce executable
+
+		=== gcc Summary ===
+
+# of expected passes		185624
+# of unexpected failures	120
+# of unexpected successes	5
+# of expected failures		1452
+# of unresolved testcases	42
+# of unsupported tests		3704
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+
+		=== gdc tests ===
+
+
+Running target unix
+FAIL: gdc.dg/attr_module.d    (test for warnings, line 12)
+FAIL: gdc.dg/attr_module.d    (test for warnings, line 18)
+FAIL: gdc.dg/attr_module.d    (test for warnings, line 24)
+FAIL: gdc.dg/attr_module.d    (test for warnings, line 36)
+FAIL: gdc.dg/attr_module.d   (test for excess errors)
+FAIL: gdc.dg/gdc231.d   (test for excess errors)
+FAIL: gdc.dg/gdc253a.d   (test for excess errors)
+FAIL: gdc.dg/gdc27.d   (test for excess errors)
+FAIL: gdc.dg/pr108050.d   (test for excess errors)
+FAIL: gdc.dg/gcov1.d   (test for excess errors)
+UNRESOLVED: gdc.dg/gcov1.d   compilation failed to produce executable
+FAIL: gdc.dg/gcov1.d   gcov failed: spawn failed
+FAIL: gdc.test/compilable/test16348.d   output-exists test16348.s
+FAIL: gdc.test/compilable/test17541.d   output-exists test17541.s
+FAIL: gdc.test/fail_compilation/diag4479.d   output-exists-not diag4479.o
+FAIL: gdc.test/fail_compilation/fail11453a.d   output-exists-not fail11453a.o
+FAIL: gdc.test/fail_compilation/fail11453b.d   output-exists-not fail11453b.o
+FAIL: gdc.test/fail_compilation/fail18938.d   output-exists-not fail18938.o
+FAIL: gdc.test/fail_compilation/fail19911b.d   output-exists-not fail19911b.o
+FAIL: gdc.test/fail_compilation/fail23109.d   output-exists-not fail23109.o
+FAIL: gdc.test/fail_compilation/ice10598.d   output-exists-not ice10598.o
+FAIL: gdc.test/fail_compilation/ice11136.d   output-exists-not ice11136.o
+FAIL: gdc.test/fail_compilation/ice14116.d   output-exists-not ice14116.o
+FAIL: gdc.test/fail_compilation/no_Throwable.d   output-exists-not no_Throwable.o
+FAIL: gdc.test/fail_compilation/no_TypeInfo.d   output-exists-not no_TypeInfo.o
+FAIL: gdc.test/fail_compilation/verifyhookexist.d   output-exists-not verifyhookexist.o
+
+		=== gdc Summary ===
+
+# of expected passes		13819
+# of unexpected failures	25
+# of unresolved testcases	1
+# of unsupported tests		132
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gdc  version 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+
+		=== gfortran tests ===
+
+
+Running target unix
+
+		=== gfortran Summary ===
+
+# of expected passes		70218
+# of expected failures		263
+# of unsupported tests		84
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gfortran  version 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+
+		=== gm2 tests ===
+
+
+Running target unix
+FAIL: gm2/iso/run/pass/m2date.mod execution,  -O 
+FAIL: gm2/iso/run/pass/m2date.mod execution,  -O -g 
+FAIL: gm2/iso/run/pass/m2date.mod execution,  -O3 -fomit-frame-pointer 
+FAIL: gm2/iso/run/pass/m2date.mod execution,  -O3 -fomit-frame-pointer -finline-functions 
+FAIL: gm2/iso/run/pass/m2date.mod execution,  -Os 
+FAIL: gm2/iso/run/pass/m2date.mod execution,  -g 
+FAIL: gm2/iso/run/pass/testclock.mod execution,  -O 
+FAIL: gm2/iso/run/pass/testclock.mod execution,  -O -g 
+FAIL: gm2/iso/run/pass/testclock.mod execution,  -O3 -fomit-frame-pointer 
+FAIL: gm2/iso/run/pass/testclock.mod execution,  -O3 -fomit-frame-pointer -finline-functions 
+FAIL: gm2/iso/run/pass/testclock.mod execution,  -Os 
+FAIL: gm2/iso/run/pass/testclock.mod execution,  -g 
+FAIL: gm2/isolib/run/pass/testinittm.mod execution,  -O 
+FAIL: gm2/isolib/run/pass/testinittm.mod execution,  -O -g 
+FAIL: gm2/isolib/run/pass/testinittm.mod execution,  -O3 -fomit-frame-pointer 
+FAIL: gm2/isolib/run/pass/testinittm.mod execution,  -O3 -fomit-frame-pointer -finline-functions 
+FAIL: gm2/isolib/run/pass/testinittm.mod execution,  -Os 
+FAIL: gm2/isolib/run/pass/testinittm.mod execution,  -g 
+
+		=== gm2 Summary ===
+
+# of expected passes		14120
+# of unexpected failures	18
+		=== gnat tests ===
+
+
+Running target unix
+FAIL: gnat.dg/bias1.adb scan-assembler DW_AT_GNU_bias
+FAIL: gnat.dg/bias1.adb scan-assembler-times -7.*DW_AT_GNU_bias 1
+FAIL: gnat.dg/gcov/check.adb (test for excess errors)
+UNRESOLVED: gnat.dg/gcov/check.adb compilation failed to produce executable
+FAIL: gnat.dg/gcov/check.adb gcov failed: spawn failed
+
+		=== gnat Summary ===
+
+# of expected passes		3478
+# of unexpected failures	4
+# of expected failures		24
+# of unresolved testcases	1
+# of unsupported tests		15
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/gnatmake version 15.0.0 20240708 (experimental) [master c4b476d76a2]
+
+		=== jit tests ===
+
+
+Running target unix
+FAIL: FAIL
+FAIL: FAIL
+FAIL: FAIL
+FAIL: jit.dg/test-alignof.c, initial compilation
+FAIL: jit.dg/test-combination.c, initial compilation
+FAIL: jit.dg/test-threads.c, initial compilation
+FAIL: output-of-test-bfloat16.c.s output pattern test, is 	.build_version macos,  11, 0
+FAIL: output-of-test-bfloat16.c.s output pattern test, is 	.build_version macos,  11, 0
+FAIL: test-bitcast.c.exe killed: SIGSEGV segmentation violation
+FAIL: test-error-bad-bitcast.c.exe killed: SIGSEGV segmentation violation
+FAIL: test-error-bad-bitcast2.c.exe killed: SIGSEGV segmentation violation
+FAIL: test-ggc-bugfix.c.exe: non-zero exit code: 1 
+FAIL: test-tls.c.exe killed: SIGSEGV segmentation violation
+
+		=== jit Summary ===
+
+# of expected passes		8931
+# of unexpected failures	13
+# of unsupported tests		1
+		=== obj-c++ tests ===
+
+
+Running target unix
+
+		=== obj-c++ Summary ===
+
+# of expected passes		3199
+# of expected failures		22
+# of unsupported tests		71
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xg++  version 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+
+		=== objc tests ===
+
+
+Running target unix
+FAIL: objc.dg/headers.m -fnext-runtime (test for excess errors)
+
+		=== objc Summary ===
+
+# of expected passes		5749
+# of unexpected failures	1
+# of expected failures		12
+# of unsupported tests		87
+/Users/ericgallager/gcc_newgit/abcdefghijklmnopqrstuvwxyz_01234567890.build/gcc/xgcc  version 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+
+		=== rust tests ===
+
+
+Running target unix
+FAIL: rust/compile/v0-mangle1.rs scan-assembler _R.*NvNtNtC10v0_mangle18module_a8module_b3baz
+
+		=== rust Summary ===
+
+# of expected passes		8399
+# of unexpected failures	1
+# of expected failures		69
+# of unsupported tests		2
+		=== libatomic tests ===
+
+
+Running target unix
+
+		=== libatomic Summary ===
+
+# of expected passes		54
+		=== libgomp tests ===
+
+
+Running target unix
+FAIL: libgomp.oacc-c++/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2   at line 190 (test for warnings, line 185)
+FAIL: libgomp.oacc-c++/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2   at line 221 (test for warnings, line 214)
+FAIL: libgomp.oacc-c++/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2   at line 252 (test for warnings, line 245)
+FAIL: libgomp.oacc-c++/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2  (test for excess errors)
+FAIL: libgomp.oacc-c/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2   at line 190 (test for warnings, line 185)
+FAIL: libgomp.oacc-c/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2   at line 221 (test for warnings, line 214)
+FAIL: libgomp.oacc-c/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2   at line 252 (test for warnings, line 245)
+FAIL: libgomp.oacc-c/../libgomp.oacc-c-c++-common/acc_prof-kernels-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2  (test for excess errors)
+
+		=== libgomp Summary ===
+
+# of expected passes		16590
+# of unexpected failures	8
+# of expected failures		285
+# of unsupported tests		644
+		=== libitm tests ===
+
+
+Running target unix
+
+		=== libitm Summary ===
+
+# of expected passes		42
+# of expected failures		3
+# of unsupported tests		2
+		=== libphobos tests ===
+
+
+Running target unix
+FAIL: libphobos.druntime_shared/core/thread/threadbase.d execution test
+FAIL: libphobos.druntime_shared/core/time.d execution test
+FAIL: libphobos.druntime_shared/rt/monitor_.d execution test
+WARNING: libphobos.phobos/std/format/internal/write.d execution test program timed out.
+FAIL: libphobos.phobos/std/format/internal/write.d execution test
+FAIL: libphobos.phobos/std/format/package.d execution test
+WARNING: libphobos.phobos/std/range/package.d (test for excess errors) program timed out.
+FAIL: libphobos.phobos/std/range/package.d (test for excess errors)
+UNRESOLVED: libphobos.phobos/std/range/package.d compilation failed to produce executable
+FAIL: libphobos.phobos/std/uni/package.d execution test
+WARNING: libphobos.phobos_shared/std/concurrency.d execution test program timed out.
+FAIL: libphobos.phobos_shared/std/concurrency.d execution test
+WARNING: libphobos.phobos_shared/std/range/package.d (test for excess errors) program timed out.
+FAIL: libphobos.phobos_shared/std/range/package.d (test for excess errors)
+UNRESOLVED: libphobos.phobos_shared/std/range/package.d compilation failed to produce executable
+FAIL: libphobos.shared/host.c -ldl -pthread execution test
+FAIL: libphobos.shared/load_linkdep.d -shared-libphobos -ldl execution test
+
+		=== libphobos Summary ===
+
+# of expected passes		1112
+# of unexpected failures	11
+# of unresolved testcases	2
+# of unsupported tests		1
+		=== libstdc++ tests ===
+
+
+Running target unix
+
+		=== libstdc++ Summary ===
+
+# of expected passes		17326
+# of expected failures		126
+# of unsupported tests		871
+
+Compiler version: 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) 
+Platform: x86_64-apple-darwin20
+configure flags: --disable-werror --disable-werror-always --enable-stage1-checking=release,rtl -C --enable-frame-pointer --enable-debug --without-isl --disable-maintainer-mode --disable-default-pie --with-ld64 --enable-target-optspace --disable-nls --with-system-zlib --with-libiconv-prefix=/opt/local --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --enable-lto --with-build-config=bootstrap-debug --disable-objc-gc --enable-year2038 --enable-libada --enable-libgm2 --enable-libssp --disable-libsanitizer --build=x86_64-apple-darwin20 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --disable-gcov --enable-host-shared --enable-libphobos --with-cpu=skylake --disable-libstdcxx-pch CC=/opt/gnat-ce-2021/bin/gcc CXX=/opt/gnat-ce-2021/bin/g++ OBJC=/opt/gnat-ce-2021/bin/gcc OBJCXX=/opt/gnat-ce-2021/bin/g++ GNATMAKE=/opt/gnat-ce-2021/bin/gnatmake GNATBIND=/opt/gnat-ce-2021/bin/gnatbind build_alias=x86_64-apple-darwin20 --enable-languages=c,ada,c++,d,fortran,jit,lto,m2,objc,obj-c++,rust
+BOOT_CFLAGS=-g -O2
+EOF
+Mail -s "Results for 15.0.0 20240708 (experimental) [master c4b476d76a2] (GCC) testsuite on x86_64-apple-darwin20" gcc-testresults@gcc.gnu.org &&
+true
